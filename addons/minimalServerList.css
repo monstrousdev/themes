@@ -1,0 +1,32 @@
+.wrapper-1Rf91z,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child .homeButton-2Cw51C {
+  width: 4px !important;
+  transition: all .5s ease-in-out;
+  transition-delay: 0 !important;
+}
+
+.homeButton-2Cw51C {opacity: 0;}
+
+.wrapper-1Rf91z:hover .homeButton-2Cw51C {opacity: 1}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.unread-2OHH1w::before,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.selected-nT-gM3::before,
+.wrapper-1Rf91z  .unreadMentionsIndicatorBottom-BXS58x, 
+.wrapper-1Rf91z .unreadMentionsIndicatorTop-gA6RCh {
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  transition-delay: 0 !important;
+}
+
+.wrapper-1Rf91z:hover,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child .homeButton-2Cw51C {
+  width: var(--list-size) !important;
+}
+
+.wrapper-1Rf91z:hover .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.unread-2OHH1w::before,
+.wrapper-1Rf91z:hover .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.selected-nT-gM3::before,
+.wrapper-1Rf91z:hover  .unreadMentionsIndicatorBottom-BXS58x, 
+.wrapper-1Rf91z:hover .unreadMentionsIndicatorTop-gA6RCh {
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}

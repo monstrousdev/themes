@@ -1,0 +1,123 @@
+/* Anti-BetterDocs 
+*  Bulk by Tropix
+*  Modified by Lil Monster
+*/
+
+html[class="gr__betterdocs_us"] body #app-mount {
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+  background-image:url('https://nfld99.com/images/Shitdocs.png') !important;
+  cursor:not-allowed !important;
+  position:absolute !important;
+  display:block !important;
+  opacity:1 !important;
+  left:0 !important;
+  top:0 !important;
+  margin:0 !important;
+  z-index: 999999999 !important;
+  visibility:visible !important;
+}
+
+.embedLink-1G1K1D[href*="Betterdocs." i],
+.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]{
+  color: #38000b !important;
+  text-shadow:0 0 12px black;
+  pointer-events:none;
+}
+
+.embedLink-1G1K1D[href*="Betterdocs." i]::selection,
+.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs." i]::selection{
+  background-color:darkred !important;
+}
+
+
+.embed-IeVjo6 a[href*="betterdocs." i]:before {
+color:#bbb;
+background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) bottom right/100px no-repeat;
+border:2px solid #f0474744;
+box-shadow:0 0 12px #f0474744;
+padding:7px 6px;
+padding-right: 100px;
+margin-top: -33px;
+margin-left:-15px;
+border-radius:5px !important;
+text-align: justify;
+position:absolute;
+font-weight:bold;
+height: 100%;
+box-sizing: border-box;
+white-space: pre-wrap;
+overflow: hidden;
+letter-spacing: 0;
+content:'BetterDocs is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+}
+
+.embed-IeVjo6 a[href*="betterdocs." i]{
+  color:transparent !important;
+  height:70px;
+}
+
+.embed-IeVjo6 a[href*="betterdocs.net/preview" i]:before,
+.embed-IeVjo6 a[href*="betterdocs.us/preview" i]:before {
+  width:auto;
+  height: 100%;
+  z-index: 2;
+  padding: 10px;
+  color:#bbb;
+  background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) top/30% no-repeat;
+  display: flex;
+  text-align: justify;
+  align-content: center;
+  align-items: center;
+  white-space: pre-wrap;
+  content:'This is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+}
+
+.markup-2BOw-j>a[href*="betterdocs." i] {
+  font-size: 0;
+}
+
+.markup-2BOw-j>a[href*="betterdocs." i]:after {
+  content: "This theme does not support BetterDocs.";
+  color: #f04747;
+  font-weight: bolder;
+  font-size: 15px;
+  animation: none;
+}
+
+/*In-Chat Invite Link */
+.wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
+content:'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
+color:#bbb;
+background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) left/auto 100% no-repeat;
+border:2px solid #f0474744;
+box-shadow:0 0 12px #f0474744;
+padding:10px 7px 10px 100px;
+margin-top:-35px;
+margin-left:-18px;
+border-radius:5px !important;
+position:absolute;
+font-weight:bold;
+letter-spacing: 0;
+font-size: 15px;
+text-shadow:0 0 12px black;
+width: 300px;
+height: 78px;
+z-index: 1;
+}
+
+.markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX" i] {
+color:transparent!important;
+cursor:not-allowed !important;
+pointer-events: none!important;
+letter-spacing: -1000px!important;
+}
+
+.markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX" i]:after {
+content:'This theme does not support BetterDocs.';
+color: #f04747 !important;
+font-weight: bold;
+text-shadow:0 0 12px black;
+pointer-events:none;
+letter-spacing: 0;
+}

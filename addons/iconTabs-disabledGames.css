@@ -1,0 +1,48 @@
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+  position: relative;
+  float: left;
+  margin: 0px 33px;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  transform: scale(0.9);
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  border-left: none !important;
+  transition: all .2s ease-in-out;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover a {
+  border-left: none !important;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]).selected-1HYmZZ a {
+  background-color: var(--main-color);
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
+  display: none;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 {
+  margin: 0;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O a svg[name*="Library"] ~ span,
+.privateChannels-1nO12o .channel-2QD9_O a svg[name*="PersonWaving"] ~ .wrapper-232cHJ {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+html .tabBadge-3smxHS {
+  position: absolute;
+  transform: translate(50%, -50%);
+}

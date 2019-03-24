@@ -1,0 +1,143 @@
+
+ /*Two column server list*/
+ .guildsWrapper-5TJh6A,
+ .wrapper-1Rf91z {
+   width: 140px;
+  }
+
+  
+ .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv .scroller::-webkit-scrollbar,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN::-webkit-scrollbar {
+   background: transparent !important; 
+   border: 0px !important;
+   width: 0px;
+ }
+ 
+ .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv {
+   width:140px !important;
+  }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH,
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+   display: flex !important;
+   flex-direction: row !important;
+   flex-flow: row wrap !important;
+   justify-content: center;
+   padding-right: 5px;
+   padding-left: 0 !important;
+   align-content: flex-start;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:not(.guildsAdd-21_IdK),
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN > div:not(.guildSeparator-3s64Iy):not(.friendsOnline-2JkivW):not(.container-1ETFDs) {
+   margin-left: 4px;
+   margin-right: 4px; 
+   margin-top: 4px;
+   margin-bottom: 10px;
+   height: 50px;
+   width: 50px;
+ }
+ 
+/* .guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH .guild-1EfMGQ:first-child {
+   position: auto ;
+   left: 0;
+   margin: auto ;
+   margin-top: -52px;
+   width: 140px ;
+   margin-left: 0 !important;
+   margin-right: 0 !important;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
+   margin-left: 4px !important;
+   margin-right: 4px !important;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ:first-child {
+   margin-top: 8px !important;
+   width: 50px !important;
+   overflow: visible;
+ }*/
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC::before {
+   left: 0px;
+   top: 0px;
+   margin-top: 0;
+   z-index:9000;
+   background-color: var(--main-color);
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:hover::before {
+   height: 10px !important;
+   top: 0px;
+   margin-top: 0px !important;
+   border-radius: 50% !important;
+   background-color: #ccc !important;
+   box-shadow: 0 0 5px #ccc !important;
+ }
+ 
+ #bd-pub-li {
+   position: inherit;
+   top: 0;
+   left: 0;
+   margin-right: 50px;
+   margin-left: 40px;
+ }
+ 
+ #bd-pub-li #bd-pub-button {
+   position: relative;
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guildSeparator-1X4GQ1,
+ .guildSeparator-3s64Iy {
+   position: relative;
+   width: calc(100% - 8px);
+   margin-top: 0px;
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
+   position: relative;
+   width: 100%;
+   margin: auto;
+   margin-top: 33px;
+ }
+
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:before {
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  border: 2px solid var(--main-color);
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: var(--roundness);
+ }
+ 
+ .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:first-child .homeIcon-1FoKUJ,
+ .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child {
+   margin-left: 0px !important;
+   width: 140px !important;
+ }
+ 
+ /* optimized for server folders */
+ .foldercontainer {
+   position: absolute;
+   top: 116px;
+   left: 130px;
+   background-color: var(--quaternary-color);
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+ }
+ 
+ .guildsWrapper-5TJh6A.folderopen,
+ .guildsWrapper-5TJh6A.folderopen .scroller-wrap,
+ .guildsWrapper-5TJh6A.folderopen .guilds-1q_RqH {
+   width: 140px;
+ }

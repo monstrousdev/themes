@@ -1,0 +1,92 @@
+.members-1998pB{
+    transform:translate(145px);
+    z-index:2;
+    transition:all 300ms ease;
+  }
+  
+  .members-1998pB:hover{
+    animation:member 300ms ease;
+    transform:translate(0px);
+    background-color: var(--primary-color) !important;
+    box-shadow:4px 0 10px 6px rgba(0, 0, 0, 0.8);
+  }
+
+  .members-1998pB:hover::after{ 
+    display: none; 
+  }
+  
+  .member-3W1lQa{
+    margin-left:20px;
+  }
+  
+  .members-1998pB:hover .member-3W1lQa{
+    margin-left: 15px;
+  }
+
+  .members-1998pB .membersGroup-v9BXpm {
+    transform-origin:left;
+    font-size: 8px;
+    padding:2px;
+    transition:all 300ms ease;
+    width:30% !important;
+    height: 27px !important;
+    margin-left: 10px !important;
+  }
+  
+  .members-1998pB:hover .membersGroup-v9BXpm{
+    font-size: 13px; 
+    width: 100% !important;
+    padding: 4px; 
+    text-align: center;
+    margin-left: 2px !important;
+  }
+
+  .members-1998pB .memberInner-2CPc3V{
+    opacity:0;
+    transition:opacity 300ms ease, margin 100ms ease;
+  }
+  
+  .members-1998pB .memberInner-2CPc3V .nameTag-3p0yK- {
+    margin-bottom:6px;
+  }
+  
+  .members-1998pB:hover .memberInner-2CPc3V { 
+    opacity:1;
+  }
+  
+  [class*="scroller-"] .members-1998pB{
+    height: 100%;
+    --add: 200px;
+    height: calc(100% + var(--add));
+    padding-bottom: calc(20px + var(--add));
+    margin-bottom: var(--add);
+    transform: translate(142px);
+  }
+  
+  [class*="scroller-"] .members-1998pB:hover{
+    animation: member 300ms ease;
+    transform: translate(0px);
+    box-shadow: 4px 0 10px 6px rgba(0, 0, 0, 0.8);
+  }
+
+  .header-toolbar button.active{display:none;}
+
+  
+  .chat-3bRxxu .content-yTz4x3>.spacer-1fA9zc.vertical-V37hAW {
+    margin-right:-145px !important;
+    z-index:1
+  }
+  
+  .chat-3bRxxu .content-yTz4x3>.spacer-1fA9zc.vertical-V37hAW:only-child {
+    margin-right:0px !important;
+    z-index:1
+  }
+      
+  .chat-3bRxxu .content-yTz4x3.spacer-1fA9zc.vertical-V37hAW{
+    margin-right:0px;
+    z-index:1
+  }
+  
+  .search-results-wrap {
+    z-index: 2 !important;
+  }

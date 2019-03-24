@@ -1,0 +1,39 @@
+.chat-3bRxxu .containerCozy-jafyvG:not(:last-child),
+.chat-3bRxxu .container-1YxwTf:last-child {
+  background-color: var(--quaternary-color);
+  padding: 15px 7px 10px 10px !important;
+  margin: 20px 10px 20px 80px;
+  border-radius: 5px;
+}
+
+.chat-3bRxxu .container-1YxwTf .headerCozy-2N9HOL {
+  margin-left: -80px;
+}
+
+.chat-3bRxxu .container-1YxwTf .headerCozy-2N9HOL .wrapper-2F3Zv8 {
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.chat-3bRxxu .contentCozy-3XX413 {
+  margin-left: 5px;
+}
+
+.chat-3bRxxu .containerCozy-jafyvG .large-3ChYtB.wrapper-2F3Zv8:after {
+content: ' ';
+height: 0;
+width: 0;
+border: 9px solid transparent;
+border-right-color: var(--quaternary-color);
+position: absolute;
+margin-top: -75%;
+margin-left: 105%;
+}
+
+.containerCozy-jafyvG .isMentioned-N-h9aa {
+  box-shadow: 0px 0px 5px var(--main-color);
+}
+
+.containerCozyBounded-1rKFAn {
+  overflow: visible;
+}

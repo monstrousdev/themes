@@ -1,0 +1,40 @@
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
+  position: absolute;
+  left: 10px;
+}
+
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
+  bottom: 70px;
+}
+
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK.guildsDiscover-oiBX_l {
+  bottom: 10px;
+}
+
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:not(.guildsDiscover-oiBX_l)::before {
+  content: '';
+  position: absolute;
+  bottom: -70px;
+  left: -10px;
+  width: 70px;
+  height: 300px;
+  background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH {
+  padding: 0 0 130px 10px !important;
+}
+
+.guildsWrapper-5TJh6A.foldercontent::after {
+  content: "";
+  width: 70px;
+  height: 150px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+  background: linear-gradient(to bottom, rgba(48, 48, 48, 0) 0%, var(--quaternary-color) 60%, var(--quaternary-color) 100%);
+  pointer-events: none;
+}

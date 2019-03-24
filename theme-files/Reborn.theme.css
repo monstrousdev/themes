@@ -1,0 +1,28 @@
+/*//META{"name":"Reborn","description":"Phoenix Theme Bundle: Transparent, fully customizable theme with multiple addons","author":"Lil Monster","version":"1.0", "website":"https://discord.gg/TeRQEPb"}*//**/
+
+/* IMPORT CSS FROM GITHUB */
+@import url("https://monstrousdev.github.io/themes/phoenix-bundle/reborn.css");
+/*
+===== IMPORTANT =====
+CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+===== CUSTOMIZABLE COLORS AND IMAGES =====
+*/
+:root { 
+	--main-color: #007dbd;
+  --hover-color: #03679b;
+  --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
+  --popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
+ }
+
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CREDITS =====
+URI
+BEARDDESIGN
+ZERTHOX
+THESE PEOPLE HAVE HELPED CREATE THIS THEME IN ONE WAY OR THE OTHER.
+===== TROUBLESHOOTING =====
+IF YOU NEED ANY HELP GO TO https://discord.gg/TeRQEPb
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/

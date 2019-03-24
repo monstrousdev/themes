@@ -1,0 +1,87 @@
+:root {
+	--size: 70%;
+}
+
+.layer-3QrUeG:nth-child(1) {
+    animation: none !important;
+	transition: none !important;
+	opacity: 1 !important;
+	transform: none !important;
+}
+
+.layer-3QrUeG:nth-child(2), 
+#user-settings,
+#pubslayerroot .layer-3QrUeG {
+	background-color: rgba(0,0,0,0.8) !important;
+	z-index: 101 !important;
+}
+
+.layer-3QrUeG:nth-child(2) .standardSidebarView-3F1I7i,
+#user-settings .standardSidebarView-3F1I7i,
+#pubslayerroot .layer-3QrUeG .standardSidebarView-3F1I7i {
+	max-height: var(--size);
+	max-width: var(--size);
+	top: calc( (100% - var(--size))/2);
+	left: calc( (100% - var(--size))/2);
+}
+
+.theme-dark .standardSidebarView-3F1I7i,
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
+    background: transparent;
+}
+
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy,
+.scroller-2FKFPG.contentRegionScroller-26nc1e {
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	position: relative;
+}
+
+.standardSidebarView-3F1I7i .noticeRegion-1YviSH {
+	transform: translateX(0px) !important;
+}
+
+.standardSidebarView-3F1I7i .contentRegionScroller-26nc1e,
+.contentTransitionWrap-3hqOEW {
+    max-width: 100%;
+}
+
+.layer-3QrUeG:nth-child(2)::after,
+#user-settings::after,
+#pubslayerroot .layer-3QrUeG::after {
+    content: '';
+    position: absolute;
+    min-width: 779px;
+    height: var(--size);
+	width: var(--size);
+	top: calc( (100% - var(--size))/2);
+	left: calc( (100% - var(--size))/2);
+    background-image: var(--popup-background);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.scroller-2FKFPG.contentRegionScroller-26nc1e,
+.standardSidebarView-3F1I7i .customScroller-26gWhv {
+    background-color: var(--primary-color) !important;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scroller-2FKFPG::-webkit-scrollbar-track { margin: 5px 0px; }
+
+.premium-settings .premium-header,
+.premium-settings .features-vNGwn7 {
+  width: 99%;
+}
+
+/* light theme */
+.theme-light .standardSidebarView-3F1I7i {
+  background: transparent !important;
+}

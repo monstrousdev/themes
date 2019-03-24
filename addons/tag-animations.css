@@ -1,0 +1,101 @@
+/* popin with pulse */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="227648235097817089"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="210629330135547904"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="143017752775360512"]:hover::before {
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
+
+
+/* popin */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before {
+  animation: popoutanim .2s;
+}
+
+/* fall and bounce */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before {
+  animation: fallBounce 1s;
+}
+
+/* spin in */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
+  animation: scaleSpin .4s;
+}
+
+/* fade from right */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before {
+  animation: fadeFromRight .2s;
+}
+
+
+
+/* ---- keyframes ---- */
+@keyframes fallBounce { /* 1s */
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  50% {
+    transform: translateY(-20%) scale(0.9, 1.1);
+  }
+  75% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes scaleSpin { /* .4s */
+  from {
+    transform: scale(0) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes popoutanim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@-webkit-keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}

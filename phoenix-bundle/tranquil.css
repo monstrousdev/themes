@@ -1,0 +1,361 @@
+/* Imports */
+@import "https://monsterousdev.github.io/themes/phoenix-bundle/base.css";
+
+
+/* Variables */
+
+:root {
+  --theme-name: "Tranquil";
+}
+
+  /* Dark Mode */ 
+  .theme-dark,
+  .appMount-3VJmYg,
+  .theme-dark .theme-light {
+    --primary-color: #19191b;
+    --secondary-color: #1E1E21;
+    --tertiary-color: #232327;
+    --quaternary-color: #101011;
+  }
+
+  /* Light Mode */
+  .theme-light,
+  .theme-light .theme-dark {
+    --primary-color: #ffffff;
+    --secondary-color: #f3f3f3;
+    --tertiary-color: #eeeeee;
+    --quaternary-color: #dbdbdb;
+  }
+
+/* Table of Contents
+ 1. Title Bar
+
+ 2. Chat Header
+  2.a. Headers
+  2.b. Search Bars
+
+ 3. User Settings
+
+ 4. Guilds Wrapper
+
+ 5. Channels
+
+ 6. Account Area
+
+ 7. Members List
+
+ 8. Chat
+
+ 9. Friends List
+
+ 10. Games Tab
+
+ 11. Popouts
+
+ 12. Modals
+*/
+
+
+
+
+
+/* 1. Title Bar */
+.appMount-3VJmYg {
+  background-color: var(--quaternary-color) !important;
+}
+
+/* 2. Chat Header */
+  /* 2.a. Headers */
+.title-3qD0b-,
+.header-2o-2hj,
+.headerBar-UHpsPw {
+  background: var(--quaternary-color) !important;
+}
+
+.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+  background-color: var(--quaternary-color) !important;
+}
+
+  /* 2.b. Search Bars */
+.search .searchBarIcon-1J6sKG {
+  background-color: var(--quaternary-color);
+}
+
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+  background: var(--quaternary-color);
+}
+
+
+
+/* 3. User Settings */
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e,
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+  background-color: var(--quaternary-color) !important;
+}
+
+.standardSidebarView-3F1I7i .contentRegion-3nDuYy {
+  background-color: var(--primary-color) !important;
+}
+
+.wrapper-3jrx9n {
+  border-color: var(--main-color);
+}
+
+.selected-mKYnfr.option-n0icdO {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.option-n0icdO:hover {
+  background-color: var(--hover-color)
+}
+
+.paginator-166-09 {
+  background: var(--tertiary-color) !important;
+}
+
+.notches-1sAcEM {
+  background-image: none !important;
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='8'%20height='20'%20fill='%2336393f'><path%20fill-rule='evenodd'%20d='M0%200h8v20H0V0zm4%202a2%202%200%200%200-2%202v12a2%202%200%201%200%204%200V4a2%202%200%200%200-2-2z'/></svg>");
+  -webkit-mask-repeat: repeat-x;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+/* 4. Guilds Wrapper */
+#app-mount .guildsWrapper-5TJh6A,
+#app-mount .wrapper-1Rf91z {
+  background-color: var(--quaternary-color);
+}
+
+
+
+/* 5. Channels */
+.channels-Ie2l6A, 
+.container-PNkimc {
+  background-color: var(--primary-color)
+}
+
+.wrapper-2NJDcI,
+.container-16j22k {
+  background-color: var(--primary-color) !important;
+}
+
+/* 6. Account Area */
+.container-2Thooq {
+  background: var(--secondary-color) !important;
+}
+
+
+
+/* 7. Members List */
+.members-1998pB {
+  background-color: var(--primary-color) !important;
+}
+
+
+
+/* 8. Chat */
+.chat-3bRxxu, 
+.chat-3bRxxu form, 
+.content-yTz4x3,
+.messagesWrapper-3lZDfY,
+.noChannel-Z1DQK7 {
+  background-color: var(--primary-color) !important;
+}
+
+.private-channel-call,
+.video-1FfuMD,
+.privateChannels-1nO12o .scrollerWrap-2lJEkd::after {
+  background-color: var(--quaternary-color) !important;
+}
+
+.inner-zqa7da {
+  background-color: var(--secondary-color) !important;
+}
+
+.searchResultsWrap-2DKFzt {
+  background-color: var(--primary-color) !important;
+}
+
+.wrapper-29NfPK {
+  background-color: var(--quaternary-color) !important;
+}
+
+
+/* 9. Friends List */
+.container-3gCOGc {
+  background-color: var(--primary-color) !important;
+}
+
+
+
+/* 10. Games Tab */
+.activityFeed-28jde9,
+.root-26DmKJ,
+.activityFeed-1C0EmJ {
+  background: var(--primary-color) !important;
+}
+
+#app-mount .searchResultsContainer-1ma_dc {
+  background-color: var(--secondary-color);
+}
+
+
+/* 11. Popouts */
+.themedPopout-25DgLi,
+#permissions-modal-wrapper #permissions-modal {
+  background-color: var(--primary-color) !important;
+}
+
+.popout-3sVMXz .themedPopout-25DgLi .header-SsaQ8X {
+  background-color: var(--quaternary-color) !important;
+}
+
+.menu-Sp6bN1 {
+  background: var(--primary-color) !important;
+}
+
+.container-2x5lvQ header {
+  background-color: var(--quaternary-color) !important;
+}
+
+.container-2x5lvQ section,
+.reactors-Blmlhw {
+  background-color: var(--primary-color) !important;
+}
+
+.sidebar-1-SQro {
+  background-color: var(--quaternary-color) !important;
+}
+
+.add-game-popout {
+  background-color: var(--secondary-color) !important;
+}
+
+.toast {
+  background: var(--tertiary-color);
+  border: 1px solid var(--primary-color);
+}
+
+
+
+/* 12. Modals */
+.topSectionNormal-2-vo2m,
+#permissions-modal-wrapper .header {
+  background-color: var(--quaternary-color) !important;
+}
+
+.keyboardShortcutsModal-3piNz7,
+.incomingCallInner-2VmFiR,
+.backdrop-1wrmKB[style*="background-color: rgb(255, 255, 255)"],
+#permissions-modal-wrapper .modal-body {
+  background-color: var(--primary-color) !important;
+}
+
+.quickswitcher-3JagVE,
+.regionSelectModal-12e-57 {
+  background-color: var(--primary-color) !important;
+}
+
+.need-help-modal .header h1::after {
+  left: -65px;
+}
+
+.footer-2yfCgX,
+#permissions-modal-wrapper .role-side {
+  background-color: var(--secondary-color) !important;
+}
+
+.metalloriff-changelog-scroller,
+.sb-menu-scroller-wrapper {
+  background-color: var(--primary-color);
+}
+
+
+/* 13. Games Tab, Library, and Store */
+.gameLibrary-TTDw4Y,
+.applicationStore-1pNvnv,
+.itemBackground-1jfD8p,
+.root-1BQpZw,
+.root-26DmKJ,
+.appMount-3lHmkl .pageWrapper-1PgVDX {
+  background-color: var(--primary-color) !important;
+}
+
+.missingAccess-3szpts {
+  background-color: var(--primary-color) !important;
+}
+
+/* 14. Bulk Loud Colors */
+
+.theme-light .channel-2QD9_O,
+.theme-light .channel-2QD9_O a,
+.theme-light .name-2WpE7M,
+.theme-light .activity-525YDR,
+.theme-light .privateChannels-1nO12o header,
+.container-1UB9sr,
+.theme-light .title-223e2Y,
+.theme-light .actionIcon-h73Pge,
+.theme-light .inner-btChU7 .channel-SEolQq,
+.theme-light .search-bar input,
+.theme-light .search-bar input::-webkit-input-placeholder,
+.theme-light .header-2o-2hj,
+.theme-light .nameConnectedText-3CzNQn, 
+.theme-light .nameConnectedVoice-MHUX5F, 
+.theme-light .nameSelectedText-sp_EUw, 
+.theme-light .nameSelectedVoice-1qSph5,
+.theme-light .chat-3bRxxu form .typing-2GQL18,
+.theme-light .nameHovered-21k1eo, 
+.theme-light .nameSpeaking-3UhoEZ,
+.theme-light.contextMenu-HLZMGh .item-1Yvehc,
+.theme-light .guild-1EfMGQ .guildInner-3DSoA4 a,
+.theme-light .noIcon-1a_FrS,
+.theme-light .downloadIcon-3TWA3B {
+    color: #111 !important;
+}
+
+.theme-light .channel-2QD9_O.selected-1HYmZZ .activityIconForeground-3VIgI8, 
+.theme-light .channel-2QD9_O:hover .activityIconForeground-3VIgI8 {
+    fill: #000;
+}
+
+.theme-light .activityIconForeground-3VIgI8 {
+    fill: #333;
+}
+
+.theme-light .subtitle-Qv5s8c {
+    color: rgba(0,0,0,0.4);
+}
+
+.theme-light .button-2KyEfG,
+.theme-light.contextMenu-HLZMGh .item-1Yvehc.itemSubMenu-1vN_Yn::after{
+    filter: invert(90%);
+}
+
+.theme-light .colorConnectedText-1c_uzY, 
+.theme-light .colorConnectedVoice-3kyvUN, 
+.theme-light .colorDefaultText-oas-QM, 
+.theme-light .colorDefaultVoice-3wYlhb, 
+.theme-light .colorHoveredText-OZnAgu, 
+.theme-light .colorHoveredVoice-1kucsK, 
+.theme-light .colorLockedText-1VRkPt, 
+.theme-light .colorLockedVoice-2UlBjl, 
+.theme-light .colorSelectedText-1y4Wvs, 
+.theme-light .colorSelectedVoice-Xcb_9R, 
+.theme-light .colorUnreadText-2t7XRb, 
+.theme-light .colorUnreadVoice-137o4S,
+.theme-light .textArea-2Spzkt,
+.theme-light .textArea-2Spzkt::-webkit-input-placeholder,
+.theme-light .search .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.theme-light .resultsGroup-r_nuzN .header-2N-gMV, 
+.theme-light .resultsGroup-r_nuzN .plusIcon-v0BTrL, 
+.theme-light .resultsGroup-r_nuzN .searchClearHistory-2cSSMO, 
+.theme-light .resultsGroup-r_nuzN .searchLearnMore-3SQUAj a {
+    color: #333 !important;
+}
+
+.theme-light .option-96V44q .filter-3Y_im-,
+.theme-light .searchOption-zQ-1l6 .answer-1n6g43 {
+    color: #666;
+}

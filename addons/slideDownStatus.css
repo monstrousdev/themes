@@ -1,0 +1,89 @@
+.menu-Sp6bN1.alt-3btY0e {
+  animation: show-status 300ms linear;
+  transform: translateY(104%) translateX(0%) translateZ(0px);
+  opacity: 1;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
+      height: 53px;
+      width: 60px;
+      margin: 0 !important;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
+      opacity: 0.6;
+      transition: all .2s ease-in-out;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover {
+      opacity: 1;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:active {
+      transform: scale(0.8);
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(1) {
+    animation-delay: 150ms !important;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(3) {
+    animation-delay: 300ms !important;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(4) {
+    animation-delay: 450ms !important;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(5) {
+    animation-delay: 600ms !important;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"]:after {
+      opacity: 1 !important;
+      visibility: visible !important;
+  }
+  
+  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover .statusIconText-3b4TkH {
+    transform: scale(1);
+    box-sizing: border-box;
+    border: 2px solid white;
+    transition: all .2s ease-in-out;
+  }
+  
+  .menu-Sp6bN1 {
+    pointer-events: initial; 
+  }
+
+  body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active) {
+    transform: scale(1.5);
+    opacity: 0;
+    transition: 200ms cubic-bezier(0.5, 0, 0, 0.3), opacity 100ms ease;
+  }
+
+  body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
+    opacity: 0;
+    transition: 150ms ease;
+  }
+
+  .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"] .menu-Sp6bN1 * {
+    pointer-events: auto;
+  }
+
+  .popout-3sVMXz.popoutTopLeft-b5Eb3O {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  /* keyframes */
+  @keyframes status {
+    from {
+      transform: translateY(-100%) translateX(0%) translateZ(0px);
+    }
+  }
+
+  @keyframes show-status {
+    from {
+      opacity: 0;
+    }
+  }
