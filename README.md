@@ -1,4 +1,6 @@
-<p style="text-align: center"><img src="https://i.imgur.com/42ph8wh.png" height=300></p>
+<p align="center">
+   <img src="https://i.imgur.com/42ph8wh.png" height="400px">
+</p>
 
 # Monster Themes
 Need help with the themes? Visit the [Derealized Server](https://discord.gg/AGmsMpH).
