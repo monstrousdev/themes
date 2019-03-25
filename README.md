@@ -1,3 +1,5 @@
+<center><img src="https://i.imgur.com/42ph8wh.png" height=300></center>
+
 # Monster Themes
 Need help with the themes? Visit the [Derealised Server](https://discord.gg/AGmsMpH).
 
@@ -57,7 +59,7 @@ To contact Monster Dev:
 - ... from building off of themes **outside** of the Phoenix Bundle.
 - ... from redistributing the code, edited or otherwise, in any platform that Monster does not allow.
 - ... from distributing an edited version of any code without explicit permission from the author.
-- ... from copying and using more than 150 lines of code (in the spacing as shown in the original files) in a different theme without giving due credit.
+- ... from copying and using more than 50 lines of code (in the spacing as shown in the original files) in a different theme without giving due credit.
 
 **All these terms apply to all files in this repository as well as the last few remaning files in the EllexideCodes/Discord-Themes repository.**
 
