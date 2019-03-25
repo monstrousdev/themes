@@ -49,7 +49,7 @@ box-sizing: border-box;
 white-space: pre-wrap;
 overflow: hidden;
 letter-spacing: 0;
-content:'BetterDocs is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+content:'BetterDocs is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, refusing to take them down when he is asked, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
 .embed-IeVjo6 a[href*="betterdocs." i]{
@@ -70,7 +70,7 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
   align-content: center;
   align-items: center;
   white-space: pre-wrap;
-  content:'This is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+  content:'This is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, refusing to take them down when he is asked, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
 .markup-2BOw-j>a[href*="betterdocs." i] {
@@ -87,7 +87,7 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
 
 /*In-Chat Invite Link */
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
-content:'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
+content:'BetterDocs is not an official source of themes and plugins and should not be trusted. The creator posts content without permission, refusing to take them down when he is asked, and it may have harmful plugins. Do not use BetterDocs.';
 color:#bbb;
 background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) left/auto 100% no-repeat;
 border:2px solid #f0474744;
@@ -99,7 +99,7 @@ border-radius:5px !important;
 position:absolute;
 font-weight:bold;
 letter-spacing: 0;
-font-size: 15px;
+font-size: 14px;
 text-shadow:0 0 12px black;
 width: 300px;
 height: 78px;
