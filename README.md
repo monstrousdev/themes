@@ -35,7 +35,7 @@ All themes will be hopefully ported to BDv2 soon.
 ### Introduction
 The author, Monster, reserves the right to all content found in this repository. They are intellectual property and will remain as such indefinitely. If any one person decides to use--even any portion--of a code, they agree to be bound by the rules set by Monster.
 
-Monster all reserves the right to ask any of her work to be taken down should they be used, distributed, or reverse-engineered in a way she does not consent to.
+Monster reserves the right to ask any of her work to be taken down should they be used, distributed, or reverse-engineered in a way she does not consent to.
 
 To contact Monster Dev:
 
