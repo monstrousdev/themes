@@ -120,8 +120,10 @@
   .root-26DmKJ,
   .container-3gCOGc,
   .appMount-3lHmkl .pageWrapper-1PgVDX,
-  .wrapper-1Rf91z {
-    background: transparent !important;
+  .wrapper-1Rf91z,
+  .emptyPlayers-dx3qig, 
+  .players-1zg2l8 {
+  background: transparent !important;
   }
   
   #app-mount .bannerImage-1jOskm::after {
@@ -213,9 +215,11 @@
   .metalloriff-changelog-scroller,
   .container-VSDcQc,
   .bd-modal-inner,
-  #app-mount .contextMenu-HLZMGh {
-    background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
-  }
+  #app-mount .contextMenu-HLZMGh,
+  #app-mount .monsterModal,
+  #app-mount .popout-3sVMXz .container-jGk-CT {
+  background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
+}
   
   .container-2Yth53 {
     border-radius: 5px;

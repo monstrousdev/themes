@@ -2032,6 +2032,17 @@ pre {
   display: none;
 }
 
+.voiceSectionGuildImage-2r1uIp, 
+.voiceSectionNoGuildImageWrapper-40qwqb {
+  mask: none;
+  -webkit-mask: none;
+}
+
+.voiceSectionIconWrapper-3YFjHm {
+  right: -5px;
+  bottom: -5px;
+}
+
 #app-mount .partyMember-923s4S,
 #app-mount .partyMemberOverflow-Nei5T6 {
   mask: none;
@@ -2214,7 +2225,8 @@ pre {
 .row-1bU71H,
 .applicationTile-1Goy1W,
 .itemBackground-2vEldQ,
-.tileMedia-1q3guD {
+.tileMedia-1q3guD,
+.iconCircle-1dlYo0 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -3969,9 +3981,11 @@ animation: show-status 300ms linear;
 }
 
   /* 17.f. Game Preview Modal */
-.gamePreview-9weYR2 {
+.gamePreview-9weYR2,
+.footer-3J5oP4,
+.news-2KwXHF {
   background-color: var(--quaternary-color) !important;
-}
+} 
 
 .body-1SVoBw {
   background-color: var(--secondary-color) !important;

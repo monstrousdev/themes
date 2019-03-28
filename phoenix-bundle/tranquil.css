@@ -221,15 +221,20 @@
 }
 
 .container-2x5lvQ section,
-.reactors-Blmlhw {
+.reactors-Blmlhw,
+.monsterModal {
   background-color: var(--primary-color) !important;
 }
 
-.sidebar-1-SQro {
+.sidebar-1-SQro,
+.footer-3J5oP4,
+#app-mount .popout-3sVMXz .news-2KwXHF {
   background-color: var(--quaternary-color) !important;
 }
 
-.add-game-popout {
+.add-game-popout,
+.emptyPlayers-dx3qig, 
+.players-1zg2l8 {
   background-color: var(--secondary-color) !important;
 }
 
