@@ -152,7 +152,7 @@
   display: none;
 }
 
-.titleBar-AC4pGV::after {
+.titleBar-AC4pGV:not(.typeMacOS-3EmCyP)::after {
   content: "𐌁𐌋𐌀𐌂𐌊 𐋏𐍈𐌋𐌄";
   position: absolute;
   top: 5px;
