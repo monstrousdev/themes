@@ -3984,7 +3984,7 @@ animation: show-status 300ms linear;
   /* 17.f. Game Preview Modal */
 .gamePreview-9weYR2,
 .footer-3J5oP4,
-.news-2KwXHF {
+#app-mount .popout-3sVMXz .news-2KwXHF {
   background-color: var(--quaternary-color) !important;
 } 
 
