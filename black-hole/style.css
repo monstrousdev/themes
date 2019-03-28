@@ -326,6 +326,10 @@
   overflow: visible;
 }
 
+#app-mount .platform-osx .wrapper-1Rf91z {
+  margin-top: 60px;
+}
+
 .wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
   display: none;
 }
