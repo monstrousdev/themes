@@ -408,6 +408,19 @@
   box-shadow: none;
 }
 
+.createJoinContainer-2Av064 {
+  margin-bottom: 10px;
+}
+
+#app-mount .guildsError-b7zR5H {
+  background: var(--dnd-sheer);
+  border-color: transparent;
+}
+
+#app-mount .guildsError-b7zR5H:hover {
+  background: var(--dnd);
+}
+
 /* V. Pages */
   /* A. Main Areas */
 .chat-3bRxxu,
@@ -574,19 +587,6 @@
   min-height: 55px;
 }
 
-#app-mount .content-yTz4x3>.scrollWrap-qwpLpa {
-  margin-bottom: 55px;
-}
-
-#app-mount .content-yTz4x3>.scrollWrap-qwpLpa::after {
-  content: '';
-  position: absolute;
-  bottom: -55px;
-  height: 55px;
-  width: 100%;
-  background: var(--veil) var(--stars) top left/cover no-repeat fixed;
-}
-
     /* 1. Embeds, Code Blocks, and Invites */
 #app-mount  .markup-2BOw-j pre,
 #app-mount .wrapper-35wsBm,
@@ -610,8 +610,7 @@
 }
 
 .aka-1mqp34,
-#app-mount .spoilerText-3p6IlD.hidden-HHr2R9,
-#app-mount .guildIconImage-3qTk45 {
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9 {
   background: var(--blurple-sheer);
 }
 
@@ -1040,8 +1039,7 @@
 }
 
 #app-mount .moreUsers-1s5Her,
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-#app-mount .guildIconImage-3qTk45 {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background-color: var(--blurple-sheer);
 }
 

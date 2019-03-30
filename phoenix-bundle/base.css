@@ -850,6 +850,10 @@ color: var(--dnd) !important;
   border-radius: var(--roundness);
 }
 
+.guildsError-b7zR5H {
+  background: transparent !important;
+}
+
   /* 4.c. Guilds Add */
 #app-mount .circleIconButton-jET_ig{
   background: transparent;
@@ -2525,7 +2529,8 @@ pre {
 .voiceSectionGuildImage-2r1uIp, 
 .voiceSectionNoGuildImageWrapper-40qwqb,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig svg,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span,
+.guildsError-b7zR5H {
   border-radius: var(--roundness) !important;
 }
 
