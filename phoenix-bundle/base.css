@@ -3996,6 +3996,10 @@ animation: show-status 300ms linear;
   background-color: var(--secondary-color) !important;
 }
 
+#app-mount .player-3zB-0D:hover {
+  background-color: var(--quaternary-color);
+}
+
   /* 17.g. Quick Switcher */
 
 .input-2VB9rf {
@@ -4423,6 +4427,10 @@ animation: show-status 300ms linear;
 .verifiedIcon-2TCIsJ g path:nth-child(2),
 .verifiedIcon-1vpk3S path:nth-of-type(2) {
   fill: var(--main-color) !important;
+}
+
+.verifiedIcon-3oz8wo {
+  color: var(--main-color) !important;
 }
 
 .input-autosize-input:focus,

@@ -1025,6 +1025,15 @@
   color: var(--blurple);
 }
 
+#app-mount .moreUsers-1s5Her,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: var(--blurple-sheer);
+}
+
+#app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+  background-color: var(--online-sheer);
+}
+
 /* VI. Top Layers */
 #app-mount  .standardSidebarView-3F1I7i,
 #app-mount .sidebarRegion-VFTUkN {
@@ -1717,6 +1726,22 @@
   background: var(--sheer);
 }
 
+#app-mount .popout-3sVMXz .container-jGk-CT {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left !important;
+  background-attachment: fixed;
+}
+
+#app-mount .popout-3sVMXz .news-2KwXHF,
+#app-mount .emptyPlayers-dx3qig, 
+#app-mount .players-1zg2l8,
+#app-mount .footer-3J5oP4 {
+  background-color: transparent;
+}
+
+#app-mount .player-3zB-0D:hover {
+  background-color: var(--sheer);
+}
+
   /* J. Add Roles Popout & Roles Overflow */
 #app-mount .autocompleteArrow-Zxoy9H, 
 #app-mount .autocompleteHeaderBackground-30T70q {
@@ -1763,6 +1788,7 @@
 #app-mount .container-2x5lvQ section {
   background: transparent;
 }
+
 
 /* X. Modals */
   /* A. User Modal */
@@ -2141,12 +2167,13 @@ background-attachment: fixed;
 /* XII. Custom CSS */
 .contentRegion-3nDuYy #bd-customcss-attach-controls, 
 #bd-customcss-detach-container #bd-customcss-attach-controls {
-  background: var(--quatro);
+  background: transparent;
+  box-shadow: none;
 }
 
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, 
 .bd-detached-css-editor #bd-customcss-attach-controls button {
-  background: var(--tres);
+  background: var(--online-sheer);
 }
 
 .bd-detached-editor .chat .title-3qD0b- > div:last-child,
@@ -2176,35 +2203,37 @@ background-attachment: fixed;
 
 /* Main CSS Box */
 .contentColumnDefault-1VQkGM .ace-monokai {
-  background-color: var(--tres);
+  background-color: var(--sheer);
   color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 
 /* Gutter Line */
 .ace-monokai .ace_gutter {
-  background: var(--quatro);
+  background: var(--tres) var(--stars) top left/cover fixed;
+  border-radius: 10px 0 0 10px;
   color: var(--streaming);
 }
 
 /* Shorter Highlight Line */
 .ace-monokai .ace_gutter-active-line {
-  background-color: var(--dos);
+  background-color: var(--quatro);
 }
 
 /* When Clicking and Dragging through the codes to highlight them */
 .ace-monokai .ace_marker-layer .ace_selection {
-  background: var(--main-color);
+  background: var(--blurple-sheer);
 }
 
 /* Long Highlight Line */
 .ace-monokai .ace_marker-layer .ace_active-line {
-  background: rgb(18, 18, 18);
+  background: var(--offline-sheer);
 }
 
 /* Bracket Border */
 .ace-monokai .ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px;
-  border: 1px solid var(--hover-color);
+  border: 1px solid var(--greyple-sheer);
 }
 
 /* Comment Code */
