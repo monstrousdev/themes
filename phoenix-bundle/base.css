@@ -854,6 +854,10 @@ color: var(--dnd) !important;
   background: transparent !important;
 }
 
+.guildsError-b7zR5H:hover {
+  background: var(--dnd) !important;
+}
+
   /* 4.c. Guilds Add */
 #app-mount .circleIconButton-jET_ig{
   background: transparent;

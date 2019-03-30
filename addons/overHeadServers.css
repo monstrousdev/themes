@@ -7,25 +7,27 @@
 }
 
 #app-mount .wrapper-1Rf91z {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: unset;
   left: 0;
   height: 70px;
   width: 100%;
-  z-index: 9999;
+  transition: all .5s ease-in-out !important;
 }
 
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv {
   margin-top: 0 !important;
   margin-left: 65px;
+  margin-right: 98px;
   height: 88px;
-  width: calc(100% - 65px);
+  width: unset;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
   padding: 10px !important;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   padding-left: 20px !important;
 }
 
@@ -35,13 +37,15 @@
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child {
-  margin-top: 0;
-  margin-left: -80px;
+  top: 55px;
+  left: -50px;
+  position: absolute;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child .homeButton-2Cw51C {
   border-bottom: none;
-  border-right: 2px solid var(--main-color)
+  border-right: 2px solid var(--main-color);
+  height: 65px;
 }
 
 .unreadMentionsIndicatorBottom-BXS58x, 
@@ -51,8 +55,8 @@
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
-  margin-top: 45px;
-  margin-left: -80px;
+  top: 60%;
+  left: -50px;
   height: fit-content;
   position: absolute;
 }
