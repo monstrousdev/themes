@@ -136,7 +136,7 @@
 /* I. App Window */
 #app-mount,
 .container-16j22k {
-  background: var(--black-hole) center;
+  background: linear-gradient(var(--sheer), var(--sheer)),var(--black-hole) center/30%;
 }
 
 #app-mount .layer-3QrUeG, 
