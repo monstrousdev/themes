@@ -32,7 +32,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="422110084039180318"]:hover::before {
   animation: scaleSpin .4s;
 }
 
