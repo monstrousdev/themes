@@ -12,19 +12,23 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="143017752775360512"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="82987644316815360"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="166365757561634816"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="324680910123302922"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="324680910123302922"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="336678828233588736"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
 
 /* popin */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="131414719666847745"]:hover::before
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
   animation: popoutanim .2s;
 }
 
 /* fall and bounce */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="433698341008965633"]:hover::before {
   animation: fallBounce 1s;
 }
 
