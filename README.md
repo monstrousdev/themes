@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="https://i.imgur.com/42ph8wh.png" height="400px">
+   <img src="http://i.picpar.com/tBpd.png" height="400px">
 </p>
 
 # Monster Themes
