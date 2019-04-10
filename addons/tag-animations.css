@@ -14,7 +14,10 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="166365757561634816"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="324680910123302922"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="336678828233588736"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="336678828233588736"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="531614184526577675"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="433698341008965633"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -27,8 +30,7 @@
 }
 
 /* fall and bounce */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="433698341008965633"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before {
   animation: fallBounce 1s;
 }
 
