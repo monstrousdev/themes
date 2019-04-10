@@ -177,6 +177,10 @@
 
 /* III. Channel Area */
   /* A. Channels Header */
+#app-mount .channelNotice-1-XFjC {
+  background: var(--blurple-sheer);
+}
+
 .container-PNkimc {
   background-color: transparent;
 }
@@ -885,7 +889,8 @@
 #app-mount .card-7JP0BX,
 #app-mount .audioControls-2HsaU6, 
 #app-mount .videoControls-2kcYic,
-#app-mount .tile-2OwFgW {
+#app-mount .tile-2OwFgW,
+#app-mount .wrapper-3UweLa {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -934,7 +939,9 @@
 #app-mount .entitledHeader-3LRNDT,
 #app-mount .cardPrimary-1Hv-to,
 #app-mount .cardPrimaryEditable-3KtE4g,
-#app-mount .genreTag-3QLRUJ {
+#app-mount .genreTag-3QLRUJ,
+#app-mount  .content-35aVm0,
+#app-mount .emptyCard-3CNsz2 {
   background: var(--blurple-sheer) var(--stars) top left fixed;
 }
 
@@ -1039,8 +1046,13 @@
 }
 
 #app-mount .moreUsers-1s5Her,
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
   background-color: var(--blurple-sheer);
+}
+
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--blurple)
 }
 
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
@@ -2009,7 +2021,8 @@ background-attachment: fixed;
 }
 
   /* F. Reactions Modal & Server Invite Modal */
-#app-mount .sidebar-1-SQro {
+#app-mount .sidebar-1-SQro,
+#app-mount  .reactors-Blmlhw {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--sheer) var(--stars) top left fixed;
 }
 

@@ -2224,6 +2224,17 @@ pre {
 }
 
   /* 10.c. Store */
+  
+#app-mount .gradientOverlayRight-3vMuS8 {
+  background-image: -webkit-gradient(linear,left top,right top,from(transparent),to(var(--quaternary-color)));
+  background-image: linear-gradient(90deg,transparent,var(--quaternary-color));
+}
+
+#app-mount .gradientOverlayLeft-3w159C {
+  background-image: -webkit-gradient(linear,left top,right top,from(var(--quaternary-color)),to(transparent));
+  background-image: linear-gradient(90deg,var(--quaternary-color),transparent);
+}
+
 .itemBackground-2vEldQ::before {
   background: radial-gradient(ellipse at top,transparent,var(--primary-color)),linear-gradient(90deg,var(--primary-color) 0,transparent 40%,transparent 60%,var(--primary-color)),linear-gradient(0deg,var(--primary-color) 10%,transparent 70%) !important;
 }
