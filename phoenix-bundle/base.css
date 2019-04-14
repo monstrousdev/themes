@@ -1392,8 +1392,12 @@ a,
   color: var(--hover-color) !important;
 }
 
-.messages-3amgkR.scroller {
+.messages-3amgkR.scroller-2FKFPG {
   padding-bottom: 10px;
+}
+
+.containerCompactBounded-cYR5cW:last-child {
+  padding: 10px 0 20px 0;
 }
 
 .icon-2shpbb {
