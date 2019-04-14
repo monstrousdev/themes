@@ -17,7 +17,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="336678828233588736"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="531614184526577675"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="433698341008965633"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -30,7 +31,8 @@
 }
 
 /* fall and bounce */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244392852950482944"]:hover::before {
   animation: fallBounce 1s;
 }
 
