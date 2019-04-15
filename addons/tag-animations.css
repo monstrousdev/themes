@@ -24,9 +24,10 @@
 
 
 /* popin */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="131414719666847745"]:hover::before
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="131414719666847745"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]:hover::before {
   animation: popoutanim .2s;
 }
 

@@ -1026,7 +1026,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="257055153272782848"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244392852950482944"]::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="368562259225608193"]::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1051,6 +1052,17 @@
   filter: drop-shadow(0 0 3px #fddfaa);
 }
 
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="402272736665272320"] + .status-oxiHuE {
+  left: -96%;
+}
+
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="402272736665272320"] {
+  animation: none;
+  border: 3px solid;
+  border-image: linear-gradient(darkred 20%, goldenrod, darkred 80%) 1;
+  box-shadow: 0 0 10px goldenrod;
+}
+
 /* kevin */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/kevinCrown.svg);
@@ -1072,6 +1084,11 @@
 
 
 /* icons */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]::before {
+  background-image: url(https://i.imgur.com/WV8GXS1.png);
+  transform: scale(1.3);
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]::before {
   background-image: url(https://i.imgur.com/qX6Ds7o.png);
   transform: scale(1.3);
@@ -1349,7 +1366,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="531614184526577675"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="257055153272782848"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="368562259225608193"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1404,12 +1422,20 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="527971799770857512"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="531614184526577675"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="368562259225608193"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]:hover::before {
   background-color: transparent;
   box-shadow: none;
 }
 
 /* content */
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]:hover::before {
+  content: "Crystallize";
+  color: #6441A4;
+  background-image: url(https://i.imgur.com/OUuW6ID.gif);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before {
   content: "Keeper of Lolis";
   color: #1f75fe;
