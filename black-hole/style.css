@@ -2,6 +2,7 @@
 @import "https://ellexidecodes.github.io/Profile-Codes/free/all-google-fonts.css";
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
+@import "https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css";
 
 /*
                                                                                                      
@@ -35,6 +36,7 @@
   --theme-version: "0.1";
   --blurple: rgb(113, 136, 217);
   --greyple: rgb(151, 168, 180);
+  --accent: var(--blurple);
   --blurple-sheer: rgba(114, 137, 218, 0.267);
   --greyple-sheer: rgba(151, 168, 180, 0.267);
   --black-hole: url(https://images.all-free-download.com/images/graphicthumb/starry_night_192398.jpg);
