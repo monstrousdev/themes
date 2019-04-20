@@ -1520,6 +1520,14 @@
 .tooltip-2QfLtc {
   border-radius: 5px !important;
 }
+
+#app-mount .tooltipRed-8-9NeP {
+  background-color: var(--dnd);
+}
+
+#app-mount .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+  border-top-color: var(--dnd);
+}
     
 .tooltip-2QfLtc,
 #app-mount .bubble-3we2di {

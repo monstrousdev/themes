@@ -3324,9 +3324,17 @@ pre {
 } 
 
   /* 15.i. Tooltips */
-.tooltip-2QfLtc {
+#app-mount  .tooltip-2QfLtc {
   border-radius: 0px !important;
-  background: var(--main-color) !important;
+  background: var(--main-color);
+}
+
+#app-mount .tooltipRed-8-9NeP {
+  background-color: var(--dnd);
+}
+
+#app-mount .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
+  border-top-color: var(--dnd);
 }
 
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
