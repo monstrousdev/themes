@@ -3329,20 +3329,8 @@ pre {
   background: var(--main-color) !important;
 }
 
-.tooltip-2QfLtc.tooltipRight-2JM5PQ:after {
-  border-right-color: var(--main-color) !important;
-}
-
-.tooltip-2QfLtc.tooltipTop-XDDSxx:after {
-  border-top-color: var(--main-color) !important;
-}
-
-.tooltip-2QfLtc[class*="tooltipLeft-"]:after {
-  border-left-color: var(--main-color) !important;
-}
-
-.tooltip-2QfLtc.tooltipBottom-3ARrEK:after {
-  border-bottom-color: var(--main-color) !important;
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+  border-top-color: var(--main-color);
 }
 
 /* tropix's fade in tooltip anim */
