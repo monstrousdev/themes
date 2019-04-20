@@ -1517,30 +1517,21 @@
 }
 
   /* E. Tooltips & Notices */
-.tooltip-1OS-Ti {
+.tooltip-2QfLtc {
   border-radius: 5px !important;
 }
     
-.tooltip-1OS-Ti,
+.tooltip-2QfLtc,
 #app-mount .bubble-3we2di {
   background: var(--blurple) !important;
 }
     
-.tooltip-1OS-Ti.right-KM_vfY:after {
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
   border-right-color: var(--blurple) !important;
 }
     
-.tooltip-1OS-Ti.top-1pTh1F:after,
 #app-mount .bubble-3we2di:before {
   border-top-color: var(--blurple) !important;
-}
-    
-.tooltip-1OS-Ti.left-1wV7VO:after {
-  border-left-color: var(--blurple) !important;
-}
-    
-.tooltip-1OS-Ti.bottom-19kp6S:after {
-  border-bottom-color: var(--blurple) !important;
 }
 
 #app-mount .notice-2FJMB4 {
@@ -1561,19 +1552,19 @@
 
 /* tropix's fade in tooltip anim */
     
-.tooltips-FhwIyl .tooltip-1OS-Ti.right-KM_vfY {
+.layerContainer-yqaFcK .tooltip-2QfLtc.tooltipRight-2JM5PQ {
   animation: fadeFromRight 200ms
 }
-    
-.tooltips-FhwIyl .tooltip-1OS-Ti.bottom-19kp6S {
+
+.layerContainer-yqaFcK .tooltip-2QfLtc.tooltipBottom-3ARrEK {
   animation: fadeFromBottom 200ms
 }
-    
-.tooltips-FhwIyl .tooltip-1OS-Ti.left-1wV7VO {
+
+.layerContainer-yqaFcK .tooltip-2QfLtc[class*="tooltipLeft-"] {
   animation: fadeFromLeft 200ms
 }
-    
-.tooltips-FhwIyl .tooltip-1OS-Ti.top-1pTh1F {
+
+.layerContainer-yqaFcK .tooltip-2QfLtc.tooltipTop-XDDSxx{
   animation: fadeFromTop 200ms;
 }
 
