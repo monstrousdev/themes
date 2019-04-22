@@ -588,14 +588,6 @@
 #app-mount .bda-slist li {
   background-color: var(--secondary-color);
   border-color: var(--tertiary-color);
-  width: 300px;
-}
-
-#app-mount .bda-slist {
-  user-select: text;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
 }
 
 .button-mM-y8i {
