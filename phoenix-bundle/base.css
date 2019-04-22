@@ -1435,9 +1435,9 @@ a,
   -webkit-mask-size: 77%;
 }
 
-.attachment-33OFj0 {
-  background-color: var(--tertiary-color) !important;
-  border-color: var(--quaternary-color) !important;
+#app-mount .attachment-33OFj0 {
+  background-color: var(--quaternary-color);
+  border-color: var(--quaternary-color);
 }
 
   /* 8.b Messages */

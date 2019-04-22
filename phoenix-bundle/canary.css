@@ -1,0 +1,200 @@
+/* === guilds === */
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 10px 0 20px 0 !important;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  margin-top: -58px;
+  width: 70px;
+  margin-left: 2px;
+  position: absolute;
+  z-index: 2;
+  height: 46px;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
+  display: none;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 0px !important;
+  transition: all .5s ease-in-out;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#app-mount foreignObject {
+  mask: none !important;
+  border-radius: var(--roundness);
+  -webkit-mask: none !important;
+}
+
+.homeIcon-tEMBK1 {
+  -webkit-mask-position: center;
+  margin-left: -6px;
+}
+
+.item-2hkk8m {
+  background: var(--main-color);
+  box-shadow: 0 0 12px var(--main-color);
+  height: 10px;
+  width: 10px;
+}
+
+.item-2hkk8m[style*="opacity: 0.7"] {
+  opacity: 1 !important;
+}
+
+.item-2hkk8m[style*="height: 40px"] {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.pill-31IEus {
+  overflow: visible;
+}
+
+.guildSeparator-3s64Iy {
+  background: transparent;
+}
+
+
+/* === headers === */
+.title-3qD0b-, 
+.titleCall-_b9o8P {
+  height: 48px;
+}
+
+.toolbar-1t6TWx {
+  margin-right: 96px;
+}
+
+.children-19S4PO:after {
+  display: none;
+}
+
+#app-mount .container-1r6BKw {
+  box-shadow: none;
+  background: var(--quaternary-color);
+  border-bottom: 2px solid var(--main-color);
+}
+
+
+
+
+
+/* === channels === */
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
+#app-mount .wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: transparent;
+}
+
+.wrapper-1ucjTd {
+  border-left: 2px solid transparent;
+}
+
+.wrapper-1ucjTd:hover {
+  background-color: var(--secondary-color);
+  border-left-color: var(--hover-color);
+}
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ {
+  background-color: var(--quaternary-color);
+  border-left-color: var(--main-color);
+}
+
+#app-mount .wrapper-pZmgj4 {
+  background-color: var(--tertiary-color);
+}
+
+#app-mount .total-3tKGEB {
+  background-color: var(--quaternary-color);
+}
+
+#app-mount .total-3tKGEB:after {
+  border-right-color: var(--quaternary-color);
+}
+
+.wrapper-CU3qI5 {
+  height: 100%;
+}
+
+.icon-WnO6o2 {
+  top: 0;
+}
+
+.base-PmTxvP {
+  border-radius: var(--roundness);
+}
+
+
+
+
+/* === search bars === */
+
+.search-2oPWTC .searchBar-3dMhjb .icon-38sknP {
+  margin-top: 14%;
+  transform: none;
+}
+
+#app-mount .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  background-color: transparent;
+}
+
+.search-2oPWTC .DraftEditor-root {
+  line-height: 42px;
+}
+
+#app-mount .container-cMG81i {
+  background-color: transparent;
+}
+
+
+
+
+/* === activity page === */
+#app-mount .memberListItem-2ZX2pl:hover {
+  background-color: var(--quaternary-color);  
+}
+
+#app-mount .multipleIconWrapper-1PjkRO, 
+#app-mount .section-2VKIPC,
+#app-mount .emptyCard-3CNsz2 {
+  background-color: var(--secondary-color);
+}
+
+.buttonColor-1agP3J {
+  background-color: var(--main-color);
+}
+
+.buttonColor-1agP3J:hover {
+  background-color: var(--hover-color);
+}
+
+
+
+
+
+
+/* === buttons === */
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--main-color)
+}
+
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+  background-color: var(--hover-color);
+}
+
+#app-mount .friendSelected-3J_Uh8 {
+  background-color: var(--secondary-color);
+}
