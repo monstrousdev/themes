@@ -1075,19 +1075,22 @@
 #app-mount .restoreButton-22-SIW,
 #app-mount .topPill-30KHOu .itemSelected-1qLhcL,
 #app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
-#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
   background-color: var(--veil);
 }
 
 #app-mount .topPill-30KHOu .itemSelected-1qLhcL,
 #app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
-#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
   color: var(--blurple)
 }
 
 #app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, 
-#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
-  background-color: var(--sheer);
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
+  background-color: var(--greyple-sheer);
   color: var(--greyple);
 }
 
@@ -1112,7 +1115,10 @@
 
 #app-mount .moreUsers-1s5Her,
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91,
+#app-mount .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
+#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
   background-color: var(--blurple-sheer);
 }
 
