@@ -1590,17 +1590,17 @@
   border-radius: 5px !important;
 }
 
-#app-mount .tooltipRed-8-9NeP {
-  background-color: var(--dnd);
+#app-mount .tooltip-2QfLtc.tooltipRed-8-9NeP {
+  background: var(--dnd);
 }
 
 #app-mount .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
   border-top-color: var(--dnd);
 }
     
-.tooltip-2QfLtc,
+#app-mount .tooltip-2QfLtc,
 #app-mount .bubble-3we2di {
-  background: var(--blurple) !important;
+  background: var(--blurple);
 }
     
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,
