@@ -2,7 +2,6 @@
 @import "https://ellexidecodes.github.io/Profile-Codes/free/all-google-fonts.css";
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 @import "https://monstrousdev.github.io/themes/addons/filter.css";
-@import "https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css";
 
 /*
                                                                                                      
@@ -36,7 +35,6 @@
   --theme-version: "0.1";
   --blurple: rgb(113, 136, 217);
   --greyple: rgb(151, 168, 180);
-  --accent: var(--blurple);
   --blurple-sheer: rgba(114, 137, 218, 0.267);
   --greyple-sheer: rgba(151, 168, 180, 0.267);
   --black-hole: url(https://images.all-free-download.com/images/graphicthumb/starry_night_192398.jpg);
@@ -358,12 +356,16 @@
   height: 90%;
 }
 
-.scrollerWrap-1IAIlv .scroller-2TZvBN {
-  padding: 0px 0 20px 10px;
-  width: 58px !important;
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
+  height: 100% !important;
+  width: 100% !important;
 }
 
-.scrollerWrap-1IAIlv .scroller-2TZvBN>.container-1ETFDs {
+.scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 10px 0 20px 0px;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   position: absolute;
   top: -45px;
   left: 0px;
@@ -372,22 +374,35 @@
   justify-content: center;
 }
 
-.homeButton-2Cw51C {
-  background-color: rgb(255, 255, 255) !important;
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe,
+.homeIcon-tEMBK1 path {
+  display: none;
+}
+
+.pill-31IEus .item-2hkk8m {
+  background-color: var(--blurple);
+}
+
+#app-mount .button-OhfaWu {
+  background-color: transparent;
+}
+
+.homeIcon-tEMBK1 {
+  background-color: white;
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
   -webkit-mask-size: 45px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   transform: scale(0.5);
   transition: background-color .2s ease-in-out;
+  -webkit-mask-position: center;
+  margin-left: 0px;
+  height: 100% !important;
+  width: 100% !important;
 }
 
-.homeButton-2Cw51C:hover {
+.button-OhfaWu.selected-wSa2KV .homeIcon-tEMBK1 {
   background-color: var(--blurple) !important;
-}
-
-.homeButton-2Cw51C defs, .homeButton-2Cw51C g {
-  display: none;
 }
 
 #app-mount .downloadProgressCircle-yTgLNF {
@@ -471,12 +486,17 @@
 #app-mount .title-3qD0b-, 
 #app-mount .titleCall-_b9o8P,
 #app-mount .headerBar-UHpsPw,
+#app-mount .container-1r6BKw,
 #app-mount .header-39GIC8,
 #app-mount .chat-3bRxxu .channelTextArea-rNsIhG,
 #app-mount .friendsTable-133bsv .friendsRow-2yicud:hover,
 #app-mount .video-1FfuMD {
   background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
+}
+
+#app-mount .children-19S4PO:after {
+  display: none;
 }
 
 #app-mount .gameUpdates-2GPqBU {
@@ -825,7 +845,9 @@
 
 
   /* C. Top Bar & Typing Status */
-#app-mount .search-2oPWTC .searchBar-3dMhjb {
+#app-mount .search-2oPWTC .searchBar-3dMhjb,
+#app-mount .darkTheme-3uETC4.container-2XeR5Z,
+#app-mount .container-cMG81i {
   background: transparent;
 }
 
@@ -1030,12 +1052,22 @@
 #app-mount .accountBtnInner-sj5jLs,
 #app-mount .button-mM-y8i,
 #app-mount .restoreButton-22-SIW,
-#app-mount .topPill-30KHOu .itemSelected-1qLhcL {
+#app-mount .topPill-30KHOu .itemSelected-1qLhcL,
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
   background-color: var(--veil);
 }
 
-#app-mount .topPill-30KHOu .itemSelected-1qLhcL {
+#app-mount .topPill-30KHOu .itemSelected-1qLhcL,
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
   color: var(--blurple)
+}
+
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+  background-color: var(--sheer);
+  color: var(--greyple);
 }
 
 #app-mount .accountBtnInner-sj5jLs:hover,
@@ -1544,7 +1576,7 @@
   background: var(--blurple) !important;
 }
     
-#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,   
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK,
 #app-mount .bubble-3we2di:before {
   border-top-color: var(--blurple) !important;
 }
@@ -1638,6 +1670,14 @@
   border: 1px solid rgb(0, 0, 0);
   height: 326px;
   width: 344px;
+}
+
+#app-mount .diversitySelector-tmmMv0 .popout-2nUePc {
+  width: unset;
+}
+
+#app-mount .lightTheme-3LGLQs.container-2XeR5Z {
+  background: transparent
 }
 
 #bda-qem {
