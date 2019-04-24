@@ -371,8 +371,8 @@
   /* 2.b. Search Bars */
 
 .search-2oPWTC .searchBar-3dMhjb .icon-38sknP {
-  margin-top: 8%;
-  transform: none;
+  margin-top: 23px;
+  transform: translateY(-50%);
 }
 
 #app-mount .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
@@ -450,7 +450,8 @@
   box-shadow: 0px 0px transparent !important
 }
 
-.privateChannels-1nO12o .searchBar-6Kv8R2 input {
+.privateChannels-1nO12o .searchBar-6Kv8R2 input,
+.search-2oPWTC .DraftEditor-root .DraftEditor-editorContainer {
   height: 100%;
 }
 
