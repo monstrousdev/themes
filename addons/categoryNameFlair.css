@@ -1,11 +1,6 @@
 /* Make Channel Categories Match Role Categories */
 
-.nameCollapsed-34uFWo,
-.nameDefault-2DI02H,
-.nameHovered-1gxhWH,
-.nameHoveredCollapsed-2orEWB,
-.nameMuted-1MCOt4,
-.nameUnread-njOjIS {
+.name-IbjUBS {
   color: var(--main-color);
   border-bottom: 3px solid;
   border-image: linear-gradient(90deg, transparent, var(--main-color), transparent);
