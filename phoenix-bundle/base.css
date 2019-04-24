@@ -287,8 +287,8 @@
 
 /* 2. Chat Header */
   /* 2.a. Coloring and Spacing */
-.toolbar-94eLIm {
-  margin-right: 98px;
+.toolbar-1t6TWx {
+  margin-right: 96px;
 }
 
 .title-3qD0b-,
@@ -300,6 +300,21 @@
 
 .headerBar-UHpsPw.titleCall-_b9o8P {
   border-bottom: none !important;
+}
+
+.title-3qD0b-, 
+.titleCall-_b9o8P {
+  height: 48px;
+}
+
+.children-19S4PO:after {
+  display: none;
+}
+
+#app-mount .container-1r6BKw {
+  box-shadow: none;
+  background: var(--quaternary-color);
+  border-bottom: 2px solid var(--main-color);
 }
 
 .headerBar-UHpsPw {
@@ -314,31 +329,65 @@
   left: 2%;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .guildInner-3DSoA4 a,
-.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .homeIcon-1FoKUJ,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child .homeButton-2Cw51C {
-  width: 100%;
-  transition: all 1s ease-in-out;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child .homeButton-2Cw51C {
-  background-color: transparent !important;
-  border-bottom: 2px solid var(--main-color);
-  border-radius: 0px !important;
-  transition: all .5s ease-in-out;
-}
-
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child {
-  margin-top: -52px;
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  margin-top: -58px;
   width: 70px;
-  margin-left: -10px;
+  margin-left: 2px;
   position: absolute;
   z-index: 2;
   height: 46px;
 }
 
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
+  display: none;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
+  background-color: transparent !important;
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 0px !important;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+#app-mount foreignObject {
+  mask: none !important;
+  -webkit-mask: none !important;
+}
+
+#app-mount .button-OhfaWu {
+  background-color: transparent;
+}
+
+.homeIcon-tEMBK1 {
+  -webkit-mask-position: center;
+  margin-left: -6px;
+}
+
   /* 2.b. Search Bars */
+
+.search-2oPWTC .searchBar-3dMhjb .icon-38sknP {
+  margin-top: 14%;
+  transform: none;
+}
+
+#app-mount .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  background-color: transparent;
+}
+
+.search-2oPWTC .DraftEditor-root {
+  line-height: 42px;
+}
+
+#app-mount .container-cMG81i {
+  background-color: transparent;
+}
+
 .search .searchBarIcon-1J6sKG {
   width: 35px;
 }
@@ -353,10 +402,6 @@
   color: white;
 }
 
-.search-bar {
-  background-color: var(--quaternary-color);
-}
-
 .search-2oPWTC .searchBar-3dMhjb {
   background-color: transparent !important;
   height: 46px;
@@ -367,11 +412,6 @@
 .searchBar-2_Yu-C,
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
   background-color: transparent !important;
-}
-
-.search-2oPWTC .searchBar-3dMhjb .icon-38sknP {
-  top: 50%;
-  transform: translateY(-35%) !important;
 }
 
 .search-bar .search-bar-inner {
@@ -738,6 +778,20 @@ color: var(--dnd) !important;
   background-color: var(--quaternary-color);
 }
 
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-color: var(--main-color)
+}
+
+#app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, 
+#app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+  background-color: var(--hover-color);
+}
+
+#app-mount .friendSelected-3J_Uh8 {
+  background-color: var(--secondary-color);
+}
+
   /* 3.e. Overlay Notifications */
 .wrapper-3jrx9n {
   border-color: var(--main-color);
@@ -796,9 +850,8 @@ color: var(--dnd) !important;
   z-index: 6;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
-  padding: 0px 0px 20px 10px !important;
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 10px 0 20px 0 !important;
 }
 
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
@@ -833,27 +886,28 @@ color: var(--dnd) !important;
   border-radius: 0px !important
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:hover:before,
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:hover::before,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:before  {
-  background: var(--main-color);
-  border-radius: 20px;
-  height: 40px;
-  margin-top: -20px;
-  border-radius: 0px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.unread-2OHH1w::before {
-  transition: all .2s ease;
+.item-2hkk8m {
   background: var(--main-color);
   box-shadow: 0 0 12px var(--main-color);
+  height: 10px;
+  width: 10px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr.selected-ML3OIq:before,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.unread-2OHH1w.selected-nT-gM3:before {
+.item-2hkk8m[style*="opacity: 0.7"] {
+  opacity: 1 !important;
+}
+
+.item-2hkk8m[style*="height: 40px"] {
+  border-radius: 0;
   box-shadow: none;
+}
+
+.pill-31IEus {
+  overflow: visible;
+}
+
+.guildSeparator-3s64Iy {
+  background: transparent;
 }
 
 .dragfix-1wSxtO:active {
@@ -1049,29 +1103,39 @@ color: var(--dnd) !important;
 }
 
   /* 5.d. Channels */
-.content-20Aix8 {
-  border-radius: 0px;
-  margin: 1px 0 1px 0px;
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
+#app-mount .wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: transparent;
+}
+
+.wrapper-1ucjTd {
   border-left: 2px solid transparent;
 }
 
-.contentSelectedText-3wUhMi, 
-.contentSelectedVoice-1WDIBM {
+.wrapper-1ucjTd.modeSelected-1zApJ_ {
   background-color: var(--quaternary-color);
-  border-color: var(--main-color);
+  border-left-color: var(--main-color);
 }
 
-.contentConnectedVoice-qL-YrL:active,
-.contentHoveredText-2D9B-x,
-.contentHoveredVoice-3p_NEO:active,
-.contentSelectedVoice-1WDIBM:active {
+#app-mount .wrapper-pZmgj4 {
   background-color: var(--tertiary-color);
-  border-color: var(--hover-color);
-  opacity: 80%;
 }
 
-.userHovered-2_fT4Z:active {
-  background-color: var(--tertiary-color) !important;
+#app-mount .total-3tKGEB {
+  background-color: var(--quaternary-color);
+}
+
+#app-mount .total-3tKGEB:after {
+  border-right-color: var(--quaternary-color);
+}
+
+.wrapper-CU3qI5 {
+  height: 100%;
+}
+
+.icon-WnO6o2 {
+  top: 0;
 }
 
 .channels-Ie2l6A, 
@@ -1987,8 +2051,8 @@ pre {
 
 
 
-/* 10. Games Tab, Library, Store, and Server Directory */
-  /* 10.a. Tab */
+/* 10. Games Activity, Library, Store, and Server Directory */
+  /* 10.a Activity*/
 .card-7JP0BX,
 .article-3kb3qm,
 .carousel-2WxMes {
@@ -2156,6 +2220,24 @@ pre {
 
 #app-mount .searchOption-8nCYo-.selected-1r_nkg {
   background-color: var(--quaternary-color);
+}
+
+#app-mount .memberListItem-2ZX2pl:hover {
+  background-color: var(--quaternary-color);  
+}
+
+#app-mount .multipleIconWrapper-1PjkRO, 
+#app-mount .section-2VKIPC,
+#app-mount .emptyCard-3CNsz2 {
+  background-color: var(--secondary-color);
+}
+
+.buttonColor-1agP3J {
+  background-color: var(--main-color);
+}
+
+.buttonColor-1agP3J:hover {
+  background-color: var(--hover-color);
 }
 
   /* 10.b. Library */
@@ -2563,7 +2645,10 @@ pre {
 .voiceSectionNoGuildImageWrapper-40qwqb,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig svg,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span,
-.guildsError-b7zR5H {
+.guildsError-b7zR5H,
+.base-PmTxvP,
+#app-mount foreignObject,
+#app-mount .avatar-3elDyV {
   border-radius: var(--roundness) !important;
 }
 
