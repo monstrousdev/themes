@@ -356,6 +356,7 @@
 #app-mount foreignObject {
   mask: none !important;
   -webkit-mask: none !important;
+  overflow: hidden;
 }
 
 #app-mount .button-OhfaWu {
