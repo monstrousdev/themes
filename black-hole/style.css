@@ -471,6 +471,14 @@
   background: var(--dnd);
 }
 
+#app-mount .dragPlaceholder-D9-haY {
+  background-color: transparent;
+  border: 2px dashed var(--blurple-sheer);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* V. Pages */
   /* A. Main Areas */
 .chat-3bRxxu,

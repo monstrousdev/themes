@@ -903,6 +903,14 @@ color: var(--dnd) !important;
   border-radius: var(--roundness);
 }
 
+#app-mount .dragPlaceholder-D9-haY {
+  background-color: transparent;
+  border: 2px dashed var(--primary-color);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .createJoinContainer-2Av064 {
   margin-bottom: 10px;
 }
