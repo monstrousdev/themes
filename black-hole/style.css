@@ -471,14 +471,6 @@
   background: var(--dnd);
 }
 
-#app-mount .dragPlaceholder-D9-haY {
-  background-color: transparent;
-  border: 2px dashed var(--blurple-sheer);
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 /* V. Pages */
   /* A. Main Areas */
 .chat-3bRxxu,
@@ -951,7 +943,9 @@
 #app-mount .audioControls-2HsaU6, 
 #app-mount .videoControls-2kcYic,
 #app-mount .tile-2OwFgW,
-#app-mount .wrapper-3UweLa {
+#app-mount .wrapper-3UweLa,
+#app-mount .multipleIconWrapper-1PjkRO, 
+#app-mount .section-2VKIPC {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
 }
