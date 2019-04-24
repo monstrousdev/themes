@@ -372,7 +372,7 @@
   /* 2.b. Search Bars */
 
 .search-2oPWTC .searchBar-3dMhjb .icon-38sknP {
-  margin-top: 14%;
+  margin-top: 8%;
   transform: none;
 }
 
@@ -1095,7 +1095,7 @@ color: var(--dnd) !important;
 }
 
 .icon-WnO6o2 {
-  top: 0;
+  top: unset;
 }
 
 .channels-Ie2l6A, 
@@ -1964,14 +1964,14 @@ pre {
 }
 
 /* 9.b. Action Buttons */
-.friendsTable-133bsv .friendsRow-2yicud .friends-column-actions .friends-action.friends-action-video-call,
-.friendsTable-133bsv .friendsRow-2yicud .friends-column-actions .friends-action.friends-action-voice-call {
+.friendsTable-133bsv .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP,
+.friendsTable-133bsv .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR {
   background-color: var(--online);
   opacity: 0.7;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-  background-color: var(--quaternary-color) !important;
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+  background-color: var(--quaternary-color);
 }
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover,
