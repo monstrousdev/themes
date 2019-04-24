@@ -867,7 +867,6 @@ color: var(--dnd) !important;
 
 
   /* 4.b. Guilds */
-.guild-1EfMGQ .guildInner-3DSoA4,
 .container-2td-dC .wrapper-2lTRaf,
 .container-1aNBdK .wrapper-2lTRaf {
   background: transparent !important;
@@ -966,22 +965,27 @@ color: var(--dnd) !important;
   background-color: var(--main-color) !important;
 }
 
+  /* 4.d. Badges */
+#app-mount .iconBadge-2wi9r4 {
+  background-color: var(--main-color);
+}
+
   /* 4.e. Unread Indicator */
-  .unreadMentionsIndicatorBottom-BXS58x {
-    z-index: 1000;
-  }
+.unreadMentionsIndicatorBottom-BXS58x {
+  z-index: 1000;
+}
 
-  .unreadMentionsIndicatorTop-gA6RCh {
-    top: 46px;
-  }
+.unreadMentionsIndicatorTop-gA6RCh {
+  top: 46px;
+}
 
-  .mention-1f5kbO {
-    background-color: var(--main-color);
-  }
+.mention-1f5kbO {
+  background-color: var(--main-color);
+}
 
-  .mention-1f5kbO:hover {
-    background-color: var(--hover-color);
-  }
+.mention-1f5kbO:hover {
+  background-color: var(--hover-color);
+}
   
 /* 5. Channels */
 
