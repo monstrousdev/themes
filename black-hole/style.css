@@ -216,7 +216,9 @@
 .contentSelectedText-3wUhMi, 
 .contentSelectedVoice-1WDIBM,
 .contentConnectedVoice-qL-YrL,
-.wrapper-2NJDcI {
+.wrapper-2NJDcI,
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
   color: var(--blurple)
@@ -226,7 +228,8 @@
 .contentHoveredText-2D9B-x, 
 .contentHoveredVoice-3p_NEO:active, 
 .contentSelectedVoice-1WDIBM:active,
-#app-mount .listeningAlong-2UPsxf {
+#app-mount .listeningAlong-2UPsxf,
+#app-mount .wrapper-1ucjTd:hover .content-3at_AU {
   background-color: transparent;
 }
 
@@ -237,7 +240,9 @@
 }
 
 .colorHoveredText-OZnAgu, 
-.colorHoveredVoice-1kucsK {
+.colorHoveredVoice-1kucsK,
+#app-mount .wrapper-1ucjTd:not(.modeSelected-1zApJ_):hover .name-3_Dsmg,
+#app-mount .wrapper-1ucjTd:not(.modeSelected-1zApJ_):hover svg {
   color: var(--blurple);
   opacity: 1;
 }
