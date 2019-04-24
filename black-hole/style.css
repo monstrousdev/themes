@@ -318,6 +318,20 @@
   background-color: var(--uno) !important;
 }
 
+.users-i_3-kL {
+  background-color: var(--blurple-sheer);
+  color: white;
+}
+
+.total-3tKGEB {
+  background-color: var(--blurple);
+  color: white;
+}
+
+.total-3tKGEB::after {
+  border-right-color: var(--blurple);
+}
+
   /* D. Private Channels */
 .searchBar-6Kv8R2 {
   -webkit-box-shadow: none;
