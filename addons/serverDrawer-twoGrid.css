@@ -17,15 +17,16 @@
   transform: translateY(0);
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scroller-2TZvBN>div.container-1ETFDs:first-child {
-  top: 100%;
+.wrapper-1Rf91z:not(.foldercontent) .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  top: 100.8%;
   transform: translateY(104.5%);
   z-index: 99999;
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
+  background-color: var(--quaternary-color)
 }
 
-.wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>div.container-1ETFDs:first-child {
-  top: 0;
+.wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  top: 1.5%;
   transform: translateY(0);
 }
 
