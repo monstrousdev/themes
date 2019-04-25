@@ -1052,17 +1052,6 @@
   filter: drop-shadow(0 0 3px #fddfaa);
 }
 
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="402272736665272320"] + .status-oxiHuE {
-  left: -96%;
-}
-
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="402272736665272320"] {
-  animation: none;
-  border: 3px solid;
-  border-image: linear-gradient(darkred 20%, goldenrod, darkred 80%) 1;
-  box-shadow: 0 0 10px goldenrod;
-}
-
 /* kevin */
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="134349083568504832"]::before {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/kevinCrown.svg);
