@@ -141,6 +141,10 @@
   background-color: var(--primary-color) !important;
 }
 
+#app-mount .users-i_3-kL {
+  background-color: var(--secondary-color)
+}
+
 /* 6. Account Area */
 .container-2Thooq {
   background: var(--secondary-color) !important;

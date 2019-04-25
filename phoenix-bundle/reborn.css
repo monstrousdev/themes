@@ -125,7 +125,8 @@
   .players-1zg2l8,
   .users-i_3-kL,
   #app-mount .container-1r6BKw,
-  #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child,
+  #app-mount .users-i_3-kL {
   background: transparent !important;
   }
   
