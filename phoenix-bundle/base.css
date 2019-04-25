@@ -272,14 +272,20 @@
 }
 
 
-  /* 1.e. Erase SVGs */
+  /* 1.e. Erase & recolor SVGs */
 .titleBar-AC4pGV rect,
 .wordmark-2iDDfm,
 .winButton-iRh8-Z svg,
 .topic-2QX7LI:before,
 .divider-2PMBlV { display: none;}
 
+.theme-dark .icon-22AiRD {
+  color: #ccc;
+}
 
+.theme-light .icon-22AiRD {
+  #222;
+}
 
 
 
