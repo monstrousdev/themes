@@ -54,7 +54,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
  margin-top: 0px !important;
  border-radius: 50% !important;
  pointer-events: none;
- transition: background-color 200ms ease-in-out, height 200ms ease-in-out, width 200ms ease-in-out;
+ transition: background-color 200ms ease-in-out, height 200ms ease-in-out, width 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh:hover .item-2hkk8m {
