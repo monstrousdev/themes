@@ -57,7 +57,8 @@ letter-spacing: 0;
 content:'BetterDocs/Discord Source is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, refusing to take them down when he is asked, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.embed-IeVjo6 a[href*="betterdocs." i]{
+.embed-IeVjo6 a[href*="betterdocs." i],
+.embed-IeVjo6 a[href*="discordsource." i]{
   color:transparent !important;
   height:70px;
 }
@@ -79,7 +80,8 @@ content:'BetterDocs/Discord Source is an unofficial source, and should be treate
   content:'This is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, refusing to take them down when he is asked, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.markup-2BOw-j>a[href*="betterdocs." i] {
+.markup-2BOw-j>a[href*="betterdocs." i],
+.markup-2BOw-j>a[href*="discordsource." i] {
   font-size: 0;
 }
 
