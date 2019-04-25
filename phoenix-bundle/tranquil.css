@@ -201,6 +201,10 @@
   background-color: var(--secondary-color);
 }
 
+#app-mount .container-1r6BKw {
+  background: var(--quaternary-color);
+}
+
 
 /* 11. Popouts */
 .themedPopout-25DgLi,

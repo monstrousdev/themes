@@ -311,7 +311,6 @@
 
 #app-mount .container-1r6BKw {
   box-shadow: none;
-  background: var(--quaternary-color);
   border-bottom: 2px solid var(--main-color);
 }
 
@@ -366,6 +365,10 @@
 .homeIcon-tEMBK1 {
   -webkit-mask-position: center;
   margin-left: -6px;
+}
+
+#app-mount .homeIcon-tEMBK1 path {
+  display: none;
 }
 
   /* 2.b. Search Bars */
@@ -2289,6 +2292,10 @@ pre {
 .voiceSectionIconWrapper-3YFjHm {
   background-color: var(--main-color) !important;
   color: white;
+}
+
+.libraryFilter-31ZUa2 {
+  transition: all 200ms ease-in-out;
 }
 
   /* 10.c. Store */

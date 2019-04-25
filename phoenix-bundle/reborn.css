@@ -122,7 +122,10 @@
   .appMount-3lHmkl .pageWrapper-1PgVDX,
   .wrapper-1Rf91z,
   .emptyPlayers-dx3qig, 
-  .players-1zg2l8 {
+  .players-1zg2l8,
+  .users-i_3-kL,
+  #app-mount .container-1r6BKw,
+  #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   background: transparent !important;
   }
   
@@ -153,8 +156,7 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat !important;
     background-attachment: fixed;
   }
-  
-  
+
   /* 4. Popouts & Modals */
   
   .colorPickerCustom-2CWBn2 {
