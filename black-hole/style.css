@@ -443,9 +443,7 @@
   opacity: 1
 }
 
-.container-2td-dC.audio-2KA0-x::after,
-.container-2td-dC.video-2jNDI4::after,
-.selected-nT-gM3:before, .unread-2OHH1w:before {
+#app-mount .iconBadge-2wi9r4 {
   background-color: var(--blurple) !important;
   transition: all .2s ease-in-out;
 }
