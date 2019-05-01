@@ -3460,7 +3460,8 @@ pre {
   /* 15.l. RTC Connection Popout */
 .popoutTopRight-3BzFIE section:before, 
 .popoutTop-3uu9vG section:before,
-.container-2x5lvQ section:after {
+.container-2x5lvQ section:after,
+.popout-2GtBL-:after {
   border-top-color: var(--primary-color) !important;
 }
 
