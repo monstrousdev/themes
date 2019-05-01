@@ -29,7 +29,7 @@
   1.b. Mac Main Title Bar
   1.c. Windows Buttons
   1.d. Mac Buttons
-  1.e. Erase SVGs
+  1.e. Erase & Change SVGs
 
  2. Chat Header
   2.a. Coloring and Spacing
@@ -272,7 +272,7 @@
 }
 
 
-  /* 1.e. Erase & recolor SVGs */
+  /* 1.e. Erase & Change SVGs */
 .titleBar-AC4pGV rect,
 .wordmark-2iDDfm,
 .winButton-iRh8-Z svg,
@@ -287,7 +287,66 @@
   color: #222;
 }
 
+svg[name="Nova_Bell"] path,
+svg[name="Nova_Pin"] path,
+svg[name="Nova_People"] path,
+svg[name="Nova_At"] path,
+svg[name="Nova-CallJoin"] path{
+  display: none;
+}
 
+svg[name="Nova_Bell"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
+}
+
+svg[name="Nova_Pin"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/pinned-two.svg) center/90% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/pinned-two.svg) center/90% no-repeat;
+  transform: scaleX(-1)
+}
+
+svg[name="Nova_People"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+}
+
+svg[name="Nova_At"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/mentioned-two.svg) center/95% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/mentioned-two.svg) center/95% no-repeat;
+}
+
+svg[name="Nova_CallJoin"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/phone-call.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/phone-call.svg) center/100% no-repeat;
+}
+
+svg[name="Nova_CallVideo"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
+}
+
+svg[name*="PersonWaving"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg);
+}
+
+svg[name*="NitroWheel"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg);
+}
+
+svg[name*="Library"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg);
+}
+
+svg[name*="Activity"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg);
+}
 
 /* 2. Chat Header */
   /* 2.a. Coloring and Spacing */
@@ -719,22 +778,6 @@ svg[name*="Checkmark"] {
   background-size: 24px;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="PersonWaving"] {
-  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg);
-}
-
-.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="NitroWheel"] {
-  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg);
-}
-
-.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="Library"] {
-  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg);
-}
-
-.privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6[name*="Activity"] {
-  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg);
 }
 
 .theme-light .privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 {

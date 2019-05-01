@@ -96,6 +96,7 @@
 *     C. Top Bar & Typing Status
 *     D. Cards and Tiles
 *     E. Buttons, Switches, and Bars
+*     F. Change SVGs
 *
 *  VI. Top Layers
 *  VII. ScrollBars
@@ -1130,6 +1131,68 @@
 
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
   background-color: var(--online-sheer);
+}
+
+  /* F. Change SVGs */
+svg[name="Nova_Bell"] path,
+svg[name="Nova_Pin"] path,
+svg[name="Nova_People"] path,
+svg[name="Nova_At"] path,
+svg[name="Nova-CallJoin"] path{
+  display: none;
+}
+
+svg[name="Nova_Bell"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/bell.svg) center/100% no-repeat;
+}
+
+svg[name="Nova_Pin"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/pinned-two.svg) center/90% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/pinned-two.svg) center/90% no-repeat;
+  transform: scaleX(-1)
+}
+
+svg[name="Nova_People"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+}
+
+svg[name="Nova_At"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/mentioned-two.svg) center/95% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/mentioned-two.svg) center/95% no-repeat;
+}
+
+svg[name="Nova_CallJoin"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/phone-call.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/phone-call.svg) center/100% no-repeat;
+}
+
+svg[name="Nova_CallVideo"] {
+  background-color: currentColor;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
+}
+
+svg[name*="PersonWaving"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg);
+}
+
+svg[name*="NitroWheel"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg);
+}
+
+svg[name*="Library"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg);
+}
+
+svg[name*="Activity"] {
+  background-image: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg);
 }
 
 /* VI. Top Layers */
