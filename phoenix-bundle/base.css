@@ -314,8 +314,8 @@ svg[name="Nova_BellOff"] {
 
 svg[name="Nova_Pin"] {
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/pinned-two.svg) center/90% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/svgs/pinned-two.svg) center/90% no-repeat;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' name='Mention'…56,16.62768 L18.57808,16.8728 L18.57808,16.8728 Z'%3E%3C/path%3E%3C/svg%3E") center/100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' name='Mention'…56,16.62768 L18.57808,16.8728 L18.57808,16.8728 Z'%3E%3C/path%3E%3C/svg%3E") center/100% no-repeat;
   transform: scaleX(-1)
 }
 
