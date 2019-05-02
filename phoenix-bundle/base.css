@@ -411,7 +411,7 @@ svg[name*="Activity"] {
   left: 2%;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   margin-top: -58px;
   width: 70px;
   margin-left: 2px;
@@ -424,7 +424,7 @@ svg[name*="Activity"] {
   display: none;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
   background-color: transparent !important;
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
@@ -4752,41 +4752,18 @@ div.reply-item {
 
   /* 20.a.5. Server Folders */
 
-.guildsWrapper-5TJh6A.foldercontentclosed {
+.wrapper-1Rf91z.foldercontentclosed {
   width: 0;
 }
 
-.guildsWrapper-5TJh6A.foldercontent {
+.wrapper-1Rf91z.foldercontent {
   transition: all .2s ease-in-out;
 }
 
-.guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH>div.guild-1EfMGQ:first-child {
-  margin-top: 8px;
-  margin-bottom: 5px;
-  margin-left: 0;
-  position: relative;
-  height: 50px;
-  width: 50px;
-}
-
-.guildsWrapper-5TJh6A.foldercontent .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
-    border: none;
-}
-
-.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-1IAIlv,
-.wrapper-1Rf91z.foldercontentopen .scrollerWrap-1IAIlv .scroller-2TZvBN {
-    border-top: 2px solid var(--main-color);
-    box-sizing: border-box;
-    margin-top: 46px !important;
-}
-
-.guildSeparator-1X4GQ1.folderseparator::after {
-  background-color: #666 !important;
-}
-
-.guild-1EfMGQ.folder .badge-1GsMF2.folder.count,
-#app-mount .container-2td-dC.folder .badge-3dItlm.folder.count {
-  background: var(--main-color) !important;
+.wrapper-1Rf91z.foldercontent .scrollerWrap-1IAIlv .scroller-2TZvBN {
+  border-top: 2px solid var(--main-color);
+  box-sizing: border-box;
+  margin-top: -2px;
 }
 
   /* 20.a.6. Share Button Plugin */
