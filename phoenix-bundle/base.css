@@ -1885,12 +1885,29 @@ pre {
 .notice-2FJMB4,
 #pluginNotice {
   font-size: 0px !important;
-  height: 4px !important;
   line-height: 18px;
   position: fixed;
   top: 46px;
   width: 100%;
   transition: all .2s linear;
+  background-color: transparent !important;
+}
+
+.notice-2FJMB4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 100%;
+  height: 4px;
+  z-index: -1;
+  transition: all 200ms ease-in-out;
+  background-color: dodgerblue;
+}
+
+.noticeDanger-7u-yT9::before {
+  background-color: var(--dnd);
 }
 
 #pluginNotice.notice-2FJMB4 {
@@ -1902,10 +1919,18 @@ pre {
 .notice-2FJMB4:hover,
 #pluginNotice:hover {
   font-size: 14px !important;
-  height: 38px !important;
   line-height: 38px;
   position: fixed;
   width: 100%;
+}
+
+.notice-2FJMB4:hover::before {
+  height: 38px !important;
+}
+
+
+.notice-2FJMB4 .dismiss-SCAH9H {
+  opacity: 0;
 }
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,

@@ -1694,7 +1694,7 @@ svg[name*="Activity"] {
 }
 
 #app-mount .notice-2FJMB4 {
-  border-radius: 5px;
+  border-radius: 5px !important;
   background-image: var(--stars), linear-gradient(to right, var(--sheer), var(--sheer));
 }
     
