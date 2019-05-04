@@ -1886,7 +1886,7 @@ pre {
 #pluginNotice {
   font-size: 0px !important;
   line-height: 18px;
-  position: fixed;
+  position: absolute;
   top: 46px;
   width: 100%;
   transition: all .2s linear;
