@@ -1893,6 +1893,16 @@ pre {
   background-color: transparent !important;
 }
 
+.notice-2FJMB4 .textLink-27KAGV {
+  font-size: 0px !important;
+  line-height: 18px;
+}
+
+.notice-2FJMB4:hover .textLink-27KAGV {
+  font-size: 14px !important;
+  line-height: 38px;
+}
+
 .notice-2FJMB4::before {
   content: '';
   position: absolute;
@@ -1935,13 +1945,15 @@ pre {
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
 #pluginNotice.notice-2FJMB4 .dismiss-SCAH9H {
+  opacity: 1;
   height: 36px;
   right: 100px;
   transition: all .2s linear;
 }
 
 .notice-2FJMB4 .button-1MICoQ,
-.noticePremiumGrandfathered-ollUxF .premiumIcon-2lve6h {
+.noticePremiumGrandfathered-ollUxF .premiumIcon-2lve6h,
+.notice-2FJMB4 .platformIcon-2NdO9F {
   transform: scale(0);
   opacity: 0;
   display: inline-block !important;
@@ -1949,7 +1961,8 @@ pre {
 }
 
 .notice-2FJMB4:hover .button-1MICoQ, 
-.noticePremiumGrandfathered-ollUxF:hover .premiumIcon-2lve6h  {
+.noticePremiumGrandfathered-ollUxF:hover .premiumIcon-2lve6h,
+.notice-2FJMB4:hover .platformIcon-2NdO9F  {
   transform: none;
   opacity: 1;
 }
