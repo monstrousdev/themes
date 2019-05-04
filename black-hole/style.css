@@ -440,6 +440,13 @@
   background: transparent;
 }
 
+#app-mount .dragPlaceholder-D9-haY {
+  background-color: var(--blurple-sheer);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 #app-mount .circleIconButton-jET_ig:hover {
   opacity: 1
 }
@@ -1140,10 +1147,10 @@ svg[name="Nova_Pin"] path,
 svg[name="Nova_People"] path,
 svg[name="Nova_At"] path,
 svg[name="Nova-CallJoin"] path,
-svg[name*="PersonWaving"] path,
-svg[name*="NitroWheel"] path,
-svg[name*="Library"] path,
-svg[name*="Activity"] path{
+svg[name="PersonWaving"] path,
+svg[name="NitroWheel"] path,
+svg[name="Library"] path,
+svg[name="Activity"] path{
   display: none;
 }
 
@@ -1191,28 +1198,32 @@ svg[name="Nova_CallVideo"] {
   mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
 }
 
-svg[name*="PersonWaving"] {
+svg[name="PersonWaving"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
 }
 
-svg[name*="NitroWheel"] {
+svg[name="NitroWheel"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;
 }
 
-svg[name*="Library"] {
+svg[name="Library"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;
 }
 
-svg[name*="Activity"] {
+svg[name="Activity"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;
 }
 
 /* VI. Top Layers */
