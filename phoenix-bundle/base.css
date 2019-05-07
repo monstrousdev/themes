@@ -1926,6 +1926,10 @@ pre {
   height: 38px !important;
 }
 
+#pluginNotice.notice-2FJMB4::before {
+  height: 38px !important;
+}
+
 .notice-2FJMB4:hover,
 #pluginNotice:hover {
   font-size: 14px !important;
