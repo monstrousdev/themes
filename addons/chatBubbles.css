@@ -1,5 +1,6 @@
 .chat-3bRxxu .containerCozy-jafyvG:not(:last-child),
 .chat-3bRxxu .container-1YxwTf:last-child {
+  background-color: #111;
   background-color: var(--quaternary-color);
   padding: 15px 7px 10px 10px !important;
   margin: 20px 10px 20px 80px;
@@ -24,6 +25,7 @@ content: ' ';
 height: 0;
 width: 0;
 border: 9px solid transparent;
+border-right-color: #111;
 border-right-color: var(--quaternary-color);
 position: absolute;
 margin-top: -75%;
@@ -31,6 +33,7 @@ margin-left: 105%;
 }
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
+  box-shadow: 0px 0px 5px rgba(250,166,26,.1);
   box-shadow: 0px 0px 5px var(--main-color);
 }
 
