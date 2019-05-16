@@ -620,7 +620,8 @@
   padding: 0 20px;
 }
 
-.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG:last-child {
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG:last-child,
+.containerCompactBounded-cYR5cW:last-child {
   padding-bottom: 30px;
 }
 
@@ -1201,29 +1202,25 @@ svg[name="Nova_CallVideo"] {
 svg[name="PersonWaving"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;;
 }
 
 svg[name="NitroWheel"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;;
 }
 
 svg[name="Library"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;;
 }
 
 svg[name="Activity"] {
   color: inherit !important;
   background-color: currentColor;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/activity.svg) center/100% no-repeat;;
 }
 
 /* VI. Top Layers */
