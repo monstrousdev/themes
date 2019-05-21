@@ -19,7 +19,8 @@
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="433698341008965633"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="152430800241950720"]:hover::before {
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="152430800241950720"]:hover::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="438846426441711616"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
