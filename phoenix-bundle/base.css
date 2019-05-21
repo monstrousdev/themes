@@ -381,6 +381,11 @@ svg[name="Activity"] {
   border-bottom: 2px solid var(--main-color) !important;
 }
 
+#app-mount .title-3qD0b-.transparent-2ZlE3R {
+  background: transparent !important;
+  border-bottom: 2px solid transparent !important;
+}
+
 .headerBar-UHpsPw.titleCall-_b9o8P {
   border-bottom: none !important;
 }
