@@ -3592,20 +3592,24 @@ pre {
 }
 
   /* 15.o. Dropdown Menu Popout */
-.popout-2sKjHu {
+.popout-2sKjHu,
+#app-mount .css-181m2lf-menu {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
 }
 
-.optionActive-KkAdqq {
+.optionActive-KkAdqq,
+#app-mount .css-12o7ek3-option {
   background-color: var(--main-color) !important;
 }
 
-.optionLabel-2CkCZx {
+.optionLabel-2CkCZx,
+#app-mount .css-181m2lf-menu .css-1ye7vu0 [class*="-option"] {
   border: 1px solid transparent;
 }
 
-.optionNormal-12VR9V:hover {
+.optionNormal-12VR9V:hover,
+#app-mount .css-1gnr91b-option {
   background: transparent !important;
   border-color: var(--hover-color) !important
 }

@@ -1396,10 +1396,15 @@ svg[name="Activity"] {
   /* D. Dropdown Menus */
 #app-mount .select-2TCrqx .Select-menu-outer,
 #app-mount .popout-2sKjHu,
-#app-mount .popoutList-T9CKZQ {
+#app-mount .popoutList-T9CKZQ,
+#app-mount .css-181m2lf-menu {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
+}
+
+#app-mount .css-12o7ek3-option {
+  background-color: var(--blurple-sheer);
 }
 
 #app-mount .selectableItem-1MP3MQ[style*="background: rgb(114, 137, 218)"] {
@@ -1409,7 +1414,8 @@ svg[name="Activity"] {
 #app-mount .select-2TCrqx .Select-option.is-focused, 
 #app-mount .select-2TCrqx .Select-option:hover,
 #app-mount .optionActive-KkAdqq,
-#app-mount .selectableItem-1MP3MQ:hover {
+#app-mount .selectableItem-1MP3MQ:hover,
+#app-mount .css-1gnr91b-option {
   background: var(--sheer);
 }
  
