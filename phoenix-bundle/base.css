@@ -1623,6 +1623,7 @@ a,
   padding: 5px 15px;
   width: 100%;
   background: transparent !important;
+  box-sizing: border-box !important;
 }
 
 .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr>span {
