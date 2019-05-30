@@ -3,7 +3,7 @@
 </p>
 
 # Monster Themes
-Need help with the themes? Visit the [Derealized Server](https://discord.gg/AGmsMpH).
+Need help with the themes? Visit the [Black Box](https://discord.gg/TeRQEPb).
 
 The Phoenix Bundle are forks of old themes that have ceased to be supported. Because I have been maintaining them for a year and have rewritten them to be more readable and efficient, I have renamed them and claimed them as my own.
 
