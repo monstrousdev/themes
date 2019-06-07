@@ -433,7 +433,7 @@ svg[name="Activity"] {
   background-color: transparent !important;
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
-  width: 100%;
+  width: 70px;
   transition: all 1s ease-in-out;
 }
 
