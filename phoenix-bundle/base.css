@@ -437,6 +437,11 @@ svg[name="Activity"] {
   transition: all 1s ease-in-out;
 }
 
+.listItem-2P_4kh:first-child .listItemWrapper-3X98Pc {
+  height: 100%;
+  width: 100%;
+}
+
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
   height: 100% !important;
   width: 100% !important;
