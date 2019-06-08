@@ -255,7 +255,8 @@
 
 /* 12. Modals */
 .topSectionNormal-2-vo2m,
-#permissions-modal-wrapper .header {
+#permissions-modal-wrapper .header,
+#app-mount .tierMarkerBackground-3q29am {
   background-color: var(--quaternary-color) !important;
 }
 

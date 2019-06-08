@@ -440,11 +440,17 @@
   background: transparent;
 }
 
-#app-mount .dragPlaceholder-D9-haY {
+#app-mount .dragPlaceholder-D9-haY,
+#app-mount .acronym-2mOFsV {
   background-color: var(--blurple-sheer);
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+  transition: all 200ms ease-in-out;
+} 
+
+#app-mount .acronym-2mOFsV:hover {
+  background-color: var(--blurple);
 }
 
 #app-mount .circleIconButton-jET_ig:hover {
@@ -956,20 +962,36 @@
 #app-mount .tile-2OwFgW,
 #app-mount .wrapper-3UweLa,
 #app-mount .multipleIconWrapper-1PjkRO, 
-#app-mount .section-2VKIPC {
+#app-mount .section-2VKIPC,
+#app-mount .card-3DjzTQ {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
+}
+
+#app-mount .splash-3N0nhD {
+  -webkit-mask: linear-gradient(black, transparent);
+  mask: linear-gradient(black, transparent);
 }
 
 #app-mount .itemBackground-2vEldQ:before {
   background: radial-gradient(ellipse at top,transparent,var(--sheer)),linear-gradient(90deg,var(--sheer) 0,transparent 40%,transparent 60%,var(--sheer)),linear-gradient(0deg,var(--sheer) 10%,transparent 70%);
 }
 
+#app-mount .carouselRightGradientEdge-2Z3H8D {
+  background-image: linear-gradient(270deg,var(--sheer),transparent);
+}
+
+#app-mount .carouselLeftGradientEdge-3P4spl {
+  background-image: linear-gradient(90deg,var(--sheer),transparent);
+}
+
 #app-mount .iconCircle-1dlYo0,
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 #app-mount .mediaBarWrapper-3D7r67, 
 #app-mount .mediaBarWrapper-3D7r67:after, 
-#app-mount .mediaBarWrapper-3D7r67:before {
+#app-mount .mediaBarWrapper-3D7r67:before,
+#app-mount .tierNoneContainer-3hhK3h,
+#app-mount .tierBody-16Chc9 {
   background: var(--sheer);
 }
 
@@ -1077,6 +1099,11 @@
   background-color: var(--sheer);
 }
 
+#app-mount .tierMarkerBackground-3q29am {
+  background: linear-gradient(var(--sheer), var(--sheer)), var(--stars) top left, linear-gradient(var(--quatro), var(--quatro));
+  background-attachment: fixed;
+}
+
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   border-color: rgb(0, 0, 0);
 }
@@ -1087,7 +1114,8 @@
 #app-mount .topPill-30KHOu .itemSelected-1qLhcL,
 #app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
 #app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
-#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
+#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,
+#app-mount .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
   background-color: var(--veil);
 }
 
@@ -1129,7 +1157,8 @@
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91,
 #app-mount .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, 
 #app-mount .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
-#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover {
+#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
+#app-mount .boostCount-UFqabz {
   background-color: var(--blurple-sheer);
 }
 
@@ -1302,7 +1331,8 @@ svg[name="Activity"] {
   justify-content: center;
 }
 
-.icon-2doZ3q {
+.icon-2doZ3q,
+.premiumGuildIcon-BhwtRn {
   margin: 0;
 }
 

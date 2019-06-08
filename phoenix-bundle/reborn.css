@@ -190,6 +190,11 @@
   #app-mount .colorPickerCustom-2CWBn {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
+
+  #app-mount .tierMarkerBackground-3q29am {
+    background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/600px 618px no-repeat !important;
+    background-attachment: fixed;
+  }
   
   .userPopout-3XzG_A,
   .create-guild-container.deprecated,
