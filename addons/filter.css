@@ -44,7 +44,11 @@ body #app-mount .embed-IeVjo6 .embedInner-1-fpTo a.embedThumbnail-2Y84-K[href*="
 body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="www.discordsource." i]::before, 
 body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="://discordsource." i]::before, 
 body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="www.betterdocs." i]::before, 
-body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="://betterdocs." i]::before {
+body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="://betterdocs." i]::before,
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="www.discordsource." i]::before, 
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="://discordsource." i]::before, 
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="www.betterdocs." i]::before, 
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="://betterdocs." i]::before {
 color:#bbb !important;
 background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) bottom right/100px no-repeat !important;
 border:2px solid #f0474744 !important;
@@ -67,7 +71,10 @@ content:'BetterDocs/Discord Source is an unofficial source, and should be treate
 
 body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="betterdocs.net/preview" i]:before,
 body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="betterdocs.us/preview" i]:before,
-body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="discordsource.com/preview" i]:before {
+body #app-mount[class*="appMount-"] .theme-dark .embed-IeVjo6 .embedLink-1G1K1D[href*="discordsource.com/preview" i]:before,
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="betterdocs.net/preview" i]:before,
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="betterdocs.us/preview" i]:before,
+body #app-mount[class*="appMount-"] .theme-light .embed-IeVjo6 .embedLink-1G1K1D[href*="discordsource.com/preview" i]:before {
   width:auto !important;
   height: 100% !important;
   z-index: 2 !important;
@@ -99,7 +106,8 @@ body #app-mount[class*="appMount-"] .container-1YxwTf .markup-2BOw-j > a.anchor-
 }
 
 /*In-Chat Invite Link */
-body #app-mount[class*="appMount-"] .theme-dark .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
+body #app-mount[class*="appMount-"] .theme-dark .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after,
+body #app-mount[class*="appMount-"] .theme-light .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
 content:'BetterDocs/Discord Source is not an official source of themes and plugins and should not be trusted. The creator posts content without permission, refusing to take them down when he is asked, and it may have harmful plugins. Do not use BetterDocs.' !important;
 color:#bbb !important;
 background: rgb(22, 22, 22) url(https://i.imgur.com/ClYJFpv.png) left/auto 100% no-repeat !important;
