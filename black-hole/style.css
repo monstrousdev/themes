@@ -921,7 +921,11 @@
 #app-mount .wrapper-2TxpI8,
 #app-mount .embedContainer-26S24y,
 #app-mount .carousel-2WxMes,
-#app-mount .paginationItem-2lUq0s {
+#app-mount .paginationItem-2lUq0s,
+#app-mount .info-3NKfPL,
+#app-mount .header-Qk7iwL,
+#app-mount .tierHeaderLocked-1a2opw,
+#app-mount .tierBody-x9kBBp {
   background-color: transparent;
 }
 
@@ -1002,7 +1006,8 @@
 
 #app-mount .buffer-26XPkd, 
 #app-mount .buffer-26XPkd:after, 
-#app-mount .buffer-26XPkd:before {
+#app-mount .buffer-26XPkd:before,
+#app-mount .tierInProgress-3mBoXq {
   background: var(--blurple)
 }
 
@@ -1052,7 +1057,8 @@
 }
 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
-#app-mount .nowPlaying-284llR .gameNameInput-385LoS:hover {
+#app-mount .nowPlaying-284llR .gameNameInput-385LoS:hover,
+#app-mount .tierHeaderLocked-1s2JJz {
   background-color: var(--sheer);
 }
 
@@ -1071,7 +1077,9 @@
 .listingSmall-d9e5gC .purchaseUnit-2lxci3,
 #app-mount .root-1bFE0x,
 #app-mount .item-2yFVoY,
-#app-mount .card-NB61oR {
+#app-mount .card-NB61oR,
+#app-mount .guildSubscription-2bT8-B,
+#app-mount .tier-3H4BXk {
   background: linear-gradient(var(--blurple-sheer), transparent 80%),var(--uno) var(--stars) top left fixed;
 }
 
@@ -1083,7 +1091,8 @@
   background: linear-gradient(to right, transparent, var(--online-sheer)),var(--uno) var(--stars) top left fixed;
 }
 
-#app-mount .purchaseUnitOperatingSystem-cnbJPz {
+#app-mount .purchaseUnitOperatingSystem-cnbJPz,
+#app-mount .background-3xPPFc {
   color: var(--blurple-sheer);
 }
 

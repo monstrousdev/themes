@@ -1813,6 +1813,10 @@ pre {
   background-color: var(--main-color) !important;
 }
 
+[style*="color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+  color: white;
+}
+
 .wrapper-35wsBm {
   background-color: var(--quaternary-color) !important;
   border-color: transparent !important;
@@ -4397,8 +4401,20 @@ animation: show-status 300ms linear;
   /* 17.m. Gift Nitro Modal & Nitro Boost */
 .option-1l2vXE,
 #app-mount .tierNoneContainer-3hhK3h,
-#app-mount .tierBody-16Chc9 {
+#app-mount .tierBody-16Chc9,
+#app-mount .tierBody-x9kBBp,
+#app-mount .header-Qk7iwL,
+#app-mount .tierInProgress-3mBoXq {
   background-color: var(--quaternary-color) !important;
+}
+
+#app-mount .info-3NKfPL,
+#app-mount .tierHeaderLocked-1a2opw {
+  background-color: var(--secondary-color);
+}
+
+#app-mount .background-3xPPFc {
+  color: var(--quaternary-color);
 }
 
 #app-mount .carouselRightGradientEdge-2Z3H8D {
