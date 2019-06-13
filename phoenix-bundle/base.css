@@ -4708,7 +4708,7 @@ animation: show-status 300ms linear;
 .verified-2-ja4L g path:nth-child(2),
 .verifiedIcon-2TCIsJ g path:nth-child(2),
 .verifiedIcon-1vpk3S path:nth-of-type(2),
-#app-mount .iconTierNone-3xOaeG, {
+#app-mount .iconTierNone-3xOaeG {
   fill: var(--main-color) !important;
 }
 
