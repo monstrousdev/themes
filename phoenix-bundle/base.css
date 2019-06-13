@@ -1299,6 +1299,12 @@ color: var(--dnd) !important;
 }
 
   /* 5.g. DM List */
+.privateChannels-1nO12o .channel-2QD9_O .numberBadge-2s8kKX {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+}
+
 .privateChannels-1nO12o .channel-2QD9_O a {
   margin: unset;
   border-radius: 0px;
@@ -4701,19 +4707,19 @@ animation: show-status 300ms linear;
 .verified-3uJH7V g path:nth-child(2),
 .verified-2-ja4L g path:nth-child(2),
 .verifiedIcon-2TCIsJ g path:nth-child(2),
-.verifiedIcon-1vpk3S path:nth-of-type(2) {
+.verifiedIcon-1vpk3S path:nth-of-type(2),
+#app-mount .iconTierNone-3xOaeG, {
   fill: var(--main-color) !important;
 }
 
-.verifiedIcon-3oz8wo,
-#app-mount .iconBackgroundTierOne-2LhaMB, 
-#app-mount .iconBackgroundTierThree-3qw3JX, 
-#app-mount .iconBackgroundTierTwo-3bCmdc, 
-#app-mount .iconBackgroundTierNone-3MPhMJ{
-  color: var(--main-color) !important;
+.verifiedIcon-3oz8wo {
+color: var(--main-color) !important;
 }
 
-#app-mount .iconTierNone-3xOaeG {
+#app-mount .iconBackgroundTierOne-2LhaMB
+#app-mount .iconBackgroundTierThree-3qw3JX, 
+#app-mount .iconBackgroundTierTwo-3bCmdc, 
+#app-mount .iconBackgroundTierNone-3MPhMJ {
   color: white;
 }
 
