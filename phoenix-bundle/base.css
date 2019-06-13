@@ -4716,7 +4716,7 @@ animation: show-status 300ms linear;
 color: var(--main-color) !important;
 }
 
-#app-mount .iconBackgroundTierOne-2LhaMB
+#app-mount .iconBackgroundTierOne-2LhaMB,
 #app-mount .iconBackgroundTierThree-3qw3JX, 
 #app-mount .iconBackgroundTierTwo-3bCmdc, 
 #app-mount .iconBackgroundTierNone-3MPhMJ {
