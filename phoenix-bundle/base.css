@@ -4723,6 +4723,10 @@ color: var(--main-color) !important;
   color: white;
 }
 
+#app-mount .header-2o-2hj .premiumGuildIconGem-C4yUDR {
+  margin-top: 1px;
+}
+
 .input-autosize-input:focus,
 .themeDefault-24hCdX {
   background-color: var(--quaternary-color) !important;
