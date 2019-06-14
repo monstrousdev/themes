@@ -416,6 +416,11 @@ svg[name="Activity"] {
   left: 2%;
 }
 
+/* Fixes issue of home button not being shown on screen */
+.scrollerWrap-2lJEkd {
+    contain: layout style;
+}
+
 .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   margin-top: -58px;
   width: 70px;

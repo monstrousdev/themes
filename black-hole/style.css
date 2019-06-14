@@ -376,6 +376,11 @@
   height: 90%;
 }
 
+/* Fixes issue of home button not being shown on screen */
+.scrollerWrap-2lJEkd {
+    contain: layout style;
+}
+
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
   height: 100% !important;
   width: 100% !important;
