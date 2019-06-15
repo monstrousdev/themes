@@ -1977,7 +1977,6 @@ pre {
 #pluginNotice:hover {
   font-size: 14px !important;
   line-height: 38px;
-  position: fixed;
   width: 100%;
 }
 
