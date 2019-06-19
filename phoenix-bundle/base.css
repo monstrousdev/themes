@@ -1394,17 +1394,17 @@ color: var(--dnd) !important;
   z-index: 1;
 }
 
-.button-2b6hmh {
+.button-s03oPN {
   height: 53px;
   width: 35px;
   border-radius: 0px;
 }
 
-.button-2b6hmh:hover {
+.button-s03oPN:hover {
   background-color: var(--tertiary-color) !important;
 }
 
-.accountDetails-3k9g4n .username {
+.nameTag-LxtdSI .usernameContainer-1GWXka {
   font-family: Montserrat;
   color: var(--main-color);
   font-size: 13px;
@@ -1414,19 +1414,19 @@ color: var(--dnd) !important;
 
   /* 6.b. Buttons */
 
-.theme-dark .container-2Thooq  .button-2b6hmh[style*='url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg")'] {
+.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[style*='url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/mic.svg) !important;
 }
 
-.theme-dark .container-2Thooq  .button-2b6hmh[style*='url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg")'] {
+.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_MicrophoneMute"] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off.svg) !important;
 }
 
-.theme-dark .container-2Thooq  .button-2b6hmh[style*='url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg")'] {
+.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[style*='url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/sound.svg) !important;
 }
 
-.theme-dark .container-2Thooq  .button-2b6hmh[style*='url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg")'] {
+.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[style*='url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off.svg) !important;
 }
 
@@ -1440,23 +1440,23 @@ color: var(--dnd) !important;
   font-weight: 600;
 }
 
-.theme-light .container-2Thooq .button-2b6hmh svg path {
+.theme-light .container-2Thooq .button-s03oPN svg path {
   fill: #000 !important;
 }
 
-.theme-light .container-2Thooq  .button-2b6hmh[style*='url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg")'] {
+.theme-light .container-2Thooq  .button-s03oPN[style*='url("/assets/4bc527c257233fc69b94342d77bcb9ee.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/mic-dark.svg) !important;
 }
 
-.theme-light .container-2Thooq  .button-2b6hmh[style*='url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg")'] {
+.theme-light .container-2Thooq  .button-s03oPN[style*='url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off-dark.svg) !important;
 }
 
-.theme-light .container-2Thooq  .button-2b6hmh[style*='url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg")'] {
+.theme-light .container-2Thooq  .button-s03oPN[style*='url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/sound-dark.svg) !important;
 }
 
-.theme-light .container-2Thooq  .button-2b6hmh[style*='url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg")'] {
+.theme-light .container-2Thooq  .button-s03oPN[style*='url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg")'] {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off-dark.svg) !important;
 }
 
