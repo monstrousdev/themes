@@ -629,6 +629,10 @@
   background-attachment: fixed;
 }
 
+.scrollerWrap-2lJEkd {
+  contain: layout style;
+}
+
 .codeRedemption-2CtsK6,
 #app-mount .emptyStateHeader-1ADtcL, 
 #app-mount .header-2HrZI4 {
