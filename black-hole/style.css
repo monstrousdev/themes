@@ -376,11 +376,6 @@
   height: 90%;
 }
 
-/* Fixes issue of home button not being shown on screen */
-.scrollerWrap-2lJEkd {
-    contain: layout style;
-}
-
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
   height: 100% !important;
   width: 100% !important;
@@ -536,6 +531,10 @@
   background-attachment: fixed;
 }
 
+.channelTextAreaDisabled-rZtG8r {
+  opacity: 1;
+}
+
 #app-mount .children-19S4PO:after {
   display: none;
 }
@@ -667,6 +666,16 @@
 .innerNoAutocomplete-1WpcVO{
   margin: 0;
   min-height: 55px;
+}
+
+.gatedContent-3-B7qB::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 55px;
+  width: 101.5%;
+  background: var(--veil) var(--stars) top left;
+  background-attachment: fixed;
 }
 
     /* 1. Embeds, Code Blocks, and Invites */
