@@ -93,11 +93,11 @@
   9.a. Main Friends List
   9.b. Action Buttons
 
-10. Games Tab, Library, Store and Server Discovery
+10. Games Tab, Library, Store and Server Directory
   10.a. Tab
   10.b. Library
   10.c. Store
-  10.d. Server Discover
+  10.d. Server Directory
 
 11. Avatars
   11.a. Remove Mask
@@ -2558,6 +2558,7 @@ pre {
 
 .bubble-1gL_TN,
 .price-1ynJAt,
+.price-NUANu6,
 .entitledHeader-3LRNDT,
 .dot-2Q_mMZ,
 .pulsingEllipsisItem-32hhWL,
@@ -2579,21 +2580,29 @@ pre {
 }
 
   /* 10.d. Server Directory */
-  .bg-AYqtMd {
-    -webkit-mask: linear-gradient(black, transparent);
-  }
+.bg-AYqtMd {
+  -webkit-mask: linear-gradient(black, transparent);
+}
 
-  #app-mount .loading-17PYl_ {
-    background-color: var(--secondary-color);
-  }
+#app-mount .loading-17PYl_ {
+  background-color: var(--secondary-color);
+}
 
-  #app-mount .emptySearchResults-1ba__I {
-    background: transparent;
-  }
+#app-mount .emptySearchResults-1ba__I {
+  background: transparent;
+}
 
-  #app-mount .wrapper-39oAo3 {
-    background-color: var(--quaternary-color);
-  }
+#app-mount .wrapper-39oAo3,
+#app-mount .css-1wqqa50-container,
+#app-mount .css-1rckt42-menu,
+#app-mount .pageButton-MknE-_:hover {
+  background-color: var(--quaternary-color);
+}
+
+#app-mount .css-1gnr91b-option {
+  transition: all 200ms ease-in-out;
+  box-shadow: inset 0 0 10px var(--hover-color);
+}
 
 /* 11. Avatars */
   /* 11.a. Remove Mask */
@@ -3783,7 +3792,8 @@ pre {
 }
 
 .menu-Sp6bN1.alt-3btY0e {
-animation: show-status 300ms linear;
+  animation: show-status 300ms linear;
+  border: none;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH div {
@@ -4014,6 +4024,10 @@ animation: show-status 300ms linear;
 }
 
   /* 17.c. Instant Invite Modal */
+#app-mount .modal-3v8ziU {
+  background-color: var(--primary-color);
+}
+
 .inviteRow-2L02ae:hover {
   background-color: var(--tertiary-color) !important;
 }

@@ -510,6 +510,10 @@
   border-radius: 10px;
 }
 
+.searchHelpText-19imBp {
+  margin-bottom: -20px;
+}
+
 .bg-AYqtMd {
   -webkit-mask: linear-gradient(rgb(0, 0, 0) 50%, transparent);
   mask: linear-gradient(rgb(0, 0, 0) 50%, transparent);
@@ -1127,7 +1131,9 @@
 .themeDefault-24hCdX,
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
-#app-mount .interactive-1FxC7B:hover {
+#app-mount .interactive-1FxC7B:hover,
+#app-mount .price-NUANu6,
+#app-mount .playerOverflow-2Hf77M {
   background-color: var(--sheer);
 }
 
@@ -1147,7 +1153,8 @@
 #app-mount .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
 #app-mount .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,
-#app-mount .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
+#app-mount .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,
+#app-mount .pageButton-MknE-_:hover {
   background-color: var(--veil);
 }
 
@@ -1459,10 +1466,15 @@ svg[name="Activity"] {
 #app-mount .select-2TCrqx .Select-menu-outer,
 #app-mount .popout-2sKjHu,
 #app-mount .popoutList-T9CKZQ,
-#app-mount .css-181m2lf-menu {
+#app-mount .css-181m2lf-menu,
+#app-mount .css-1rckt42-menu {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
+}
+
+#app-mount .css-1wqqa50-container {
+  background-color: var(--veil);
 }
 
 #app-mount .css-12o7ek3-option {
@@ -2116,17 +2128,20 @@ svg[name="Activity"] {
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
-#app-mount .input-2VB9rf {
+#app-mount .input-2VB9rf,
+#app-mount .container-2XeR5Z {
   background-color: var(--veil);
 }
 
-#app-mount .modal-3HD5ck {
+#app-mount .modal-3HD5ck,
+#app-mount .modal-3v8ziU {
   background: var(--quatro) var(--stars) top left !important;
 background-attachment: fixed;
 }
 
 #app-mount .footer-2yfCgX,
-#app-mount .quickswitcher-3JagVE {
+#app-mount .quickswitcher-3JagVE,
+#app-mount .footer-1FPmkC {
   background: transparent;
   box-shadow: none;
   -webkit-box-shadow: none;
