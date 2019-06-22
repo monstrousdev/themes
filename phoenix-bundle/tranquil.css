@@ -267,6 +267,13 @@
   background-color: var(--primary-color) !important;
 }
 
+#app-mount .footer-1FPmkC,
+#app-mount .footer-30ewN8,
+#app-mount .content-3CCvMx:before {
+  background-color: var(--primary-color);
+  box-shadow: inset 0 1px 0 var(--quaternary-color);
+}
+
 .quickswitcher-3JagVE,
 .regionSelectModal-12e-57 {
   background-color: var(--primary-color) !important;

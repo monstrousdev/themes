@@ -727,6 +727,10 @@ svg[name="Activity"] {
   background: var(--main-color)
 }
 
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+  background: var(--quaternary-color);
+}
+
 #app-mount .bda-slist li {
   background-color: var(--secondary-color);
   border-color: var(--tertiary-color);
@@ -2493,7 +2497,9 @@ pre {
 .applicationTile-1Goy1W,
 .itemBackground-2vEldQ,
 .tileMedia-1q3guD,
-.iconCircle-1dlYo0 {
+.iconCircle-1dlYo0,
+#app-mount .card-3DjzTQ, 
+#app-mount .cardPlaceholder-1zrbbe {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -2590,6 +2596,10 @@ pre {
 
 #app-mount .emptySearchResults-1ba__I {
   background: transparent;
+}
+
+.searchHelpText-19imBp {
+  margin-bottom: -20px;
 }
 
 #app-mount .wrapper-39oAo3,
@@ -3508,7 +3518,8 @@ pre {
   background-color: var(--tertiary-color) !important;
 }
 
-.searchBar-1MOL6S {
+.searchBar-1MOL6S,
+#app-mount .container-2XeR5Z {
   background-color: var(--quaternary-color) !important;
 }
 
