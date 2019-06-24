@@ -686,6 +686,10 @@
   background-attachment: fixed;
 }
 
+.applicationStore-1pNvnv .gatedContent-3-B7qB::after {
+  display: none;
+}
+
     /* 1. Embeds, Code Blocks, and Invites */
 #app-mount  .markup-2BOw-j pre,
 #app-mount .wrapper-35wsBm,
