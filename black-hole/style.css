@@ -2042,7 +2042,7 @@ svg[name="Activity"] {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, 50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
   box-shadow: none;
   -webkit-box-shadow: none;
 }
