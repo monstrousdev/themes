@@ -1487,9 +1487,10 @@ color: var(--dnd) !important;
 
 
 /* 7. Members List */
-
+  /* 7.a. Main Member List */
 .member-3W1lQa {
   border-right: 2px solid transparent;
+  border-radius: 0;
 }
 
 .member-3W1lQa:hover,
@@ -2344,14 +2345,16 @@ pre {
 #app-mount .popout-3G62UL,
 #app-mount .unwrapped-37iUtM,
 #app-mount .inset-GQDQYw,
-#app-mount .recentlyPlayedContainer-2F3MqS {
+#app-mount .recentlyPlayedContainer-2F3MqS,
+#app-mount .wrapped-15rg6t {
   background-color: var(--secondary-color);
 }
 
 #app-mount .wrapper-3rh-14:hover,
 #app-mount .memberListItem-vHCzSI:hover,
 #app-mount .popoutContainer-3WC9HR:hover,
-#app-mount .unwrapped-37iUtM:hover {
+#app-mount .unwrapped-37iUtM:hover,
+#app-mount .wrapped-15rg6t.clickable-nnkAZy:hover {
   background-color: var(--quaternary-color);
 }
 
@@ -2460,7 +2463,9 @@ pre {
 .moreUsers-1s5Her,
 .playerOverflow-3X56UI,
 .playerOverflow-2Hf77M,
-.voiceSectionIconWrapper-3YFjHm {
+.voiceSectionIconWrapper-3YFjHm,
+#app-mount .partyMemberOverflow-1tfvpb,
+#app-mount .overflowPlayerCount-_jrNfw {
   background-color: var(--main-color) !important;
   color: white;
 }
@@ -4454,12 +4459,24 @@ pre {
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-x9kBBp,
 #app-mount .header-Qk7iwL,
-#app-mount .tierInProgress-3mBoXq {
+#app-mount .tierInProgress-3mBoXq,
+#app-mount .barBackground-2EEiLw,
+#app-mount .tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37))"],
+#app-mount .boostCount-UFqabz,
+#app-mount .guildGraphicBackground-wbfC17, 
+#app-mount .guildGraphicContainer-_IAetM,
+#app-mount .subscriptionDuration-3WXA_o,
+#app-mount .tierPill-1yRO48 {
   background-color: var(--quaternary-color) !important;
 }
 
+#app-mount .tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37))"] {
+  background-image: none !important;
+}
+
 #app-mount .info-3NKfPL,
-#app-mount .tierHeaderLocked-1a2opw {
+#app-mount .tierHeaderLocked-1a2opw,
+#app-mount .tierHeaderLocked-1s2JJz {
   background-color: var(--secondary-color);
 }
 
@@ -4705,6 +4722,7 @@ pre {
 
 .botTagRegular-2HEhHi,
 .aka-1mqp34,
+#app-mount .akaBadge-1M-1Gw,
 .wanderingCubesItem-WPXqao,
 #pubslayer .ui-tab-bar-item.selected,
 .bd-server-card.bd-server-card-pinned:after,
@@ -4752,11 +4770,14 @@ pre {
 .verified-2-ja4L g path:nth-child(2),
 .verifiedIcon-2TCIsJ g path:nth-child(2),
 .verifiedIcon-1vpk3S path:nth-of-type(2),
-#app-mount .iconTierNone-3xOaeG {
+#app-mount .iconTierNone-3xOaeG,
+.verified-1eC5dy path[fill="#4f545c"],
+.verifiedIcon-3oz8wo path[fill="#7289da"] {
   fill: var(--main-color) !important;
 }
 
-.verifiedIcon-3oz8wo {
+.verifiedIcon-3oz8wo,
+.verified-1eC5dy {
 color: var(--main-color) !important;
 }
 

@@ -211,7 +211,8 @@
   .userList-1kLH8B,
   #permissions-modal-wrapper #permissions-modal,
   .create-guild-container-new.deprecated .form.deprecated,
-  .toast {
+  .toast,
+  .inner-2VEzy9 .root-SR8cQa {
     background-image: var(--popup-background) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;

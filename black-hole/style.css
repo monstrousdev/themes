@@ -713,6 +713,7 @@
 }
 
 .aka-1mqp34,
+#app-mount .akaBadge-1M-1Gw,
 #app-mount .spoilerText-3p6IlD.hidden-HHr2R9 {
   background: var(--blurple-sheer);
 }
@@ -955,6 +956,17 @@
   background-color: transparent;
 }
 
+#app-mount .iconBackgroundTierOne-2LhaMB,
+#app-mount .iconBackgroundTierThree-3qw3JX,
+#app-mount .iconBackgroundTierTwo-3bCmdc,
+#app-mount .iconTierNone-3xOaeG,
+#app-mount .iconBackgroundTierOne-2LhaMB,
+#app-mount .iconBackgroundTierThree-3qw3JX,
+#app-mount .iconBackgroundTierTwo-3bCmdc,
+#app-mount .iconTierNone-3xOaeG {
+  color: var(--veil);
+}
+
 #app-mount .paginationItem-2lUq0s:after {
   background: var(--sheer);
 }
@@ -1084,7 +1096,11 @@
 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:hover,
-#app-mount .tierHeaderLocked-1s2JJz {
+#app-mount .tierHeaderLocked-1s2JJz,
+#app-mount .guildGraphicBackground-wbfC17, 
+#app-mount .guildGraphicContainer-_IAetM,
+#app-mount .subscriptionDuration-3WXA_o,
+#app-mount .tierPill-1yRO48 {
   background-color: var(--sheer);
 }
 
@@ -1137,7 +1153,8 @@
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
 #app-mount .interactive-1FxC7B:hover,
 #app-mount .price-NUANu6,
-#app-mount .playerOverflow-2Hf77M {
+#app-mount .playerOverflow-2Hf77M,
+#app-mount .barBackground-2EEiLw {
   background-color: var(--sheer);
 }
 
@@ -2145,7 +2162,8 @@ background-attachment: fixed;
 
 #app-mount .footer-2yfCgX,
 #app-mount .quickswitcher-3JagVE,
-#app-mount .footer-1FPmkC {
+#app-mount .footer-1FPmkC,
+#app-mount .footer-30ewN8 {
   background: transparent;
   box-shadow: none;
   -webkit-box-shadow: none;
