@@ -16,15 +16,14 @@
 .menu-Sp6bN1 {
   display: flex;
   width: fit-content;
+  border: 2px solid var(--main-color);
 }
 
-.popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
+.popoutBottom-2GAFPg[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
   width: fit-content !important;
   top: 58px !important;
   left: 190px !important;
   transform: translateX(-50%) !important;
-  border: 2px solid var(--main-color);
-  animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
 }
 
 @keyframes popoutanim-min {
