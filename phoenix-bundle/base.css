@@ -3854,6 +3854,7 @@ pre {
   vertical-align: top;
   background: transparent;
   overflow: hidden;
+  transform: perspective(1px) scale(1);
   animation: status 300ms ease backwards;
 }
 
@@ -4653,7 +4654,7 @@ pre {
 
 @keyframes status {
   from {
-    transform: scale(0);
+    transform: perspective(1px) scale(0);
     opacity: 0
   }
 }
