@@ -128,7 +128,9 @@
 *     B. Upload Modal 
 *     C. Join Guild Modal
 *     D. Messages Modal, Games Download Modal, Screenshare
-*     E. Incoming Call
+*     E. Incoming Call & Phone Verification
+*     F. Reactions Modal & Server Invite Modal
+*     G. Gift Modal
 *  XI. Keyframes
 *  XII. Custom CSS
 */
@@ -282,11 +284,17 @@
   border-color: var(--tres)
 }
 
-.container-2Thooq,
+.container-1giJp5,
+.container-3baos1,
 .container-1UB9sr,
 .payment-xT17Mq,
 .expandedInfo-3kfShd {
   background-color: transparent !important;
+}
+
+.container-1giJp5,
+.container-3baos1 {
+  border: none;
 }
 
 .hoverablePayment-Yc6mK7:hover {
@@ -1384,6 +1392,10 @@ svg[name="Activity"] {
   color: var(--blurple);
 }
 
+#app-mount .menu-Sp6bN1 {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 .item-1GzJrl {
   padding: 10px;
@@ -1398,11 +1410,6 @@ svg[name="Activity"] {
 
 .label-1Y-LW5 {
   display: none;
-}
-
-.menu-Sp6bN1 {
-  display: flex;
-  width: fit-content;
 }
 
 .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
@@ -1422,28 +1429,28 @@ svg[name="Activity"] {
   animation: popoutanim-status 300ms cubic-bezier(.4, 0, 0, 1);
 }
 
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[role="dialog"][style*="height: 20px"],
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[role="dialog"][style*="height: 20px"] .menu-Sp6bN1 {
-  height: 70px !important;
+.layer-v9HyYc[style*="left: 82px; bottom: 56px"],
+.layer-v9HyYc[style*="left: 82px; bottom: 56px"] .menu-Sp6bN1 {
+  height: fit-content !important;
 }
 
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[role="dialog"][style*="z-index: 1001"] .menu-Sp6bN1 .separator-2zcjq8,
+.layer-v9HyYc[style*="left: 82px; bottom: 56px"] {
+  bottom: 54px !important;
+  left: 187.5px !important;
+  transform: translateX(-50%);
+}
+
+.menu-Sp6bN1 {
+  width: fit-content;
+}
+
+.menu-Sp6bN1 .separator-2zcjq8,
 .alt-3btY0e .item-1GzJrl:not(:last-child) * {
   display: none;
 }
 
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[role="dialog"][style*="z-index: 1001"] .menu-Sp6bN1.alt-3btY0e {
-  display: flex;
- justify-content: space-between;
- align-items: center;
-}
-
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[role="dialog"][style*="height: 20px"] .menu-Sp6bN1.alt-3btY0e {
-  align-items: flex-start;
-}
-
-.popoutTopLeft-3B0mFf.noArrow-2foL9g[role="dialog"][style*="z-index: 1001"] .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:not(:last-child) {
-  pointer-events: all;
+.alt-3btY0e .item-1GzJrl {
+  display: inline-block;
   height: 41px;
   width: 41px;
   margin: .5vw;
@@ -1473,9 +1480,15 @@ svg[name="Activity"] {
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
   display: block;
   width: 100%;
-  bottom: 0;
-  height: 32px;
+  top: 0;
+  padding: 2px;
+  height: fit-content;
   position: absolute;
+  transform: translateY(-95%);
+  box-sizing: border-box;
+  margin: 0;
+  background: var(--quatro)  var(--stars) top left;
+  background-attachment: fixed;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child .justifyStart-2NDFzi {
@@ -1483,7 +1496,8 @@ svg[name="Activity"] {
 }
 
 #app-mount .item-1GzJrl:last-child:hover {
-  background-color: transparent;
+  background: var(--quatro)  var(--stars) top left;
+  background-attachment: fixed;
 }
 
 .alt-3btY0e .item-1GzJrl:not(:last-child):hover {
@@ -2111,7 +2125,8 @@ svg[name="Activity"] {
 
 /* X. Modals */
   /* A. User Modal */
-#app-mount .inner-1JeGVc .root-SR8cQa {
+#app-mount .inner-1ilYF7 .root-SR8cQa,
+#app-mount .slide-2pHaq5 {
   background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
   border-radius: 10px;
 }
@@ -2199,9 +2214,14 @@ background-attachment: fixed;
 }
 
   /* C. Join Guild Modal */
-#app-mount .action-1lSjCi {
+#app-mount .action-1lSjCi{
   background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
+}
+
+#app-mount .slide-2pHaq5 .footer-3rDWdC {
+  background: transparent;
+  box-shadow: inset 0 1px 0 var(--blurple-sheer);
 }
 
 #app-mount .create-3jownz .actionIcon-2IISM_ {
@@ -2340,6 +2360,25 @@ background-attachment: fixed;
   background: var(--online-sheer);
 }
 
+  /* G. Gift Modal */
+#app-mount .modal-yWgWj-,
+#app-mount .inner-1ilYF7 {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+  border-radius: 5px;
+}
+
+#app-mount .footer-3rDWdC {
+  background: transparent;
+}
+
+#app-mount .tierMarker-5HkGJ_[style*="background-image: linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"] {
+  background: linear-gradient(to right, var(--quatro), var(--veil)) !important;
+}
+
+  /* H. Quick Switcher & Keyboard Shortcuts */
+#app-mount .keybindShortcut-1BD6Z1 span {
+  background-color: var(--blurple);
+}
 
 /* XI. Keyframes */
 

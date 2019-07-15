@@ -1392,22 +1392,33 @@ color: var(--dnd) !important;
 
 /* 6. Account Area */
   /* 6.a. Main Container */
+#app-mount .container-1giJp5 {
+  background-color: var(--quaternary-color);
+  border-bottom: transparent;
+}
+
+#app-mount .container-3baos1 {
+  background: transparent;
+  border-bottom: transparent;
+  padding-right: 0;
+}
+
 .container-2Thooq {
   height: 53px !important;
   z-index: 1;
 }
 
-.button-s03oPN {
+.container-3baos1 .button-2JbWXs {
   height: 53px;
   width: 35px;
   border-radius: 0px;
 }
 
-.button-s03oPN:hover {
+.button-2JbWXs:hover {
   background-color: var(--tertiary-color) !important;
 }
 
-.nameTag-LxtdSI .usernameContainer-1GWXka {
+.nameTag-3uD-yy .username-2BIRiC {
   font-family: Montserrat;
   color: var(--main-color);
   font-size: 13px;
@@ -1420,61 +1431,61 @@ color: var(--dnd) !important;
 }
 
   /* 6.b. Buttons */
-.theme-dark .container-2Thooq  .buttonIcon-3yYVOH path {
-  display: none;
-}
-
-.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_Microphone"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/mic.svg) center/100% no-repeat !important;
-}
-
-.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_MicrophoneMute"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off.svg) center/100% no-repeat !important;
-}
-
-.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_Headset"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/sound.svg) center/100% no-repeat !important;
-}
-
-.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_HeadsetDeafen"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off.svg) center/100% no-repeat !important;
-}
-
-.theme-dark .container-2Thooq  .buttonIcon-3yYVOH[name="Gear"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/settings.svg) center/100% no-repeat !important;
-}
+  .theme-dark .container-3baos1 .buttonIcon-onTTxP path {
+    display: none;
+  }
+  
+  .theme-dark .container-3baos1 .buttonIcon-onTTxP[name="Nova_Microphone"] {
+    background: url(https://monstrousdev.github.io/themes/assets/svgs/mic.svg) center/100% no-repeat !important;
+  }
+  
+  .theme-dark .container-3baos1 .buttonIcon-onTTxP[name="Nova_MicrophoneMute"] {
+    background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off.svg) center/100% no-repeat !important;
+  }
+  
+  .theme-dark .container-3baos1 .buttonIcon-onTTxP[name="Nova_Headset"] {
+    background: url(https://monstrousdev.github.io/themes/assets/svgs/sound.svg) center/100% no-repeat !important;
+  }
+  
+  .theme-dark .container-3baos1 .buttonIcon-onTTxP[name="Nova_HeadsetDeafen"] {
+    background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off.svg) center/100% no-repeat !important;
+  }
+  
+  .theme-dark .container-3baos1 .buttonIcon-onTTxP[name="Gear"] {
+    background: url(https://monstrousdev.github.io/themes/assets/svgs/settings.svg) center/100% no-repeat !important;
+  }
 
   /* 6.c. Light Theme Recolor */
 .theme-light .container-2Thooq {
   color: #000;
 }
 
-.theme-light .accountDetails-3k9g4n .discriminator {
+.theme-light .nameTag-3uD-yy .discriminator-3-Lf_x {
   opacity: .7;
   font-weight: 600;
 }
 
-.theme-light .container-2Thooq .button-s03oPN svg path {
+.theme-light .container-3baos1 .buttonIcon-onTTxP svg path {
   fill: #000 !important;
 }
 
-.theme-light .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_Microphone"] {
+.theme-light .container-3baos1 .buttonIcon-onTTxP[name="Nova_Microphone"] {
   background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-dark.svg) center/100% no-repeat !important;
 }
 
-.theme-light .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_MicrophoneMute"] {
+.theme-light .container-3baos1 .buttonIcon-onTTxP[name="Nova_MicrophoneMute"] {
   background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off-dark.svg) center/100% no-repeat !important;
 }
 
-.theme-light .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_Headset"] {
+.theme-light .container-3baos1 .buttonIcon-onTTxP[name="Nova_Headset"] {
   background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-dark.svg) center/100% no-repeat !important;
 }
 
-.theme-light .container-2Thooq  .buttonIcon-3yYVOH[name="Nova_HeadsetDeafen"] {
+.theme-light .container-3baos1 .buttonIcon-onTTxP[name="Nova_HeadsetDeafen"] {
   background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off-dark.svg) center/100% no-repeat !important;
 }
 
-.theme-light .container-2Thooq  .buttonIcon-3yYVOH[name="Gear"] {
+.theme-light .container-3baos1 .buttonIcon-onTTxP[name="Gear"] {
   background: url(https://monstrousdev.github.io/themes/assets/svgs/settings-dark.svg) center/100% no-repeat !important;
 }
 
