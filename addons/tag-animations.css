@@ -1,56 +1,56 @@
 /* popin with pulse */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="254362351170617345"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="172426681800196096"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="252460828157018112"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="316563263179456513"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="150967530075324416"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="234148582523928576"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="251465413995528194"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="227648235097817089"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="210629330135547904"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="143017752775360512"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="82987644316815360"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="166365757561634816"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="324680910123302922"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="213220786805145600"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="336678828233588736"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="531614184526577675"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="433698341008965633"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="312782599439515650"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="152430800241950720"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="438846426441711616"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="254362351170617345"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="172426681800196096"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="252460828157018112"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="316563263179456513"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="150967530075324416"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="234148582523928576"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="251465413995528194"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="227648235097817089"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="210629330135547904"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="143017752775360512"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="82987644316815360"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="166365757561634816"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="324680910123302922"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="213220786805145600"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="336678828233588736"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="531614184526577675"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="433698341008965633"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="312782599439515650"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="152430800241950720"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
 
 /* popin */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="131414719666847745"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="147889058670968844"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="498444458845536257"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="197477050569719808"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="131414719666847745"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="147889058670968844"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="197477050569719808"]:hover::before {
   animation: popoutanim .2s;
 }
 
 /* fall and bounce */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="282138006738042880"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244392852950482944"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="282138006738042880"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="244392852950482944"]:hover::before {
   animation: fallBounce 1s;
 }
 
 /* spin in */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="173177738914562048"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="130875493850284032"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="519790100956184586"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="96563253466898432"]:hover::before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="422110084039180318"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="173177738914562048"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="130875493850284032"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="519790100956184586"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb*="422110084039180318"]:hover::before {
   animation: scaleSpin .4s;
 }
 
 /* fade from right */
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="244363360886325248"]:hover:before,
-.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="296018550009626628"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="244363360886325248"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb*="296018550009626628"]:hover::before {
   animation: fadeFromRight .2s;
 }
 
