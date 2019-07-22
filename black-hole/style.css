@@ -319,7 +319,8 @@
 }
 
 .defaultIndicator-G3c16x,
-.paymentPane-3bwJ6A {
+.paymentPane-3bwJ6A,
+#app-mount .defaultIndicator-2X8Auf {
   background-color: var(--sheer) !important;
 }
 
@@ -1227,7 +1228,8 @@
 #app-mount .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
 #app-mount .boostCount-UFqabz,
-#app-mount .tag-2gHSR7 {
+#app-mount .tag-2gHSR7,
+#app-mount .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
   background-color: var(--blurple-sheer);
 }
 
@@ -2044,13 +2046,15 @@ svg[name="Activity"] {
 }
 
   /* I. Game Preview */
-#app-mount .gamePreview-9weYR2 {
+#app-mount .gamePreview-9weYR2,
+#app-mount .container-jGk-CT {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
 .news-2KwXHF,
-#app-mount .body-1SVoBw {
+#app-mount .body-1SVoBw,
+#app-mount .news-2KwXHF {
   background: transparent;
 }
 
