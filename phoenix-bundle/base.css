@@ -579,6 +579,14 @@ svg[name="Activity"] {
   display: none;
 }
 
+.base-3dtUhz {
+  border-radius: 0 !important;
+}
+
+.wrapper-1Rf91z {
+  border-radius: 0;
+}
+
 
 
 /* 3. User Settings */
@@ -1509,8 +1517,8 @@ color: var(--dnd) !important;
   border-color: var(--main-color);
 }
 
-.member-3W1lQa:hover .content-OzHfo4,
-.member-3W1lQa.popout-open .content-OzHfo4 {
+.member-3W1lQa:hover,
+.member-3W1lQa.popout-open {
   background-color: var(--quaternary-color) !important;
   color: #fff;
 }
@@ -2653,80 +2661,64 @@ pre {
 }
   
   /* 11.b. Status */
-.member-3W1lQa [class*="status-"] {
-  transition: all ease .05s
+.mask-1l8v16 {
+  contain: none;
 }
 
-#app-mount .status-oxiHuE:not(.status-3fQvEa) {
-  height: 100% !important;
-  width: 100% !important;
-  margin: 0;
-  top: 0;
-  left: 0;
-  background: transparent;
-  border:2px solid;
-  box-sizing: border-box;
-  transition-duration: .5s;
-  box-shadow: none;
-  pointer-events: none;
+.wrapper-3t9DeA[class*="avatar"] rect[x="22"][y="22"],
+.wrapper-3t9DeA svg[height="15"],
+.wrapper-3t9DeA rect[mask*="svg-mask-status"] {
+  opacity: 0;
 }
 
-.status-oxiHuE:not(.status-3fQvEa).online-2S838R {
-   border-color: var(--online) !important;
+.wrapper-3t9DeA[class*="avatar" i],
+.wrapper-3t9DeA[style*="width: 80px;"],
+.wrapper-3t9DeA.listAvatar-1NlAhb {
+  border: 2px solid var(--offline);
+  border-radius: var(--roundness);
+  transition: border-color 200ms ease-in-out;
 }
 
-.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT {
+.wrapper-3t9DeA[aria-label*="Online"] {
+  border-color: var(--online) !important;
+}
+
+.wrapper-3t9DeA[aria-label*="Idle"] {
   border-color: var(--idle) !important;
 }
 
-.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {
+.wrapper-3t9DeA[aria-label*="Do Not Disturb"] {
   border-color: var(--dnd) !important;
 }
 
-.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {
-  border-color: var(--streaming) !important;
+.wrapper-3t9DeA[aria-label*="Streaming"] {
+  border-color: var(--streaming);
 }
 
-.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek {
-  border-color: var(--offline) !important;
+.wrapper-3t9DeA[aria-label*="Invisible"] {
+  stroke: var(--invisible) !important;
 }
 
-.status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0 {
-  border-color: var(--invisible) !important;
+.avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
+  width: 84px;
+  height: 84px;
+  transition: opacity 200ms ease-in-out;
 }
 
   /* 11.c. Typing */
-#app-mount .status-oxiHuE.typing-1KJk_j {
-  background-color: rgba(0, 0, 0, .6);
-}
-
-.status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  height: 3px;
-  width: 3px;
-}
-
-.status-oxiHuE.typing-1KJk_j.online-2S838R.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--online) !important;
-}
-
-.status-oxiHuE.typing-1KJk_j.idle-3DEnRT.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--idle) !important;
-}
-
-.status-oxiHuE.typing-1KJk_j.dnd-1_xrcq.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--dnd) !important;
-}
-
-.status-oxiHuE.typing-1KJk_j.streaming-2_dnHe.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--streaming) !important;
-}
-
-.status-oxiHuE.typing-1KJk_j.offline-3qoTek.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--offline) !important;
-}
-
-.status-oxiHuE.typing-1KJk_j.invisible-1kp8Z0.typing-1KJk_j .pulsingEllipsisItem-32hhWL {
-  background-color: var(--invisible) !important;
+.wrapper-3t9DeA[class*="avatar"] rect[width="25"] {
+  fill: rgba(0,0,0,0.6);
+  x: 0 !important;
+  y: 0 !important;
+  height: 32px;
+  width: 32px;
+  opacity: 1;
+  transition: fill 500ms ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/ellipsis.svg) center/25px no-repeat;
+  mask: url(https://monstrousdev.github.io/themes/assets/svgs/ellipsis.svg);
 }
 
 .avatarUploaderInner-3UNxY3 {
@@ -3845,6 +3837,11 @@ pre {
   border-radius: 0;
 }
 
+#popout_1 {
+  left: 72px !important;
+  bottom: 53px !important;
+}
+
 .popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="height: 80px;"] {
   height: 100px !important;
 }
@@ -3886,10 +3883,16 @@ pre {
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
+  position: absolute;
   display: block;
   width: 100%;
-  margin-top: -10px;
-  height: 42px;
+  margin-top: -30px;
+  height: 30px;
+  background-color: var(--primary-color);
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child:hover {
+  background-color: var(--primary-color);
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child .justifyStart-2NDFzi {
@@ -3965,19 +3968,37 @@ pre {
   transition: all 200ms ease-in-out;
 }
 
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"].online-2S838R:after {
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position:center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover .statusIconText-3b4TkH:after {
+  opacity: 1;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(1) .statusIconText-3b4TkH:after {
   background-image: url(https://monstrousdev.github.io/themes/assets/status/online.svg);
 }
 
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"].idle-3DEnRT:after {
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(3) .statusIconText-3b4TkH:after {
   background-image: url(https://monstrousdev.github.io/themes/assets/status/idle.svg);
 }
 
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"].dnd-1_xrcq:after {
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(4) .statusIconText-3b4TkH:after {
   background-image: url(https://monstrousdev.github.io/themes/assets/status/dnd.svg);
 }
 
-.menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"].invisible-1kp8Z0:after {
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(5) .statusIconText-3b4TkH:after {
   background-image: url(https://monstrousdev.github.io/themes/assets/status/invisi.svg);
 }
 
@@ -4706,6 +4727,15 @@ pre {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes show-custom {
+  from {
+    transform: translateY(100%) translateX(0%) translateZ(0px);
+  }
+  to {
+    opacity: 1;
   }
 }
 
