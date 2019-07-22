@@ -891,17 +891,17 @@
   background-attachment: fixed;
 }
 
-#app-mount .member-3W1lQa .content-OzHfo4  {
+#app-mount .member-3W1lQa  {
   border-right: 2px solid transparent;
 }
 
-#app-mount .member-3W1lQa:hover .content-OzHfo4 {
+#app-mount .member-3W1lQa:hover {
   background: transparent;
   border-right-color: var(--blurple);
 }
 
-#app-mount .member-3W1lQa.popout-open .content-OzHfo4, 
-#app-mount .member-3W1lQa.popout-open:hover .content-OzHfo4,
+#app-mount .member-3W1lQa.popout-open, 
+#app-mount .member-3W1lQa.popout-open:hover,
 #app-mount .codeRedemptionRedirect-1wVR4b,
 #app-mount .elevationHigh-1PneE4 {
   background: var(--veil) var(--stars) top left;
@@ -1226,7 +1226,8 @@
 #app-mount .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, 
 #app-mount .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
-#app-mount .boostCount-UFqabz {
+#app-mount .boostCount-UFqabz,
+#app-mount .tag-2gHSR7 {
   background-color: var(--blurple-sheer);
 }
 
@@ -1384,17 +1385,15 @@ svg[name="Activity"] {
 #app-mount .menu-Sp6bN1 {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
+  border-radius: 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 #app-mount .item-1GzJrl:hover {
   background: var(--uno)  var(--stars) top left;
   background-attachment: fixed;
   color: var(--blurple);
-}
-
-#app-mount .menu-Sp6bN1 {
-  display: flex;
-  flex-flow: row wrap;
 }
 
 .item-1GzJrl {
