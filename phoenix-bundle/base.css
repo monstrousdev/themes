@@ -2696,6 +2696,22 @@ pre {
   opacity: 0;
 }
 
+.wrapper-3t9DeA[class*="avatar"][style*="height: 24px"] rect[mask*="svg-mask-status"] {
+  height: 22px;
+  width: 24px;
+}
+
+.wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[mask*="svg-mask-status"],
+.wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[y="22"] {
+  height: 30px;
+  width: 32px;
+}
+
+.wrapper-3t9DeA[class*="avatar"][style*="height: 80px"] rect[mask*="svg-mask-status"] {
+  height: 78px;
+  width: 80px;
+}
+
 .wrapper-3t9DeA rect[mask*="svg-mask-status"],
 .wrapper-3t9DeA[class*="avatar"] rect[y="22"] {
   x: 1 !important;
