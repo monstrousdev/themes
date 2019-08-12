@@ -2696,7 +2696,7 @@ pre {
   opacity: 0;
 }
 
-.wrapper-3t9DeA[class*="avatar"][style*="height: 24px"] rect[mask*="svg-mask-status"] {
+.wrapper-3t9DeA[style*="height: 24px"] rect[mask*="svg-mask-status"] {
   height: 22px;
   width: 24px;
 }
