@@ -2716,7 +2716,7 @@ pre {
 .wrapper-3t9DeA[class*="avatar"] rect[y="22"] {
   x: 1 !important;
   y: 1 !important;
-  border-radius: var(--roundness) !important;
+  rx: var(--roundness) !important;
   mask: none !important;
   -webkit-mask: none !important;
   fill: transparent !important;
