@@ -1035,6 +1035,32 @@ color: var(--dnd) !important;
   background: var(--dnd) !important;
 }
 
+#app-mount .expandedFolderBackground-2sPsd-, 
+#app-mount .folder-21wGz3 {
+  background-color: transparent;
+}
+
+#app-mount .expandedFolderBackground-2sPsd-::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% + 6px);
+  width: 100%;
+  opacity: 0.2;
+  background-color: var(--hover-color);
+}
+
+#app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.2)"],
+#app-mount .folder-21wGz3, 
+#app-mount .folderIconWrapper-226oVY {
+  background-color: transparent !important;
+}
+
+#app-mount svg[name="Folder"][style*="color: rgb(114, 137, 218)"] {
+  color: var(--main-color) !important;
+}
+
   /* 4.c. Guilds Add */
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig {
   background-color: var(--main-color);
@@ -2665,38 +2691,44 @@ pre {
   contain: none;
 }
 
-.wrapper-3t9DeA[class*="avatar"] rect[x="22"][y="22"],
-.wrapper-3t9DeA svg[height="15"],
-.wrapper-3t9DeA rect[mask*="svg-mask-status"] {
+.wrapper-3t9DeA svg[height="15"] {
   opacity: 0;
 }
 
-.wrapper-3t9DeA[class*="avatar" i],
-.wrapper-3t9DeA[style*="width: 80px;"],
-.wrapper-3t9DeA.listAvatar-1NlAhb {
-  border: 2px solid var(--offline);
-  border-radius: var(--roundness);
-  transition: border-color 200ms ease-in-out;
+.wrapper-3t9DeA rect[mask*="svg-mask-status"],
+.wrapper-3t9DeA[class*="avatar"] rect[y="22"] {
+  x: 1 !important;
+  y: 1 !important;
+  border-radius: var(--roundness) !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  fill: transparent !important;
+  stroke-width: 2px;
 }
 
-.wrapper-3t9DeA[aria-label*="Online"] {
-  border-color: var(--online) !important;
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#43b581"] {
+  -webkit-text-stroke-color: var(--online);
+  stroke: var(--online);
 }
 
-.wrapper-3t9DeA[aria-label*="Idle"] {
-  border-color: var(--idle) !important;
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#f04747"] {
+  -webkit-text-stroke-color: var(--dnd);
+  stroke: var(--dnd);
 }
 
-.wrapper-3t9DeA[aria-label*="Do Not Disturb"] {
-  border-color: var(--dnd) !important;
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#faa61a"] {
+  -webkit-text-stroke-color: var(--idle);
+  stroke: var(--idle);
 }
 
-.wrapper-3t9DeA[aria-label*="Streaming"] {
-  border-color: var(--streaming);
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#593695"] {
+  -webkit-text-stroke-color: var(--streaming);
+  stroke: var(--streaming);
 }
 
-.wrapper-3t9DeA[aria-label*="Invisible"] {
-  stroke: var(--invisible) !important;
+.wrapper-3t9DeA[class*="avatar"] rect:not([mask*="svg-mask-status"])[y="22"][fill="transparent"] {
+  -webkit-text-stroke-color: var(--offline);
+  stroke: var(--offline);
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
@@ -2707,7 +2739,7 @@ pre {
 
   /* 11.c. Typing */
 .wrapper-3t9DeA[class*="avatar"] rect[width="25"] {
-  fill: rgba(0,0,0,0.6);
+  fill: rgba(0,0,0,0.8);
   x: 0 !important;
   y: 0 !important;
   height: 32px;
