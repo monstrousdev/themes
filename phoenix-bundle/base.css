@@ -3456,11 +3456,17 @@ pre {
 
 .roleRemoveIcon-2-TeGW {
   display: block;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
 }
 
 .role-2irmRk:hover .roleCircleButton-377y0l {
   transition: width 0.2s;
   width: 22px;
+}
+
+.role-2irmRk:hover .roleRemoveIcon-2-TeGW {
+  opacity: 1;
 }
 
 .addButtonIcon-1NMJ8u {
