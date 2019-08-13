@@ -320,7 +320,8 @@
 
 .defaultIndicator-G3c16x,
 .paymentPane-3bwJ6A,
-#app-mount .defaultIndicator-2X8Auf {
+#app-mount .defaultIndicator-2X8Auf,
+#app-mount .gemIndicatorContainer-2jdECl {
   background-color: var(--sheer) !important;
 }
 
@@ -455,7 +456,8 @@
 }
 
 #app-mount .dragPlaceholder-D9-haY,
-#app-mount .acronym-2mOFsV {
+#app-mount .acronym-2mOFsV,
+#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
   background-color: var(--blurple-sheer);
   height: 100%;
   width: 100%;
@@ -495,6 +497,34 @@
 
 #app-mount .guildsError-b7zR5H:hover {
   background: var(--dnd);
+}
+
+  /* C. Guild Folders */
+#app-mount .expandedFolderBackground-2sPsd-, 
+#app-mount .folder-21wGz3 {
+  background-color: transparent;
+}
+
+#app-mount .expandedFolderBackground-2sPsd-::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% + 6px);
+  width: 100%;
+  opacity: 0.2;
+  background-color: var(--blurple-sheer);
+  border-radius: calc(var(--roundness)/5);
+}
+
+#app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.2)"],
+#app-mount .folder-21wGz3, 
+#app-mount .folderIconWrapper-226oVY {
+  background-color: transparent !important;
+}
+
+#app-mount svg[name="Folder"][style*="color: rgb(114, 137, 218)"] {
+  color: var(--blurple) !important;
 }
 
 /* V. Pages */
@@ -994,7 +1024,8 @@
 #app-mount .emptyState-2-sT0o,
 #app-mount .loading-17PYl_,
 #app-mount .userHovered-2_fT4Z:active,
-#app-mount .wrapperAudio-1jDe0Q  {
+#app-mount .wrapperAudio-1jDe0Q,
+#app-mount .guildGraphicContainer-39I_Pl {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -1063,7 +1094,8 @@
 #app-mount .popout-2xBvMR,
 #app-mount .outer-2IVh5n,
 #app-mount .popout-3G62UL,
-#app-mount  .recentlyPlayedContainer-2F3MqS {
+#app-mount  .recentlyPlayedContainer-2F3MqS,
+#app-mount .guildPopout-3CgKqR {
   background: var(--uno)  var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -1086,7 +1118,9 @@
 #app-mount .cardPrimaryEditable-3KtE4g,
 #app-mount .genreTag-3QLRUJ,
 #app-mount  .content-35aVm0,
-#app-mount .emptyCard-3CNsz2 {
+#app-mount .emptyCard-3CNsz2,
+#app-mount .guildGraphicBackground-UDBjuF,
+#app-mount .info-3UT5_W {
   background: var(--blurple-sheer) var(--stars) top left fixed;
 }
 
@@ -1109,6 +1143,7 @@
 #app-mount .guildGraphicBackground-wbfC17, 
 #app-mount .guildGraphicContainer-_IAetM,
 #app-mount .subscriptionDuration-3WXA_o,
+#app-mount .subscriptionDuration-UvxLGw,
 #app-mount .tierPill-1yRO48 {
   background-color: var(--sheer);
 }
@@ -2129,7 +2164,8 @@ svg[name="Activity"] {
 /* X. Modals */
   /* A. User Modal */
 #app-mount .inner-1ilYF7 .root-SR8cQa,
-#app-mount .slide-2pHaq5 {
+#app-mount .slide-2pHaq5,
+#app-mount .root-1gCeng {
   background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
   border-radius: 10px;
 }
