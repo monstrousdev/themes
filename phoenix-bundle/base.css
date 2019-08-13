@@ -2869,7 +2869,7 @@ pre {
 .authedApp-mj2Hmd,
 .modal-3HD5ck .message-2qRu38,
 .theme-dark .autocomplete-1vrmpx,
-.menu-Sp6bN1,
+#app-mount .menu-Sp6bN1,
 #permissions-modal-wrapper .role-side {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
@@ -3589,6 +3589,7 @@ pre {
   transform-origin: 50% -10%;
   z-index: 99;
   overflow: visible !important;
+  box-shadow: none;
 }
 
 .menu-Sp6bN1 {
