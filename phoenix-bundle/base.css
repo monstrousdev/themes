@@ -1049,6 +1049,7 @@ color: var(--dnd) !important;
   width: 100%;
   opacity: 0.2;
   background-color: var(--hover-color);
+  border-radius: calc(var(--roundness)/5);
 }
 
 #app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.2)"],
@@ -2001,6 +2002,10 @@ pre {
   background-color: transparent !important;
 }
 
+.notice-2FJMB4 {
+  top: 68px;
+}
+
 .notice-2FJMB4 .textLink-27KAGV {
   font-size: 0px !important;
   line-height: 18px;
@@ -2692,10 +2697,6 @@ pre {
   contain: none;
 }
 
-.wrapper-3t9DeA svg[height="15"] {
-  opacity: 0;
-}
-
 .wrapper-3t9DeA[style*="height: 24px"] rect[mask*="svg-mask-status"] {
   height: 22px;
   width: 24px;
@@ -2712,33 +2713,59 @@ pre {
   width: 80px;
 }
 
-.wrapper-3t9DeA rect[mask*="svg-mask-status"],
-.wrapper-3t9DeA[class*="avatar"] rect[y="22"] {
+.wrapper-3t9DeA foreignObject+rect[mask*="svg-mask-status"],
+.wrapper-3t9DeA[class*="avatar"] foreignObject+rect[y="22"] {
   x: 1 !important;
   y: 1 !important;
   rx: var(--roundness) !important;
   mask: none !important;
   -webkit-mask: none !important;
-  fill: transparent !important;
+  fill-opacity: -.1 !important;
   stroke-width: 2px;
 }
 
-.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#43b581"] {
+.wrapper-3t9DeA foreignObject+svg+rect[mask*="svg-mask-status"],
+.wrapper-3t9DeA[class*="avatar"] foreignObject+svg+rect[y="22"] {
+  opacity: 0;
+}
+
+#app-mount svg.cursorDefault-dsQJ1n rect {
+  position: absolute;
+  height: 32px !important;
+  width: 32px !important;
+  top: 0;
+  left: 0;
+  mask: none !important;
+  transform: translate(-14.5px, -17px);
+  fill-opacity: 0;
+  stroke-width: 2px;
+  rx: var(--roundness) !important;
+}
+
+#app-mount svg:not(:root) {
+  overflow: visible !important;
+}
+
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#43b581"],
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(67, 181, 129, 1)"] {
   -webkit-text-stroke-color: var(--online);
   stroke: var(--online);
 }
 
-.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#f04747"] {
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#f04747"],
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(240, 71, 71, 1)"] {
   -webkit-text-stroke-color: var(--dnd);
   stroke: var(--dnd);
 }
 
-.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#faa61a"] {
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#faa61a"],
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(250, 166, 26, 1)"] {
   -webkit-text-stroke-color: var(--idle);
   stroke: var(--idle);
 }
 
-.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#593695"] {
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#593695"],
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(89, 54, 149, 1)"] {
   -webkit-text-stroke-color: var(--streaming);
   stroke: var(--streaming);
 }
@@ -2755,8 +2782,8 @@ pre {
 }
 
   /* 11.c. Typing */
-.wrapper-3t9DeA[class*="avatar"] rect[width="25"] {
-  fill: rgba(0,0,0,0.8);
+#app-mount .wrapper-3t9DeA[class*="avatar"] foreignObject+svg+rect[width="25"] {
+  fill: rgba(0, 0, 0, .5);
   x: 0 !important;
   y: 0 !important;
   height: 32px;
@@ -2766,14 +2793,35 @@ pre {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/ellipsis.svg) center/25px no-repeat;
-  mask: url(https://monstrousdev.github.io/themes/assets/svgs/ellipsis.svg);
+  opacity: 1;
 }
 
 .avatarUploaderInner-3UNxY3 {
   background-color: var(--main-color);
 }
 
+#app-mount svg.cursorDefault-dsQJ1n svg.dots-3Bkt3k g{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-11.5px, -10px);
+}
+
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(67, 181, 129, 1)"]+svg.dots-3Bkt3k g circle {
+  fill: var(--online) !important;
+}
+
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(240, 71, 71, 1)"]+svg.dots-3Bkt3k g circle {
+  fill: var(--dnd) !important;
+}
+
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(250, 166, 26, 1)"]+svg.dots-3Bkt3k g circle {
+  fill: var(--idle) !important;
+}
+
+#app-mount svg.cursorDefault-dsQJ1n rect[fill="rgba(89, 54, 149, 1)"]+svg.dots-3Bkt3k g circle {
+  fill: var(--streaming) !important;
+}
 
 /* 12. Shadows */
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
