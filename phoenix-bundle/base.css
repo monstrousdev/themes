@@ -4005,18 +4005,23 @@ pre {
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
-  position: absolute;
-  display: block;
-  width: 100%;
-  margin-top: -30px;
-  height: 30px;
   background-color: var(--primary-color);
+  width: 100%;
+  transition: all 200ms ease-in;
+  z-index: -1;
+  position: absolute;
+  height: 35px;
+  margin-top: -35px;
+  box-shadow: 0 2px 20px var(--shadow) !important;
+  transform: translateX(0) translateY(100%) translateZ(0);
+  animation: show-custom 300ms ease forwards 400ms;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child:hover {
   background-color: var(--primary-color) !important;
   color: var(--main-color);
-  transition: all 200ms ease-in-out;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child .justifyStart-2NDFzi {
@@ -4857,11 +4862,10 @@ pre {
 }
 
 @keyframes show-custom {
-  from {
-    transform: translateY(100%) translateX(0%) translateZ(0px);
-  }
   to {
     opacity: 1;
+    transform: translateY(0) translateX(0) translateZ(0px);
+    pointer-events: all;
   }
 }
 
