@@ -2807,6 +2807,7 @@ pre {
   fill: rgba(0, 0, 0, .5);
   x: 0 !important;
   y: 0 !important;
+  rx: var(--roundness);
   height: 32px;
   width: 32px;
   opacity: 1;
