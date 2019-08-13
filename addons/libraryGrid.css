@@ -1,4 +1,4 @@
-/*
+  /*
 *   ===== BULK CODE CREDIT TO SATORU =====
 *
 *   Animation and refining made by Monster
@@ -118,7 +118,7 @@
 }
 
 #app-mount .gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .row-ZLfFhY {
-  min-height: 100%;
+  min-height: 101%;
   border: none !important;
   margin: 0;
   display: flex;
@@ -304,7 +304,7 @@
 #app-mount .gameLibrary-TTDw4Y .rowBackground-3MeNoN {
   filter: none;
   -webkit-mask: none;
-  width: 19em;
+  width: 304px;
   animation: backgroundIn .5s forwards !important;
 }
 

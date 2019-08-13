@@ -7,10 +7,15 @@
   border: none;
   border-radius: 40px;
   background: linear-gradient(to bottom right, var(--main-color), var(--hover-color));
-  box-shadow: 2px 10px 10px #111 !important;
+  box-shadow: 2px 10px 10px var(--shadow) !important;
   overflow: hidden;
   cursor: pointer;
   transition: all .2s ease-in-out;
+  pointer-events: all;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  background-color: transparent !important;
 }
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 .inner-3ErfOT {
@@ -48,7 +53,7 @@
   color: transparent;
 }
 
-.privateChannels-1nO12o .searchBar-6Kv8R2:hover {
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover {
   width: 200px;
 }
 
