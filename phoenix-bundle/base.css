@@ -2714,7 +2714,8 @@ pre {
   width: 32px;
 }
 
-.wrapper-3t9DeA[class*="wrapper"][style*="height: 80px"] rect[mask*="svg-mask-status"] {
+.wrapper-3t9DeA[class*="wrapper"][style*="height: 80px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
   height: 78px;
   width: 80px;
 }
