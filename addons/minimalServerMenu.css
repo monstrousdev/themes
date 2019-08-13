@@ -21,9 +21,8 @@
 
 .popoutBottom-2GAFPg[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
   width: fit-content !important;
-  top: 58px !important;
   left: 190px !important;
-  transform: translateX(-50%) !important;
+  transform: translateX(-50%) translateY(12px) !important;
 }
 
 @keyframes popoutanim-min {
