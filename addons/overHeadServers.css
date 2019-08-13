@@ -58,7 +58,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
   display: none;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
   border-bottom: none;
   height: 70px;
   border-right: 2px solid var(--main-color);
@@ -158,4 +158,9 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
 .searchPopout-1vUlP3::-webkit-scrollbar,
 .container-3ayLPN::-webkit-scrollbar {
   width: 2px;
+}
+
+.popoutBottom-2GAFPg[style*="overflow: hidden; visibility: visible;"] {
+  top: 116px !important;
+  left: 5px !important;
 }
