@@ -58,7 +58,7 @@
     pointer-events: none;
   }
 
-  .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child:hover {
+  #app-mount .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child:hover {
     background-color: var(--hover-color) !important;
     color: white;
   }
