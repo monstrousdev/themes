@@ -154,6 +154,12 @@ pointer-events: none !important;
 background-attachment: fixed !important;
 }
 
+#app-mount .container-3baos1 {
+  transform: translateX(-142px);
+  z-index: 9999999999;
+  pointer-events: all;
+}
+
 .matureListing-3tyHbV .gatedContent-3-B7qB {
   position: relative;
 }
