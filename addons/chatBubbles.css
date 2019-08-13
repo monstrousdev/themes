@@ -21,11 +21,12 @@
 
 .chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa .wrapper-3t9DeA:after {
 content: ' ';
-border: 9px solid transparent;
+border: 6.5px solid transparent;
+border-right-color: #111;
 border-right-color: var(--quaternary-color);
 position: absolute;
 margin-top: -75%;
-margin-left: 88%;
+margin-left: 92%;
 }
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
