@@ -1015,12 +1015,17 @@ color: var(--dnd) !important;
   border-radius: var(--roundness);
 }
 
-#app-mount .dragPlaceholder-D9-haY {
+#app-mount .dragPlaceholder-D9-haY,
+#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
   background-color: transparent;
   border: 2px dashed var(--primary-color);
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+}
+
+#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
+border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
 .createJoinContainer-2Av064 {
@@ -1890,6 +1895,7 @@ pre {
   background-color: var(--main-color) !important;
 }
 
+[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"],
 [style*="color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
   color: white;
 }
@@ -3852,6 +3858,11 @@ pre {
   -webkit-mask-repeat: no-repeat;
 }
 
+  /* 15.q. Guild Popout */
+#app-mount .guildPopout-3CgKqR {
+  background-color: var(--quaternary-color);
+}
+
 /* 16. Menus */
   /* 16.a. Context Menu */
 .contextMenu-HLZMGh {
@@ -4603,7 +4614,8 @@ pre {
 }
 
   /* 17.l. Generic Modal */
-  #app-mount .modal-yWgWj- {
+  #app-mount .modal-yWgWj-, 
+  #app-mount .root-1gCeng {
     background-color: var(--primary-color);
   }
 
@@ -4655,7 +4667,8 @@ pre {
 #app-mount .guildGraphicBackground-wbfC17, 
 #app-mount .guildGraphicContainer-_IAetM,
 #app-mount .subscriptionDuration-3WXA_o,
-#app-mount .tierPill-1yRO48 {
+#app-mount .tierPill-1yRO48,
+#app-mount .info-3UT5_W {
   background-color: var(--quaternary-color) !important;
 }
 
