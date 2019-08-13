@@ -40,6 +40,18 @@
   width: unset;
 }
 
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN > div:not(.guildSeparator-3s64Iy):not(.friendsOnline-2JkivW):not(.container-1ETFDs).wrapper-21YSNc {
+  width: 50px;
+}
+
+#app-mount .expandedFolderBackground-2sPsd- {
+  left: 0px;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN > div:not(.guildSeparator-3s64Iy):not(.friendsOnline-2JkivW):not(.container-1ETFDs).wrapper-21YSNc .listItem-2P_4kh {
+  width: 100%;
+}
+
 div[style*="transform: scale(1)"] .pill-1m5BUr {
   display: none;
 }
