@@ -4013,7 +4013,9 @@ pre {
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
+  color: var(--main-color);
+  transition: all 200ms ease-in-out;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child .justifyStart-2NDFzi {

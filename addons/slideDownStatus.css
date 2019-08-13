@@ -52,6 +52,7 @@
   }
 
   .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
+    opacity: 1;
     animation-delay: 750ms !important;
     background-color: var(--main-color);
     color: var(--tertiary-color);
@@ -102,6 +103,7 @@
   @keyframes status {
     from {
       transform: translateY(-100%) translateX(0%) translateZ(0px);
+      opacity: 0;
     }
   }
 
