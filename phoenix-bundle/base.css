@@ -2796,9 +2796,10 @@ pre {
 }
 
 .avatarWrapperNormal-3wFMbf:hover .avatarHint-1qgaV3 {
-  width: 80px;
-  height: 80px;
+  width: 79.5px;
+  height: 77.5px;
   transition: opacity 200ms ease-in-out;
+  margin: 1px 1px 1px 1px;
 }
 
   /* 11.c. Typing */
