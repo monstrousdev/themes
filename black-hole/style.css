@@ -1125,7 +1125,9 @@
 }
 
 #app-mount .cardPrimary-1Hv-to,
-#app-mount .cardPrimaryEditable-3KtE4g {
+#app-mount .cardPrimaryEditable-3KtE4g,
+#app-mount .emptyApplications-3GTmw-,
+#app-mount .emptyUsers--hiToV {
   border-color: var(--sheer);
 }
 
@@ -1144,7 +1146,9 @@
 #app-mount .guildGraphicContainer-_IAetM,
 #app-mount .subscriptionDuration-3WXA_o,
 #app-mount .subscriptionDuration-UvxLGw,
-#app-mount .tierPill-1yRO48 {
+#app-mount .tierPill-1yRO48,
+#app-mount .emptyApplications-3GTmw-,
+#app-mount .emptyUsers--hiToV {
   background-color: var(--sheer);
 }
 

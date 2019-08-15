@@ -703,7 +703,7 @@ svg[name="Activity"] {
   background-color: var(--main-color) !important;
 }
 
-.accountBtnInner-sj5jLs {
+.accountBtnInner-sj5jLs{
   background-color: var(--primary-color) !important;
   border-color: var(--tertiary-color) !important;
 }
@@ -739,7 +739,9 @@ svg[name="Activity"] {
   background: var(--quaternary-color);
 }
 
-#app-mount .bda-slist li {
+#app-mount .bda-slist li,
+#app-mount .emptyApplications-3GTmw-,
+#app-mount .emptyUsers--hiToV  {
   background-color: var(--secondary-color);
   border-color: var(--tertiary-color);
 }
