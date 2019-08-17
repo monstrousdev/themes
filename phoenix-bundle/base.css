@@ -2951,7 +2951,10 @@ pre {
 .guildsError-b7zR5H,
 .base-PmTxvP,
 #app-mount foreignObject,
-#app-mount .avatar-3elDyV {
+#app-mount .avatar-3elDyV,
+.avatar-3bWpYy, 
+.clickableAvatar-1wQpeh, 
+.emptyUser-7txhlW {
   border-radius: var(--roundness) !important;
 }
 
