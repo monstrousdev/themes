@@ -2704,24 +2704,6 @@ pre {
 .mask-1l8v16 {
   contain: none;
 }
-
-#app-mount .wrapper-3t9DeA[style*="height: 24px"] rect[mask*="svg-mask-status"] {
-  height: 22px !important;
-  width: 24px !important;
-}
-
-#app-mount .wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[y="22"] {
-  height: 30px !important;
-  width: 32px !important;
-}
-
-#app-mount .wrapper-3t9DeA[class*="wrapper"][style*="height: 80px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
-  height: 78px !important;
-  width: 80px !important;
-}
-
 .wrapper-3t9DeA foreignObject+rect[mask*="svg-mask-status"],
 .wrapper-3t9DeA[class*="avatar"] foreignObject+rect[y="22"] {
   x: 1 !important;
@@ -2751,6 +2733,27 @@ pre {
   stroke-width: 2px;
   rx: var(--roundness) !important;
   transition: stroke 200ms ease-in-out;
+}
+
+#app-mount .wrapper-3t9DeA[style*="height: 24px"] rect[mask*="svg-mask-status"] {
+  height: 22px !important;
+  width: 24px !important;
+}
+
+#app-mount .wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[class*="avatar"][style*="height: 32px"] rect[y="22"] {
+  height: 30px !important;
+  width: 32px !important;
+}
+
+#app-mount .wrapper-3t9DeA[style*="height: 80px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
+  height: 78px !important;
+  width: 80px !important;
+}
+
+#app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect:not([x*="60"]) {
+  transform: translate(-48px, -51px);
 }
 
 #app-mount svg:not(:root) {
