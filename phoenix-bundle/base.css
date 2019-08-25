@@ -2754,6 +2754,12 @@ pre {
   width: 32px !important;
 }
 
+#app-mount .wrapper-3t9DeA[class*="avatar"i][style*="height: 40px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[class*="avatar"i][style*="height: 40px"] rect[y="28"] {
+  height: 38px !important;
+  width: 40px !important;
+}
+
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] rect[mask*="svg-mask-status"],
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
   height: 78px !important;
