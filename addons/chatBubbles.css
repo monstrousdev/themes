@@ -19,7 +19,11 @@
   margin-left: 5px;
 }
 
-.chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa .wrapper-3t9DeA:after {
+.chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa {
+  position: relative;
+}
+
+.chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa:after {
 content: ' ';
 border: 6.5px solid transparent;
 border-right-color: #111;
