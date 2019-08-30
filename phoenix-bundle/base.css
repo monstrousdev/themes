@@ -88,6 +88,7 @@
   8.n. Notification Bar
   8.o. Search Results
   8.p. Video Calling
+  8.q. Streaming
 
  9. Friends List
   9.a. Main Friends List
@@ -2207,6 +2208,20 @@ pre {
 #app-mount .headerTitle-1EzOnI {
   width: unset;
   padding: 0px 16px 16px;
+}
+
+#app-mount .root-25RxKh.miniPlayer-3Ms77e .container-1r6BKw {
+  background: transparent;
+  border-bottom: none;
+}
+
+#app-mount .root-25RxKh.miniPlayer-3Ms77e .container-1r6BKw {
+  background: transparent;
+  border-bottom: none;
+}
+
+#app-mount .miniPlayer-3Ms77e .videoControls-3glNbo {
+  padding: 8px;
 }
 
 /* 9. Friends List */
