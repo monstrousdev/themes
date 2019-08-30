@@ -2198,6 +2198,17 @@ pre {
   z-index:10;
 }
 
+  /* 8.q. Streaming */
+#app-mount .videoControls-3glNbo {
+  padding: 0px;
+}
+
+#app-mount .bottomControls-UTyHwG,
+#app-mount .headerTitle-1EzOnI {
+  width: unset;
+  padding: 0px 16px 16px;
+}
+
 /* 9. Friends List */
   /* 9.a. Main Friends List */
 
