@@ -1052,21 +1052,22 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   background-color: transparent;
 }
 
-#app-mount .expandedFolderBackground-2sPsd-::before {
+#app-mount .folderIconWrapper-226oVY {
+  border-radius: calc(var(--roundness)/5);
+}
+
+#app-mount .folder-21wGz3 [style*="background-color: rgba(114, 137, 218, 0.2)"]::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  height: calc(100% + 6px);
+  height: 100%;
   width: 100%;
-  opacity: 0.2;
-  background-color: var(--hover-color);
-  border-radius: calc(var(--roundness)/5);
+  background-color: var(--main-color);
+  opacity: .2;
 }
 
-#app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.2)"],
-#app-mount .folder-21wGz3, 
-#app-mount .folderIconWrapper-226oVY {
+#app-mount .folder-21wGz3 [style*="background-color: rgba(114, 137, 218, 0.2)"] {
   background-color: transparent !important;
 }
 
