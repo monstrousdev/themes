@@ -57,6 +57,11 @@
   display: none !important;
 }
 
+.wrapper-3t9DeA[style="width: 80px; height: 80px;"]::before {
+  transform: scale(1.6) translate(0, -3px);
+  filter: none;
+}
+
 
 /* ========= START OF USER TAGS ============== */
 
