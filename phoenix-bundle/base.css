@@ -1047,8 +1047,19 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   background: var(--dnd) !important;
 }
 
-#app-mount .expandedFolderBackground-2sPsd-, 
-#app-mount .folder-21wGz3 {
+#app-mount .expandedFolderBackground-2sPsd-::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-color);
+  opacity: .2;
+  transition: all 200ms ease-in-out;
+}
+
+#app-mount .expandedFolderBackground-2sPsd-.collapsed-1GMuSb::before {
   background-color: transparent;
 }
 
