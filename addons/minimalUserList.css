@@ -41,16 +41,16 @@
     margin-left: 2px !important;
   }
 
-  .members-1998pB .memberInner-2CPc3V{
+  .members-1998pB .content-3QAtGj{
     opacity:0;
     transition:opacity 300ms ease, margin 100ms ease;
   }
   
-  .members-1998pB .memberInner-2CPc3V .nameTag-3p0yK- {
+  .members-1998pB .content-3QAtGj .nameTag-3p0yK- {
     margin-bottom:6px;
   }
   
-  .members-1998pB:hover .memberInner-2CPc3V { 
+  .members-1998pB:hover .content-3QAtGj { 
     opacity:1;
   }
   
