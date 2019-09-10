@@ -3674,7 +3674,7 @@ pre {
 }
 
   /* 15.g. Server Settings */
-  .popoutBottom-2GAFPg[style*="overflow: hidden; visibility: visible;"] {
+.layer-v9HyYc[style="left: 97px; top: 56px;"] {
   left: 75px !important;
   top: 46px !important;
   width: 230px !important;
@@ -3690,7 +3690,13 @@ pre {
   box-shadow: none;
 }
 
+.layer-v9HyYc[style="left: 97px; top: 56px;"] .itemBase-1Qj4z6 {
+  margin: 0;
+  padding: 10px 25px;
+}
+
 .menu-Sp6bN1 {
+  padding: 0;
   border-radius: 0px;
   width: 100%;
   border-left: 2px solid var(--main-color);
