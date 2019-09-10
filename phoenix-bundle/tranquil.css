@@ -132,7 +132,8 @@
 
 /* 5. Channels */
 .channels-Ie2l6A, 
-.container-PNkimc {
+.container-PNkimc,
+#app-mount .privateChannels-1nO12o {
   background-color: var(--primary-color)
 }
 
@@ -146,8 +147,9 @@
 }
 
 /* 6. Account Area */
-.container-2Thooq {
-  background: var(--secondary-color) !important;
+#app-mount .panels-j1Uci_ {
+  background-color: var(--secondary-color);
+  border-bottom: transparent;
 }
 
 
