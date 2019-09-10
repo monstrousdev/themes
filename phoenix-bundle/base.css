@@ -1442,6 +1442,12 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
   /* 5.i. Verified Servers Banner */
+.animatedContainer-1pJv5C {
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
 .bannerImage-1jOskm {
   top: 48px;
   height: 128px;
