@@ -4072,9 +4072,9 @@ pre {
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 {
-  position: absolute;
-  left: 0px !important;
-  bottom: 0px !important;
+  position: fixed;
+  left: -10px !important;
+  bottom: -5px !important;
 }
 
 .popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="height: 80px;"] {
