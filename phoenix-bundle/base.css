@@ -1498,12 +1498,17 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   background-color: var(--tertiary-color) !important;
 }
 
-.nameTag-3uD-yy .username-2BIRiC {
+.nameTag-3uD-yy .usernameContainer-1fp4nu {
   font-family: Montserrat;
   color: var(--main-color);
   font-size: 13px;
   height: 18px;
   line-height: 18px;
+}
+
+.nameTag-3uD-yy .usernameContainer-1fp4nu .title-eS5yk3 {
+  color: inherit;
+  font-weight: normal;
 }
 
 .container-2Thooq  {
