@@ -1025,7 +1025,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="197477050569719808"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="438846426441711616"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="152430800241950720"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1071,6 +1072,13 @@
 
 
 /* icons */
+.wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]::before {
+  background-image: url(https://i.imgur.com/zoGSit7.png);
+  transform: scale(1.7);
+  bottom: -5px;
+  right: -5px;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]::before {
   background-image: url(https://i.imgur.com/GGVPa7r.png);
   transform: scale(1.3);
@@ -1376,7 +1384,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="197477050569719808"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="438846426441711616"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="152430800241950720"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1435,12 +1444,19 @@
 .wrapper-3t9DeA[user_by_bdfdb="197477050569719808"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="438846426441711616"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="152430800241950720"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]:hover::before {
   background-color: transparent;
   box-shadow: none;
 }
 
 /* content */
+.wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]:hover::before {
+  content: "Justin";
+  color: white;
+  background-image: url(https://i.imgur.com/bTxsGZI.gif);
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::before {
   content: "Neptune";
   color: white;
