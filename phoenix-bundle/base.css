@@ -1380,11 +1380,11 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
   /* 5.g. DM List */
-.privateChannels-1nO12o .channel-2QD9_O .numberBadge-2s8kKX {
+/* .privateChannels-1nO12o .channel-2QD9_O .numberBadge-2s8kKX {
   position: absolute;
   top: 5px;
   right: 4px;
-}
+} */
 
 .privateChannels-1nO12o a.channel-2QD9_O {
   margin: unset;
