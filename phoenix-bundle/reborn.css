@@ -359,7 +359,7 @@
     left: -220px;
   }
 
-  #app-mount .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:last-child {
+  .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
     transform: translateY(100%) translateX(-100%) translateZ(0px);
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
     color: rgba(255, 255, 255, 0.4);
