@@ -989,10 +989,6 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   z-index: 5;
 }
 
-.base-gE7OpD .cooldownWrapper-3joyFc {
-  margin-left: unset;
-}
-
   /* D. Cards and Tiles */
 .article-3kb3qm,
 #app-mount .body-SKIE6r,
@@ -1490,10 +1486,9 @@ svg[name="Activity"] {
   box-shadow: 0 -2px 15px rgba(0,0,0,0.6);
 }
 
-.layer-v9HyYc[style*="; bottom: "][id*="popout_"] {
+.layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1{
   bottom: 54px !important;
   left: 187.5px !important;
-  transform: translateX(-50%);
 }
 
 .menu-Sp6bN1 {
