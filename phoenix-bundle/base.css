@@ -4071,9 +4071,10 @@ pre {
   border-radius: 0;
 }
 
-.layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] {
-  left: 72px !important;
-  bottom: 53px !important;
+.layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1 {
+  position: absolute;
+  left: 0px !important;
+  bottom: 0px !important;
 }
 
 .popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="height: 80px;"] {
