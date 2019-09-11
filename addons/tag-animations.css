@@ -20,7 +20,8 @@
 .wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="312782599439515650"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="152430800241950720"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
