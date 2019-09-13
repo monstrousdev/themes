@@ -12,7 +12,7 @@
 
 #app-mount .wrapper-1Rf91z {
   position: absolute;
-  top: unset;
+  top: 0;
   left: 0;
   height: 70px;
   width: 100%;
@@ -130,6 +130,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
 
 #app-mount .base-3dtUhz {
   margin-top: 70px;
+  left: 0px;
 }
 
 .messagesPopout-24nkyi {
