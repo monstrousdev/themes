@@ -875,7 +875,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 }
 
   /* 4. Light Theme Alert */
-[class*="platform-"] .theme-light::after {
+[class*="platform-"].theme-light::after {
   content: 'Light does not scatter in space. Please turn dark theme back on.';
   line-height: 30px;
   text-align: center;
@@ -1983,6 +1983,11 @@ svg[name="Activity"] {
   border: 1px solid rgb(0, 0, 0);
   height: 326px;
   width: 344px;
+}
+
+.bda-dark .emojiPicker-3m1S-j .category-2U57w6,
+.emojiPicker-3m1S-j .category-2U57w6 {
+  background-color: transparent;
 }
 
 #app-mount .diversitySelector-tmmMv0 .popout-2nUePc {
