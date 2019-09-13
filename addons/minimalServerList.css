@@ -30,3 +30,12 @@
   opacity: 1;
   transition: all .5s ease-in-out;
 }
+
+.base-3dtUhz {
+  left: 4px;
+  transition: left .5s ease-in-out;
+}
+
+.wrapper-1Rf91z:hover ~ .base-3dtUhz {
+  left: var(--list-size);
+}
