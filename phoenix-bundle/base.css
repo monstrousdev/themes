@@ -4009,7 +4009,7 @@ pre {
   border-color: rgba(255, 255, 255, .03) !important
 }
 
-.contextMenu-HLZMGh .item-1Yvehc {
+.contextMenu-HLZMGh .itemBase-tz5SeC {
   background: transparent !important;
   border-radius: 0px;
   transition: all 80ms ease;
@@ -4020,17 +4020,17 @@ pre {
   animation: opacity 200ms 100ms backwards;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc:hover {
+.contextMenu-HLZMGh .itemBase-tz5SeC:hover {
   background: rgba(225, 225, 225, 0.03) !important;
   color: #fff;
   transition: all 0ms;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE:hover {
+.contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE:hover {
   color: #F04747 !important;
 }
 
-.contextMenu-HLZMGh .item-1Yvehc.danger-2dXSTE:active {
+.contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE:active {
   background: #F04747 !important;
   color: #fff !important;
 }
