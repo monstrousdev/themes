@@ -27,8 +27,7 @@
   background-color: var(--main-color);
 }
 
-.privateChannels-1nO12o .channel-2QD9_O:not([href*="/channels/@me/"]) .content-3QAtGj,
-.privateChannels-1nO12o .channel-2QD9_O:not([href*="/channels/@me/"]) .children-gzQq2t {
+.privateChannels-1nO12o .channel-2QD9_O:not([href*="/channels/@me/"]) .content-3QAtGj {
   display: none;
 }
 
@@ -36,8 +35,7 @@
   margin: 0;
 }
 
-.privateChannels-1nO12o .channel-2QD9_O svg[name*="Library"] ~ span,
-.privateChannels-1nO12o .channel-2QD9_O svg[name*="PersonWaving"] ~ .wrapper-232cHJ {
+.privateChannels-1nO12o .channel-2QD9_O:not([href*="/channels/@me/"]) .children-gzQq2t {
   position: absolute;
   top: 0;
   right: 0;
