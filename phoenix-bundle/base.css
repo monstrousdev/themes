@@ -4026,6 +4026,10 @@ pre {
   transition: all 0ms;
 }
 
+.contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE {
+  color: rgb(180, 43, 43);
+}
+
 .contextMenu-HLZMGh .itemBase-tz5SeC.danger-2dXSTE:hover {
   color: #F04747 !important;
 }
