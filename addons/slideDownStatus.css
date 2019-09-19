@@ -61,6 +61,10 @@ transition: all .2s ease-in-out;
 pointer-events: initial; 
 }
 
+.layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 {
+  transform: translateY(100%);
+}
+
 body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active) {
 transform: scale(1.5);
 opacity: 0;
