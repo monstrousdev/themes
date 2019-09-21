@@ -648,6 +648,10 @@ svg[name="Activity"] {
   width: 24%;
 }
 
+.scroller-305q3I {
+  background: transparent;
+}
+
 .sidebarScrollable-1qPI87+.content-1rPSz4 {
   max-width: 100%;
   margin-left: 25%;
@@ -3718,9 +3722,9 @@ pre {
 }
 
   /* 15.g. Server Settings */
-.layer-v9HyYc[style*="; top: "][id*="popout_"] {
-  left: 75px !important;
-  top: 46px !important;
+  .layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-Sp6bN1 {
+  left: 85px !important;
+  top: -10px !important;
   width: 230px !important;
   height: auto;
   margin: 0px;
