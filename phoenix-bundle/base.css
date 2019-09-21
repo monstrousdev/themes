@@ -2279,6 +2279,10 @@ pre {
 /* 9. Friends List */
   /* 9.a. Main Friends List */
 
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
+  background: transparent;
+}
+
 .friendsTable-133bsv .friendsRow-2yicud:hover {
   background: var(--quaternary-color) !important;
 }
