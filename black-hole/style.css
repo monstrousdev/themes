@@ -553,7 +553,9 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   border-radius: 10px;
 }
 
-#app-mount .messages-3amgkR {
+#app-mount .messages-3amgkR,
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e {
   background-color: transparent;
 }
 
