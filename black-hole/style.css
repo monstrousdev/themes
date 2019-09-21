@@ -354,6 +354,10 @@
   box-shadow: none;
 }
 
+.scroller-1JbKMe {
+  background: transparent;
+}
+
 .searchBar-2_Yu-C {
   background-color: transparent;
   border-color: var(--tres);
@@ -590,6 +594,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   background-attachment: fixed;
 }
 
+.friendsTable-133bsv .friendsTableBody-1ZhKif {
+  background: transparent;
+}
+
 .channelTextAreaDisabled-rZtG8r {
   opacity: 1;
 }
@@ -602,24 +610,22 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--veil) var(--stars) top left fixed;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR,
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:first-child {
+
+#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:not(:last-child) {
   background-color: var(--online-sheer)
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR:hover {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.not(:last-child):hover {
   background-color: var(--online)
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionIgnore-1-RPlq {
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:last-child {
   background-color: var(--dnd-sheer);
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionIgnore-1-RPlq:hover {
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:last-child:hover {
   background-color: var(--dnd);
 }
 
