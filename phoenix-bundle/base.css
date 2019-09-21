@@ -3723,7 +3723,7 @@ pre {
 
   /* 15.g. Server Settings */
   .layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-Sp6bN1 {
-  left: 85px !important;
+  left: -25px !important;
   top: -10px !important;
   width: 230px !important;
   height: auto;
