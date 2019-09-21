@@ -611,6 +611,10 @@ svg[name="Activity"] {
 
   /* 3.b. General Content Area */
 
+#app-mount .contentRegionScroller-26nc1e {
+  background: transparent;
+}
+
 .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
   padding: 20px 40px 80px;
 }
@@ -945,6 +949,10 @@ color: var(--dnd) !important;
  /* 4.a. Main Guilds Wrapper */
 .platform-osx .guildsWrapper-5TJh6A,
 .platform-osx .wrapper-1Rf91z { margin-top: 0px !important; }
+
+.scroller-2TZvBN {
+  contain: initial;
+}
 
 .guildsWrapper-5TJh6A,
 .wrapper-1Rf91z {
@@ -1584,6 +1592,10 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 
 /* 7. Members List */
   /* 7.a. Main Member List */
+.membersWrap-2h-GB4 {
+  z-index: 1;
+}
+
 .member-3W1lQa {
   border-right: 2px solid transparent;
   border-radius: 0;
@@ -2978,7 +2990,7 @@ pre {
 }
 
 .sidebar-2K8pFh {
-  z-index: 1;
+  z-index: 2;
 }
 
 .members-1998pB {
@@ -3166,6 +3178,10 @@ pre {
 
 #app-mount .themedPopout-25DgLi .header-SsaQ8X {
   border-radius: 0px;
+}
+
+#app-mount .messagesPopout-24nkyi {
+  background: transparent;
 }
 
 #app-mount .messagesPopoutWrap-1MQ1bW {
@@ -3488,6 +3504,10 @@ pre {
 .headerFill-adLl4x .top-28JiJ- .itemDefault-3Jdr52:hover {
   color: #d1d1d3 !important;
   border-bottom-color: #d1d1d3 !important
+}
+
+#app-mount .bodyInner-245q0L {
+  background: transparent;
 }
 
 .body-3iLsc4, 

@@ -197,7 +197,8 @@
 }
 
 .container-PNkimc,
-.animatedContainer-1pJv5C {
+.animatedContainer-1pJv5C,
+.sidebar-2K8pFh {
   background-color: transparent;
 }
 
@@ -382,7 +383,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   display: none;
 }
 
-.container-2td-dC .wrapper-2lTRaf {
+.container-2td-dC .wrapper-2lTRaf,
+.scroller-2TZvBN {
   background-color: transparent !important;
 }
 
@@ -549,6 +551,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   margin-bottom: 10px;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+#app-mount .messages-3amgkR {
+  background-color: transparent;
 }
 
 #app-mount .noChannel-Z1DQK7 {
@@ -1715,6 +1721,10 @@ svg[name="Activity"] {
 #app-mount .messagesPopoutWrap-1MQ1bW {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
+}
+
+#app-mount .messagesPopout-24nkyi {
+  background: transparent;
 }
 
 #app-mount .header-ykumBX,

@@ -92,14 +92,12 @@
   .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e,
   .userSettingsVoice-iwdUCU .media-engine-video,
   .activityFeed-28jde9,
-  .guildsWrapper-5TJh6A,
   .search .searchBarIcon-1J6sKG,
   .footer-2yfCgX,
   .container-1UB9sr,
   .title-3qD0b-,
   .header-2o-2hj,
   .headerBar-UHpsPw,
-  .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
   .container-2Thooq,
   .privateChannels-1nO12o .search-bar,
   .wrapper-2NJDcI,
@@ -133,7 +131,10 @@
   #app-mount .container-2XeR5Z,
   #app-mount .footer-3rDWdC,
   #app-mount .privateChannels-1nO12o,
-  #app-mount .panels-j1Uci_ {
+  #app-mount .panels-j1Uci_,
+  #app-mount .scroller-2TZvBN,
+  #app-mount .scroller-1JbKMe,
+  #app-mount .sidebar-2K8pFh {
   background: transparent !important;
   }
   
@@ -200,6 +201,10 @@
   #app-mount .addGamePopout-2RY8Ju,
   #app-mount .colorPickerCustom-2CWBn {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
+  }
+
+  #app-mount .messagesPopoutWrap-1MQ1bW {
+    background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat !important;
   }
 
   #app-mount .css-1rckt42-menu {

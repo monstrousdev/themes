@@ -124,7 +124,8 @@
 
 /* 4. Guilds Wrapper */
 #app-mount .guildsWrapper-5TJh6A,
-#app-mount .wrapper-1Rf91z {
+#app-mount .wrapper-1Rf91z,
+#app-mount .scroller-2TZvBN {
   background-color: var(--quaternary-color);
 }
 
@@ -133,7 +134,7 @@
 /* 5. Channels */
 .channels-Ie2l6A, 
 .container-PNkimc,
-#app-mount .privateChannels-1nO12o {
+#app-mount .scroller-1JbKMe {
   background-color: var(--primary-color)
 }
 
