@@ -86,6 +86,7 @@
 *  IV. Guilds Area
 *     A. Guilds Header
 *     B. Guild Styles
+*     C. Guild Folders
 *
 *  V. Pages
 *     A. Main Areas
@@ -526,14 +527,12 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   left: 0;
   height: calc(100% + 6px);
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.4;
   background-color: var(--blurple-sheer);
   border-radius: calc(var(--roundness)/5);
 }
 
-#app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.2)"],
-#app-mount .folder-21wGz3, 
-#app-mount .folderIconWrapper-226oVY {
+#app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.4)"] {
   background-color: transparent !important;
 }
 
