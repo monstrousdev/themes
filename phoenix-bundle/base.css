@@ -5018,10 +5018,10 @@ pre {
 
 @keyframes popoutanim {
   0% {
-    transform: scale(0);
+    transform: scale(0) perspective(1px);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1) perspective(1px);
   }
 }
 
