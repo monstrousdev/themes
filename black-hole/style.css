@@ -1628,7 +1628,9 @@ svg[name="Activity"] {
 #app-mount .headerPlaying-j0WQBV,
 #app-mount .headerXbox-3G-4PF,
 #app-mount .headerSpotify-zpWxgT,
-#app-mount .headerStreaming-2FjmGz{
+#app-mount .headerStreaming-2FjmGz,
+#app-mount .bodyInner-245q0L, 
+#app-mount .footer-1fjuF6{
   background: transparent;
 }
 
