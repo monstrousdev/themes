@@ -558,7 +558,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 
 #app-mount .messages-3amgkR,
 .sidebarRegionScroller-3MXcoP,
-.contentRegionScroller-26nc1e {
+.contentRegionScroller-26nc1e,
+.scroller-1IIF0A,
+.scroller-5bBood,
+.scroller-9moviB {
   background-color: transparent;
 }
 
@@ -2285,7 +2288,6 @@ background-attachment: fixed;
 }
 
 #app-mount .footer-2yfCgX,
-#app-mount .quickswitcher-3JagVE,
 #app-mount .footer-1FPmkC,
 #app-mount .footer-30ewN8 {
   background: transparent;
@@ -2445,8 +2447,7 @@ background-attachment: fixed;
 }
 
   /* G. Gift Modal */
-#app-mount .modal-yWgWj-,
-#app-mount .inner-1ilYF7 {
+#app-mount .modal-yWgWj- {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
   border-radius: 5px;
 }
@@ -2462,6 +2463,15 @@ background-attachment: fixed;
   /* H. Quick Switcher & Keyboard Shortcuts */
 #app-mount .keybindShortcut-1BD6Z1 span {
   background-color: var(--blurple);
+}
+
+#app-mount .quickswitcher-3JagVE {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+  border-radius: 5px;
+}
+
+.scroller-zPkAnE {
+  background: transparent;
 }
 
 /* XI. Keyframes */
