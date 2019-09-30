@@ -1882,7 +1882,7 @@ pre {
   background-color: var(--hover-color) !important;
 }
 
-.chat-3bRxxu .hasMore-3e72_v button {
+.chat-3bRxxu .hasMore-3e72_v {
   background: var(--quaternary-color) !important;
   border: 1px solid var(--quaternary-color) !important;
   color: var(--main-color) !important;

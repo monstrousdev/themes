@@ -849,7 +849,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   background-color: var(--blurple);
 }
 
-#app-mount .chat-3bRxxu .hasMore-3e72_v button {
+#app-mount .chat-3bRxxu .hasMore-3e72_v {
   background: var(--quatro) var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid var(--quatro);
