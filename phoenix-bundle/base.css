@@ -178,6 +178,10 @@
 
 /* 1. Title Bar */
   /* 1.a. Main Title Bar */
+#app-mount .bg-h5JY_x {
+  background: transparent !important;
+}
+
 .titleBar-AC4pGV {
   transform: translateY(-6px);
   height: 0px;
