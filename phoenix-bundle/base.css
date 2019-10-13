@@ -2065,7 +2065,7 @@ pre {
 
   /* 8.n. Notification Bar */
 .notice-2FJMB4,
-#pluginNotice {
+.BDFD-notice {
   font-size: 0px !important;
   line-height: 18px;
   position: absolute;
@@ -2073,6 +2073,7 @@ pre {
   width: 100%;
   transition: all .2s linear;
   background-color: transparent !important;
+  z-index: 999999999 !important;
 }
 
 .notice-2FJMB4,
@@ -2101,24 +2102,24 @@ pre {
   z-index: -1;
   transition: all 200ms ease-in-out;
   background-color: dodgerblue;
+  box-shadow: var(--elevation-low);
 }
 
 .noticeDanger-7u-yT9::before {
   background-color: var(--dnd);
 }
 
-#pluginNotice.notice-2FJMB4 {
+.BDFD-notice.notice-2FJMB4:hover {
   font-size: 14px !important;
   line-height: 38px;
-  height: 38px !important;
 }
 
-#pluginNotice.notice-2FJMB4::before {
+.BDFD-notice.notice-2FJMB4:hover::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
-#pluginNotice:hover {
+.BDFD-notice.notice-2FJMB4:hover {
   font-size: 14px !important;
   line-height: 38px;
   width: 100%;
@@ -2137,7 +2138,7 @@ pre {
 #pluginNotice.notice-2FJMB4 .dismiss-SCAH9H {
   opacity: 1;
   height: 36px;
-  right: 100px;
+  margin-right: 100px;
   transition: all .2s linear;
 }
 
