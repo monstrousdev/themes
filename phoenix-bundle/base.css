@@ -5458,11 +5458,20 @@ div.reply-item {
     z-index:2;
     transition:all 300ms ease;
   }
-  
+
   .members-1998pB:hover{
     animation:member 300ms ease;
     transform:translate(0px);
     box-shadow:4px 0 10px 6px rgba(0, 0, 0, 0.8);
+  }
+
+  .members-1998pB .avatar-3uk_u9 {
+    margin-left: 12px;
+    transition: all 300ms ease;
+  }
+  
+  .members-1998pB:hover .avatar-3uk_u9 {
+    margin-left: 0px;
   }
 
   .members-1998pB:hover::after{ 
