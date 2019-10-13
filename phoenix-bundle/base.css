@@ -2065,7 +2065,8 @@ pre {
 
   /* 8.n. Notification Bar */
 .notice-2FJMB4,
-.BDFD-notice {
+.BDFD-notice,
+#pluginNotice {
   font-size: 0px !important;
   line-height: 18px;
   position: absolute;
@@ -2078,7 +2079,8 @@ pre {
 }
 
 .notice-2FJMB4,
-.notice-2FJMB4.BDFDB-notice {
+.notice-2FJMB4.BDFDB-notice,
+#pluginNotice {
   top: 46px;
 }
 
@@ -2110,23 +2112,27 @@ pre {
   background-color: var(--dnd);
 }
 
-.BDFD-notice.notice-2FJMB4:hover {
+.BDFD-notice.notice-2FJMB4:hover,
+#pluginNotice:hover {
   font-size: 14px !important;
   line-height: 38px;
 }
 
-.BDFD-notice.notice-2FJMB4:hover::before {
+.BDFD-notice.notice-2FJMB4:hover::before,
+#pluginNotice:hover::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
-.BDFD-notice.notice-2FJMB4:hover {
+.BDFD-notice.notice-2FJMB4:hover,
+#pluginNotice:hover {
   font-size: 14px !important;
   line-height: 38px;
   width: 100%;
 }
 
-.notice-2FJMB4:hover::before {
+.notice-2FJMB4:hover::before,
+#pluginNotice:hover::before {
   height: 38px !important;
 }
 
@@ -2136,7 +2142,8 @@ pre {
 }
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
-.BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H {
+.BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
+#pluginNotice:hover .dismiss-SCAH9H {
   opacity: 1;
   height: 36px;
   margin-right: 100px;
