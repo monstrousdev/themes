@@ -147,10 +147,10 @@
 #app-mount .layers-3iHuyZ,
 .privateChannels-1nO12o,
 .container-2lgZY8,
-#app-mount .layer-3QrUeG {
+#app-mount .layer-3QrUeG,
+.bg-h5JY_x {
   background-color: transparent;
 }
-
 
 
 /* II. Title Bar */
@@ -1003,6 +1003,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   transition: all 200ms ease;
   text-overflow: ellipsis;
   z-index: 5;
+}
+
+.base-gE7OpD .cooldownWrapper-3joyFc {
+  margin-left: initial;
 }
 
   /* D. Cards and Tiles */
