@@ -584,6 +584,16 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
       background: var(--veil);
 }
 
+.videoControls-3glNbo {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bottomControls-UTyHwG, 
+.topControls-Jnxmi6 .headerBar-qN9GBP {
+  padding: 0 16px;
+}
+
 #app-mount .title-3qD0b-, 
 #app-mount .titleCall-_b9o8P,
 #app-mount .headerBar-UHpsPw,
@@ -787,12 +797,14 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 }
 
 #app-mount .partyMemberOverflow-Nei5T6,
-#app-mount .guildIconEmptyBackground-14tfYf {
+#app-mount .guildIconEmptyBackground-14tfYf,
+#app-mount .overflow-3zpvTV {
   background-color: var(--blurple-sheer);
 }
 
 #app-mount .guildIconEmptyIcon-rSyLPf,
-#app-mount .partyMemberOverflow-Nei5T6 {
+#app-mount .partyMemberOverflow-Nei5T6,
+#app-mount .overflow-3zpvTV {
   color: white;
 }
 
@@ -2207,6 +2219,19 @@ svg[name="Activity"] {
 #app-mount .container-2x5lvQ section {
   background: transparent;
 }
+
+  /* L. Stream Popout */
+#app-mount .previewContainer-12UlHl {
+  background-color: transparent;
+}
+
+#app-mount .popout-1k352f,
+#app-mount .streamPreview-2-WUWT,
+#app-mount .root-25RxKh {
+  background: var(--quatro) var(--stars) top left !important;
+  background-attachment: fixed;
+}
+
 
 
 /* X. Modals */
