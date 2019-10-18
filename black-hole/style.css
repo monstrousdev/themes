@@ -2745,9 +2745,13 @@ background-attachment: fixed;
   background-image: var(--stars);
   background-position: top left !important;
   background-attachment: fixed !important;
-  opacity: 1 !important;
   border-radius: 10px;
 }
+
+#ghostping-panel[style*="opacity: 0.9"] {
+  opacity: 1 !important;
+}
+
 
 #ghostping-panel #ghostping-panel-close-button ~ div {
   background-color: transparent !important;
