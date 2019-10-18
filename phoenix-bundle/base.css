@@ -5372,17 +5372,24 @@ div.reply-item {
 }
 
   /* 20.a.10. Ghost Ping */
-#ghostping-panel {
-  top: 46px !important;
-  height: calc(100% - 46px) !important;
-  padding: 30px !important;
-  box-sizing: border-box;
-}
-
-#ghostping-panel #ghostping-panel-close-button ~ div {
-  background-color: var(--primary-color) !important;
-  width: calc(100% - 60px) !important;
-}
+  #ghostping-panel {
+    top: 48px !important;
+    height: calc(100% - 48px) !important;
+    width: 100% !important;
+    padding: 30px !important;
+    box-sizing: border-box;
+  }
+  
+  #ghostping-panel[style*="opacity: 0.9"] {
+    opacity: 1 !important;
+  }
+  
+  #ghostping-panel #ghostping-panel-close-button ~ div {
+    background-color: var(--quaternary-color) !important;
+    width: calc(100% - 80px) !important;
+    padding: 20px !important;
+    box-shadow: 0 2px 20px var(--shadow) !important;
+  }
 
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,

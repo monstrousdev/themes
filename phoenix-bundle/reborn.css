@@ -44,6 +44,8 @@
 4. Popouts and Modals
 
 5. @Media Edits
+
+6. Misc
 */
 
 
@@ -385,3 +387,11 @@
       background-color: var(--primary-color) !important;
     }
   }
+
+/* 6. Misc */
+#ghostping-panel {
+  background-image: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) !important;
+  background-size: cover, cover;
+  background-position: center, center;
+  background-attachment: initial, fixed;
+}

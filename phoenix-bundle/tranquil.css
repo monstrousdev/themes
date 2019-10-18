@@ -53,6 +53,12 @@
  11. Popouts
 
  12. Modals
+
+ 13. Games Tab, Library, and Store
+
+ 14. Bulk Loud Colors
+
+ 15. Misc
 */
 
 
@@ -382,4 +388,9 @@
 .theme-light .option-96V44q .filter-3Y_im-,
 .theme-light .searchOption-zQ-1l6 .answer-1n6g43 {
     color: #666;
+}
+
+/* 15. Misc */
+#ghostping-panel {
+  background-color: var(--primary-color) !important;
 }
