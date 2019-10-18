@@ -5371,6 +5371,19 @@ div.reply-item {
   background-color: var(--main-color) !important;
 }
 
+  /* 20.a.10. Ghost Ping */
+#ghostping-panel {
+  top: 46px !important;
+  height: calc(100% - 46px) !important;
+  padding: 30px !important;
+  box-sizing: border-box;
+}
+
+#ghostping-panel #ghostping-panel-close-button ~ div {
+  background-color: var(--primary-color) !important;
+  width: calc(100% - 60px) !important;
+}
+
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
 .bd-detached-editor .headerBar-UHpsPw > div:last-child {

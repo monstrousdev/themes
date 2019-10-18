@@ -134,6 +134,8 @@
 *     G. Gift Modal
 *  XI. Keyframes
 *  XII. Custom CSS
+*  XIII. Plugin Optimization
+*     A. Ghost Ping
 */
 
 
@@ -2725,4 +2727,33 @@ background-attachment: fixed;
 /* Comment Code */
 .ace-monokai .ace_comment {
   color: var(--online);
+}
+
+/* XIII. Plugin Optimization */
+  /* A. Ghost Ping */
+.ghostping-button-unread .ghostping-button-icon {
+  color: var(--dnd);
+  transition: color 200ms ease-in-out;
+}
+
+#ghostping-panel {
+  height: calc(100% - 32px) !important;
+  padding: 65px 30px 30px !important;
+  box-sizing: border-box;
+  left: 10px !important;
+  background-color: var(--uno) !important;
+  background-image: var(--stars);
+  background-position: top left !important;
+  background-attachment: fixed !important;
+  opacity: 1 !important;
+  border-radius: 10px;
+}
+
+#ghostping-panel #ghostping-panel-close-button ~ div {
+  background-color: transparent !important;
+  background-image: var(--stars), linear-gradient(to right, var(--blurple-sheer), var(--tres)) !important;
+  background-size: 100%, 100% !important;
+  background-position: top left, center !important;
+  background-attachment: fixed, initial !important;
+  width: calc(100% - 60px) !important;
 }
