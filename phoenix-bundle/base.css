@@ -3897,6 +3897,14 @@ pre {
   border-top-color: var(--dnd);
 }
 
+#app-mount .tooltip-2QfLtc.tooltipGreen-WdeQwd {
+  background: var(--online);
+}
+
+#app-mount .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+  border-top-color: var(--online);
+}
+
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
   border-top-color: var(--main-color);
 }

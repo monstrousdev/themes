@@ -1920,8 +1920,16 @@ svg[name="Activity"] {
   background: var(--dnd);
 }
 
+#app-mount .tooltip-2QfLtc.tooltipGreen-WdeQwd {
+  background: var(--online);
+}
+
 #app-mount .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
   border-top-color: var(--dnd);
+}
+
+#app-mount .tooltipGreen-WdeQwd .tooltipPointer-3ZfirK {
+  border-top-color: var(--online);
 }
     
 #app-mount .tooltip-2QfLtc,
