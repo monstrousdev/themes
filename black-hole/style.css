@@ -564,7 +564,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 .scroller-1IIF0A,
 .scroller-5bBood,
 .scroller-9moviB,
-.scroller-305q3I {
+.scroller-305q3I,
+[class*="scroller-"] {
   background-color: transparent;
 }
 
