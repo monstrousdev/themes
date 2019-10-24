@@ -563,7 +563,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 .contentRegionScroller-26nc1e,
 .scroller-1IIF0A,
 .scroller-5bBood,
-.scroller-9moviB {
+.scroller-9moviB,
+.scroller-305q3I {
   background-color: transparent;
 }
 
@@ -629,7 +630,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   background-color: var(--online-sheer)
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.not(:last-child):hover {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:not(:last-child):hover {
   background-color: var(--online)
 }
 
