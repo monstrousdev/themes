@@ -4189,10 +4189,20 @@ pre {
   height: 35px;
   margin-top: -35px;
   box-shadow: 0 2px 20px var(--shadow) !important;
-  transform: translateX(-100%) translateY(100%) translateZ(0);
+  transform: translateX(0%) translateY(100%) translateZ(0);
   animation: show-custom 300ms ease forwards 400ms;
   opacity: 0;
   pointer-events: none;
+  top: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.clearStatus-2hmUqc,
+.customStatus-1KPfFb {
+  width: fit-content;
+  margin: 0;
 }
 
 .customStatusContentIcon-2sionu {
@@ -5045,7 +5055,7 @@ pre {
 @keyframes show-custom {
   to {
     opacity: 1;
-    transform: translateY(0) translateX(-100%) translateZ(0px);
+    transform: translateY(0) translateX(0%) translateZ(0px);
     pointer-events: all;
   }
 }

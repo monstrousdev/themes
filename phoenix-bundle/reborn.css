@@ -367,17 +367,8 @@
   }
 
   .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
-    transform: translateY(100%) translateX(-100%) translateZ(0px);
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
     color: rgba(255, 255, 255, 0.4);
-  }
-  
-  @keyframes show-custom {
-    to {
-      opacity: 1;
-      transform: translateY(0) translateX(-100%) translateZ(0px);
-      pointer-events: all;
-    }
   }
   
   /* 5. @Media Edits */
