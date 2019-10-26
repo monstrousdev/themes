@@ -4195,6 +4195,12 @@ pre {
   pointer-events: none;
 }
 
+.customStatusContentIcon-2sionu {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
 .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7):hover {
   background-color: var(--quaternary-color) !important;
   color: var(--main-color);
