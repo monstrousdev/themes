@@ -1581,12 +1581,19 @@ svg[name="Activity"] {
 }
 
 .menu-Sp6bN1 .item-1GzJrl:nth-child(7) .customStatusContentIcon-2sionu {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
 #app-mount .item-1GzJrl:last-child:nth-child(7) {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .menu-Sp6bN1 .statusItem-2uzPIV:not(:nth-child(7)):hover {
