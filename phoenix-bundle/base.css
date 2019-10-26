@@ -4183,26 +4183,20 @@ pre {
 .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
   background-color: var(--primary-color);
   width: 100%;
-  transition: color 200ms ease-in;
+  transition: color 200ms ease-in, background-color 200ms ease-in;
   z-index: -1;
   position: absolute;
   height: 35px;
   margin-top: -35px;
   box-shadow: 0 2px 20px var(--shadow) !important;
-  transform: translateX(0%) translateY(100%) translateZ(0);
+  transform: translateX(-100%) translateY(100%) translateZ(0);
   animation: show-custom 300ms ease forwards 400ms;
   opacity: 0;
   pointer-events: none;
 }
 
-.customStatusContentIcon-2sionu {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-}
-
 .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7):hover {
-  background-color: var(--primary-color) !important;
+  background-color: var(--quaternary-color) !important;
   color: var(--main-color);
 }
 
@@ -5045,7 +5039,7 @@ pre {
 @keyframes show-custom {
   to {
     opacity: 1;
-    transform: translateY(0) translateX(0%) translateZ(0px);
+    transform: translateY(0) translateX(-100%) translateZ(0px);
     pointer-events: all;
   }
 }
