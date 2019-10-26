@@ -1179,7 +1179,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   margin-bottom: 0px;
   height: 23px;
   border-radius: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
