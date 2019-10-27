@@ -377,7 +377,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 /* IV. Guilds Area */
   /* A. Guilds Header */
 #app-mount .wrapper-1Rf91z {
-  margin-top: 45px;
+  margin-top: 0;
   background-color: transparent;
   overflow: visible;
 }
@@ -409,8 +409,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
-  position: absolute;
-  top: -45px;
+  position: relative;
+  top: 0;
   left: 0px;
   width: 70px;
   display: flex;
