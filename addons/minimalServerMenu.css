@@ -18,17 +18,18 @@
   border: 2px solid var(--main-color);
 }
 
-.layer-v9HyYc[style*="; top: "][id*="popout_"] {
+.layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-Sp6bN1 {
   width: fit-content !important;
   left: 190px !important;
-  transform: translateX(-50%) translateY(12px) !important;
+  transform: translateX(-40%) translateY(12px) translateZ(1px) perspective(1px) !important;
+  animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
 }
 
 @keyframes popoutanim-min {
   0% {
-    transform: translateX(-50%) scale(0);
+    transform: translateX(-40%)  translateY(12px) translateZ(1px) perspective(1px) scale(0);
   }
   100% {
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-40%)  translateY(12px) translateZ(1px) perspective(1px) scale(1);
   }
 }
