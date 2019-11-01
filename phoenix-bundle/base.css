@@ -806,7 +806,7 @@ svg[name="Activity"] {
 }
 
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218); color: rgb(255, 255, 255);"],
-.side-8zPYf6 .item-PXvHYJ[style*=" color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
   color: white !important;
 }
 
@@ -941,7 +941,9 @@ color: var(--dnd) !important;
 }
 
 .tier1Banner-1B_WXY,
-.container-2Zlzt0{
+.container-2Zlzt0,
+.detailsBlock-FoDTGA,
+.premiumSubscriptionAccountCredit-25i0tQ {
   background-color: var(--quaternary-color) !important;
 }
 
