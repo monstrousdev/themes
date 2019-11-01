@@ -4883,10 +4883,15 @@ pre {
   background-color: var(--secondary-color);
 }
 
+.cardWrapper-2Min21 {
+  background: transparent;
+}
+
 .guildSubscriptionSlots-JPXXvN,
 #app-mount .ctaBar-2UsjF2,
 #app-mount .perk-2WeBWW,
-#app-mount .background-3xPPFc {
+#app-mount .background-3xPPFc,
+#app-mount .gemIndicatorContainer-2jdECl {
   color: var(--quaternary-color);
 }
 

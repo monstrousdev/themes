@@ -141,8 +141,9 @@
 
 /* I. App Window */
 #app-mount,
-.container-16j22k {
-  background: linear-gradient(var(--sheer), var(--sheer)),var(--black-hole) center/30%;
+.container-16j22k,
+.perksModalContentWrapper-2HU6uL {
+  background: linear-gradient(var(--sheer), var(--sheer)),var(--black-hole) center/30% fixed;
 }
 
 #app-mount .app-2rEoOp, 
@@ -748,7 +749,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-rNsIhG,
-.innerNoAutocomplete-1WpcVO{
+.innerNoAutocomplete-1WpcVO,
+.innerAutocomplete-1PN280 {
   margin: 0;
   min-height: 55px;
 }
@@ -1036,7 +1038,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount .info-3NKfPL,
 #app-mount .header-Qk7iwL,
 #app-mount .tierHeaderLocked-1a2opw,
-#app-mount .tierBody-x9kBBp {
+#app-mount .tierBody-x9kBBp,
+#app-mount .guildHeader-3nh5RK {
   background-color: transparent;
 }
 
@@ -1048,7 +1051,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   color: var(--veil);
 }
 
-#app-mount .paginationItem-2lUq0s:after {
+#app-mount .paginationItem-2lUq0s:after,
+#app-mount .guildSubscriptionSlots-JPXXvN {
   background: var(--sheer);
 }
 
@@ -1127,7 +1131,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount .buffer-26XPkd, 
 #app-mount .buffer-26XPkd:after, 
 #app-mount .buffer-26XPkd:before,
-#app-mount .tierInProgress-3mBoXq {
+#app-mount .tierInProgress-3mBoXq,
+#app-mount .barForeground-3KglC8 {
   background: var(--blurple)
 }
 
@@ -1162,7 +1167,9 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount  .content-35aVm0,
 #app-mount .emptyCard-3CNsz2,
 #app-mount .guildGraphicBackground-UDBjuF,
-#app-mount .info-3UT5_W {
+#app-mount .info-3UT5_W,
+#app-mount .ctaBar-2UsjF2,
+#app-mount .perk-2WeBWW {
   background: var(--blurple-sheer) var(--stars) top left fixed;
 }
 
@@ -1178,7 +1185,6 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   margin-bottom: 0px;
   height: 23px;
   border-radius: 0;
-  overflow: hidden;
 }
 
 #app-mount .nowPlaying-284llR .gameNameInput-385LoS:focus, 
@@ -1211,7 +1217,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount .item-2yFVoY,
 #app-mount .card-NB61oR,
 #app-mount .guildSubscription-2bT8-B,
-#app-mount .tier-3H4BXk {
+#app-mount .tier-3H4BXk,
+#app-mount .guild-Hq0WWA {
   background: linear-gradient(var(--blurple-sheer), transparent 80%),var(--uno) var(--stars) top left fixed;
 }
 
