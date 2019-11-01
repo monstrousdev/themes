@@ -4878,10 +4878,14 @@ pre {
 
 #app-mount .info-3NKfPL,
 #app-mount .tierHeaderLocked-1a2opw,
-#app-mount .tierHeaderLocked-1s2JJz {
+#app-mount .tierHeaderLocked-1s2JJz,
+.guildHeader-3nh5RK {
   background-color: var(--secondary-color);
 }
 
+.guildSubscriptionSlots-JPXXvN,
+#app-mount .ctaBar-2UsjF2,
+#app-mount .perk-2WeBWW,
 #app-mount .background-3xPPFc {
   color: var(--quaternary-color);
 }

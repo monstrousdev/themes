@@ -201,7 +201,8 @@
   #app-mount .themedPopout-25DgLi,
   #app-mount .container-3ayLPN,
   #app-mount .addGamePopout-2RY8Ju,
-  #app-mount .colorPickerCustom-2CWBn {
+  #app-mount .colorPickerCustom-2CWBn,
+  #app-mount .perksModal-fSYqOq {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
 
