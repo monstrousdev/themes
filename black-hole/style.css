@@ -1124,7 +1124,9 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount .mediaBarWrapper-3D7r67:after, 
 #app-mount .mediaBarWrapper-3D7r67:before,
 #app-mount .tierNoneContainer-3hhK3h,
-#app-mount .tierBody-16Chc9 {
+#app-mount .tierBody-16Chc9,
+.detailsBlock-FoDTGA,
+.premiumSubscriptionAccountCredit-25i0tQ {
   background: var(--sheer);
 }
 
