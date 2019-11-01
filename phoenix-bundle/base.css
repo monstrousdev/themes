@@ -4870,7 +4870,9 @@ pre {
 #app-mount .guildGraphicContainer-_IAetM,
 #app-mount .subscriptionDuration-3WXA_o,
 #app-mount .tierPill-1yRO48,
-#app-mount .info-3UT5_W {
+#app-mount .info-3UT5_W,
+.guildSubscriptionSlots-JPXXvN,
+#app-mount .ctaBar-2UsjF2 {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -4889,8 +4891,7 @@ pre {
   background: transparent;
 }
 
-.guildSubscriptionSlots-JPXXvN,
-#app-mount .ctaBar-2UsjF2,
+
 #app-mount .perk-2WeBWW,
 #app-mount .background-3xPPFc,
 #app-mount .gemIndicatorContainer-2jdECl {
