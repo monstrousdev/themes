@@ -1957,7 +1957,7 @@ pre {
 #app-mount .guildIconImage-3qTk45,
 .embedFull-2tM8-- {
   background-color: var(--quaternary-color) !important;
-  border-color: var(--quaternary-color) !important;
+  border-color: var(--quaternary-color);
   border-radius: 0px;
 }
 
