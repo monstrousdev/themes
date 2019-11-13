@@ -219,6 +219,17 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/600px 618px no-repeat !important;
     background-attachment: fixed;
   }
+
+  .emojiPicker-3m1S-j, 
+  .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
+  .diversitySelector-tmmMv0 .popout-2nUePc {
+  background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
+  }
+
+  .emojiPicker-3m1S-j .categories-1feg4n,
+  .infoBar-U6oBFk {
+    background: var(--tertiary-color);
+  }
   
   .userPopout-3XzG_A,
   .create-guild-container.deprecated,

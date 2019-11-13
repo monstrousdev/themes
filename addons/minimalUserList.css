@@ -1,7 +1,12 @@
+.membersWrap-2h-GB4 {
+  pointer-events: none;
+}
+
 .members-1998pB{
   transform:translate(145px);
   z-index:2;
   transition:all 300ms ease;
+  pointer-events: all;
 }
 
 .members-1998pB .avatar-3uk_u9 {

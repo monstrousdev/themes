@@ -773,7 +773,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount  .markup-2BOw-j pre,
 #app-mount .wrapper-35wsBm,
 #app-mount .embedInner-1-fpTo,
-#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
+#app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
+.embedFull-2tM8-- {
   background: var(--uno) var(--stars) top left;
   background-attachment: fixed;
   border-color: var(--tres)
@@ -2052,7 +2053,8 @@ svg[name="Activity"] {
 }
 
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6,
-.emojiPicker-3m1S-j .category-2U57w6 {
+.emojiPicker-3m1S-j .category-2U57w6,
+.emojiPicker-3m1S-j .categories-1feg4n {
   background-color: transparent;
 }
 
@@ -2064,10 +2066,16 @@ svg[name="Activity"] {
   background: transparent
 }
 
-#bda-qem {
+#bda-qem,
+.infoBar-U6oBFk {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
+}
+
+.infoBar-U6oBFk {
+  height: 100%;
+  border: none;
 }
 
 #bda-qem button {
