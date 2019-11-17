@@ -1,6 +1,6 @@
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
-@import "https://monstrousdev.github.io/themes/addons/filter.css";
+/* @import "https://monstrousdev.github.io/themes/addons/filter.css"; */
 @import "https://www.themonster.xyz/styles/google-fonts.css";
 
 /*
@@ -2017,7 +2017,8 @@ svg[name="Activity"] {
 }
 
   /* G. Gift Nitro and Gif Picker */
-#app-mount .option-1l2vXE {
+#app-mount .option-1l2vXE,
+#app-mount .table-39R0Oe {
   background: var(--veil);
 }
 
@@ -2536,6 +2537,16 @@ background-attachment: fixed;
 }
 
 .scroller-zPkAnE {
+  background: transparent;
+}
+
+  /* I. BetterDiscord Error Modal */
+.bd-modal-wrapper .bd-modal-inner {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left fixed;
+}
+
+.bd-modal-wrapper .header,
+.bd-modal-wrapper .bd-modal-body {
   background: transparent;
 }
 
