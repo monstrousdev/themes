@@ -1,4 +1,4 @@
-/* popin with pulse */
+/* grow in with pulse */
 .wrapper-3t9DeA[user_by_bdfdb*="254362351170617345"]:hover:before,
 .wrapper-3t9DeA[user_by_bdfdb*="172426681800196096"]:hover:before,
 .wrapper-3t9DeA[user_by_bdfdb*="252460828157018112"]:hover::before,
@@ -21,12 +21,13 @@
 .wrapper-3t9DeA[user_by_bdfdb*="152430800241950720"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="263631800021155840"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="95657348390977536"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="95657348390977536"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
 
-/* popin */
+/* grow in */
 .wrapper-3t9DeA[user_by_bdfdb*="131414719666847745"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="147889058670968844"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::before,

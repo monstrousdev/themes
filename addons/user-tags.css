@@ -1030,7 +1030,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="304260051915374603"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="280447836007694338"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -1076,6 +1077,10 @@
 
 
 /* icons */
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]::before {
+  background-image: url(https://i.imgur.com/nInH9PN.png);
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::before {
   background-image: url(https://i.imgur.com/zs4hzCl.jpg);
 }
@@ -1411,7 +1416,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="304260051915374603"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="169081145282002946"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="280447836007694338"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
@@ -1474,12 +1480,18 @@
 .wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="169081145282002946"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="280447836007694338"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before {
   background-color: transparent;
   box-shadow: none;
 }
 
 /* content */
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before {
+  content: "MaouSho";
+  background-image: url(https://pa1.narvii.com/5946/ef82fd3248704fe7d60f9d868455cf5bf5c380a2_hq.gif);
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
   content: "--------";
   color: transparent;
