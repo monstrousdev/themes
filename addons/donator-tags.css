@@ -94,20 +94,20 @@
   transform: none;
   background-size: cover;
   background-position: center;
-  padding: 6px 10px;
+  padding: 6px 10px !important;
   height: auto;
-  width: auto;
-  box-sizing: border-box;
-  white-space: nowrap;
-  right: unset;
-  left: calc(100% - 13px);
-  bottom: -6px;
+  width: auto !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  right: unset !important;
+  left: calc(100% - 13px) !important;
+  bottom: -6px !important;
   font-weight: 700;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   filter: none;
-  display: block;
-  background-color: transparent;
-  box-shadow: none;
+  display: block !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]::before {
