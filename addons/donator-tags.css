@@ -32,7 +32,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="134349083568504832"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="244392852950482944"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -85,8 +86,11 @@
 
 
 /* ======== DONATOR/DEV TAGS ============== */
-.wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="134349083568504832"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="244392852950482944"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]:hover::before {
   transform: none;
   background-size: cover;
   background-position: center;
