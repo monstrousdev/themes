@@ -91,6 +91,7 @@
 .wrapper-3t9DeA[user_by_bdfdb="244392852950482944"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]:hover::before {
+  color: white;
   transform: none;
   background-size: cover;
   background-position: center;
