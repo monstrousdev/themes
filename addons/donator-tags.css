@@ -35,15 +35,15 @@
 .wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]::before {
   content: '';
-  color: transparent;
+  color: transparent !important;
   height: 15px;
   width: 15px;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: -8px;
-  right: -8px;
-  pointer-events: none;
+  bottom: -8px !important;
+  right: -8px !important;
+  pointer-events: none !important;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 
