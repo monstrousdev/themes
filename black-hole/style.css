@@ -1710,7 +1710,6 @@ svg[name="Activity"] {
 
 .roleName-32vpEy {
   margin: 0 4px;
-  z-index: -1px;
 }
 
 .roleCircleButton-377y0l {
@@ -2076,9 +2075,19 @@ svg[name="Activity"] {
   border: 1px solid rgb(0, 0, 0);
 }
 
+.infoBarWrapper-283ttO.infoBarExpanded-2Of7UZ {
+  position: absolute;
+  bottom: 38px;
+  left: 5px;
+  border-radius: 5px;
+}
+
 .infoBar-U6oBFk {
-  height: 100%;
   border: none;
+  background: var(--stars) top left,
+  linear-gradient(var(--blurple-sheer), var(--blurple-sheer)),
+  linear-gradient(var(--quatro), var(--quatro)) !important;
+  background-attachment: fixed;
 }
 
 #bda-qem button {
