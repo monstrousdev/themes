@@ -6,7 +6,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="244392852950482944"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::before {
   content: '';
   color: transparent;
   height: 15px;
@@ -28,7 +29,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="244392852950482944"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
   color: white;
   transform: none;
   background-size: cover;
@@ -175,4 +177,15 @@
   content: '新しい日の誕生';
   color: white;
   background-image: url(https://i.imgur.com/OI7nhT7.gif);
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::before {
+  background-image: url(https://i.imgur.com/zs4hzCl.jpg);
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
+  content: "--------";
+  color: transparent;
+  text-shadow: none;
+  background-image: url(https://i.imgur.com/wQS2mYR.gif);
 }

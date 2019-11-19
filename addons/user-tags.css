@@ -278,7 +278,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="304260051915374603"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="280447836007694338"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]::before {
   content: "}";
 }
@@ -1004,13 +1003,6 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before {
   content: "MaouSho";
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
-  content: "uwu";
-  color: black;
-  text-shadow: none;
-  background-color: white;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="280447836007694338"]:hover::before {
