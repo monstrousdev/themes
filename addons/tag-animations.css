@@ -23,7 +23,9 @@
 .wrapper-3t9DeA[user_by_bdfdb*="263631800021155840"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="95657348390977536"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="622724687499362315"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -56,7 +58,8 @@
 /* fade from right */
 .wrapper-3t9DeA[user_by_bdfdb*="244363360886325248"]:hover:before,
 .wrapper-3t9DeA[user_by_bdfdb*="296018550009626628"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover:before {
+.wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover:before,
+.wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::before {
   animation: fadeFromRight .2s;
 }
 
