@@ -235,7 +235,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="328357975150297088"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="214318588331294720"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="116243287936860167"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="173177738914562048"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="185119357578379264"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="96563253466898432"]::before,
@@ -314,11 +313,6 @@
   content: "D E A D";
   background-color: white;
   text-shadow: none !important;
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]:hover::before {
-  content: "Witcher";
-  background-color: #AF616E;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="116243287936860167"]:hover::before {
