@@ -22,7 +22,8 @@
 .wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="263631800021155840"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="95657348390977536"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 

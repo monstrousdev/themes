@@ -239,7 +239,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="185119357578379264"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="96563253466898432"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="172426681800196096"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="130875493850284032"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="244363360886325248"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="123916078882488320"]::before,
@@ -260,7 +259,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="211376467114852352"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="143017752775360512"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="82987644316815360"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="166365757561634816"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="324680910123302922"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="324680910123302922"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="422110084039180318"]::before,
@@ -1221,11 +1219,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="82987644316815360"]:hover::before {
   content: 'Tea Time';
   background-color: #B71C1C;
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="166365757561634816"]:hover::before {
-  content: 'Love 2XMM2';
-  background-color: #00FF00;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="324680910123302922"]:hover::before {
