@@ -1059,6 +1059,7 @@
 .wrapper-3t9DeA[user_by_bdfdb="438846426441711616"]:hover::before {
   content: "Aple";
   background-color: #4BCEFF;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="197477050569719808"]:hover::before {
