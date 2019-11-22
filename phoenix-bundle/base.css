@@ -781,12 +781,6 @@ svg[name="Activity"] {
   background-color: var(--tertiary-color) !important;
 }
 
-.details-1YZMDP {
-  min-width: 660px;
-  margin-left: 50%;
-  transform: translate(-50%);
-}
-
 .applications-3KXbc1 {
   width: auto;
   justify-content: center;
@@ -955,6 +949,26 @@ color: var(--dnd) !important;
 .codeRedemptionRedirect-1wVR4b {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
+}
+
+.premiumContainer-2Iux5m,
+.banner-3Kac2g,
+.tier1Banner-1B_WXY {
+  max-width: unset;
+}
+
+.details-1YZMDP {
+  min-width: 100%;
+  margin-left: unset;
+  transform: none;
+}
+
+.detailsBlock-FoDTGA {
+  min-width: 45%;
+}
+
+.tier1Banner-1B_WXY {
+  width: unset;
 }
 
 /* 4. Guilds Wrapper */
