@@ -828,7 +828,7 @@ svg[name="Activity"] {
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
 .checked-3_4uQ9 {
   background-color: var(--main-color) !important;
-  border-color: var(--tertiary-color) !important;
+  border-color: var(--hover-color) !important;
 }
 
 svg[name*="Checkmark"] {
@@ -4632,7 +4632,7 @@ pre {
 }
 
   /* 17.e. Upload Modal */
-.uploadModal-2ifh8j {
+#app-mount .uploadModal-2ifh8j {
   background-color: var(--main-color);
 }
 
@@ -4647,6 +4647,10 @@ pre {
 
 .theme-brand .content-Qb0rXO {
   color: white;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D button[type*="button"] .contents-18-Yxp {
+  display: none;
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D button {

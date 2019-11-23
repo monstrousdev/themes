@@ -152,13 +152,16 @@
     background-color: transparent;
   }
   
-  .typeMacOS-3EmCyP.titleBar-AC4pGV {
+  .typeMacOS-3EmCyP.titleBar-AC4pGV,
+  .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: var(--primary-color) !important;
   }
   
   
   /* 2. User Settings */
-  .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+  .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP,
+  .uploadModal-2ifh8j .footer-3mqk7D,
+  .uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx .inner-zqa7da {
     background-color: var(--secondary-color) !important;
   }
   
@@ -177,7 +180,6 @@
   }
 
   /* 4. Popouts & Modals */
-  
   .colorPickerCustom-2CWBn2 {
     border-color: var(--quaternary-color) !important;
   }
@@ -226,7 +228,8 @@
 
   .emojiPicker-3m1S-j, 
   .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
-  .diversitySelector-tmmMv0 .popout-2nUePc {
+  .diversitySelector-tmmMv0 .popout-2nUePc,
+  #app-mount .uploadModal-2ifh8j {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
