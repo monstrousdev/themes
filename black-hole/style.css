@@ -1575,7 +1575,7 @@ svg[name="Activity"] {
   -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDQuNUM3IDQuNSAyLjczIDcuNjEgMSAxMmMxLjczIDQuMzkgNiA3LjUgMTEgNy41czkuMjctMy4xMSAxMS03LjVjLTEuNzMtNC4zOS02LTcuNS0xMS03LjV6TTEyIDE3Yy0yLjc2IDAtNS0yLjI0LTUtNXMyLjI0LTUgNS01IDUgMi4yNCA1IDUtMi4yNCA1LTUgNXptMC04Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzIDMtMS4zNCAzLTMtMS4zNC0zLTMtM3oiLz48L3N2Zz4=) center/90% no-repeat;
 }
 
-.menu-Sp6bN1 .item-1GzJrl:nth-child(7) {
+.scale-3iLZhb.animatorTop-2Y7x2r .menu-Sp6bN1 .item-1GzJrl:nth-child(7) {
   display: block;
   width: 100.5%;
   top: 0;
@@ -1599,7 +1599,7 @@ svg[name="Activity"] {
   justify-content: center;
 }
 
-#app-mount .item-1GzJrl:last-child:nth-child(7) {
+#app-mount .scale-3iLZhb.animatorTop-2Y7x2r .item-1GzJrl:last-child:nth-child(7) {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   display: flex;
