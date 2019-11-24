@@ -243,7 +243,6 @@
 .wrapper-3t9DeA[user_by_bdfdb="244363360886325248"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="123916078882488320"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="215036395507548161"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="296018550009626628"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="519790100956184586"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="144550650842316800"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="252460828157018112"]::before,
@@ -1146,10 +1145,6 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="215036395507548161"]:hover::before {
   content: ' Temporal_Timelord  時」';
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="296018550009626628"]:hover::before {
-  content: 'Astral';
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="519790100956184586"]:hover::before {
