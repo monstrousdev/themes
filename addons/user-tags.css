@@ -63,6 +63,7 @@
 /* ========= START OF USER TAGS ============== */
 
   /* before hover */
+.wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="100288999964286976"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="102171488739667968"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="103713842189594624"]::before,
@@ -280,12 +281,25 @@
 .wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="622724687499362315"]::before,
 .wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]::before {
+.wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]::before {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::before {
+  content: "Symbiote Spider-Man";
+  background-color: #00FFFD;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white !important;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]:hover::before {
+  content: "The One and Only";
+  background-color: #101010;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]:hover::before {
   content: "The Changeling";
   background-color: #15e61c;

@@ -59,7 +59,9 @@
 .wrapper-3t9DeA[user_by_bdfdb*="244363360886325248"]:hover:before,
 .wrapper-3t9DeA[user_by_bdfdb*="296018550009626628"]:hover::before,
 .wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]:hover::before,
+.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::before {
   animation: fadeFromRight .2s;
 }
 
