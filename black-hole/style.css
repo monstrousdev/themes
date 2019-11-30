@@ -137,6 +137,7 @@
 *  XII. Custom CSS
 *  XIII. Plugin Optimization
 *     A. Ghost Ping
+*     B. Permissions Viewer
 */
 
 
@@ -2815,4 +2816,18 @@ background-attachment: fixed;
   background-position: top left, center !important;
   background-attachment: fixed, initial !important;
   width: calc(100% - 60px) !important;
+}
+
+  /* B. Permissions Viewer */
+#permissions-modal-wrapper #permissions-modal {
+  background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left !important;
+  background-attachment: fixed;
+  border-radius: 10px;
+}
+
+#permissions-modal-wrapper .header,
+#permissions-modal-wrapper .modal-body,
+#permissions-modal-wrapper .role-side,
+#permissions-modal-wrapper .perm-side {
+  background: transparent;
 }
