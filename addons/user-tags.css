@@ -55,7 +55,8 @@
 .standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
 .standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
 .inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
-.activityFeed-1C0EmJ .large-3ChYtB:not(.wrapper-2F3Zv8)::before{
+.activityFeed-1C0EmJ .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.root-SR8cQa .wrapper-3t9DeA[user_by_bdfdb]::before {
   display: none !important;
 }
 
