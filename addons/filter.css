@@ -51,6 +51,8 @@ border-radius:5px !important;
 font-size: 13px !important;
 text-align: justify !important;
 position:absolute !important;
+top: 0;
+left: -4px;
 font-weight:bold !important;
 height: 100% !important;
 width: 100% !important;
