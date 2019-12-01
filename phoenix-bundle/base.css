@@ -166,6 +166,10 @@
     20.a.7. Theme and Plugin Repo
     20.a.8. Personal Pins
     20.a.9. Detailed Tooltip
+    20.a.10 Ghost Ping
+  
+  20.b. Addon Optimization
+    20.b.1. Custom Popouts
 
 21. Custom CSS
 
@@ -5450,6 +5454,28 @@ div.reply-item {
     padding: 20px !important;
     box-shadow: 0 2px 20px var(--shadow) !important;
   }
+
+/* 20.b. Addon Optimization */
+  /* 20.b.1. Custom Popouts */
+
+.header-QKLPzZ .avatar-3EQepX::before {
+  content:'';
+  position:absolute;
+  top:-34px; /*Distance from the avatar container to the edge of the modal (y)*/
+  left:-20px; /*Distance from the avatar container to the edge of the modal (x)*/
+  width:601px; /*Width of modal header*/
+  height: 600px; /*Height of modal header*/
+  z-index:1;
+  opacity:.5;
+  pointer-events:none;
+  background: var(--user-background) center/cover no-repeat;
+  -webkit-mask: linear-gradient(black, transparent 80%);
+}
+
+.header-QKLPzZ *,
+.tabBarItem-1b8RUP {
+  z-index:2;
+}
 
 /* 21. Custom CSS */
 .bd-detached-editor .chat-3bRxxu .title-3qD0b- > div:last-child,
