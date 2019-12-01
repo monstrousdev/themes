@@ -5465,16 +5465,15 @@ div.reply-item {
   left:-20px; /*Distance from the avatar container to the edge of the modal (x)*/
   width:601px; /*Width of modal header*/
   height: 600px; /*Height of modal header*/
-  z-index:1;
   opacity:.5;
   pointer-events:none;
   background: var(--user-background) center/cover no-repeat;
   -webkit-mask: linear-gradient(black, transparent 80%);
 }
 
-.header-QKLPzZ *,
+.header-QKLPzZ *:not(:first-child),
 .tabBarItem-1b8RUP {
-  z-index:2;
+  z-index:1;
 }
 
 /* 21. Custom CSS */
