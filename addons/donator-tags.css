@@ -59,8 +59,8 @@
 
 
 /* My friends and my borders */
-.wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="182064839827521536"]::after{
+.wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::before,
+.wrapper-3t9DeA[user_by_bdfdb="182064839827521536"]::before{
   content: '';
   position: absolute;
   height: calc(100% + 4px);

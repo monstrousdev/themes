@@ -1,67 +1,67 @@
 /* grow in with pulse */
-.wrapper-3t9DeA[user_by_bdfdb*="254362351170617345"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="172426681800196096"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="252460828157018112"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="316563263179456513"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="150967530075324416"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="234148582523928576"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="251465413995528194"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="227648235097817089"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="210629330135547904"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="143017752775360512"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="82987644316815360"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="166365757561634816"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="324680910123302922"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="213220786805145600"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="336678828233588736"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="531614184526577675"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="433698341008965633"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="312782599439515650"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="152430800241950720"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="263631800021155840"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="95657348390977536"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="622724687499362315"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="254362351170617345"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="172426681800196096"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="252460828157018112"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="316563263179456513"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="150967530075324416"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="234148582523928576"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="251465413995528194"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="227648235097817089"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="210629330135547904"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="143017752775360512"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="82987644316815360"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="166365757561634816"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="324680910123302922"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="213220786805145600"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="336678828233588736"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="531614184526577675"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="433698341008965633"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="312782599439515650"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="152430800241950720"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="438846426441711616"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="263631800021155840"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="95657348390977536"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="622724687499362315"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]:hover::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
 
 /* grow in */
-.wrapper-3t9DeA[user_by_bdfdb*="131414719666847745"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="147889058670968844"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="197477050569719808"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="304260051915374603"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="169081145282002946"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="131414719666847745"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="147889058670968844"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="498444458845536257"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="197477050569719808"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="304260051915374603"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="169081145282002946"]:hover::after {
   animation: popoutanim .2s;
 }
 
 /* fall and bounce */
-.wrapper-3t9DeA[user_by_bdfdb*="282138006738042880"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="244392852950482944"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="282138006738042880"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="244392852950482944"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::after {
   animation: fallBounce 1s;
 }
 
 /* spin in */
-.wrapper-3t9DeA[user_by_bdfdb*="173177738914562048"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="130875493850284032"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="519790100956184586"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="422110084039180318"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="173177738914562048"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="130875493850284032"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="519790100956184586"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="422110084039180318"]:hover::after {
   animation: scaleSpin .4s;
 }
 
 /* fade from right */
-.wrapper-3t9DeA[user_by_bdfdb*="244363360886325248"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb*="296018550009626628"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover:before,
-.wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]:hover::before,
-.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::before {
+.wrapper-3t9DeA[user_by_bdfdb*="244363360886325248"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb*="296018550009626628"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb*="96563253466898432"]:hover:after,
+.wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::after {
   animation: fadeFromRight .2s;
 }
 
