@@ -59,8 +59,8 @@
 
 
 /* My friends and my borders */
-.wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::before,
-.wrapper-3t9DeA[user_by_bdfdb="182064839827521536"]::before{
+.container-1YxwTf .wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::before,
+.container-1YxwTf .wrapper-3t9DeA[user_by_bdfdb="182064839827521536"]::before{
   content: '';
   position: absolute;
   height: calc(100% + 4px);
@@ -75,12 +75,12 @@
   z-index: -1;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::before {
+.container-1YxwTf .wrapper-3t9DeA[user_by_bdfdb="402272736665272320"]::before {
   background-image: url(https://i.gifer.com/fyD3.gif);
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
 
-.wrapper-3t9DeA[user_by_bdfdb="182064839827521536"]::before {
+.container-1YxwTf .wrapper-3t9DeA[user_by_bdfdb="182064839827521536"]::before {
   background-image: url(https://cdn.discordapp.com/attachments/402299470844395530/462532097215692820/giphy.gif);
   }
 
