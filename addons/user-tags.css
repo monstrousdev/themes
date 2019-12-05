@@ -14,7 +14,7 @@
   overflow: visible;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb]::after {
+.wrapper-3t9DeA::after {
   color: rgba(136, 197, 255, 0.5);
   font-size: 13px;
   position: absolute;
@@ -27,7 +27,7 @@
   display: inline-block !important;
 }
 
-.wrapper-3t9DeA[user_by_bdfdb]:hover::after {
+.wrapper-3t9DeA:hover::after {
   font-family: "Whitney", "Helvetica";
   background-color: #000;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
@@ -281,12 +281,18 @@
 .wrapper-3t9DeA[user_by_bdfdb="622724687499362315"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="250353310698176522"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="250353310698176522"]:hover::after {
+  content: "Zoë";
+  background-color: #101010;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::after {
   content: "Symbiote Spider-Man";
   background-color: #00FFFD;
