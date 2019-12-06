@@ -385,9 +385,8 @@
     left: -220px;
   }
 
-  .layer-v9HyYc[style*="; bottom: 57px"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
+  .layer-v9HyYc[style*="; bottom: 56.6"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
-    color: rgba(255, 255, 255, 0.4);
   }
   
   /* 5. @Media Edits */
