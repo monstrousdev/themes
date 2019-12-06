@@ -1485,6 +1485,7 @@ svg[name="Activity"] {
   border-radius: 0;
   display: flex;
   flex-flow: row wrap;
+  position: relative;
 }
 
 #app-mount .item-1GzJrl:hover {
@@ -1537,8 +1538,8 @@ svg[name="Activity"] {
 }
 
 .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-Sp6bN1{
-  bottom: 54px !important;
-  left: 187.5px !important;
+  bottom: 0px !important;
+  left: -5.5px !important;
 }
 
 .menu-Sp6bN1 {
