@@ -3692,9 +3692,9 @@ pre {
 }
 
   /* 15.f. Search Popout */
-  .popoutBottom-2GAFPg.noArrow-2foL9g {
-    margin-top: 0px !important;
-  }
+.popoutBottom-2GAFPg.noArrow-2foL9g {
+  margin-top: -1px !important;
+}
 
 .popout-3sVMXz.popoutBottom-1YbShG.noShadow-321ZPm[style*="top: 37px;"] {
   top: 46px !important;
@@ -3766,7 +3766,7 @@ pre {
   /* 15.g. Server Settings */
   .layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-Sp6bN1 {
   left: -25px !important;
-  top: -10px !important;
+  top: -9px !important;
   width: 230px !important;
   height: auto;
   margin: 0px;
