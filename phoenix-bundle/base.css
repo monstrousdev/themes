@@ -2008,12 +2008,13 @@ pre {
   display: none;
 }
 
-.attachWrapper-1_D-pj {
+.attachWrapper-1_D-pj,
+.form-2fGMdU {
+  border-top: none;
   border-right: none;
 }
 
 .scrollableContainer-38zsVD {
-  background: var(--secondary-color);
   border-radius: 0px;
 }
 
