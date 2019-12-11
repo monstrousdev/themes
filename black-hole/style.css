@@ -194,6 +194,10 @@
   background-color: var(--blurple-sheer);
 }
 
+.attachButton-1UjEWA {
+  height: 100%;
+}
+
 #app-mount .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
   background-color: var(--blurple-sheer);
   border-color: transparent;
@@ -206,12 +210,14 @@
 
 .container-PNkimc,
 .animatedContainer-1pJv5C,
-.sidebar-2K8pFh {
+.sidebar-2K8pFh,
+.scrollableContainer-38zsVD,
+.channels-Ie2l6A {
   background-color: transparent;
 }
 
-.channels-Ie2l6A {
-  background-color: transparent;
+.attachWrapper-1_D-pj {
+  border-right: none;
 }
 
 #app-mount .bannerImage-1jOskm {
