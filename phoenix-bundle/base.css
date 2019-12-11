@@ -2008,6 +2008,15 @@ pre {
   display: none;
 }
 
+.attachWrapper-1_D-pj {
+  border-right: none;
+}
+
+.scrollableContainer-38zsVD {
+  background: var(--secondary-color);
+  border-radius: 0px;
+}
+
 .chat-3bRxxu .attachButton-1UjEWA {
   margin: 5px 10px;
 }
