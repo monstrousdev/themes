@@ -8,7 +8,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]::after {
   content: '';
   color: transparent;
   height: 15px;
@@ -16,9 +17,9 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: -8px !important;
-  right: -8px !important;
-  pointer-events: none !important;
+  bottom: -8px;
+  right: -8px;
+  pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
 
@@ -32,7 +33,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]:hover::after {
+.wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after {
   color: white;
   transform: none;
   background-size: cover;
@@ -127,6 +129,20 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]::after {
+  background-image: url(https://discordapp.com/assets/764836c1d982d6a999ef5ee6ab11eb87.svg);
+  bottom: -5px;
+  right: -5px;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after {
+  background-image: url(https://i.imgur.com/7rTizt9.gif);
+  content: "Zahl";
+  color: white;
+  text-shadow: -1px 0 rgb(78, 11, 11), 0 1px rgb(78, 11, 11), 1px 0 rgb(78, 11, 11), 0 -1px rgb(78, 11, 11),
+  0 0px 3px rgb(78, 11, 11), 0 0px 3px rgb(78, 11, 11), 0 0px 3px rgb(78, 11, 11) !important;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="213220786805145600"]::after {
   background-image: url(https://i.imgur.com/RvOW9GE.png);
   transform: scale(1.2);
