@@ -284,12 +284,37 @@
 .wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="250353310698176522"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="200612445373464576"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="352189597268049921"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after {
+  content: "Zahl";
+  background-color: #f583f1;
+  text-shadow: -1px 0 rgb(105, 21, 21), 0 1px rgb(105, 21, 21), 1px 0 rgb(105, 21, 21), 0 -1px rgb(105, 21, 21) !important;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]:hover::after {
+  content: "#1 Procrastinator";
+  background-color: #577fda;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]:hover::after {
+  content: "CEO of Red";
+  background-color: #cc2c24;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="352189597268049921"]:hover::after {
+  content: "Fry";
+  background-color: #e49868;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]:hover::after {
   content: "HellCat";
   color: black;
