@@ -576,7 +576,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 .scroller-5bBood,
 .scroller-9moviB,
 .scroller-305q3I,
-[class*="scroller-"] {
+[class*="scroller-"],
+.scrollableContainer-2NUZem {
   background-color: transparent;
 }
 
@@ -619,6 +620,22 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 #app-mount .video-1FfuMD {
   background: var(--veil) var(--stars) top left !important;
   background-attachment: fixed;
+}
+
+.scrollableContainer-2NUZem .inner-MADQqc{
+  height: 55px;
+  margin-bottom: 0px;
+}
+
+.chat-3bRxxu .textArea-12jD-V {
+  background-color: transparent !important;
+  line-height: 1.25rem !important;
+  margin-top: 8px;
+}
+
+.chat-3bRxxu .attachButton-1UjEWA,
+.attachButton-2WznTc {
+  margin: 5px;
 }
 
 .friendsTable-133bsv .friendsTableBody-1ZhKif {
