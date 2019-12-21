@@ -9,7 +9,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="174868361040232448"]::after {
   content: '';
   color: transparent;
   height: 15px;
@@ -34,7 +35,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="231827402102276096"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="236006926406778881"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="282138006738042880"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after {
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="174868361040232448"]:hover::after {
   color: white;
   transform: none;
   background-size: cover;
@@ -129,6 +131,18 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.wrapper-3t9DeA[user_by_bdfdb="174868361040232448"]::after {
+  background-image: url(https://i.imgur.com/jAyDjY8.png);
+  transform: scale(1.2);
+  bottom: -5px;
+  right: -5px;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="174868361040232448"]:hover::after {
+  background-image: url(https://i.imgur.com/ApwM2cC.gif);
+  content: "Gibbu";
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]::after {
   background-image: url(https://discordapp.com/assets/764836c1d982d6a999ef5ee6ab11eb87.svg);
   bottom: -5px;
