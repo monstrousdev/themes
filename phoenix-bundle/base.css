@@ -2009,16 +2009,19 @@ pre {
 }
 
 .attachWrapper-1_D-pj,
-.form-2fGMdU {
+.form-2fGMdU,
+.attachWrapper-2TRKBi {
   border-top: none;
   border-right: none;
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-38zsVD,
+.scrollableContainer-2NUZem {
   border-radius: 0px;
 }
 
-.chat-3bRxxu .attachButton-1UjEWA {
+.chat-3bRxxu .attachButton-1UjEWA,
+.attachButton-2WznTc {
   margin: 5px 10px;
 }
 
@@ -2028,7 +2031,8 @@ pre {
   margin: 16px 10px;
 }
 
-.chat-3bRxxu .textArea-2Spzkt {
+.chat-3bRxxu .textArea-2Spzkt,
+.chat-3bRxxu .textArea-12jD-V {
   background-color: transparent !important;
   line-height: 1.25rem !important;
   margin-top: 8px;
@@ -3045,7 +3049,8 @@ pre {
 .theme-dark .autocomplete-1vrmpx,
 #app-mount .menu-Sp6bN1,
 #permissions-modal-wrapper .role-side,
-.sidebar-2K8pFh {
+.sidebar-2K8pFh,
+.inner-MADQqc {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
