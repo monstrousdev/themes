@@ -30,7 +30,8 @@
 .wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="352189597268049921"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after {
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]:hover::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -68,8 +69,14 @@
 .wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]:hover::after {
+.wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]:hover::after {
   animation: fadeFromRight .2s;
+}
+
+/* fade from top */
+.wrapper-3t9DeA[user_by_bdfdb="328357975150297088"]:hover::after {
+  animation: fadeFromTop .2s;
 }
 
 
@@ -107,6 +114,17 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
   }
 }
 

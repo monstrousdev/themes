@@ -287,12 +287,24 @@
 .wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="352189597268049921"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]:hover::after {
+  content: 'uwu';
+  background-color: #2956c9;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]:hover::after {
+  content: "desu";
+  color: green;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]:hover::after {
   content: "#1 Procrastinator";
   background-color: #577fda;
@@ -1064,6 +1076,8 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="328357975150297088"]:hover::after {
   content: 'The Virus';
+  background-color: #3CB968;
+  animation: fadeFromTop .2s;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="331191382792208385"]:hover::after {
