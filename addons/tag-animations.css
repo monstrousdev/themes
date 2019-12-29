@@ -30,8 +30,7 @@
 .wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="352189597268049921"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after,
-.wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]:hover::after {
+.wrapper-3t9DeA[user_by_bdfdb="140012296910012416"]:hover::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 

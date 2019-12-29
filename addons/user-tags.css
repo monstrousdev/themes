@@ -289,15 +289,28 @@
 .wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="578595201874919425"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="397048226919874600"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="397048226919874600"]:hover::after {
+  content: "Xzar the Guitar";
+  background-color: #3d3d3d;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="578595201874919425"]:hover::after {
+  content: 'Daniel';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #ff7f7f;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]:hover::after {
   content: 'uwu';
-  background-color: #2956c9;
+  background-color: #BB0667;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]:hover::after {
