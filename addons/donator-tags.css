@@ -131,6 +131,22 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.wrapper-3t9DeA[user_by_bdfdb="107511169366888448"]:hover::after {
+  content: 'His Code Works';
+  background: url(https://i.imgur.com/sZJzzNW.gif);
+  -webkit-filter: hue-rotate(360deg) invert();
+  animation: hue-rotate 1.5s linear infinite;
+  border: 2px solid var(--mc);
+  color: var(--mc);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 4px;
+  left: calc(100% - 20px);
+  bottom: -20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+  text-align: center;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="174868361040232448"]::after {
   background-image: url(https://i.imgur.com/jAyDjY8.png);
   transform: scale(1.2);
@@ -180,6 +196,7 @@
 .wrapper-3t9DeA[user_by_bdfdb="254362351170617345"]:hover::after {
   content: 'Tropical';
   color: #ffff66;
+  --main-color: #ffff66;
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 black, 
     0 1px black, 

@@ -29,7 +29,8 @@
 
 .wrapper-3t9DeA:not(.avatar-SmRMf2):hover::after {
   font-family: "Whitney", "Helvetica";
-  background-color: #000;
+  --main-color: #000;
+  background-color: var(--main-color);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
   padding: 6px 10px;
   border-radius: 3px;
@@ -291,26 +292,44 @@
 .wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="578595201874919425"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="397048226919874600"]::after {
+.wrapper-3t9DeA[user_by_bdfdb="397048226919874600"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="545060776654667777"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="460174770957189155"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="266452571051393033"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="266452571051393033"]:hover::after {
+  content: 'Skelly';
+  --main-color: #ff0000;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="460174770957189155"]:hover::after {
+  content: 'Currently dying rn';
+  --main-color: #008080;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="545060776654667777"]:hover::after {
+  content: 'egirl';
+  --main-color: #9f45ba;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="397048226919874600"]:hover::after {
   content: "Xzar the Guitar";
-  background-color: #3d3d3d;
+  --main-color: #3d3d3d;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="578595201874919425"]:hover::after {
   content: 'Daniel';
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  background-color: #ff7f7f;
+  --main-color: #ff7f7f;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]:hover::after {
-  content: 'uwu';
-  background-color: #BB0667;
+  content: '(^ 3^)';
+  --main-color: #BB0667;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]:hover::after {
@@ -320,63 +339,63 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="533814956525748235"]:hover::after {
   content: "#1 Procrastinator";
-  background-color: #577fda;
+  --main-color: #577fda;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]:hover::after {
   content: "CEO of Red";
-  background-color: #cc2c24;
+  --main-color: #cc2c24;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="352189597268049921"]:hover::after {
   content: "Fry";
-  background-color: #e49868;
+  --main-color: #e49868;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="418089602239168520"]:hover::after {
   content: "HellCat";
   color: black;
-  background-color: #deddaa;
+  --main-color: #deddaa;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="200612445373464576"]:hover::after{
   content: "Vexion";
-  background-color: #209bd8;
+  --main-color: #209bd8;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="250353310698176522"]:hover::after {
   content: "Zoë";
-  background-color: #101010;
+  --main-color: #101010;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="90110283724374016"]:hover::after {
   content: "Symbiote Spider-Man";
-  background-color: #00FFFD;
+  --main-color: #00FFFD;
   color: black;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white !important;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="111476801762537472"]:hover::after {
   content: "The One and Only";
-  background-color: #101010;
+  --main-color: #101010;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="230714365869817857"]:hover::after {
   content: "The Changeling";
-  background-color: #15e61c;
+  --main-color: #15e61c;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="142110824507506688"]:hover::after {
   content: "Piixel";
-  background-color: #b8efd0;
+  --main-color: #b8efd0;
   color: black;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="622724687499362315"]:hover::after {
   content: "Guard of Skids";
-  background-color: #242424;
+  --main-color: #242424;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="185119357578379264"]:hover::after {
@@ -386,7 +405,7 @@
 .wrapper-3t9DeA[user_by_bdfdb="173177738914562048"]:hover::after {
   color: black;
   content: "D E A D";
-  background-color: white;
+  --main-color: white;
   text-shadow: none !important;
 }
 
@@ -396,7 +415,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="214318588331294720"]:hover::after {
   content: "GREEN?";
-  background-color: rgb(27, 94, 27);
+  --main-color: rgb(27, 94, 27);
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="100288999964286976"]:hover::after {
@@ -433,22 +452,6 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="107179981716631552"]:hover::after {
   content: "Unknown";
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="107511169366888448"]:hover::after {
-  content: 'His Code Works';
-  background: url(https://i.imgur.com/sZJzzNW.gif);
-  -webkit-filter: hue-rotate(360deg) invert();
-  animation: hue-rotate 1.5s linear infinite;
-  border: 2px solid var(--mc);
-  color: var(--mc);
-  font-size: 14px;
-  font-weight: 700;
-  padding: 4px 4px;
-  left: calc(100% - 20px);
-  bottom: -20px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
-  text-align: center;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="107762184641089536"]:hover::after {
@@ -873,7 +876,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="266406986235510786"]:hover::after {
   content: "Image64Labs Waifu";
-  background-color: #ff84ee;
+  --main-color: #ff84ee;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="266682913653915650"]:hover::after {
@@ -1035,7 +1038,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="443765978132643850"]:hover::after {
   content: "NEET";
-  background-color: #3ecc9c;
+  --main-color: #3ecc9c;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="444648030986305536"]:hover::after {
@@ -1076,7 +1079,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="97787466110472192"]:hover::after {
   content: "Those are bold words for someone in stabbing range";
-  background-color: #000;
+  --main-color: #000;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="98241610826911744"]:hover::after {
@@ -1089,7 +1092,7 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="328357975150297088"]:hover::after {
   content: 'The Virus';
-  background-color: #3CB968;
+  --main-color: #3CB968;
   animation: fadeFromTop .2s;
 }
 
@@ -1100,58 +1103,58 @@
 .wrapper-3t9DeA[user_by_bdfdb="280447836007694338"]:hover::after {
   content: "Let Go";
   color: black;
-  background-color: white;
+  --main-color: white;
   text-shadow: none;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="169081145282002946"]:hover::after {
   content: "Loli Hunter";
-  background-color: #ff386d;
+  --main-color: #ff386d;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="304260051915374603"]:hover::after {
   content: "I Am Bread";
-  background-color: #FFC319;
+  --main-color: #FFC319;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="95657348390977536"]:hover::after {
   content: "Justin";
   color: black;
-  background-color: white;
+  --main-color: white;
   text-shadow: none;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="263631800021155840"]:hover::after {
   content: "Neptune";
   color: black;
-  background-color: white;
+  --main-color: white;
   text-shadow: none;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="152430800241950720"]:hover::after {
   content: "HorrorTroll";
-  background-color: #f4b7c9;
+  --main-color: #f4b7c9;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="438846426441711616"]:hover::after {
   content: "Aple";
-  background-color: #4BCEFF;
+  --main-color: #4BCEFF;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="197477050569719808"]:hover::after {
   content: "Crystallize";
-  background-color: #6441A4;
+  --main-color: #6441A4;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="312782599439515650"]:hover::after {
   content: "Keeper of Lolis";
-  background-color: #b591d4;
+  --main-color: #b591d4;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="368562259225608193"]:hover::after {
   content: "Lost Soul King";
-  background-color: #ff0000;
+  --main-color: #ff0000;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="257055153272782848"]:hover::after {
@@ -1161,35 +1164,35 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="531614184526577675"]:hover::after {
   content: "Slide into my DMs";
-  background-color: #FF69B4;
+  --main-color: #FF69B4;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="527971799770857512"]:hover::after {
   content: "𝓠𝓊𝑒𝑒𝓃 𝑜𝒻 𝓣𝑜𝓍𝒾𝒸𝓈";
-  background-color: #80ff00;
+  --main-color: #80ff00;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="131414719666847745"]:hover::after {
   content: "Assassin";
-  background-color: #F9F9F9;
+  --main-color: #F9F9F9;
   color: black;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="219078125974192128"]:hover::after {
   content: "Voluptuous";
-  background-color: #6f182a;
+  --main-color: #6f182a;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="433698341008965633"]:hover::after {
   content: "Skittles";
   color: black;
-  background-color: white;
+  --main-color: white;
   text-shadow: none;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="336678828233588736"]:hover::after {
   content: "lushu";
-  background-color: #00fff5;
+  --main-color: #00fff5;
   text-shadow: -1px 0 black, 
     0 1px black, 
     1px 0 black, 
@@ -1227,23 +1230,23 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="519790100956184586"]:hover::after {
   content: 'SpencerPcGamer';
-  background-color: #00ecff;
+  --main-color: #00ecff;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="144550650842316800"]:hover::after {
   content: 'Not A Moron!';
-  background-color: #ff0800;
+  --main-color: #ff0800;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="252460828157018112"]:hover::after {
   content: 'Voyant';
-  background-color: #d8d8d8;
+  --main-color: #d8d8d8;
   color: black;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="316563263179456513"]:hover::after {
   content: "Toby";
-  background-color: #FF00FF;
+  --main-color: #FF00FF;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="150967530075324416"]:hover::after {
@@ -1252,57 +1255,57 @@
 
 .wrapper-3t9DeA[user_by_bdfdb="498444458845536257"]:hover::after {
   content: "fag";
-  background-color: #593695;
+  --main-color: #593695;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="234148582523928576"]:hover::after {
   content: "@everyone";
-  background-color: #7289DA;
+  --main-color: #7289DA;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="147889058670968844"]:hover::after {
   content: "Hentai™";
-  background-color: #FB4B25;
+  --main-color: #FB4B25;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="251465413995528194"]:hover::after {
   content: "XXV";
-  background-color: #DEAD25;
+  --main-color: #DEAD25;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="120721814837002240"]:hover::after {
 	content: "Selfmade";
-  background-color: #ff0055;
+  --main-color: #ff0055;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="227648235097817089"]:hover::after {
   content: "SlimeKing";
-  background-color: #5ae5ed;
+  --main-color: #5ae5ed;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="210629330135547904"]:hover::after {
   content: "Loaf";
-  background-color: #8601c9;
+  --main-color: #8601c9;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="211376467114852352"]:hover::after {
   content: "Euphoria";
-  background-color: #36208D;
+  --main-color: #36208D;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="143017752775360512"]:hover::after {
   content: "Masquerade";
-  background-color: #42ffbc;
+  --main-color: #42ffbc;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="82987644316815360"]:hover::after {
   content: 'Tea Time';
-  background-color: #B71C1C;
+  --main-color: #B71C1C;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="324680910123302922"]:hover::after {
   content: 'Peace Walker';
-  background-color: #F1CD1C;
+  --main-color: #F1CD1C;
 }
 
 @keyframes hue-rotate {

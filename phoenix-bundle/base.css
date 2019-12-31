@@ -432,7 +432,7 @@ svg[name="Activity"] {
 
 .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   margin-top: -58px;
-  width: 70px;
+  width: 72px;
   margin-left: 2px;
   position: absolute;
   z-index: 2;
@@ -2008,6 +2008,10 @@ pre {
   display: none;
 }
 
+.buttons-3JBrkn {
+  padding: 5px;
+}
+
 .attachWrapper-1_D-pj,
 .form-2fGMdU,
 .attachWrapper-2TRKBi {
@@ -3258,7 +3262,7 @@ pre {
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   transform-origin: 50% -10%;
   box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
-  margin-top: 1px;
+  margin-top: 2px;
   background-color: var(--primary-color);
 }
 
