@@ -169,6 +169,7 @@
   background-image: url(https://i.imgur.com/7rTizt9.gif);
   content: "Zahl";
   color: white;
+  --main-color: rgb(78, 11, 11);
   text-shadow: -1px 0 rgb(78, 11, 11), 0 1px rgb(78, 11, 11), 1px 0 rgb(78, 11, 11), 0 -1px rgb(78, 11, 11),
   0 0px 3px rgb(78, 11, 11), 0 0px 3px rgb(78, 11, 11), 0 0px 3px rgb(78, 11, 11) !important;
 }
@@ -184,6 +185,7 @@
   content: "Ellie";
   color: #FFF;
   background-image: url(https://i.imgur.com/bUmWjxM.gif);
+  --main-color: pink;
 }
 
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="254362351170617345"]::after {
@@ -214,6 +216,7 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="166365757561634816"]:hover::after {
   content: 'Love 2XMM2';
   color: #27fa00;
+  --main-color: #27fa00;
   background-image: url(https://imgpile.com/images/I1XHcj.gif);
 }
 
@@ -226,6 +229,7 @@
   content: '新しい日の誕生';
   color: white;
   background-image: url(https://i.imgur.com/OI7nhT7.gif);
+  --main-color: rgb(160, 92, 180);
 }
 
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="236006926406778881"]::after {
@@ -237,6 +241,7 @@
   color: transparent;
   text-shadow: none;
   background-image: url(https://i.imgur.com/wQS2mYR.gif);
+  --main-color: white;
 }
 
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="282138006738042880"]::after {
@@ -251,4 +256,5 @@
   content: 'Witcher';
   background-image: url(https://i.imgur.com/Y9XMtlS.gif);
   color: #AF616E;
+  --main-color: #AF616E;
 }
