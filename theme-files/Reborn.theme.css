@@ -17,12 +17,27 @@ Registered: Black Box Theme
 
 ===== CUSTOMIZABLE COLORS AND IMAGES =====
 */
-:root { 
-	--main-color: #007dbd;
-  --hover-color: #03679b;
-  --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
-  --popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
- }
+
+:root {
+  --roundness: 50px;             
+/* edit roundness of icons from 0px to 50px */
+ --main-color: #007dbd;        
+/* Main Color */     
+  --hover-color: #03679b;      
+ /* Hover Color */
+  --home-color: #eee;      
+ /* this is the default color */
+  --home-size: 24px;       
+ /* this is the default size */
+  --shadow: rgba(0,0,0,.4);  
+ /* change to darken lighten, or set to transparent */
+ --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);    
+/* Main Background */
+  --background-blur: 0px;
+/* Main Background Blur */
+--popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);
+ /* Background for popup modules */
+}
 
 
 /*
