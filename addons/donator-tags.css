@@ -21,7 +21,9 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="140012296910012416"]::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="140012296910012416"]::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="174868361040232448"]::after ,
-.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="174868361040232448"]::after {
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="174868361040232448"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="273169968202252289"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="273169968202252289"]::after {
   content: '';
   color: transparent;
   height: 15px;
@@ -58,7 +60,9 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="140012296910012416"]:hover::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="140012296910012416"]:hover::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="174868361040232448"]:hover::after ,
-.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="174868361040232448"]:hover::after {
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="174868361040232448"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="273169968202252289"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="273169968202252289"]:hover::after {
   color: white;
   transform: none;
   background-size: cover;
@@ -162,6 +166,20 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="273169968202252289"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="273169968202252289"]::after {
+  background-image: url(https://discordemoji.com/assets/emoji/BlobbleWobble.gif);
+  height: 18px;
+  width: 18px;
+}
+
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="273169968202252289"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="273169968202252289"]:hover::after {
+  background: #7289da;
+  --main-color: #7289da;
+  content: "Korbs";
+}
+
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="107511169366888448"]:hover::after ,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="107511169366888448"]:hover::after {
   content: 'His Code Works';

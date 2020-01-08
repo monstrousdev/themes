@@ -66,7 +66,9 @@
 .wrapper-3t9DeA[user_by_bdfdb="460174770957189155"]:hover::after,
 .wrapper-3t9DeA[data-user-id="460174770957189155"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="264062457448759296"]:hover::after ,
-.wrapper-3t9DeA[data-user-id="264062457448759296"]:hover::after {
+.wrapper-3t9DeA[data-user-id="264062457448759296"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="273169968202252289"]:hover::after,
+.wrapper-3t9DeA[data-user-id="273169968202252289"]:hover::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
