@@ -1876,7 +1876,10 @@ pre, code {
   border-radius: 3px !important;
 }
 
-code.inline {
+code.inline,
+.after_inlineCode-1KfVgj, 
+.before_inlineCode-1G9rTK, 
+.inlineCode-2ngu6Y {
   background: var(--tertiary-color) !important;
 }
 
