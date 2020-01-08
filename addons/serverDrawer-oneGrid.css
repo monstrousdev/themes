@@ -48,6 +48,10 @@
   overflow: hidden;
 }
 
+.wrapper-1Rf91z .scrollerWrap-1IAIlv {
+  width: 70px;
+}
+
 .wrapper-1Rf91z:hover ~ .wrapper-1Rf91z.foldercontent.foldercontentopen {
   width: 70px;
 }  

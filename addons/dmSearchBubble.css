@@ -23,7 +23,7 @@
   width: 100%;
 }
 
-.privateChannels-1nO12o .searchBar-6Kv8R2 .inner-3ErfOT::after {
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
   content: '';
   position: absolute;
   height: 100%;
@@ -34,22 +34,23 @@
   pointer-events: none;
 }
 
-.privateChannels-1nO12o .searchBar-6Kv8R2 .inner-3ErfOT::before {
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
   content: 'Search Direct Messages';
   position: absolute;
-  height: 100%;
+  top: 50%;
+  transform: translateY(-25%);
   width: 180px;
   bottom: 0;
   right: 0vw;
   color: white;
   opacity: .5;
   font-size: 12px;
-  line-height: 25px;
+  line-height: 100%;
   transition: all .2s ease-in-out;
   pointer-events: none;
 }
 
-.privateChannels-1nO12o .searchBar-6Kv8R2 input::placeholder {
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   color: transparent;
 }
 
