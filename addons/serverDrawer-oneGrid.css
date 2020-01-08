@@ -39,7 +39,7 @@
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
-  height: 46px;
+  height: 47px;
   position: absolute;
   margin-top: -58px;
   margin-left: 2px;
@@ -50,6 +50,8 @@
   z-index: 99999;
   background-color: var(--quaternary-color);
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
+  box-shadow: var(--elevation-low);
+  padding-bottom: .5px;
 }
 
 .wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>.listItem-2P_4kh:first-child {

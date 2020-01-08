@@ -7,6 +7,7 @@
   --streaming: #643da7;
   --main-color: #7289da;
   --hover-color: var(--background-floating);
+  --quaternary-color: var(--background-floating);
   --shadow: rgba(0, 0, 0, 0.2);
 }
 
@@ -109,7 +110,6 @@
 }
 
 .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
-  background-color: var(--primary-color);
   width: 100%;
   transition: color 200ms ease-in, background-color 200ms ease-in;
   z-index: -1;

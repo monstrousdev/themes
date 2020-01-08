@@ -67,7 +67,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .item-2hkk8m {
  background-color: var(--main-color);
- z-index:2;
+ z-index:1;
  box-shadow: none;
  height: 10px !important;
  width: 10px;
