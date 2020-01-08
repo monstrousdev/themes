@@ -5255,8 +5255,13 @@ pre {
 }
 
 .verifiedIcon-3oz8wo,
-.verified-1eC5dy {
+.verified-1eC5dy,
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
 color: var(--main-color) !important;
+}
+
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+  color: var(--online) !important;
 }
 
 #app-mount .iconBackgroundTierOne-2LhaMB,
