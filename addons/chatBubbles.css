@@ -1,3 +1,7 @@
+:root {
+  --quaternary-color: var(--background-tertiary);
+}
+
 .chat-3bRxxu .containerCozy-jafyvG:not(:last-child),
 .chat-3bRxxu .container-1YxwTf:last-child {
   background-color: #111;

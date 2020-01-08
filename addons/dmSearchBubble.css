@@ -1,3 +1,9 @@
+:root {
+  --main-color: #7289da;
+  --hover-color: #7289da;
+  --shadow: rgba(0,0,0,0.2);
+}
+
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
   position: absolute;
   bottom: 20px;
@@ -12,6 +18,7 @@
   cursor: pointer;
   transition: all .2s ease-in-out;
   pointer-events: all;
+  padding: 0;
 }
 
 #app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {

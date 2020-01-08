@@ -1,3 +1,9 @@
+:root {
+  --roundness: 50px;
+  --main-color: #7289da;
+  --list-size: 140px;
+}
+
 /*Two column server list*/
 .wrapper-1Rf91z {
   width: 140px;
@@ -61,9 +67,10 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .item-2hkk8m {
  background-color: var(--main-color);
- z-index:9000;
+ z-index:2;
  box-shadow: none;
  height: 10px !important;
+ width: 10px;
  top: 0px;
  left: 0px;
  margin-top: 0px !important;
@@ -76,6 +83,10 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
  background-color: #ccc !important;
  box-shadow: 0 0 20px #ccc !important;
  opacity: 1 !important;
+}
+
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh .pill-31IEus {
+  overflow: visible;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh .item-2hkk8m[style*="height: 40px"] {
@@ -132,10 +143,27 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
  border-radius: var(--roundness);
 }
 
+.guildsWrapper-5TJh6A,
+.wrapper-1Rf91z {
+  z-index: 6;
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 10px 0 20px 0 !important;
+}
+
+.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv { 
+  margin-top: 48px !important;
+}
+
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  margin-top: -58px !important;
+  position: absolute;
+  z-index: 2;
+  height: 46px;
   margin-left: -2px !important;
   width: 143px !important;
-  margin-top: -58px !important;
 }
 
 /* optimized for server folders */

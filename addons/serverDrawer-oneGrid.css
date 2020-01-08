@@ -1,4 +1,6 @@
 .wrapper-1Rf91z {
+  background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) left/cover no-repeat !important;
+  background-attachment: fixed;
   transform: translateY(-100%);
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
   overflow: visible;
@@ -17,7 +19,30 @@
   transform: translateY(0);
 }
 
+.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv { 
+  margin-top: 48px !important;
+}
+
+.guildsWrapper-5TJh6A,
+.wrapper-1Rf91z {
+  z-index: 6;
+}
+
+#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
+  padding: 10px 0 20px 0 !important;
+}
+
+.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
+.wrapper-1Rf91z .scrollerWrap-1IAIlv { 
+  margin-top: 48px !important;
+}
+
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  height: 46px;
+  position: absolute;
+  margin-top: -58px;
+  margin-left: 2px;
   top: 101.5%;
   left: -1px;
   width: 71px;

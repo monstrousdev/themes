@@ -1,6 +1,9 @@
 @import "https://monstrousdev.github.io/themes/addons/twoColumnServer.css";
 
+/* server grid */
 .wrapper-1Rf91z {
+  background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) left/cover no-repeat !important;
+  background-attachment: fixed;
   transform: translateY(-100%);
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
   overflow: visible;
@@ -27,6 +30,7 @@
   z-index: 99999;
   background-color: var(--quaternary-color);
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
+  box-shadow: var(--elevation-low);
 }
 
 .wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>.listItem-2P_4kh:first-child {
