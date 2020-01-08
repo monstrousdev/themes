@@ -1,8 +1,3 @@
-:root {
-  --primary-color: var(--background-secondary);
-  --shadow: rgba(0,0,0,0.2);
-}
-
 .membersWrap-2h-GB4 {
   pointer-events: none;
 }
@@ -26,8 +21,8 @@
 .members-1998pB:hover{
   animation:member 300ms ease;
   transform:translate(0px);
-  background-color: var(--primary-color) !important;
-  box-shadow:4px 0 10px 6px var(--shadow);
+  background-color: var(--primary-color, var(--background-secondary)) !important;
+  box-shadow:4px 0 10px 6px var(--shadow, rgba(0,0,0,0.2));
 }
 
 .members-1998pB:hover::after{ 

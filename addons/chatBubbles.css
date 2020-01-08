@@ -1,11 +1,6 @@
-:root {
-  --quaternary-color: var(--background-tertiary);
-}
-
 .chat-3bRxxu .containerCozy-jafyvG:not(:last-child),
 .chat-3bRxxu .container-1YxwTf:last-child {
-  background-color: #111;
-  background-color: var(--quaternary-color);
+  background-color: var(--quaternary-color, var(--background-tertiary));
   padding: 15px 7px 10px 10px !important;
   margin: 20px 10px 20px 80px;
   border-radius: 5px;
@@ -31,7 +26,7 @@
 content: ' ';
 border: 6.5px solid transparent;
 border-right-color: #111;
-border-right-color: var(--quaternary-color);
+border-right-color: var(--quaternary-color, var(--background-tertiary));
 position: absolute;
 margin-top: -75%;
 margin-left: 92%;
@@ -39,7 +34,7 @@ margin-left: 92%;
 
 .containerCozy-jafyvG .isMentioned-N-h9aa {
   box-shadow: 0px 0px 5px rgba(250,166,26,.1);
-  box-shadow: 0px 0px 5px var(--main-color);
+  box-shadow: 0px 0px 5px var(--main-color, #7289da);
 }
 
 .containerCozyBounded-1rKFAn {

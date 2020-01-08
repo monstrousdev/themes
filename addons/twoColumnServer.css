@@ -1,6 +1,4 @@
 :root {
-  --roundness: 50px;
-  --main-color: #7289da;
   --list-size: 140px;
 }
 
@@ -66,7 +64,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .item-2hkk8m {
- background-color: var(--main-color);
+ background-color: var(--main-color, #7289da);
  z-index:1;
  box-shadow: none;
  height: 10px !important;
@@ -92,7 +90,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh .item-2hkk8m[style*="height: 40px"] {
  height: 46px !important;
  width: 50px;
- border-radius: var(--roundness) !important;
+ border-radius: var(--roundness, 50px) !important;
  background-color: transparent;
  border: 2px solid #ccc;
  left: 1px;
@@ -127,20 +125,20 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
  height: 100%;
  width: 100%;
  margin-top: 0;
- border: 2px solid var(--main-color);
+ border: 2px solid var(--main-color, #7289da);
  background: transparent;
  box-sizing: border-box;
- border-radius: var(--roundness);
+ border-radius: var(--roundness, 50px);
 }
 
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC.selected-nT-gM3:hover:before {
  height: 100%;
  width: 100%;
  margin-top: 0;
- border: 2px solid var(--main-color);
+ border: 2px solid var(--main-color, #7289da);
  background: transparent;
  box-sizing: border-box;
- border-radius: var(--roundness);
+ border-radius: var(--roundness, 50px);
 }
 
 .guildsWrapper-5TJh6A,

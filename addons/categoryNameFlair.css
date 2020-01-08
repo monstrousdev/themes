@@ -1,13 +1,9 @@
-:root {
-  --main-color: #7289da;
-}
-
 /* Make Channel Categories Match Role Categories */
 
 .name-IbjUBS {
   color: var(--main-color);
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, var(--main-color), transparent);
+  border-image: linear-gradient(90deg, transparent, var(--main-color, #7289da), transparent);
   border-image-slice: 1;
   margin-top: -7px;
   text-align: center;
