@@ -437,8 +437,6 @@
 .wrapper-3t9DeA[data-user-id="150967530075324416"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="498444458845536257"]::after,
 .wrapper-3t9DeA[data-user-id="498444458845536257"]::after,
-.wrapper-3t9DeA[user_by_bdfdb="234148582523928576"]::after,
-.wrapper-3t9DeA[data-user-id="234148582523928576"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="147889058670968844"]::after,
 .wrapper-3t9DeA[data-user-id="147889058670968844"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="251465413995528194"]::after,
@@ -1709,12 +1707,6 @@
 .wrapper-3t9DeA[data-user-id="498444458845536257"]:hover::after {
   content: "fag";
   --main-color: #593695;
-}
-
-.wrapper-3t9DeA[user_by_bdfdb="234148582523928576"]:hover::after ,
-.wrapper-3t9DeA[data-user-id="234148582523928576"]:hover::after {
-  content: "@everyone";
-  --main-color: #7289DA;
 }
 
 .wrapper-3t9DeA[user_by_bdfdb="147889058670968844"]:hover::after ,
