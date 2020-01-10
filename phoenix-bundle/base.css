@@ -5481,6 +5481,11 @@ div.reply-item {
     box-shadow: 0 2px 20px var(--shadow) !important;
   }
 
+  /* 20.a.11. Display Servers to Channels */
+  .DSAC-styled .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+    margin-top: -42px !important;
+  }
+
 /* 20.b. Addon Optimization */
   /* 20.b.1. Custom Popouts */
 
