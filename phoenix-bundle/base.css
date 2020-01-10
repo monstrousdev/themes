@@ -3630,6 +3630,7 @@ pre {
 
 .roleName-32vpEy {
   margin: 0 4px;
+  z-index: unset !important;
 }
 
 .roleCircleButton-377y0l {
