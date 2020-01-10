@@ -740,7 +740,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 
 .scrollerWrap-2lJEkd,
 .scroller-2TZvBN {
-  contain: layout style;
+  contain: unset;
 }
 
 .codeRedemption-2CtsK6,
