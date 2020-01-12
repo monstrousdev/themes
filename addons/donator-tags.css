@@ -111,7 +111,14 @@
   background-position: center;
   background-repeat: no-repeat;
   pointer-events: none;
-  border-radius: var(--roundness, 50px);
+  border-radius: var(--roundness, --user-roundness, 50px) !important;
+}
+
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="402272736665272320"]:hover::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="402272736665272320"]:hover::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="134349083568504832"]:hover::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="134349083568504832"]:hover::before {
+  border-radius: var(--roundness, --user-roundness, 50px) !important;
 }
 
 .container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="402272736665272320"]::before ,
