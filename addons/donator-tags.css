@@ -99,8 +99,8 @@
 /* My friends and my borders */
 .container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="402272736665272320"]::before,
 .container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="402272736665272320"]::before,
-.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="182064839827521536"]::before,
-.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="182064839827521536"]::before{
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="134349083568504832"]::before,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="134349083568504832"]::before{
   content: '';
   position: absolute;
   height: calc(100% + 4px);
@@ -120,9 +120,10 @@
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
 
-.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="182064839827521536"]::before ,
-.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="182064839827521536"]::before {
-  background-image: url(https://cdn.discordapp.com/attachments/402299470844395530/462532097215692820/giphy.gif);
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="134349083568504832"]::before ,
+.container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="134349083568504832"]::before {
+  background-image: url(https://media3.giphy.com/media/l1J9EXOsgzbYLm8EM/giphy.gif);
+  background-size: 150%;
   }
 
 
