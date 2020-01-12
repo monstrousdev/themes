@@ -111,8 +111,7 @@
   background-position: center;
   background-repeat: no-repeat;
   pointer-events: none;
-  border-radius: var(--roundness);
-  z-index: -1;
+  border-radius: var(--roundness, 50px);
 }
 
 .container-1YxwTf .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="402272736665272320"]::before ,
