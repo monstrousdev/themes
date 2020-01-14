@@ -752,6 +752,21 @@ svg[name="Activity"] {
 	border-color: var(--secondary-color) !important 
 }
 
+#app-mount .item-3eFBNF,
+#app-mount .game-1ipmAa {
+  -webkit-box-shadow: inset 0 -1px 0 0 var(--tertiary-color);
+  box-shadow: inset 0 -1px 0 0 var(--tertiary-color);
+}
+
+.item-3eFBNF.selected-2DeaDa {
+  background-color: var(--quaternary-color);
+}
+
+#app-mount .card-FDVird:before {
+  background-color: var(--quaternary-color);
+  border-color: var(--ssecondary-color);
+}
+
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bda-slist .bda-footer button {
   background: var(--main-color)
@@ -815,7 +830,8 @@ svg[name="Activity"] {
 .barFill-23-gu-,
 [style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"],
 .bd-pfbtn,
-#pubslayer button {
+#pubslayer button,
+#bd-pub-button {
   background-color: var(--main-color) !important;
 }
 
@@ -957,8 +973,13 @@ color: var(--dnd) !important;
 
 .premiumContainer-2Iux5m,
 .banner-3Kac2g,
-.tier1Banner-1B_WXY {
+.tier1Banner-1BTgv0 {
   max-width: unset;
+}
+
+#app-mount {
+  max-width: unset;
+  background-color: var(--tertiary-color);
 }
 
 .details-1YZMDP {
@@ -2781,6 +2802,22 @@ pre {
   color: var(--hover-color) !important
 }
 
+.lookOutlined-3sRXeN.colorBrand-3pXr91:active {
+  border-color: var(--main-color);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91::before {
+  position: absolute;
+  content: "";
+  top: -1px;
+  left: -1px;
+  height: calc(1px + 100%);
+  width: calc(1px + 100%);
+  border-radius: 5px;
+  background: var(--main-color);
+  opacity: .1;
+}
+
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
   border-color: var(--hover-color);
 }
@@ -3265,7 +3302,7 @@ pre {
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
   transform-origin: 50% -10%;
   box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
-  margin-top: 2px;
+  margin-top: 3px;
   background-color: var(--primary-color);
 }
 
@@ -3890,35 +3927,38 @@ pre {
 }
 
   /* 15.h. Group DM Invite Popout */
-.modal-3HD5ck {
+.modal-yWgWj- {
   background-color: var(--primary-color) !important;
 }
 
-.modal-3HD5ck.popout-3Nppv9 {
+.modal-yWgWj-.popout-103y-5 {
+  margin-top: 3px;
   border-right: 2px solid var(--main-color);
   border-left: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px;
+  transform-origin: 50% -10%;
+  animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
 }
 
-.modal-3HD5ck .searchBar-2_Yu-C {
+.modal-yWgWj- .searchBar-2_Yu-C {
   background-color: var(--quaternary-color) !important;
 }
 
-.friendSelected--wQP3f {
+#app-mount .friendSelected-1sa4bG {
   background-color: var(--quaternary-color) !important;
 }
 
-.modal-3HD5ck .checked-3_4uQ9 {
+.modal-yWgWj- .checked-3_4uQ9 {
   background-color: var(--main-color) !important;
   border-color: var(--hover-color) !important;
 }
 
-.search-bar-tag {
+.tag-2gHSR7 {
   background: var(--secondary-color) !important;
 }
 
-.modal-3HD5ck .checked-3_4uQ9::after {
+.modal-yWgWj- .checked-3_4uQ9::after {
   content: '';
   position: absolute;
   height: 100%;
@@ -3930,8 +3970,8 @@ pre {
   -webkit-mask-size: 95%;
 }
 
-.modal-3HD5ck .checked-3_4uQ9 svg,
-.modal-3HD5ck .checked-3_4uQ9 g {
+.modal-yWgWj- .checked-3_4uQ9 svg,
+.modal-yWgWj- .checked-3_4uQ9 g {
   display: none;
 } 
 
@@ -4171,6 +4211,10 @@ pre {
 .popout-3sVMXz.popoutTop-3uu9vG,
 .popout-3sVMXz.popoutTopLeft-b5Eb3O {
   overflow: visible !important;
+}
+
+.popoutBottom-2GAFPg.noArrow-2foL9g[style*="z-index: 20"] {
+  margin-top: 10px !important;
 }
 
 .popout-3sVMXz.popoutTopLeft-b5Eb3O {
@@ -4517,7 +4561,16 @@ pre {
   color: var(--main-color) !important;
 }
 
-.theme-light .slide-2pHaq5, .theme-dark .slide-2pHaq5 { background-color: transparent }
+.theme-light .slide-2pHaq5, 
+.theme-dark .slide-2pHaq5,
+.theme-dark .theme-light .slide-2pHaq5 {
+   background-color: var(--primary-color);
+  }
+
+.theme-dark .theme-dark .actionIcon-2IISM_, 
+.theme-dark .theme-light .actionIcon-2IISM_ {
+  filter: none;
+}
 
 .theme-dark .create-3jownz .actionIcon-2IISM_, 
 .theme-light .create-3jownz .actionIcon-2IISM_ {
@@ -4560,7 +4613,10 @@ pre {
   background-color: var(--main-color);
 }
 
-.theme-dark .action-1lSjCi, .theme-light .action-1lSjCi {
+.theme-dark .action-1lSjCi, 
+.theme-light .action-1lSjCi,
+.theme-dark .theme-dark .action-1lSjCi, 
+.theme-dark .theme-light .action-1lSjCi {
   background: var(--tertiary-color);
   border-color: var(--secondary-color);
 }
@@ -4579,7 +4635,8 @@ pre {
   background-color: var(--hover-color);
 }
 
-.theme-dark .or-3THJsp, .theme-light .or-3THJsp {
+#app-mount .theme-dark .or-3THJsp, 
+#app-mount .theme-light .or-3THJsp {
   background-image: none;
   -webkit-mask: url('https://monstrousdev.github.io/themes/assets/svgs/or.svg');
   -webkit-mask-position: center;
@@ -4613,14 +4670,14 @@ pre {
   color: var(--main-color);
 }
 
-.regionSelect-3lf4eE:hover button {
+#app-mount .regionSelect-3lf4eE:hover button {
   background-color: var(--hover-color);
   color: white;
 }
 
 .form-deprecated .form-actions, 
 .form.deprecated .form-actions,
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+#app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
   background-color: var(--quaternary-color);
   border-color: var(--tertiary-color);
 }
@@ -4768,8 +4825,14 @@ pre {
 }
 
   /* 17.h. Screenshare Modal */
-.tiles-2aXG_k {
+.tiles-2aXG_k,
+.tile-2silOL:hover .sourceThumbnail-14Iubx {
   background-color: var(--quaternary-color) !important;
+}
+
+.tile-2silOL:hover .sourceThumbnail-14Iubx {
+  -webkit-box-shadow: inset 0 0 0 2px #7289da;
+  box-shadow: inset 0 0 0 2px #7289da;
 }
 
 .selectorButtonSelected-1j4DmC {
@@ -5212,6 +5275,7 @@ pre {
 .mediaBarProgress-1xaPtl:after,
 .mediaBarProgress-1xaPtl:before,
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN,
+#app-mount .barForeground-3KglC8,
 .theme-dark .categoryFadeBlurple-1j72_A, 
 .theme-light .categoryFadeBlurple-1j72_A {
   background-color: var(--main-color);
@@ -5253,7 +5317,8 @@ pre {
 .verifiedIcon-1vpk3S path:nth-of-type(2),
 #app-mount .iconTierNone-3xOaeG,
 .verified-1eC5dy path[fill="#4f545c"],
-.verifiedIcon-3oz8wo path[fill="#7289da"] {
+.verifiedIcon-3oz8wo path[fill="#7289da"]
+.gameVerifiedIcon-2dGGa5 path[fill="#7289da"] {
   fill: var(--main-color) !important;
 }
 
@@ -5298,6 +5363,49 @@ color: var(--main-color) !important;
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV {
   background: var(--secondary-color);
+}
+
+.lookGhost-2Fn_0-.colorGrey-2DXtkV .contents-18-Yxp {
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), var(--main-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
+
+.lookGhost-2Fn_0- .contents-18-Yxp {
+  transition: color 500ms ease-in-out;
+}
+
+.lookGhost-2Fn_0-.colorGrey-2DXtkV {
+  background: var(--main-color);
+}
+
+.lookGhost-2Fn_0-::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), var(--primary-color);
+  opacity: .9;
+  transition: all 500ms ease-in-out;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91 .contents-18-Yxp {
+  position: relative;
+  color: var(--main-color);
+  z-index: 1;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91 {
+  background: var(--main-color);
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91::before {
+  opacity: .8;
 }
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
