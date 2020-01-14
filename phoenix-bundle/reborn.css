@@ -411,3 +411,11 @@
   background-position: center, center;
   background-attachment: initial, fixed;
 }
+
+.lookGhost-2Fn_0-::before {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), var(--background-image) center/cover no-repeat fixed;
+}
+
+.lookGhost-2Fn_0-.colorBrand-3pXr91::before {
+  opacity: .9;
+}
