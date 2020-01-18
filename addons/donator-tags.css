@@ -27,7 +27,9 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="234148582523928576"]::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="234148582523928576"]::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="664933588835368990"]::after,
-.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="664933588835368990"]::after {
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="664933588835368990"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="454072114492866560"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="454072114492866560"]::after {
   content: '';
   color: transparent;
   height: 15px;
@@ -70,7 +72,9 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="234148582523928576"]:hover::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="234148582523928576"]:hover::after,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="664933588835368990"]:hover::after,
-.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="664933588835368990"]:hover::after {
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="664933588835368990"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="454072114492866560"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="454072114492866560"]:hover::after {
   color: white;
   transform: none;
   background-size: cover;
@@ -181,11 +185,25 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
-.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="664933588835368990"]::after {
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="454072114492866560"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="454072114492866560"]::after {
+  background-image: url(https://i.imgur.com/P2UoBoM.png);
+}
+
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="454072114492866560"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="454072114492866560"]:hover::after {
+  background-image: url(https://i.imgur.com/jHOD8P4.gif);
+  --main-color: hotpink;
+  content: "Vappy";
+}
+
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="664933588835368990"]::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="664933588835368990"]::after {
   background-image: url(https://i.imgur.com/grGQdS8.png);
 }
 
-.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="664933588835368990"]:hover::after {
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="664933588835368990"]:hover::after,
+.wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="664933588835368990"]:hover::after {
   background-image: url(https://i.imgur.com/ItO6N6a.gif);
   --main-color: rgb(92, 0, 0);
   content: "シーディー";
@@ -293,8 +311,8 @@
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[user_by_bdfdb="254362351170617345"]:hover::after ,
 .wrapper-3t9DeA:not(.avatar-SmRMf2)[data-user-id="254362351170617345"]:hover::after {
   content: 'Tropical';
-  color: #ffff66;
-  --main-color: #ffff66;
+  color: #ffe256;
+  --main-color: #ffe256;
   background-image: url(https://i.imgur.com/0tAtFyG.gif);
   text-shadow: -1px 0 black, 
     0 1px black, 

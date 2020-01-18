@@ -380,7 +380,7 @@ svg[name="Activity"] {
 
 /* 2. Chat Header */
   /* 2.a. Coloring and Spacing */
-.toolbar-1t6TWx {
+.platform-win .toolbar-1t6TWx {
   margin-right: 96px;
 }
 
@@ -591,6 +591,10 @@ svg[name="Activity"] {
 
 .base-3dtUhz {
   border-radius: 0 !important;
+}
+
+.platform-osx .base-3dtUhz {
+  margin-top: 32px;
 }
 
 .wrapper-1Rf91z {
@@ -998,9 +1002,6 @@ color: var(--dnd) !important;
 
 /* 4. Guilds Wrapper */
  /* 4.a. Main Guilds Wrapper */
-.platform-osx .guildsWrapper-5TJh6A,
-.platform-osx .wrapper-1Rf91z { margin-top: 0px !important; }
-
 .scroller-2TZvBN {
   contain: initial;
 }
@@ -4291,7 +4292,7 @@ pre {
   pointer-events: none;
   top: 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 

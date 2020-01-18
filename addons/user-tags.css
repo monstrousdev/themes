@@ -15,7 +15,7 @@
 }
 
 .wrapper-3t9DeA::after {
-  color: rgba(136, 197, 255, 0.5);
+  color: var(--main-color, var(--mc, rgb(var(--BG-tint-colour, 114, 137, 218))));
   font-size: 13px;
   position: absolute;
   bottom: 0;
@@ -526,12 +526,37 @@
 .wrapper-3t9DeA[user_by_bdfdb="460174770957189155"]::after,
 .wrapper-3t9DeA[data-user-id="460174770957189155"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="266452571051393033"]::after ,
-.wrapper-3t9DeA[data-user-id="266452571051393033"]::after {
+.wrapper-3t9DeA[data-user-id="266452571051393033"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="605514546249072679"]::after,
+.wrapper-3t9DeA[data-user-id="605514546249072679"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="323030822267518977"]::after,
+.wrapper-3t9DeA[data-user-id="323030822267518977"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="173557815326015488"]::after,
+.wrapper-3t9DeA[data-user-id="173557815326015488"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="173557815326015488"]:hover::after,
+.wrapper-3t9DeA[data-user-id="173557815326015488"]:hover::after {
+  content: 'Gravity';
+  color: darkblue;
+  --main-color: lightblue;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="323030822267518977"]:hover::after,
+.wrapper-3t9DeA[data-user-id="323030822267518977"]:hover::after {
+  content: 'Little Kitty';
+  --main-color: #FF69B4;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="605514546249072679"]:hover::after,
+.wrapper-3t9DeA[data-user-id="605514546249072679"]:hover::after {
+  content: 'Luci';
+  --main-color: #800080;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="266452571051393033"]:hover::after ,
 .wrapper-3t9DeA[data-user-id="266452571051393033"]:hover::after {
   content: 'Skelly';

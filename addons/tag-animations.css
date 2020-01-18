@@ -70,7 +70,9 @@
 .wrapper-3t9DeA[user_by_bdfdb="273169968202252289"]:hover::after,
 .wrapper-3t9DeA[data-user-id="273169968202252289"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="664933588835368990"]:hover::after,
-.wrapper-3t9DeA[data-user-id="664933588835368990"]:hover::after {
+.wrapper-3t9DeA[data-user-id="664933588835368990"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="454072114492866560"]:hover::after,
+.wrapper-3t9DeA[data-user-id="454072114492866560"]:hover::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -135,13 +137,17 @@
 .wrapper-3t9DeA[user_by_bdfdb="267803219080642560"]:hover::after,
 .wrapper-3t9DeA[data-user-id="267803219080642560"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="535853858992291852"]:hover::after ,
-.wrapper-3t9DeA[data-user-id="535853858992291852"]:hover::after {
+.wrapper-3t9DeA[data-user-id="535853858992291852"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="323030822267518977"]:hover::after,
+.wrapper-3t9DeA[data-user-id="323030822267518977"]:hover::after {
   animation: fadeFromRight .2s;
 }
 
 /* fade from top */
 .wrapper-3t9DeA[user_by_bdfdb="328357975150297088"]:hover::after ,
-.wrapper-3t9DeA[data-user-id="328357975150297088"]:hover::after {
+.wrapper-3t9DeA[data-user-id="328357975150297088"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="173557815326015488"]:hover::after,
+.wrapper-3t9DeA[data-user-id="173557815326015488"]:hover::after {
   animation: fadeFromTop .2s;
 }
 
