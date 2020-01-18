@@ -138,7 +138,8 @@
   #app-mount .scroller-1JbKMe,
   #app-mount .sidebar-2K8pFh,
   .scrollableContainer-38zsVD,
-  .scrollableContainer-2NUZem {
+  .scrollableContainer-2NUZem,
+  .appMount-3lHmkl, body {
   background: transparent !important;
   }
   
