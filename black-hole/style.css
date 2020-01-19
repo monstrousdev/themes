@@ -960,6 +960,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   animation: lightTheme 1s cubic-bezier(.4, 0, 0, 1.3) forwards;
   border-radius: 5px;
   border: 2px solid var(--dnd);
+  font-family: "Whitney";
 }
 
 @keyframes lightTheme {
