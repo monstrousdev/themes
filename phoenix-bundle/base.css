@@ -1058,6 +1058,7 @@ color: var(--dnd) !important;
   border: 2px solid var(--main-color);
   box-sizing: border-box;
   transition: all 200ms ease-in-out;
+  border-radius: var(--roundness);
 }
 
 #app-mount .acronym-2mOFsV:hover {
@@ -1114,6 +1115,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 #app-mount .folder-21wGz3,
   #app-mount .expandedFolderBackground-2sPsd- {
     background-color: transparent;
+    border-radius: var(--roundness);
   }
 
 #app-mount .expandedFolderBackground-2sPsd-::before {
