@@ -1,4 +1,4 @@
-@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
+@import url('https://discord-custom-covers.github.io/usrbg/bd/snippets/userPopouts.css');
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 /* @import "https://monstrousdev.github.io/themes/addons/filter.css"; */
@@ -738,9 +738,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   background-attachment: fixed;
 }
 
-.scrollerWrap-2lJEkd,
-.scroller-2TZvBN {
-  contain: unset;
+.scrollerWrap-2lJEkd {
+  contain: layout style;
 }
 
 .codeRedemption-2CtsK6,
@@ -961,6 +960,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   animation: lightTheme 1s cubic-bezier(.4, 0, 0, 1.3) forwards;
   border-radius: 5px;
   border: 2px solid var(--dnd);
+  font-family: "Whitney";
 }
 
 @keyframes lightTheme {
@@ -1274,6 +1274,24 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
 .userSettingsVoice-iwdUCU .media-engine-video {
   background: transparent;
 }
+
+.toolbar-2bjZV7 {
+  background: rgba(0,0,0,0.9) var(--stars) top left !important;
+  background-attachment: fixed;
+}
+
+.toolbar-2bjZV7:before {
+  border-top-color: rgba(0,0,0,0.9);
+}
+
+.active-2HPddW, .hover-28QbSq:hover {
+  background-color: var(--blurple-sheer);
+}
+
+.active-2HPddW .icon-KgGMGo, .hover-28QbSq:hover .icon-KgGMGo {
+  color: var(--blurple);
+}
+
 
 #app-mount .bar-2Qqk5Z,
 .themeDefault-24hCdX,

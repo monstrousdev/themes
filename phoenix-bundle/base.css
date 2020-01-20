@@ -2033,6 +2033,22 @@ pre {
   display: none;
 }
 
+.toolbar-2bjZV7 {
+  background-color: var(--quaternary-color);
+}
+
+.toolbar-2bjZV7:before {
+  border-top-color: var(--quaternary-color);
+}
+
+.active-2HPddW, .hover-28QbSq:hover {
+  background-color: var(--tertiary-color);
+}
+
+.active-2HPddW .icon-KgGMGo, .hover-28QbSq:hover .icon-KgGMGo {
+  color: var(--main-color);
+}
+
 .buttons-3JBrkn {
   padding: 5px;
 }
