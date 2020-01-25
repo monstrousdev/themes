@@ -532,12 +532,44 @@
 .wrapper-3t9DeA[user_by_bdfdb="323030822267518977"]::after,
 .wrapper-3t9DeA[data-user-id="323030822267518977"]::after,
 .wrapper-3t9DeA[user_by_bdfdb="173557815326015488"]::after,
-.wrapper-3t9DeA[data-user-id="173557815326015488"]::after {
+.wrapper-3t9DeA[data-user-id="173557815326015488"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="282681883249213440"]::after,
+.wrapper-3t9DeA[data-user-id="282681883249213440"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="145557095234666496"]::after,
+.wrapper-3t9DeA[data-user-id="145557095234666496"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="172557961133162496"]::after,
+.wrapper-3t9DeA[data-user-id="172557961133162496"]::after,
+.wrapper-3t9DeA[user_by_bdfdb="498207315485392906"]::after,
+.wrapper-3t9DeA[data-user-id="498207315485392906"]::after {
   content: "}";
 }
 
 
   /* on hover */
+.wrapper-3t9DeA[user_by_bdfdb="498207315485392906"]:hover::after,
+.wrapper-3t9DeA[data-user-id="498207315485392906"]:hover::after {
+  content: 'Nintendon\'t';
+  --main-color: #8D90EB;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="172557961133162496"]:hover::after,
+.wrapper-3t9DeA[data-user-id="172557961133162496"]:hover::after {
+  content: 'https://rauf.wtf/';
+  --main-color: #7289da;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="145557095234666496"]:hover::after,
+.wrapper-3t9DeA[data-user-id="145557095234666496"]:hover::after {
+  content: 'Trans Mess';
+  --main-color: #880088;
+}
+
+.wrapper-3t9DeA[user_by_bdfdb="282681883249213440"]:hover::after,
+.wrapper-3t9DeA[data-user-id="282681883249213440"]:hover::after {
+  content: 'Nozumo';
+  --main-color: #4d0000;
+}
+
 .wrapper-3t9DeA[user_by_bdfdb="173557815326015488"]:hover::after,
 .wrapper-3t9DeA[data-user-id="173557815326015488"]:hover::after {
   content: 'Gravity';

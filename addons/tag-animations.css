@@ -72,7 +72,13 @@
 .wrapper-3t9DeA[user_by_bdfdb="664933588835368990"]:hover::after,
 .wrapper-3t9DeA[data-user-id="664933588835368990"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="454072114492866560"]:hover::after,
-.wrapper-3t9DeA[data-user-id="454072114492866560"]:hover::after {
+.wrapper-3t9DeA[data-user-id="454072114492866560"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="145557095234666496"]:hover::after,
+.wrapper-3t9DeA[data-user-id="145557095234666496"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="172557961133162496"]:hover::after,
+.wrapper-3t9DeA[data-user-id="172557961133162496"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="498207315485392906"]:hover::after,
+.wrapper-3t9DeA[data-user-id="498207315485392906"]:hover::after {
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -117,7 +123,9 @@
 .wrapper-3t9DeA[user_by_bdfdb="519790100956184586"]:hover::after,
 .wrapper-3t9DeA[data-user-id="519790100956184586"]:hover::after,
 .wrapper-3t9DeA[user_by_bdfdb="422110084039180318"]:hover::after ,
-.wrapper-3t9DeA[data-user-id="422110084039180318"]:hover::after {
+.wrapper-3t9DeA[data-user-id="422110084039180318"]:hover::after,
+.wrapper-3t9DeA[user_by_bdfdb="282681883249213440"]:hover::after,
+.wrapper-3t9DeA[data-user-id="282681883249213440"]:hover::after {
   animation: scaleSpin .4s;
 }
 
