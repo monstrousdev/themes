@@ -3140,10 +3140,12 @@ pre {
 
 
 /* 13. Roundness */
-.guild-1EfMGQ .guildInner-3DSoA4 {
+.guild-1EfMGQ .guildInner-3DSoA4,
+#app-mount foreignObject {
   border-radius: 0 !important;
 }
 
+#app-mount .acronym-2mOFsV,
 .guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .dragPlaceholder-D9-haY,
@@ -3205,15 +3207,20 @@ pre {
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .circleIconButton-jET_ig span,
 .guildsError-b7zR5H,
 .base-PmTxvP,
-#app-mount foreignObject,
 #app-mount .avatar-3elDyV,
 .avatar-3bWpYy, 
 .clickableAvatar-1wQpeh, 
-.emptyUser-7txhlW {
+.emptyUser-7txhlW,
+#app-mount .acronym-2mOFsV,
+#app-mount .wrapper-1BJsBx,
+#app-mount .wrapper-3t9DeA foreignObject,
+#app-mount .avatarHint-1qgaV3 foreignObject  {
   border-radius: var(--roundness) !important;
 }
 
-
+#app-mount .wrapper-1BJsBx {
+  overflow: hidden;
+}
 
 
 
