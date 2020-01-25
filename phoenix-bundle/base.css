@@ -2175,6 +2175,19 @@ pre {
   line-height: 38px;
 }
 
+.noticePremiumTier1-3Zywvl {
+  background-image: none;
+}
+
+.noticePremium-12Zvj9 .premiumIcon-2lve6h {
+  transform: scale(0);
+  transition: all 200ms ease-in-out;
+}
+
+.noticePremium-12Zvj9:hover .premiumIcon-2lve6h {
+  transform: scale(1);
+}
+
 .notice-2FJMB4::before {
   content: '';
   position: absolute;
