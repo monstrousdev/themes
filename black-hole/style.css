@@ -1,4 +1,4 @@
-@import url('https://discord-custom-covers.github.io/usrbg/bd/snippets/userPopouts.css');
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 /* @import "https://monstrousdev.github.io/themes/addons/filter.css"; */
@@ -316,7 +316,8 @@
   border: none;
 }
 
-.hoverablePayment-Yc6mK7:hover {
+.hoverablePayment-Yc6mK7:hover,
+.button-14-BFJ.enabled-2cQ-u7:hover {
   background: var(--quatro)  var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -378,7 +379,8 @@
 }
 
 .privateChannels-1nO12o .searchBar-2_Yu-C .searchBarInner-1_Tg2R,
-a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
+a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -567,6 +569,17 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover {
   margin-bottom: 10px;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+.platform-linux .chat-3bRxxu,
+.platform-linux #app-mount .activityFeed-28jde9,
+.platform-linux #app-mount .activityFeed-1C0EmJ,
+.platform-linux #app-mount .gameLibrary-TTDw4Y,
+.platform-linux #app-mount .container-3gCOGc,
+.platform-linux #app-mount .applicationStore-1pNvnv,
+.platform-linux #app-mount .pageWrapper-1PgVDX,
+.platform-linux #app-mount .root-1BQpZw {
+  margin-top: 10px;
 }
 
 #app-mount .messages-3amgkR,
