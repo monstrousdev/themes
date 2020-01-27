@@ -19,8 +19,11 @@ Registered: Black Box Theme
 ===== CUSTOMIZABLE COLORS =====
 */
 :root { 
- --main-color: #8d2036;
- --hover-color: #6f182a;
+ --roundness: 0px; /* sets the roundness for avatars */
+ --main-color: #8d2036; /* The main color for your theme */
+ --hover-color: #6f182a; /* the secondary color for your theme, mainly used as hover color */
+ --home-color: #eee; /* the color of your home icon */
+ --shadow: rgba(0,0,0,.4); /* the color of the shadows in your theme */
  }
 
 /*
