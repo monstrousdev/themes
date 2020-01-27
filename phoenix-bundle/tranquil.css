@@ -264,6 +264,11 @@
   border: 1px solid var(--primary-color);
 }
 
+.root-SR8cQa .note-QfFU8y textarea:focus,
+.note-3kmerW textarea:focus {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
 
 
 /* 12. Modals */
