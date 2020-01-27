@@ -3093,7 +3093,9 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
-.userPopout-3XzG_A foreignObject[mask*="mobile"]::after {
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::after,
+.modal-3c3bKg foreignObject[mask*="mobile"]::before,
+.modal-3c3bKg foreignObject[mask*="mobile"]::after{
   transform: none;
   top: unset;
   left: unset;
@@ -3102,10 +3104,12 @@ foreignObject[mask*="mobile"]::after {
   opacity: 1;
 }
 
-.userPopout-3XzG_A foreignObject[mask*="mobile"]::before {
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
+.modal-3c3bKg foreignObject[mask*="mobile"]::before {
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  background: rgba(0, 0, 0, .7)
 }
 
   /* 11.c. Typing */
