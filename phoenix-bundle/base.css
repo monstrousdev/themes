@@ -3052,6 +3052,46 @@ pre {
   margin: 1px 1px 1px 1px;
 }
 
+foreignObject[mask*="mobile"] {
+  overflow: visible !important;
+}
+
+.privateChannels-1nO12o a.channel-2QD9_O .content-3QAtGj,
+.member-3-YXUe .content-3QAtGj {
+  max-width: 120px
+}
+
+.privateChannels-1nO12o a.channel-2QD9_O foreignObject[mask*="mobile"]::before,
+.privateChannels-1nO12o a.channel-2QD9_O foreignObject[mask*="mobile"]::after {
+  left: 165px;
+  height: 20px;
+  width: 20px;
+}
+
+.privateChannels-1nO12o a.channel-2QD9_O .children-gzQq2t {
+  margin-left: 20px;
+}
+
+foreignObject[mask*="mobile"]::before,
+foreignObject[mask*="mobile"]::after {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  background: rgba(0,0,0,.4);
+  top: 50%;
+  left: 170px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .6;
+}
+
+foreignObject[mask*="mobile"]::after {
+  background: var(--online);
+  mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
+  -webkit-mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
+}
+
   /* 11.c. Typing */
 #app-mount .wrapper-3t9DeA[style*="height: 32px"] foreignObject+svg+rect[width="25"] {
   fill: rgba(0, 0, 0, .5);
