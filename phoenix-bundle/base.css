@@ -3102,6 +3102,7 @@ foreignObject[mask*="mobile"]::after {
 .modal-3c3bKg foreignObject[mask*="mobile"]::before,
 .modal-3c3bKg foreignObject[mask*="mobile"]::after {
   top: -19px;
+  left: unset;
   right: -84px;
   height: 35px;
   width: 35px;
@@ -3118,6 +3119,7 @@ foreignObject[mask*="mobile"]::after {
 .modal-3c3bKg foreignObject[mask*="mobile"]::before {
   border-radius: 0px;
   border-bottom-left-radius: 25%;
+  background: rgba(0, 0, 0, .7)
 }
 
   /* 11.c. Typing */
