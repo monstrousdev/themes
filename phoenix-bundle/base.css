@@ -3092,6 +3092,22 @@ foreignObject[mask*="mobile"]::after {
   -webkit-mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
 }
 
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::after {
+  transform: none;
+  top: unset;
+  left: unset;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.userPopout-3XzG_A foreignObject[mask*="mobile"]::before {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
   /* 11.c. Typing */
 #app-mount .wrapper-3t9DeA[style*="height: 32px"] foreignObject+svg+rect[width="25"] {
   fill: rgba(0, 0, 0, .5);
