@@ -3107,6 +3107,7 @@ foreignObject[mask*="mobile"]::after {
   height: 35px;
   width: 35px;
   opacity: 1;
+  transform: none;
 }
 
 .modal-3c3bKg foreignObject[mask*="mobile"]::before,
