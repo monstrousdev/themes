@@ -3092,24 +3092,32 @@ foreignObject[mask*="mobile"]::after {
   -webkit-mask: url("https://monstrousdev.github.io/themes/assets/svgs/phone.svg") center/70% no-repeat;
 }
 
+.avatarHint-1qgaV3 foreignObject[mask*="mobile"]::before,
+.avatarHint-1qgaV3 foreignObject[mask*="mobile"]::after {
+  display: none;
+}
+
 .userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
 .userPopout-3XzG_A foreignObject[mask*="mobile"]::after,
 .modal-3c3bKg foreignObject[mask*="mobile"]::before,
-.modal-3c3bKg foreignObject[mask*="mobile"]::after{
-  transform: none;
-  top: unset;
-  left: unset;
-  bottom: 0;
-  right: 0;
+.modal-3c3bKg foreignObject[mask*="mobile"]::after {
+  top: -19px;
+  right: -84px;
+  height: 35px;
+  width: 35px;
   opacity: 1;
+}
+
+.modal-3c3bKg foreignObject[mask*="mobile"]::before,
+.modal-3c3bKg foreignObject[mask*="mobile"]::after {
+  top: -34px;
+  right: -500px;
 }
 
 .userPopout-3XzG_A foreignObject[mask*="mobile"]::before,
 .modal-3c3bKg foreignObject[mask*="mobile"]::before {
-  border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  background: rgba(0, 0, 0, .7)
+  border-radius: 0px;
+  border-bottom-left-radius: 25%;
 }
 
   /* 11.c. Typing */
@@ -3273,8 +3281,8 @@ foreignObject[mask*="mobile"]::after {
 .emptyUser-7txhlW,
 #app-mount .acronym-2mOFsV,
 #app-mount .wrapper-1BJsBx,
-#app-mount .wrapper-3t9DeA foreignObject,
-#app-mount .avatarHint-1qgaV3 foreignObject  {
+#app-mount .wrapper-3t9DeA foreignObject .avatar-VxgULZ,
+#app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E {
   border-radius: var(--roundness) !important;
 }
 
