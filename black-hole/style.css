@@ -1162,7 +1162,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
 #app-mount .paginationItem-2lUq0s:after,
-#app-mount .guildSubscriptionSlots-JPXXvN {
+#app-mount .guildSubscriptionSlots-JPXXvN,
+.actionButton-uPB8Fs {
   background: var(--sheer);
 }
 
@@ -1181,7 +1182,9 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .loading-17PYl_,
 #app-mount .userHovered-2_fT4Z:active,
 #app-mount .wrapperAudio-1jDe0Q,
-#app-mount .guildGraphicContainer-39I_Pl {
+#app-mount .guildGraphicContainer-39I_Pl,
+.wrapper-3D2qGf,
+.peopleListItem-2nzedh:hover {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -1281,7 +1284,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .guildGraphicBackground-UDBjuF,
 #app-mount .info-3UT5_W,
 #app-mount .ctaBar-2UsjF2,
-#app-mount .perk-2WeBWW {
+#app-mount .perk-2WeBWW,
+.actionButton-uPB8Fs.highlight-Lf97TE {
   background: var(--blurple-sheer) var(--stars) top left fixed;
 }
 
@@ -2022,7 +2026,8 @@ svg[name="Activity"] {
   background: transparent;
 }
 
-#app-mount .searchResultsContainer-1ma_dc {
+#app-mount .searchResultsContainer-1ma_dc,
+#app-mount .popout-13LQ_3 {
   background: var(--uno) var(--stars) top left fixed;
 }
 
