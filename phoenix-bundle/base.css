@@ -2135,7 +2135,7 @@ pre {
   transform-origin: bottom left;
   -ms-transform: scale(1);
   transform: scale(1);
-  width: auto;
+  width: fit-content;
   display: -webkit-box;
   padding-right: 20px;
   padding-top: 0px;
@@ -2146,6 +2146,7 @@ pre {
   transition: all 200ms ease;
   text-overflow: ellipsis;
   z-index: 5;
+  overflow: hidden;
 }
 
 .typing-2GQL18 .text-1y-e8- {
