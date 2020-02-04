@@ -1775,6 +1775,10 @@ a,
   margin-top: 55px !important;
 }
 
+.wrapper-2aW0bm {
+  background: var(--quaternary-color) !important;
+}
+
   /* 8.c Blocked Messages */
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
   background: var(--tertiary-color) !important;
@@ -2384,94 +2388,30 @@ pre {
 /* 9. Friends List */
   /* 9.a. Main Friends List */
 
-.friendsTable-133bsv .friendsTableBody-1ZhKif {
+.peopleList-3c4jOR,
+.nowPlayingColumn-2sl4cE {
   background: transparent;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud:hover {
-  background: var(--quaternary-color) !important;
+#app-mount .container-1D34oG {
+  background: var(--primary-color) !important;
 }
 
-.friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
-  background: transparent !important
+.peopleListItem-2nzedh:hover,
+.wrapper-3D2qGf {
+  background: var(--tertiary-color);
 }
 
-#friends .tab-bar .tab-bar-item:hover:not(.selected) {
-  background-color: var(--tertiary-color) !important;
-}
-
-.tabBar-1E2ExX .primarySelected-3uHKZn {
-  color: var(--main-color);
-}
-
-.friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr .friendsTableAdd-1w2_qZ .wrapper-1cBijl {
-  background-color: transparent !important;
-}
 
 /* 9.b. Action Buttons */
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-  position: relative;
+.actionButton-uPB8Fs {
+  background: var(--quaternary-color);
 }
 
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 svg {
-  position: relative;
-  z-index: 1;
+.actionButton-uPB8Fs.highlight-Lf97TE {
+  background: var(--main-color);
+  color: white;
 }
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  pointer-events: none;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:not(.actionDeny-18IZiW)::before {
-  background-color: var(--online);
-  opacity: 0.7;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:not(.actionDeny-18IZiW):hover:before {
-  background-color: var(--online);
-  opacity: 1;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {
-  background-color: transparent !important;;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW::before,
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu+.friendsAction-__WNE9::before {
-  background-color: var(--dnd);
-  opacity: 0.7;
-}
-
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover::before,
-#app-mount .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionAccept-zzNNTu+.friendsAction-__WNE9:hover::before {
-  background-color: var(--dnd);
-  opacity: 1;
-}
-
-.tabBar-1E2ExX .item-3HpYcP {
-  border-radius: 0px;
-  transition: all .2s ease-in-out;
-}
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO:hover {
-  background-color: var(--hover-color);
-  border-color: var(--hover-color) !important;
-}
-
-.tabBar-1E2ExX .primary-3j8BhM {
-  background-color: var(--main-color) !important;
-}
-
-.tabBar-1E2ExX .primary-3j8BhM:hover {
-  background-color: var(--hover-color) !important;
-}
-
 
 
 /* 10. Games Activity, Library, Store, and Server Directory */
@@ -3174,7 +3114,8 @@ foreignObject[mask*="mobile"]::after {
 .popout-3sVMXz.popoutBottomRight-2JrySt.noArrow-3BYQ0Z.noShadow-321ZPm,
 .title-3qD0b-,
 .headerBar-UHpsPw,
-.elevationBorderHigh-2WYJ09 {
+.elevationBorderHigh-2WYJ09,
+.form-2fGMdU .inner-MADQqc {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
@@ -3199,7 +3140,8 @@ foreignObject[mask*="mobile"]::after {
 #app-mount .menu-Sp6bN1,
 #permissions-modal-wrapper .role-side,
 .sidebar-2K8pFh,
-.inner-MADQqc {
+.inner-MADQqc,
+.peopleColumn-29fq28 {
   box-shadow: 0 2px 20px var(--shadow) !important;
 }
 
