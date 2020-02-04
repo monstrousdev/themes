@@ -204,7 +204,7 @@
   background-image: url(https://i.imgur.com/jAyDjY8.png);
   transform: scale(1.2);
   bottom: -30px;
-  left: 56px;
+  left: 50px;
 }
 
 .avatar-1BDn8e[src*="174868361040232448"]:hover ~ span::after {
@@ -215,7 +215,7 @@
 .avatar-1BDn8e[src*="140012296910012416"] ~ span::after {
   background-image: url(https://discordapp.com/assets/764836c1d982d6a999ef5ee6ab11eb87.svg);
   bottom: -30px;
-  left: 56px;
+  left: 50px;
 }
 
 .avatar-1BDn8e[src*="140012296910012416"]:hover ~ span::after {
@@ -231,7 +231,7 @@
   background-image: url(https://i.imgur.com/RvOW9GE.png);
   transform: scale(1.2);
   bottom: -30px;
-  left: 56px;
+  left: 50px;
 }
 
 .avatar-1BDn8e[src*="213220786805145600"]:hover ~ span::after {
@@ -245,7 +245,7 @@
   background-image: url(https://i.imgur.com/1qBTZlh.png);
   transform: scale(1.2);
   bottom: -30px;
-  left: 56px;
+  left: 50px;
 }
 
 .avatar-1BDn8e[src*="254362351170617345"]:hover ~ span::after {
@@ -263,7 +263,7 @@
   background-image: url(https://imgpile.com/images/I1FpO1.png);
   transform: scale(1.3);
   bottom: -30px;
-  left: 56px;
+  left: 50px;
 }
 
 .avatar-1BDn8e[src*="166365757561634816"]:hover ~ span::after {
@@ -302,7 +302,7 @@
   transform: scale(1.5);
   filter: none;
   bottom: -30px;
-  left: 56px;
+  left: 50px;
 }
 
 .avatar-1BDn8e[src*="282138006738042880"]:hover ~ span::after {
