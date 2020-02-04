@@ -22,8 +22,8 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: -8px;
-  right: -8px;
+  bottom: 33px;
+  left: -51px;
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
@@ -54,9 +54,7 @@
   width: auto !important;
   box-sizing: border-box !important;
   white-space: nowrap !important;
-  right: unset !important;
-  left: calc(100% - 13px) !important;
-  bottom: -6px !important;
+  bottom: -31px !important;
   font-weight: 700;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   filter: none;
@@ -71,36 +69,36 @@
 
 
 /* My friends and my borders */
-.container-1YxwTf .avatar-1BDn8e[src*="402272736665272320"] ~ span::before,
-.container-1YxwTf .avatar-1BDn8e[src*="134349083568504832"] ~ span::before{
+.container-3FojY8 .avatar-1BDn8e[src*="402272736665272320"] ~ span::before,
+.container-3FojY8 .avatar-1BDn8e[src*="134349083568504832"] ~ span::before{
   content: '';
   position: absolute;
-  height: calc(100% + 4px);
-  width: calc(100% + 4px);
-  top: -2px;
-  left: -2px;
+  height: 43px;
+  width: 43px;
+  top: 0px;
+  left: 16px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   pointer-events: none;
   border-radius: var(--roundness, --user-roundness, 50px) !important;
+  z-index: -1;
 }
 
-.container-1YxwTf .avatar-1BDn8e[src*="402272736665272320"]:hover ~ span::before,
-.container-1YxwTf .avatar-1BDn8e[src*="134349083568504832"]:hover ~ span::before{
+.container-3FojY8 .avatar-1BDn8e[src*="402272736665272320"]:hover ~ span::before,
+.container-3FojY8 .avatar-1BDn8e[src*="134349083568504832"]:hover ~ span::before{
   border-radius: var(--roundness, --user-roundness, 50px) !important;
 }
 
-.container-1YxwTf .avatar-1BDn8e[src*="402272736665272320"] ~ span::before {
+.container-3FojY8 .avatar-1BDn8e[src*="402272736665272320"] ~ span::before {
   background-image: url(https://i.gifer.com/fyD3.gif);
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
 
-.container-1YxwTf .avatar-1BDn8e[src*="134349083568504832"] ~ span::before {
+.container-3FojY8 .avatar-1BDn8e[src*="134349083568504832"] ~ span::before {
   background-image: url(https://media3.giphy.com/media/l1J9EXOsgzbYLm8EM/giphy.gif);
   background-size: 150%;
   }
-
 
 
 
