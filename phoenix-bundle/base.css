@@ -2413,6 +2413,9 @@ pre {
   background: var(--tertiary-color);
 }
 
+#app-mount .inset-3sAvek {
+  background: var(--secondary-color);
+}
 
 /* 9.b. Action Buttons */
 .actionButton-uPB8Fs {
