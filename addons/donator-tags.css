@@ -73,10 +73,10 @@
 .container-3FojY8 .avatar-1BDn8e[src*="134349083568504832"] ~ span::before{
   content: '';
   position: absolute;
-  height: 43px;
-  width: 43px;
+  height: 44px;
+  width: 44px;
   top: 0px;
-  left: 16px;
+  left: 14px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

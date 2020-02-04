@@ -173,7 +173,8 @@
   /* 3. Chat */
   .searchResultsWrap-2DKFzt,
   .searchPopout-1vUlP3,
-  #app-mount .container-16j22k {
+  #app-mount .container-16j22k,
+  .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat !important;
     background-attachment: fixed;
   }

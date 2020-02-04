@@ -132,7 +132,8 @@
 /* 4. Guilds Wrapper */
 #app-mount .guildsWrapper-5TJh6A,
 #app-mount .wrapper-1Rf91z,
-#app-mount .scroller-2TZvBN {
+#app-mount .scroller-2TZvBN,
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
   background-color: var(--quaternary-color);
 }
 

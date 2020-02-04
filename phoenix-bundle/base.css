@@ -434,7 +434,8 @@ svg[name="Activity"] {
   margin-top: -58px;
   width: 72px;
   margin-left: 2px;
-  position: absolute;
+  position: sticky;
+  top: -58px;
   z-index: 2;
   height: 46px;
 }
@@ -1012,12 +1013,7 @@ color: var(--dnd) !important;
 }
 
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
-  padding: 10px 0 20px 0 !important;
-}
-
-.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv { 
-  margin-top: 48px !important;
+  padding: 58px 0 20px 0 !important;
 }
 
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
@@ -2095,6 +2091,10 @@ pre {
 
 .chat-3bRxxu .innerNoAutocomplete-1WpcVO {
   border-radius: 0px;
+}
+
+.form-2fGMdU {
+  padding: 0;
 }
 
 .chat-3bRxxu .channelTextArea-rNsIhG {
