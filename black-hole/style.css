@@ -2188,7 +2188,8 @@ svg[name="Activity"] {
 
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6,
 .emojiPicker-3m1S-j .category-2U57w6,
-.emojiPicker-3m1S-j .categories-1feg4n {
+.emojiPicker-3m1S-j .categories-1feg4n,
+#app-mount .emojiPicker-3m1S-j .searchBar-2pWH0_ {
   background-color: transparent;
 }
 
@@ -2254,6 +2255,11 @@ svg[name="Activity"] {
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .emote-container:hover {
   background-color: var(--blurple-sheer);
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+  align-items: flex-start;
+  margin-top: 4px;
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c,
