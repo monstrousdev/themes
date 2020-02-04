@@ -1813,18 +1813,19 @@ a,
 }
 
   /* 8.e. Chat Dividers */
-.chat-3bRxxu .divider-3gKybi {
+.chat-3bRxxu .divider-JfaTT5 {
   height: 28px;
   background-color: transparent;
   margin: 10px 0px;
+  border: none;
 }
 
-.friends-table .messages-3amgkR .divider:not(.red) span,
-.messagesWrapper-3lZDfY .messages-3amgkR .divider-3gKybi:not(.red) span {
+.friends-table .messages-3amgkR .divider:not(.isUnread-3Ef-o9) span,
+.messagesWrapper-3lZDfY .messages-3amgkR .divider-JfaTT5:not(.isUnread-3Ef-o9) span {
   opacity: 1;
 }
 
-.chat-3bRxxu .divider-3gKybi>span {
+.chat-3bRxxu .divider-JfaTT5>span {
   color: #a0a0a0 !important;
   border-radius: 3px;
   position: relative;
@@ -1839,13 +1840,17 @@ a,
   box-sizing: border-box !important;
 }
 
-.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr>span {
+.chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9>span {
   color: var(--main-color) !important;
   background-color: var(--quaternary-color) !important;
   border-radius: 3px;
   justify-content: center;
   left: 0px;
-  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.unreadPillCapStroke-7rkHbg {
+  display: none;
 }
 
 .containerCozy-jafyvG .isMentionedCozy-3isp7y:after,
