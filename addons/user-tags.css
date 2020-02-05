@@ -6,7 +6,7 @@
   --mc: var(--main-color);
 }
 
-.avatar-1BDn8e:hover ~ span {
+.avatar-1BDn8e:hover + span {
   opacity: 1;
 }
 
@@ -14,7 +14,7 @@
   overflow: visible;
 }
 
-.avatar-1BDn8e ~ span::after {
+.avatar-1BDn8e + span::after {
   color: var(--main-color, var(--mc, rgb(var(--BG-tint-colour, 114, 137, 218))));
   font-size: 13px;
   position: absolute;
@@ -27,7 +27,7 @@
   display: inline-block !important;
 }
 
-.avatar-1BDn8e:hover ~ span::after {
+.avatar-1BDn8e:hover + span::after {
   font-family: "Whitney", "Helvetica";
   --main-color: #000;
   background-color: var(--main-color);
@@ -61,1176 +61,1176 @@
 /* ========= START OF USER TAGS ============== */
 
   /* before hover */
-.avatar-1BDn8e[src*="111476801762537472"] ~ span::after,
-.avatar-1BDn8e[src*="100288999964286976"] ~ span::after,
-.avatar-1BDn8e[src*="102171488739667968"] ~ span::after,
-.avatar-1BDn8e[src*="103713842189594624"] ~ span::after,
-.avatar-1BDn8e[src*="104717799926034432"] ~ span::after,
-.avatar-1BDn8e[src*="104938361159987200"] ~ span::after,
-.avatar-1BDn8e[src*="106093784151924736"] ~ span::after,
-.avatar-1BDn8e[src*="106516306718670848"] ~ span::after,
-.avatar-1BDn8e[src*="107179981716631552"] ~ span::after,
-.avatar-1BDn8e[src*="107179981716631552"] ~ span::after,
-.avatar-1BDn8e[src*="107511169366888448"] ~ span::after,
-.avatar-1BDn8e[src*="114847475864567817"] ~ span::after,
-.avatar-1BDn8e[src*="114975260436070408"] ~ span::after,
-.avatar-1BDn8e[src*="114975260436070408"] ~ span::after,
-.avatar-1BDn8e[src*="115995222999040000"] ~ span::after,
-.avatar-1BDn8e[src*="118580050458181632"] ~ span::after,
-.avatar-1BDn8e[src*="120353989886869504"] ~ span::after,
-.avatar-1BDn8e[src*="120873599254003712"] ~ span::after,
-.avatar-1BDn8e[src*="124519009398816768"] ~ span::after,
-.avatar-1BDn8e[src*="120873599254003712"] ~ span::after,
-.avatar-1BDn8e[src*="124519009398816768"] ~ span::after,
-.avatar-1BDn8e[src*="124684559844376580"] ~ span::after,
-.avatar-1BDn8e[src*="125511726308392960"] ~ span::after,
-.avatar-1BDn8e[src*="128948605263413248"] ~ span::after,
-.avatar-1BDn8e[src*="130327833858932736"] ~ span::after,
-.avatar-1BDn8e[src*="131903461771051009"] ~ span::after,
-.avatar-1BDn8e[src*="133427206251741185"] ~ span::after,
-.avatar-1BDn8e[src*="133611040373080064"] ~ span::after,
-.avatar-1BDn8e[src*="134501787695710208"] ~ span::after,
-.avatar-1BDn8e[src*="135069809057464321"] ~ span::after,
-.avatar-1BDn8e[src*="135824276535115776"] ~ span::after,
-.avatar-1BDn8e[src*="137687390218092544"] ~ span::after,
-.avatar-1BDn8e[src*="140594936377507842"] ~ span::after,
-.avatar-1BDn8e[src*="141336087841865728"] ~ span::after,
-.avatar-1BDn8e[src*="142236265582952448"] ~ span::after,
-.avatar-1BDn8e[src*="142598737779228672"] ~ span::after,
-.avatar-1BDn8e[src*="143365927398801408"] ~ span::after,
-.avatar-1BDn8e[src*="143365927398801408"] ~ span::after,
-.avatar-1BDn8e[src*="144898194860539904"] ~ span::after,
-.avatar-1BDn8e[src*="145295834764935168"] ~ span::after,
-.avatar-1BDn8e[src*="145708322853617664"] ~ span::after,
-.avatar-1BDn8e[src*="145799943980843008"] ~ span::after,
-.avatar-1BDn8e[src*="146743774909825024"] ~ span::after,
-.avatar-1BDn8e[src*="146937960992997376"] ~ span::after,
-.avatar-1BDn8e[src*="150757187344531465"] ~ span::after,
-.avatar-1BDn8e[src*="150780668677193729"] ~ span::after,
-.avatar-1BDn8e[src*="153263357292445696"] ~ span::after,
-.avatar-1BDn8e[src*="154834499597762560"] ~ span::after,
-.avatar-1BDn8e[src*="157979918108590081"] ~ span::after,
-.avatar-1BDn8e[src*="158496035591815168"] ~ span::after,
-.avatar-1BDn8e[src*="159946230674227201"] ~ span::after,
-.avatar-1BDn8e[src*="166198887487504384"] ~ span::after,
-.avatar-1BDn8e[src*="168759625875718145"] ~ span::after,
-.avatar-1BDn8e[src*="169176612640653322"] ~ span::after,
-.avatar-1BDn8e[src*="169967786813030400"] ~ span::after,
-.avatar-1BDn8e[src*="170027884944162816"] ~ span::after,
-.avatar-1BDn8e[src*="171395218258657281"] ~ span::after,
-.avatar-1BDn8e[src*="173398322332172288"] ~ span::after,
-.avatar-1BDn8e[src*="174986536184578049"] ~ span::after,
-.avatar-1BDn8e[src*="176566790384648192"] ~ span::after,
-.avatar-1BDn8e[src*="177516608778928129"] ~ span::after,
-.avatar-1BDn8e[src*="177744816665395200"] ~ span::after,
-.avatar-1BDn8e[src*="179608420809310208"] ~ span::after,
-.avatar-1BDn8e[src*="181246593708589057"] ~ span::after,
-.avatar-1BDn8e[src*="181323761264361472"] ~ span::after,
-.avatar-1BDn8e[src*="182501713423499264"] ~ span::after,
-.avatar-1BDn8e[src*="183359032126472195"] ~ span::after,
-.avatar-1BDn8e[src*="183368079839985665"] ~ span::after,
-.avatar-1BDn8e[src*="185009499831140352"] ~ span::after,
-.avatar-1BDn8e[src*="185971884435832832"] ~ span::after,
-.avatar-1BDn8e[src*="186090970062782464"] ~ span::after,
-.avatar-1BDn8e[src*="188066841262817291"] ~ span::after,
-.avatar-1BDn8e[src*="194182804110704640"] ~ span::after,
-.avatar-1BDn8e[src*="196378466487107584"] ~ span::after,
-.avatar-1BDn8e[src*="196501452104007680"] ~ span::after,
-.avatar-1BDn8e[src*="197773757492887552"] ~ span::after,
-.avatar-1BDn8e[src*="202517306427834368"] ~ span::after,
-.avatar-1BDn8e[src*="203225332285833216"] ~ span::after,
-.avatar-1BDn8e[src*="203836668422258688"] ~ span::after,
-.avatar-1BDn8e[src*="203849645892435968"] ~ span::after,
-.avatar-1BDn8e[src*="207896844884246528"] ~ span::after,
-.avatar-1BDn8e[src*="209044991333498882"] ~ span::after,
-.avatar-1BDn8e[src*="210152253103931393"] ~ span::after,
-.avatar-1BDn8e[src*="211315836626010113"] ~ span::after,
-.avatar-1BDn8e[src*="211895683123249153"] ~ span::after,
-.avatar-1BDn8e[src*="216382288378724352"] ~ span::after,
-.avatar-1BDn8e[src*="216683534742454272"] ~ span::after,
-.avatar-1BDn8e[src*="217956193602109440"] ~ span::after,
-.avatar-1BDn8e[src*="218783101826891777"] ~ span::after,
-.avatar-1BDn8e[src*="219980019236208640"] ~ span::after,
-.avatar-1BDn8e[src*="221807566303264778"] ~ span::after,
-.avatar-1BDn8e[src*="222608106683760651"] ~ span::after,
-.avatar-1BDn8e[src*="225005614797946880"] ~ span::after,
-.avatar-1BDn8e[src*="226001634189246465"] ~ span::after,
-.avatar-1BDn8e[src*="226696771454238731"] ~ span::after,
-.avatar-1BDn8e[src*="227018516497170433"] ~ span::after,
-.avatar-1BDn8e[src*="227191699930087425"] ~ span::after,
-.avatar-1BDn8e[src*="227411672774475776"] ~ span::after,
-.avatar-1BDn8e[src*="228340391911489536"] ~ span::after,
-.avatar-1BDn8e[src*="231497890353250307"] ~ span::after,
-.avatar-1BDn8e[src*="234144873576529920"] ~ span::after,
-.avatar-1BDn8e[src*="236863914078371842"] ~ span::after,
-.avatar-1BDn8e[src*="239488378943438850"] ~ span::after,
-.avatar-1BDn8e[src*="239827225677922304"] ~ span::after,
-.avatar-1BDn8e[src*="241735290035634178"] ~ span::after,
-.avatar-1BDn8e[src*="244429806215757825"] ~ span::after,
-.avatar-1BDn8e[src*="246817131411275776"] ~ span::after,
-.avatar-1BDn8e[src*="247528761925435393"] ~ span::after,
-.avatar-1BDn8e[src*="248947473161256972"] ~ span::after,
-.avatar-1BDn8e[src*="254674372734746626"] ~ span::after,
-.avatar-1BDn8e[src*="255369537149468682"] ~ span::after,
-.avatar-1BDn8e[src*="259733021786243085"] ~ span::after,
-.avatar-1BDn8e[src*="259875605443641344"] ~ span::after,
-.avatar-1BDn8e[src*="263467234817605633"] ~ span::after,
-.avatar-1BDn8e[src*="264551860784857090"] ~ span::after,
-.avatar-1BDn8e[src*="264594101570109441"] ~ span::after,
-.avatar-1BDn8e[src*="265668084084375552"] ~ span::after,
-.avatar-1BDn8e[src*="266406986235510786"] ~ span::after,
-.avatar-1BDn8e[src*="266682913653915650"] ~ span::after,
-.avatar-1BDn8e[src*="269441656002969600"] ~ span::after,
-.avatar-1BDn8e[src*="271578593417625600"] ~ span::after,
-.avatar-1BDn8e[src*="272794408578056192"] ~ span::after,
-.avatar-1BDn8e[src*="275292869831688195"] ~ span::after,
-.avatar-1BDn8e[src*="275442117428641792"] ~ span::after,
-.avatar-1BDn8e[src*="277540589569048577"] ~ span::after,
-.avatar-1BDn8e[src*="281323790124711937"] ~ span::after,
-.avatar-1BDn8e[src*="282256234663510026"] ~ span::after,
-.avatar-1BDn8e[src*="283418670867152897"] ~ span::after,
-.avatar-1BDn8e[src*="297463921445699594"] ~ span::after,
-.avatar-1BDn8e[src*="300365386031824897"] ~ span::after,
-.avatar-1BDn8e[src*="300456407222714381"] ~ span::after,
-.avatar-1BDn8e[src*="308287952230940672"] ~ span::after,
-.avatar-1BDn8e[src*="310719627292573697"] ~ span::after,
-.avatar-1BDn8e[src*="314543782785843201"] ~ span::after,
-.avatar-1BDn8e[src*="315245920424034304"] ~ span::after,
-.avatar-1BDn8e[src*="317382522923122689"] ~ span::after,
-.avatar-1BDn8e[src*="322311761023860737"] ~ span::after,
-.avatar-1BDn8e[src*="348110308931403776"] ~ span::after,
-.avatar-1BDn8e[src*="348134506101997569"] ~ span::after,
-.avatar-1BDn8e[src*="349041709306347520"] ~ span::after,
-.avatar-1BDn8e[src*="367250478519549962"] ~ span::after,
-.avatar-1BDn8e[src*="372936143982952449"] ~ span::after,
-.avatar-1BDn8e[src*="373823917313490945"] ~ span::after,
-.avatar-1BDn8e[src*="385243277101891584"] ~ span::after,
-.avatar-1BDn8e[src*="388107896682053643"] ~ span::after,
-.avatar-1BDn8e[src*="396051616920502276"] ~ span::after,
-.avatar-1BDn8e[src*="396479572956282888"] ~ span::after,
-.avatar-1BDn8e[src*="398846356829241356"] ~ span::after,
-.avatar-1BDn8e[src*="401893616211197962"] ~ span::after,
-.avatar-1BDn8e[src*="408150576552214529"] ~ span::after,
-.avatar-1BDn8e[src*="412313063149142030"] ~ span::after,
-.avatar-1BDn8e[src*="412315574178283520"] ~ span::after,
-.avatar-1BDn8e[src*="425126167930994689"] ~ span::after,
-.avatar-1BDn8e[src*="426283874168078339"] ~ span::after,
-.avatar-1BDn8e[src*="435311437577977857"] ~ span::after,
-.avatar-1BDn8e[src*="442377249254277143"] ~ span::after,
-.avatar-1BDn8e[src*="442450957889175552"] ~ span::after,
-.avatar-1BDn8e[src*="443765978132643850"] ~ span::after,
-.avatar-1BDn8e[src*="444648030986305536"] ~ span::after,
-.avatar-1BDn8e[src*="449558189449543682"] ~ span::after,
-.avatar-1BDn8e[src*="73336881655316480"] ~ span::after,
-.avatar-1BDn8e[src*="81031640578535424"] ~ span::after,
-.avatar-1BDn8e[src*="83800133971476480"] ~ span::after,
-.avatar-1BDn8e[src*="85019957745709056"] ~ span::after,
-.avatar-1BDn8e[src*="92738910362292224"] ~ span::after,
-.avatar-1BDn8e[src*="92847808247263232"] ~ span::after,
-.avatar-1BDn8e[src*="94825231792734208"] ~ span::after,
-.avatar-1BDn8e[src*="97787466110472192"] ~ span::after,
-.avatar-1BDn8e[src*="98241610826911744"] ~ span::after,
-.avatar-1BDn8e[src*="98458069532426240"] ~ span::after,
-.avatar-1BDn8e[src*="328357975150297088"] ~ span::after,
-.avatar-1BDn8e[src*="214318588331294720"] ~ span::after,
-.avatar-1BDn8e[src*="116243287936860167"] ~ span::after,
-.avatar-1BDn8e[src*="173177738914562048"] ~ span::after,
-.avatar-1BDn8e[src*="185119357578379264"] ~ span::after,
-.avatar-1BDn8e[src*="96563253466898432"] ~ span::after,
-.avatar-1BDn8e[src*="172426681800196096"] ~ span::after,
-.avatar-1BDn8e[src*="130875493850284032"] ~ span::after,
-.avatar-1BDn8e[src*="244363360886325248"] ~ span::after,
-.avatar-1BDn8e[src*="123916078882488320"] ~ span::after,
-.avatar-1BDn8e[src*="215036395507548161"] ~ span::after,
-.avatar-1BDn8e[src*="519790100956184586"] ~ span::after,
-.avatar-1BDn8e[src*="144550650842316800"] ~ span::after,
-.avatar-1BDn8e[src*="252460828157018112"] ~ span::after,
-.avatar-1BDn8e[src*="316563263179456513"] ~ span::after,
-.avatar-1BDn8e[src*="150967530075324416"] ~ span::after,
-.avatar-1BDn8e[src*="498444458845536257"] ~ span::after,
-.avatar-1BDn8e[src*="147889058670968844"] ~ span::after,
-.avatar-1BDn8e[src*="251465413995528194"] ~ span::after,
-.avatar-1BDn8e[src*="120721814837002240"] ~ span::after,
-.avatar-1BDn8e[src*="227648235097817089"] ~ span::after,
-.avatar-1BDn8e[src*="210629330135547904"] ~ span::after,
-.avatar-1BDn8e[src*="211376467114852352"] ~ span::after,
-.avatar-1BDn8e[src*="143017752775360512"] ~ span::after,
-.avatar-1BDn8e[src*="82987644316815360"] ~ span::after,
-.avatar-1BDn8e[src*="324680910123302922"] ~ span::after,
-.avatar-1BDn8e[src*="324680910123302922"] ~ span::after,
-.avatar-1BDn8e[src*="422110084039180318"] ~ span::after,
-.avatar-1BDn8e[src*="336678828233588736"] ~ span::after,
-.avatar-1BDn8e[src*="433698341008965633"] ~ span::after,
-.avatar-1BDn8e[src*="219078125974192128"] ~ span::after,
-.avatar-1BDn8e[src*="131414719666847745"] ~ span::after,
-.avatar-1BDn8e[src*="527971799770857512"] ~ span::after,
-.avatar-1BDn8e[src*="531614184526577675"] ~ span::after,
-.avatar-1BDn8e[src*="257055153272782848"] ~ span::after,
-.avatar-1BDn8e[src*="368562259225608193"] ~ span::after,
-.avatar-1BDn8e[src*="312782599439515650"] ~ span::after,
-.avatar-1BDn8e[src*="197477050569719808"] ~ span::after,
-.avatar-1BDn8e[src*="438846426441711616"] ~ span::after,
-.avatar-1BDn8e[src*="152430800241950720"] ~ span::after,
-.avatar-1BDn8e[src*="263631800021155840"] ~ span::after,
-.avatar-1BDn8e[src*="95657348390977536"] ~ span::after,
-.avatar-1BDn8e[src*="304260051915374603"] ~ span::after,
-.avatar-1BDn8e[src*="280447836007694338"] ~ span::after,
-.avatar-1BDn8e[src*="331191382792208385"] ~ span::after,
-.avatar-1BDn8e[src*="622724687499362315"] ~ span::after,
-.avatar-1BDn8e[src*="142110824507506688"] ~ span::after,
-.avatar-1BDn8e[src*="230714365869817857"] ~ span::after,
-.avatar-1BDn8e[src*="90110283724374016"] ~ span::after,
-.avatar-1BDn8e[src*="250353310698176522"] ~ span::after,
-.avatar-1BDn8e[src*="200612445373464576"] ~ span::after,
-.avatar-1BDn8e[src*="418089602239168520"] ~ span::after,
-.avatar-1BDn8e[src*="352189597268049921"] ~ span::after,
-.avatar-1BDn8e[src*="267803219080642560"] ~ span::after,
-.avatar-1BDn8e[src*="533814956525748235"] ~ span::after,
-.avatar-1BDn8e[src*="535853858992291852"] ~ span::after,
-.avatar-1BDn8e[src*="264062457448759296"] ~ span::after,
-.avatar-1BDn8e[src*="578595201874919425"] ~ span::after,
-.avatar-1BDn8e[src*="397048226919874600"] ~ span::after,
-.avatar-1BDn8e[src*="545060776654667777"] ~ span::after,
-.avatar-1BDn8e[src*="460174770957189155"] ~ span::after,
-.avatar-1BDn8e[src*="266452571051393033"] ~ span::after ,
-.avatar-1BDn8e[src*="605514546249072679"] ~ span::after,
-.avatar-1BDn8e[src*="323030822267518977"] ~ span::after,
-.avatar-1BDn8e[src*="173557815326015488"] ~ span::after,
-.avatar-1BDn8e[src*="282681883249213440"] ~ span::after,
-.avatar-1BDn8e[src*="145557095234666496"] ~ span::after,
-.avatar-1BDn8e[src*="172557961133162496"] ~ span::after,
-.avatar-1BDn8e[src*="498207315485392906"] ~ span::after{
+.avatar-1BDn8e[src*="111476801762537472"] + span::after,
+.avatar-1BDn8e[src*="100288999964286976"] + span::after,
+.avatar-1BDn8e[src*="102171488739667968"] + span::after,
+.avatar-1BDn8e[src*="103713842189594624"] + span::after,
+.avatar-1BDn8e[src*="104717799926034432"] + span::after,
+.avatar-1BDn8e[src*="104938361159987200"] + span::after,
+.avatar-1BDn8e[src*="106093784151924736"] + span::after,
+.avatar-1BDn8e[src*="106516306718670848"] + span::after,
+.avatar-1BDn8e[src*="107179981716631552"] + span::after,
+.avatar-1BDn8e[src*="107179981716631552"] + span::after,
+.avatar-1BDn8e[src*="107511169366888448"] + span::after,
+.avatar-1BDn8e[src*="114847475864567817"] + span::after,
+.avatar-1BDn8e[src*="114975260436070408"] + span::after,
+.avatar-1BDn8e[src*="114975260436070408"] + span::after,
+.avatar-1BDn8e[src*="115995222999040000"] + span::after,
+.avatar-1BDn8e[src*="118580050458181632"] + span::after,
+.avatar-1BDn8e[src*="120353989886869504"] + span::after,
+.avatar-1BDn8e[src*="120873599254003712"] + span::after,
+.avatar-1BDn8e[src*="124519009398816768"] + span::after,
+.avatar-1BDn8e[src*="120873599254003712"] + span::after,
+.avatar-1BDn8e[src*="124519009398816768"] + span::after,
+.avatar-1BDn8e[src*="124684559844376580"] + span::after,
+.avatar-1BDn8e[src*="125511726308392960"] + span::after,
+.avatar-1BDn8e[src*="128948605263413248"] + span::after,
+.avatar-1BDn8e[src*="130327833858932736"] + span::after,
+.avatar-1BDn8e[src*="131903461771051009"] + span::after,
+.avatar-1BDn8e[src*="133427206251741185"] + span::after,
+.avatar-1BDn8e[src*="133611040373080064"] + span::after,
+.avatar-1BDn8e[src*="134501787695710208"] + span::after,
+.avatar-1BDn8e[src*="135069809057464321"] + span::after,
+.avatar-1BDn8e[src*="135824276535115776"] + span::after,
+.avatar-1BDn8e[src*="137687390218092544"] + span::after,
+.avatar-1BDn8e[src*="140594936377507842"] + span::after,
+.avatar-1BDn8e[src*="141336087841865728"] + span::after,
+.avatar-1BDn8e[src*="142236265582952448"] + span::after,
+.avatar-1BDn8e[src*="142598737779228672"] + span::after,
+.avatar-1BDn8e[src*="143365927398801408"] + span::after,
+.avatar-1BDn8e[src*="143365927398801408"] + span::after,
+.avatar-1BDn8e[src*="144898194860539904"] + span::after,
+.avatar-1BDn8e[src*="145295834764935168"] + span::after,
+.avatar-1BDn8e[src*="145708322853617664"] + span::after,
+.avatar-1BDn8e[src*="145799943980843008"] + span::after,
+.avatar-1BDn8e[src*="146743774909825024"] + span::after,
+.avatar-1BDn8e[src*="146937960992997376"] + span::after,
+.avatar-1BDn8e[src*="150757187344531465"] + span::after,
+.avatar-1BDn8e[src*="150780668677193729"] + span::after,
+.avatar-1BDn8e[src*="153263357292445696"] + span::after,
+.avatar-1BDn8e[src*="154834499597762560"] + span::after,
+.avatar-1BDn8e[src*="157979918108590081"] + span::after,
+.avatar-1BDn8e[src*="158496035591815168"] + span::after,
+.avatar-1BDn8e[src*="159946230674227201"] + span::after,
+.avatar-1BDn8e[src*="166198887487504384"] + span::after,
+.avatar-1BDn8e[src*="168759625875718145"] + span::after,
+.avatar-1BDn8e[src*="169176612640653322"] + span::after,
+.avatar-1BDn8e[src*="169967786813030400"] + span::after,
+.avatar-1BDn8e[src*="170027884944162816"] + span::after,
+.avatar-1BDn8e[src*="171395218258657281"] + span::after,
+.avatar-1BDn8e[src*="173398322332172288"] + span::after,
+.avatar-1BDn8e[src*="174986536184578049"] + span::after,
+.avatar-1BDn8e[src*="176566790384648192"] + span::after,
+.avatar-1BDn8e[src*="177516608778928129"] + span::after,
+.avatar-1BDn8e[src*="177744816665395200"] + span::after,
+.avatar-1BDn8e[src*="179608420809310208"] + span::after,
+.avatar-1BDn8e[src*="181246593708589057"] + span::after,
+.avatar-1BDn8e[src*="181323761264361472"] + span::after,
+.avatar-1BDn8e[src*="182501713423499264"] + span::after,
+.avatar-1BDn8e[src*="183359032126472195"] + span::after,
+.avatar-1BDn8e[src*="183368079839985665"] + span::after,
+.avatar-1BDn8e[src*="185009499831140352"] + span::after,
+.avatar-1BDn8e[src*="185971884435832832"] + span::after,
+.avatar-1BDn8e[src*="186090970062782464"] + span::after,
+.avatar-1BDn8e[src*="188066841262817291"] + span::after,
+.avatar-1BDn8e[src*="194182804110704640"] + span::after,
+.avatar-1BDn8e[src*="196378466487107584"] + span::after,
+.avatar-1BDn8e[src*="196501452104007680"] + span::after,
+.avatar-1BDn8e[src*="197773757492887552"] + span::after,
+.avatar-1BDn8e[src*="202517306427834368"] + span::after,
+.avatar-1BDn8e[src*="203225332285833216"] + span::after,
+.avatar-1BDn8e[src*="203836668422258688"] + span::after,
+.avatar-1BDn8e[src*="203849645892435968"] + span::after,
+.avatar-1BDn8e[src*="207896844884246528"] + span::after,
+.avatar-1BDn8e[src*="209044991333498882"] + span::after,
+.avatar-1BDn8e[src*="210152253103931393"] + span::after,
+.avatar-1BDn8e[src*="211315836626010113"] + span::after,
+.avatar-1BDn8e[src*="211895683123249153"] + span::after,
+.avatar-1BDn8e[src*="216382288378724352"] + span::after,
+.avatar-1BDn8e[src*="216683534742454272"] + span::after,
+.avatar-1BDn8e[src*="217956193602109440"] + span::after,
+.avatar-1BDn8e[src*="218783101826891777"] + span::after,
+.avatar-1BDn8e[src*="219980019236208640"] + span::after,
+.avatar-1BDn8e[src*="221807566303264778"] + span::after,
+.avatar-1BDn8e[src*="222608106683760651"] + span::after,
+.avatar-1BDn8e[src*="225005614797946880"] + span::after,
+.avatar-1BDn8e[src*="226001634189246465"] + span::after,
+.avatar-1BDn8e[src*="226696771454238731"] + span::after,
+.avatar-1BDn8e[src*="227018516497170433"] + span::after,
+.avatar-1BDn8e[src*="227191699930087425"] + span::after,
+.avatar-1BDn8e[src*="227411672774475776"] + span::after,
+.avatar-1BDn8e[src*="228340391911489536"] + span::after,
+.avatar-1BDn8e[src*="231497890353250307"] + span::after,
+.avatar-1BDn8e[src*="234144873576529920"] + span::after,
+.avatar-1BDn8e[src*="236863914078371842"] + span::after,
+.avatar-1BDn8e[src*="239488378943438850"] + span::after,
+.avatar-1BDn8e[src*="239827225677922304"] + span::after,
+.avatar-1BDn8e[src*="241735290035634178"] + span::after,
+.avatar-1BDn8e[src*="244429806215757825"] + span::after,
+.avatar-1BDn8e[src*="246817131411275776"] + span::after,
+.avatar-1BDn8e[src*="247528761925435393"] + span::after,
+.avatar-1BDn8e[src*="248947473161256972"] + span::after,
+.avatar-1BDn8e[src*="254674372734746626"] + span::after,
+.avatar-1BDn8e[src*="255369537149468682"] + span::after,
+.avatar-1BDn8e[src*="259733021786243085"] + span::after,
+.avatar-1BDn8e[src*="259875605443641344"] + span::after,
+.avatar-1BDn8e[src*="263467234817605633"] + span::after,
+.avatar-1BDn8e[src*="264551860784857090"] + span::after,
+.avatar-1BDn8e[src*="264594101570109441"] + span::after,
+.avatar-1BDn8e[src*="265668084084375552"] + span::after,
+.avatar-1BDn8e[src*="266406986235510786"] + span::after,
+.avatar-1BDn8e[src*="266682913653915650"] + span::after,
+.avatar-1BDn8e[src*="269441656002969600"] + span::after,
+.avatar-1BDn8e[src*="271578593417625600"] + span::after,
+.avatar-1BDn8e[src*="272794408578056192"] + span::after,
+.avatar-1BDn8e[src*="275292869831688195"] + span::after,
+.avatar-1BDn8e[src*="275442117428641792"] + span::after,
+.avatar-1BDn8e[src*="277540589569048577"] + span::after,
+.avatar-1BDn8e[src*="281323790124711937"] + span::after,
+.avatar-1BDn8e[src*="282256234663510026"] + span::after,
+.avatar-1BDn8e[src*="283418670867152897"] + span::after,
+.avatar-1BDn8e[src*="297463921445699594"] + span::after,
+.avatar-1BDn8e[src*="300365386031824897"] + span::after,
+.avatar-1BDn8e[src*="300456407222714381"] + span::after,
+.avatar-1BDn8e[src*="308287952230940672"] + span::after,
+.avatar-1BDn8e[src*="310719627292573697"] + span::after,
+.avatar-1BDn8e[src*="314543782785843201"] + span::after,
+.avatar-1BDn8e[src*="315245920424034304"] + span::after,
+.avatar-1BDn8e[src*="317382522923122689"] + span::after,
+.avatar-1BDn8e[src*="322311761023860737"] + span::after,
+.avatar-1BDn8e[src*="348110308931403776"] + span::after,
+.avatar-1BDn8e[src*="348134506101997569"] + span::after,
+.avatar-1BDn8e[src*="349041709306347520"] + span::after,
+.avatar-1BDn8e[src*="367250478519549962"] + span::after,
+.avatar-1BDn8e[src*="372936143982952449"] + span::after,
+.avatar-1BDn8e[src*="373823917313490945"] + span::after,
+.avatar-1BDn8e[src*="385243277101891584"] + span::after,
+.avatar-1BDn8e[src*="388107896682053643"] + span::after,
+.avatar-1BDn8e[src*="396051616920502276"] + span::after,
+.avatar-1BDn8e[src*="396479572956282888"] + span::after,
+.avatar-1BDn8e[src*="398846356829241356"] + span::after,
+.avatar-1BDn8e[src*="401893616211197962"] + span::after,
+.avatar-1BDn8e[src*="408150576552214529"] + span::after,
+.avatar-1BDn8e[src*="412313063149142030"] + span::after,
+.avatar-1BDn8e[src*="412315574178283520"] + span::after,
+.avatar-1BDn8e[src*="425126167930994689"] + span::after,
+.avatar-1BDn8e[src*="426283874168078339"] + span::after,
+.avatar-1BDn8e[src*="435311437577977857"] + span::after,
+.avatar-1BDn8e[src*="442377249254277143"] + span::after,
+.avatar-1BDn8e[src*="442450957889175552"] + span::after,
+.avatar-1BDn8e[src*="443765978132643850"] + span::after,
+.avatar-1BDn8e[src*="444648030986305536"] + span::after,
+.avatar-1BDn8e[src*="449558189449543682"] + span::after,
+.avatar-1BDn8e[src*="73336881655316480"] + span::after,
+.avatar-1BDn8e[src*="81031640578535424"] + span::after,
+.avatar-1BDn8e[src*="83800133971476480"] + span::after,
+.avatar-1BDn8e[src*="85019957745709056"] + span::after,
+.avatar-1BDn8e[src*="92738910362292224"] + span::after,
+.avatar-1BDn8e[src*="92847808247263232"] + span::after,
+.avatar-1BDn8e[src*="94825231792734208"] + span::after,
+.avatar-1BDn8e[src*="97787466110472192"] + span::after,
+.avatar-1BDn8e[src*="98241610826911744"] + span::after,
+.avatar-1BDn8e[src*="98458069532426240"] + span::after,
+.avatar-1BDn8e[src*="328357975150297088"] + span::after,
+.avatar-1BDn8e[src*="214318588331294720"] + span::after,
+.avatar-1BDn8e[src*="116243287936860167"] + span::after,
+.avatar-1BDn8e[src*="173177738914562048"] + span::after,
+.avatar-1BDn8e[src*="185119357578379264"] + span::after,
+.avatar-1BDn8e[src*="96563253466898432"] + span::after,
+.avatar-1BDn8e[src*="172426681800196096"] + span::after,
+.avatar-1BDn8e[src*="130875493850284032"] + span::after,
+.avatar-1BDn8e[src*="244363360886325248"] + span::after,
+.avatar-1BDn8e[src*="123916078882488320"] + span::after,
+.avatar-1BDn8e[src*="215036395507548161"] + span::after,
+.avatar-1BDn8e[src*="519790100956184586"] + span::after,
+.avatar-1BDn8e[src*="144550650842316800"] + span::after,
+.avatar-1BDn8e[src*="252460828157018112"] + span::after,
+.avatar-1BDn8e[src*="316563263179456513"] + span::after,
+.avatar-1BDn8e[src*="150967530075324416"] + span::after,
+.avatar-1BDn8e[src*="498444458845536257"] + span::after,
+.avatar-1BDn8e[src*="147889058670968844"] + span::after,
+.avatar-1BDn8e[src*="251465413995528194"] + span::after,
+.avatar-1BDn8e[src*="120721814837002240"] + span::after,
+.avatar-1BDn8e[src*="227648235097817089"] + span::after,
+.avatar-1BDn8e[src*="210629330135547904"] + span::after,
+.avatar-1BDn8e[src*="211376467114852352"] + span::after,
+.avatar-1BDn8e[src*="143017752775360512"] + span::after,
+.avatar-1BDn8e[src*="82987644316815360"] + span::after,
+.avatar-1BDn8e[src*="324680910123302922"] + span::after,
+.avatar-1BDn8e[src*="324680910123302922"] + span::after,
+.avatar-1BDn8e[src*="422110084039180318"] + span::after,
+.avatar-1BDn8e[src*="336678828233588736"] + span::after,
+.avatar-1BDn8e[src*="433698341008965633"] + span::after,
+.avatar-1BDn8e[src*="219078125974192128"] + span::after,
+.avatar-1BDn8e[src*="131414719666847745"] + span::after,
+.avatar-1BDn8e[src*="527971799770857512"] + span::after,
+.avatar-1BDn8e[src*="531614184526577675"] + span::after,
+.avatar-1BDn8e[src*="257055153272782848"] + span::after,
+.avatar-1BDn8e[src*="368562259225608193"] + span::after,
+.avatar-1BDn8e[src*="312782599439515650"] + span::after,
+.avatar-1BDn8e[src*="197477050569719808"] + span::after,
+.avatar-1BDn8e[src*="438846426441711616"] + span::after,
+.avatar-1BDn8e[src*="152430800241950720"] + span::after,
+.avatar-1BDn8e[src*="263631800021155840"] + span::after,
+.avatar-1BDn8e[src*="95657348390977536"] + span::after,
+.avatar-1BDn8e[src*="304260051915374603"] + span::after,
+.avatar-1BDn8e[src*="280447836007694338"] + span::after,
+.avatar-1BDn8e[src*="331191382792208385"] + span::after,
+.avatar-1BDn8e[src*="622724687499362315"] + span::after,
+.avatar-1BDn8e[src*="142110824507506688"] + span::after,
+.avatar-1BDn8e[src*="230714365869817857"] + span::after,
+.avatar-1BDn8e[src*="90110283724374016"] + span::after,
+.avatar-1BDn8e[src*="250353310698176522"] + span::after,
+.avatar-1BDn8e[src*="200612445373464576"] + span::after,
+.avatar-1BDn8e[src*="418089602239168520"] + span::after,
+.avatar-1BDn8e[src*="352189597268049921"] + span::after,
+.avatar-1BDn8e[src*="267803219080642560"] + span::after,
+.avatar-1BDn8e[src*="533814956525748235"] + span::after,
+.avatar-1BDn8e[src*="535853858992291852"] + span::after,
+.avatar-1BDn8e[src*="264062457448759296"] + span::after,
+.avatar-1BDn8e[src*="578595201874919425"] + span::after,
+.avatar-1BDn8e[src*="397048226919874600"] + span::after,
+.avatar-1BDn8e[src*="545060776654667777"] + span::after,
+.avatar-1BDn8e[src*="460174770957189155"] + span::after,
+.avatar-1BDn8e[src*="266452571051393033"] + span::after ,
+.avatar-1BDn8e[src*="605514546249072679"] + span::after,
+.avatar-1BDn8e[src*="323030822267518977"] + span::after,
+.avatar-1BDn8e[src*="173557815326015488"] + span::after,
+.avatar-1BDn8e[src*="282681883249213440"] + span::after,
+.avatar-1BDn8e[src*="145557095234666496"] + span::after,
+.avatar-1BDn8e[src*="172557961133162496"] + span::after,
+.avatar-1BDn8e[src*="498207315485392906"] + span::after{
   content: "}";
 }
 
 
   /* on hover */
-.avatar-1BDn8e[src*="498207315485392906"]:hover ~ span::after{
+.avatar-1BDn8e[src*="498207315485392906"]:hover + span::after{
   content: 'Nintendon\'t';
   --main-color: #8D90EB;
 }
 
-.avatar-1BDn8e[src*="172557961133162496"]:hover ~ span::after{
+.avatar-1BDn8e[src*="172557961133162496"]:hover + span::after{
   content: 'https://rauf.wtf/';
   --main-color: #7289da;
 }
 
-.avatar-1BDn8e[src*="145557095234666496"]:hover ~ span::after{
+.avatar-1BDn8e[src*="145557095234666496"]:hover + span::after{
   content: 'Trans Mess';
   --main-color: #880088;
 }
 
-.avatar-1BDn8e[src*="282681883249213440"]:hover ~ span::after{
+.avatar-1BDn8e[src*="282681883249213440"]:hover + span::after{
   content: 'Nozumo';
   --main-color: #4d0000;
 }
 
-.avatar-1BDn8e[src*="173557815326015488"]:hover ~ span::after{
+.avatar-1BDn8e[src*="173557815326015488"]:hover + span::after{
   content: 'Gravity';
   color: darkblue;
   --main-color: lightblue;
 }
 
-.avatar-1BDn8e[src*="323030822267518977"]:hover ~ span::after{
+.avatar-1BDn8e[src*="323030822267518977"]:hover + span::after{
   content: 'Little Kitty';
   --main-color: #FF69B4;
 }
 
-.avatar-1BDn8e[src*="605514546249072679"]:hover ~ span::after{
+.avatar-1BDn8e[src*="605514546249072679"]:hover + span::after{
   content: 'Luci';
   --main-color: #800080;
 }
 
-.avatar-1BDn8e[src*="266452571051393033"]:hover ~ span::after {
+.avatar-1BDn8e[src*="266452571051393033"]:hover + span::after {
   content: 'Skelly';
   --main-color: #ff0000;
 }
 
-.avatar-1BDn8e[src*="460174770957189155"]:hover ~ span::after {
+.avatar-1BDn8e[src*="460174770957189155"]:hover + span::after {
   content: 'Currently dying rn';
   --main-color: #008080;
 }
 
-.avatar-1BDn8e[src*="545060776654667777"]:hover ~ span::after {
+.avatar-1BDn8e[src*="545060776654667777"]:hover + span::after {
   content: 'egirl';
   --main-color: #9f45ba;
 }
 
-.avatar-1BDn8e[src*="397048226919874600"]:hover ~ span::after {
+.avatar-1BDn8e[src*="397048226919874600"]:hover + span::after {
   content: "Xzar the Guitar";
   --main-color: #3d3d3d;
 }
 
-.avatar-1BDn8e[src*="578595201874919425"]:hover ~ span::after {
+.avatar-1BDn8e[src*="578595201874919425"]:hover + span::after {
   content: 'Daniel';
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   --main-color: #ff7f7f;
 }
 
-.avatar-1BDn8e[src*="264062457448759296"]:hover ~ span::after {
+.avatar-1BDn8e[src*="264062457448759296"]:hover + span::after {
   content: '(^ 3^)';
   --main-color: #BB0667;
 }
 
-.avatar-1BDn8e[src*="535853858992291852"]:hover ~ span::after {
+.avatar-1BDn8e[src*="535853858992291852"]:hover + span::after {
   content: "desu";
   color: green;
 }
 
-.avatar-1BDn8e[src*="533814956525748235"]:hover ~ span::after {
+.avatar-1BDn8e[src*="533814956525748235"]:hover + span::after {
   content: "#1 Procrastinator";
   --main-color: #577fda;
 }
 
-.avatar-1BDn8e[src*="267803219080642560"]:hover ~ span::after {
+.avatar-1BDn8e[src*="267803219080642560"]:hover + span::after {
   content: "CEO of Red";
   --main-color: #cc2c24;
 }
 
-.avatar-1BDn8e[src*="352189597268049921"]:hover ~ span::after {
+.avatar-1BDn8e[src*="352189597268049921"]:hover + span::after {
   content: "Fry";
   --main-color: #e49868;
 }
 
-.avatar-1BDn8e[src*="418089602239168520"]:hover ~ span::after {
+.avatar-1BDn8e[src*="418089602239168520"]:hover + span::after {
   content: "HellCat";
   color: black;
   --main-color: #deddaa;
 }
 
-.avatar-1BDn8e[src*="200612445373464576"]:hover ~ span::after{
+.avatar-1BDn8e[src*="200612445373464576"]:hover + span::after{
   content: "Vexion";
   --main-color: #209bd8;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
-.avatar-1BDn8e[src*="250353310698176522"]:hover ~ span::after {
+.avatar-1BDn8e[src*="250353310698176522"]:hover + span::after {
   content: "Zoë";
   --main-color: #101010;
 }
 
-.avatar-1BDn8e[src*="90110283724374016"]:hover ~ span::after {
+.avatar-1BDn8e[src*="90110283724374016"]:hover + span::after {
   content: "Symbiote Spider-Man";
   --main-color: #00FFFD;
   color: black;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white !important;
 }
 
-.avatar-1BDn8e[src*="111476801762537472"]:hover ~ span::after {
+.avatar-1BDn8e[src*="111476801762537472"]:hover + span::after {
   content: "The One and Only";
   --main-color: #101010;
 }
 
-.avatar-1BDn8e[src*="230714365869817857"]:hover ~ span::after {
+.avatar-1BDn8e[src*="230714365869817857"]:hover + span::after {
   content: "The Changeling";
   --main-color: #15e61c;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
-.avatar-1BDn8e[src*="142110824507506688"]:hover ~ span::after {
+.avatar-1BDn8e[src*="142110824507506688"]:hover + span::after {
   content: "Piixel";
   --main-color: #b8efd0;
   color: black;
 }
 
-.avatar-1BDn8e[src*="622724687499362315"]:hover ~ span::after {
+.avatar-1BDn8e[src*="622724687499362315"]:hover + span::after {
   content: "Guard of Skids";
   --main-color: #242424;
 }
 
-.avatar-1BDn8e[src*="185119357578379264"]:hover ~ span::after {
+.avatar-1BDn8e[src*="185119357578379264"]:hover + span::after {
   content: "Daddy";
 }
 
-.avatar-1BDn8e[src*="173177738914562048"]:hover ~ span::after {
+.avatar-1BDn8e[src*="173177738914562048"]:hover + span::after {
   color: black;
   content: "D E A D";
   --main-color: white;
   text-shadow: none !important;
 }
 
-.avatar-1BDn8e[src*="116243287936860167"]:hover ~ span::after {
+.avatar-1BDn8e[src*="116243287936860167"]:hover + span::after {
   content: "Penguin";
 }
 
-.avatar-1BDn8e[src*="214318588331294720"]:hover ~ span::after {
+.avatar-1BDn8e[src*="214318588331294720"]:hover + span::after {
   content: "GREEN?";
   --main-color: rgb(27, 94, 27);
 }
 
-.avatar-1BDn8e[src*="100288999964286976"]:hover ~ span::after {
+.avatar-1BDn8e[src*="100288999964286976"]:hover + span::after {
   content: "AG Pilot";
 }
 
-.avatar-1BDn8e[src*="102171488739667968"]:hover ~ span::after {
+.avatar-1BDn8e[src*="102171488739667968"]:hover + span::after {
   content: "Donator";
 }
 
-.avatar-1BDn8e[src*="103713842189594624"]:hover ~ span::after {
+.avatar-1BDn8e[src*="103713842189594624"]:hover + span::after {
   content: "Idol";
 }
 
-.avatar-1BDn8e[src*="104717799926034432"]:hover ~ span::after {
+.avatar-1BDn8e[src*="104717799926034432"]:hover + span::after {
   content: "Twilight Princess";
 }
 
-.avatar-1BDn8e[src*="104938361159987200"]:hover ~ span::after {
+.avatar-1BDn8e[src*="104938361159987200"]:hover + span::after {
   content: "God";
 }
 
-.avatar-1BDn8e[src*="106093784151924736"]:hover ~ span::after {
+.avatar-1BDn8e[src*="106093784151924736"]:hover + span::after {
   content: "coder";
 }
 
-.avatar-1BDn8e[src*="106516306718670848"]:hover ~ span::after {
+.avatar-1BDn8e[src*="106516306718670848"]:hover + span::after {
   content: "KeyBlade";
 }
 
-.avatar-1BDn8e[src*="107003083208278016"]:hover ~ span::after {
+.avatar-1BDn8e[src*="107003083208278016"]:hover + span::after {
   content: "Mr.Astute";
 }
 
-.avatar-1BDn8e[src*="107179981716631552"]:hover ~ span::after {
+.avatar-1BDn8e[src*="107179981716631552"]:hover + span::after {
   content: "Unknown";
 }
 
-.avatar-1BDn8e[src*="107762184641089536"]:hover ~ span::after {
+.avatar-1BDn8e[src*="107762184641089536"]:hover + span::after {
   content: "S U P R E M E";
 }
 
-.avatar-1BDn8e[src*="114847475864567817"]:hover ~ span::after {
+.avatar-1BDn8e[src*="114847475864567817"]:hover + span::after {
   content: "Hawkestra";
 }
 
-.avatar-1BDn8e[src*="114975260436070408"]:hover ~ span::after {
+.avatar-1BDn8e[src*="114975260436070408"]:hover + span::after {
   content: "lewd catgirl";
 }
 
-.avatar-1BDn8e[src*="115995222999040000"]:hover ~ span::after {
+.avatar-1BDn8e[src*="115995222999040000"]:hover + span::after {
   content: "Female";
 }
 
-.avatar-1BDn8e[src*="118580050458181632"]:hover ~ span::after {
+.avatar-1BDn8e[src*="118580050458181632"]:hover + span::after {
   content: "말보다는 행동이지";
 }
 
-.avatar-1BDn8e[src*="120353989886869504"]:hover ~ span::after {
+.avatar-1BDn8e[src*="120353989886869504"]:hover + span::after {
   content: "Synapse";
 }
 
-.avatar-1BDn8e[src*="120873599254003712"]:hover ~ span::after {
+.avatar-1BDn8e[src*="120873599254003712"]:hover + span::after {
   content: "Penguin Slapper";
 }
 
-.avatar-1BDn8e[src*="121012703677382658"]:hover ~ span::after {
+.avatar-1BDn8e[src*="121012703677382658"]:hover + span::after {
   content: "Gif God";
 }
 
-.avatar-1BDn8e[src*="124519009398816768"]:hover ~ span::after {
+.avatar-1BDn8e[src*="124519009398816768"]:hover + span::after {
   content: "Freelancer";
 }
 
-.avatar-1BDn8e[src*="124684559844376580"]:hover ~ span::after {
+.avatar-1BDn8e[src*="124684559844376580"]:hover + span::after {
   content: "FurFag";
 }
 
-.avatar-1BDn8e[src*="125511726308392960"]:hover ~ span::after {
+.avatar-1BDn8e[src*="125511726308392960"]:hover + span::after {
   content: "King";
 }
 
-.avatar-1BDn8e[src*="128948605263413248"]:hover ~ span::after {
+.avatar-1BDn8e[src*="128948605263413248"]:hover + span::after {
   content: "Dongus";
 }
 
-.avatar-1BDn8e[src*="130327833858932736"]:hover ~ span::after {
+.avatar-1BDn8e[src*="130327833858932736"]:hover + span::after {
   content: "Edge Lord";
 }
 
-.avatar-1BDn8e[src*="131903461771051009"]:hover ~ span::after {
+.avatar-1BDn8e[src*="131903461771051009"]:hover + span::after {
   content: "The Legend of Link";
 }
 
-.avatar-1BDn8e[src*="133427206251741185"]:hover ~ span::after {
+.avatar-1BDn8e[src*="133427206251741185"]:hover + span::after {
   content: "Princess";
 }
 
-.avatar-1BDn8e[src*="133611040373080064"]:hover ~ span::after {
+.avatar-1BDn8e[src*="133611040373080064"]:hover + span::after {
   content: "Pure Baguette";
 }
 
-.avatar-1BDn8e[src*="134501787695710208"]:hover ~ span::after {
+.avatar-1BDn8e[src*="134501787695710208"]:hover + span::after {
   content: "Yung God";
 }
 
-.avatar-1BDn8e[src*="135069809057464321"]:hover ~ span::after {
+.avatar-1BDn8e[src*="135069809057464321"]:hover + span::after {
   content: "QuattuorSiivet";
 }
 
-.avatar-1BDn8e[src*="135824276535115776"]:hover ~ span::after {
+.avatar-1BDn8e[src*="135824276535115776"]:hover + span::after {
   content: "Village Idiot";
 }
 
-.avatar-1BDn8e[src*="137687390218092544"]:hover ~ span::after {
+.avatar-1BDn8e[src*="137687390218092544"]:hover + span::after {
   content: "Muffin";
 }
 
-.avatar-1BDn8e[src*="140594936377507842"]:hover ~ span::after {
+.avatar-1BDn8e[src*="140594936377507842"]:hover + span::after {
   content: "Hn";
 }
 
-.avatar-1BDn8e[src*="141336087841865728"]:hover ~ span::after {
+.avatar-1BDn8e[src*="141336087841865728"]:hover + span::after {
   content: "chemically inert";
 }
 
-.avatar-1BDn8e[src*="142236265582952448"]:hover ~ span::after {
+.avatar-1BDn8e[src*="142236265582952448"]:hover + span::after {
   content: "Free.mp3";
 }
 
-.avatar-1BDn8e[src*="142598737779228672"]:hover ~ span::after {
+.avatar-1BDn8e[src*="142598737779228672"]:hover + span::after {
   content: "TayNation";
 }
 
-.avatar-1BDn8e[src*="143365927398801408"]:hover ~ span::after {
+.avatar-1BDn8e[src*="143365927398801408"]:hover + span::after {
   content: "Increasingly H";
 }
 
-.avatar-1BDn8e[src*="144898194860539904"]:hover ~ span::after {
+.avatar-1BDn8e[src*="144898194860539904"]:hover + span::after {
   content: "Bleat!";
 }
 
-.avatar-1BDn8e[src*="145295834764935168"]:hover ~ span::after {
+.avatar-1BDn8e[src*="145295834764935168"]:hover + span::after {
   content: "MoonButt Lulu";
 }
 
-.avatar-1BDn8e[src*="145708322853617664"]:hover ~ span::after {
+.avatar-1BDn8e[src*="145708322853617664"]:hover + span::after {
   content: "Pink.OPPAI";
 }
 
-.avatar-1BDn8e[src*="145799943980843008"]:hover ~ span::after {
+.avatar-1BDn8e[src*="145799943980843008"]:hover + span::after {
   content: "Cute Kitty";
 }
 
-.avatar-1BDn8e[src*="146743774909825024"]:hover ~ span::after {
+.avatar-1BDn8e[src*="146743774909825024"]:hover + span::after {
   content: "DekiDesu";
 }
 
-.avatar-1BDn8e[src*="146937960992997376"]:hover ~ span::after {
+.avatar-1BDn8e[src*="146937960992997376"]:hover + span::after {
   content: "Satan";
 }
 
-.avatar-1BDn8e[src*="150757187344531465"]:hover ~ span::after {
+.avatar-1BDn8e[src*="150757187344531465"]:hover + span::after {
   content: "BOT";
 }
 
-.avatar-1BDn8e[src*="150780668677193729"]:hover ~ span::after {
+.avatar-1BDn8e[src*="150780668677193729"]:hover + span::after {
   content: "Lau God";
 }
 
-.avatar-1BDn8e[src*="153263357292445696"]:hover ~ span::after {
+.avatar-1BDn8e[src*="153263357292445696"]:hover + span::after {
   content: "big nigga";
 }
 
-.avatar-1BDn8e[src*="154834499597762560"]:hover ~ span::after {
+.avatar-1BDn8e[src*="154834499597762560"]:hover + span::after {
   content: "BOOM";
 }
 
-.avatar-1BDn8e[src*="157979918108590081"]:hover ~ span::after {
+.avatar-1BDn8e[src*="157979918108590081"]:hover + span::after {
   content: "swedish pagan";
 }
 
-.avatar-1BDn8e[src*="158496035591815168"]:hover ~ span::after {
+.avatar-1BDn8e[src*="158496035591815168"]:hover + span::after {
   content: "ABG";
 }
 
-.avatar-1BDn8e[src*="159946230674227201"]:hover ~ span::after {
+.avatar-1BDn8e[src*="159946230674227201"]:hover + span::after {
   content: "ฅ(＾・ᆺ・＾ฅ)";
 }
 
-.avatar-1BDn8e[src*="166198887487504384"]:hover ~ span::after {
+.avatar-1BDn8e[src*="166198887487504384"]:hover + span::after {
   content: "Bun";
 }
 
-.avatar-1BDn8e[src*="168759625875718145"]:hover ~ span::after {
+.avatar-1BDn8e[src*="168759625875718145"]:hover + span::after {
   content: "G0D";
 }
 
-.avatar-1BDn8e[src*="169176612640653322"]:hover ~ span::after {
+.avatar-1BDn8e[src*="169176612640653322"]:hover + span::after {
   content: "Unicorn";
 }
 
-.avatar-1BDn8e[src*="169967786813030400"]:hover ~ span::after {
+.avatar-1BDn8e[src*="169967786813030400"]:hover + span::after {
   content: "OG";
 }
 
-.avatar-1BDn8e[src*="170027884944162816"]:hover ~ span::after {
+.avatar-1BDn8e[src*="170027884944162816"]:hover + span::after {
   content: "Princess Derp";
 }
 
-.avatar-1BDn8e[src*="171395218258657281"]:hover ~ span::after {
+.avatar-1BDn8e[src*="171395218258657281"]:hover + span::after {
   content: "Draconic";
 }
 
-.avatar-1BDn8e[src*="173398322332172288"]:hover ~ span::after {
+.avatar-1BDn8e[src*="173398322332172288"]:hover + span::after {
   content: "ShieldE";
 }
 
-.avatar-1BDn8e[src*="174986536184578049"]:hover ~ span::after {
+.avatar-1BDn8e[src*="174986536184578049"]:hover + span::after {
   content: "Draakaan";
 }
 
-.avatar-1BDn8e[src*="176566790384648192"]:hover ~ span::after {
+.avatar-1BDn8e[src*="176566790384648192"]:hover + span::after {
   content: "GOD";
 }
 
-.avatar-1BDn8e[src*="177516608778928129"]:hover ~ span::after {
+.avatar-1BDn8e[src*="177516608778928129"]:hover + span::after {
   content: "KWAK";
 }
 
-.avatar-1BDn8e[src*="177744816665395200"]:hover ~ span::after {
+.avatar-1BDn8e[src*="177744816665395200"]:hover + span::after {
   content: "doofus";
 }
 
-.avatar-1BDn8e[src*="179608420809310208"]:hover ~ span::after {
+.avatar-1BDn8e[src*="179608420809310208"]:hover + span::after {
   content: "dragon";
   color: #efb8cc;
   background-image: url(https://i.imgur.com/3X1Gnr2.gif);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.avatar-1BDn8e[src*="181246593708589057"]:hover ~ span::after {
+.avatar-1BDn8e[src*="181246593708589057"]:hover + span::after {
   content: "big doge";
 }
 
-.avatar-1BDn8e[src*="181323761264361472"]:hover ~ span::after {
+.avatar-1BDn8e[src*="181323761264361472"]:hover + span::after {
   content: "The Boshy Now!";
 }
 
-.avatar-1BDn8e[src*="182501713423499264"]:hover ~ span::after {
+.avatar-1BDn8e[src*="182501713423499264"]:hover + span::after {
   content: "Meow Meow";
 }
 
-.avatar-1BDn8e[src*="183359032126472195"]:hover ~ span::after {
+.avatar-1BDn8e[src*="183359032126472195"]:hover + span::after {
   content: "Legend";
 }
 
-.avatar-1BDn8e[src*="183368079839985665"]:hover ~ span::after {
+.avatar-1BDn8e[src*="183368079839985665"]:hover + span::after {
   content: "Princess";
 }
 
-.avatar-1BDn8e[src*="185009499831140352"]:hover ~ span::after {
+.avatar-1BDn8e[src*="185009499831140352"]:hover + span::after {
   content: "Ghost Gamer";
 }
 
-.avatar-1BDn8e[src*="185971884435832832"]:hover ~ span::after {
+.avatar-1BDn8e[src*="185971884435832832"]:hover + span::after {
   content: "IAMDK44";
 }
 
-.avatar-1BDn8e[src*="186090970062782464"]:hover ~ span::after {
+.avatar-1BDn8e[src*="186090970062782464"]:hover + span::after {
   content: "random person";
 }
 
-.avatar-1BDn8e[src*="188066841262817291"]:hover ~ span::after {
+.avatar-1BDn8e[src*="188066841262817291"]:hover + span::after {
   content: " Developer ";
 }
 
-.avatar-1BDn8e[src*="194182804110704640"]:hover ~ span::after {
+.avatar-1BDn8e[src*="194182804110704640"]:hover + span::after {
   content: "G0D";
 }
 
-.avatar-1BDn8e[src*="196378466487107584"]:hover ~ span::after {
+.avatar-1BDn8e[src*="196378466487107584"]:hover + span::after {
   content: "ShitHead";
 }
 
-.avatar-1BDn8e[src*="196501452104007680"]:hover ~ span::after {
+.avatar-1BDn8e[src*="196501452104007680"]:hover + span::after {
   content: "Sylveon";
 }
 
-.avatar-1BDn8e[src*="197773757492887552"]:hover ~ span::after {
+.avatar-1BDn8e[src*="197773757492887552"]:hover + span::after {
   content: "Universal";
 }
 
-.avatar-1BDn8e[src*="202517306427834368"]:hover ~ span::after {
+.avatar-1BDn8e[src*="202517306427834368"]:hover + span::after {
   content: "God";
 }
 
-.avatar-1BDn8e[src*="203225332285833216"]:hover ~ span::after {
+.avatar-1BDn8e[src*="203225332285833216"]:hover + span::after {
   content: "";
 }
 
-.avatar-1BDn8e[src*="203836668422258688"]:hover ~ span::after {
+.avatar-1BDn8e[src*="203836668422258688"]:hover + span::after {
   content: "Ours";
 }
 
-.avatar-1BDn8e[src*="203849645892435968"]:hover ~ span::after {
+.avatar-1BDn8e[src*="203849645892435968"]:hover + span::after {
   content: "YouTuber";
 }
 
-.avatar-1BDn8e[src*="207896844884246528"]:hover ~ span::after {
+.avatar-1BDn8e[src*="207896844884246528"]:hover + span::after {
   content: "Careless";
 }
 
-.avatar-1BDn8e[src*="209044991333498882"]:hover ~ span::after {
+.avatar-1BDn8e[src*="209044991333498882"]:hover + span::after {
   content: "undead";
 }
 
-.avatar-1BDn8e[src*="210152253103931393"]:hover ~ span::after {
+.avatar-1BDn8e[src*="210152253103931393"]:hover + span::after {
   content: "Hentai King";
 }
 
-.avatar-1BDn8e[src*="211315836626010113"]:hover ~ span::after {
+.avatar-1BDn8e[src*="211315836626010113"]:hover + span::after {
   content: "Javascript Boi";
 }
 
-.avatar-1BDn8e[src*="211895683123249153"]:hover ~ span::after {
+.avatar-1BDn8e[src*="211895683123249153"]:hover + span::after {
   content: "Forge";
 }
 
-.avatar-1BDn8e[src*="216382288378724352"]:hover ~ span::after {
+.avatar-1BDn8e[src*="216382288378724352"]:hover + span::after {
   content: "Element";
 }
 
-.avatar-1BDn8e[src*="216683534742454272"]:hover ~ span::after {
+.avatar-1BDn8e[src*="216683534742454272"]:hover + span::after {
   content: "Beasted";
 }
 
-.avatar-1BDn8e[src*="217956193602109440"]:hover ~ span::after {
+.avatar-1BDn8e[src*="217956193602109440"]:hover + span::after {
   content: "Kproct0r";
 }
 
-.avatar-1BDn8e[src*="218783101826891777"]:hover ~ span::after {
+.avatar-1BDn8e[src*="218783101826891777"]:hover + span::after {
   content: "one";
 }
 
-.avatar-1BDn8e[src*="219980019236208640"]:hover ~ span::after {
+.avatar-1BDn8e[src*="219980019236208640"]:hover + span::after {
   content: "upsets bitch";
 }
 
-.avatar-1BDn8e[src*="221807566303264778"]:hover ~ span::after {
+.avatar-1BDn8e[src*="221807566303264778"]:hover + span::after {
   content: "Call Shotgun";
 }
 
-.avatar-1BDn8e[src*="222608106683760651"]:hover ~ span::after {
+.avatar-1BDn8e[src*="222608106683760651"]:hover + span::after {
   content: "Trap King";
 }
 
-.avatar-1BDn8e[src*="225005614797946880"]:hover ~ span::after {
+.avatar-1BDn8e[src*="225005614797946880"]:hover + span::after {
   content: "POPULAR";
 }
 
-.avatar-1BDn8e[src*="226001634189246465"]:hover ~ span::after {
+.avatar-1BDn8e[src*="226001634189246465"]:hover + span::after {
   content: "THE LORD";
 }
 
-.avatar-1BDn8e[src*="226696771454238731"]:hover ~ span::after {
+.avatar-1BDn8e[src*="226696771454238731"]:hover + span::after {
   content: "GAY";
 }
 
-.avatar-1BDn8e[src*="227018516497170433"]:hover ~ span::after {
+.avatar-1BDn8e[src*="227018516497170433"]:hover + span::after {
   content: "Maniac";
 }
 
-.avatar-1BDn8e[src*="227191699930087425"]:hover ~ span::after {
+.avatar-1BDn8e[src*="227191699930087425"]:hover + span::after {
   content: "VXIDGXD";
 }
 
-.avatar-1BDn8e[src*="227411672774475776"]:hover ~ span::after {
+.avatar-1BDn8e[src*="227411672774475776"]:hover + span::after {
   content: "Sethy's Salt <3";
 }
 
-.avatar-1BDn8e[src*="228340391911489536"]:hover ~ span::after {
+.avatar-1BDn8e[src*="228340391911489536"]:hover + span::after {
   content: "HvHer";
 }
 
-.avatar-1BDn8e[src*="231497890353250307"]:hover ~ span::after {
+.avatar-1BDn8e[src*="231497890353250307"]:hover + span::after {
   content: "Divine Being";
 }
 
-.avatar-1BDn8e[src*="234144873576529920"]:hover ~ span::after {
+.avatar-1BDn8e[src*="234144873576529920"]:hover + span::after {
   content: "osu! Player";
 }
 
-.avatar-1BDn8e[src*="236863914078371842"]:hover ~ span::after {
+.avatar-1BDn8e[src*="236863914078371842"]:hover + span::after {
   content: "Immortal Hero";
 }
 
-.avatar-1BDn8e[src*="239488378943438850"]:hover ~ span::after {
+.avatar-1BDn8e[src*="239488378943438850"]:hover + span::after {
   content: "WOMANIZER";
 }
 
-.avatar-1BDn8e[src*="239827225677922304"]:hover ~ span::after {
+.avatar-1BDn8e[src*="239827225677922304"]:hover + span::after {
   
   content: "Mimikyu";
 }
 
-.avatar-1BDn8e[src*="241735290035634178"]:hover ~ span::after {
+.avatar-1BDn8e[src*="241735290035634178"]:hover + span::after {
   content: "NoLife";
 }
 
-.avatar-1BDn8e[src*="244429806215757825"]:hover ~ span::after {
+.avatar-1BDn8e[src*="244429806215757825"]:hover + span::after {
   content: "OWNER";
 }
 
-.avatar-1BDn8e[src*="246817131411275776"]:hover ~ span::after {
+.avatar-1BDn8e[src*="246817131411275776"]:hover + span::after {
   content: "BOT";
 }
 
-.avatar-1BDn8e[src*="247528761925435393"]:hover ~ span::after {
+.avatar-1BDn8e[src*="247528761925435393"]:hover + span::after {
   content: "☠️Owner☠️";
 }
 
-.avatar-1BDn8e[src*="248947473161256972"]:hover ~ span::after {
+.avatar-1BDn8e[src*="248947473161256972"]:hover + span::after {
   content: "Effort";
 }
 
-.avatar-1BDn8e[src*="254674372734746626"]:hover ~ span::after {
+.avatar-1BDn8e[src*="254674372734746626"]:hover + span::after {
   content: "Meh";
 }
 
-.avatar-1BDn8e[src*="255369537149468682"]:hover ~ span::after {
+.avatar-1BDn8e[src*="255369537149468682"]:hover + span::after {
   content: "1taps";
 }
 
-.avatar-1BDn8e[src*="259733021786243085"]:hover ~ span::after {
+.avatar-1BDn8e[src*="259733021786243085"]:hover + span::after {
   content: "LEGEND";
 }
 
-.avatar-1BDn8e[src*="259875605443641344"]:hover ~ span::after {
+.avatar-1BDn8e[src*="259875605443641344"]:hover + span::after {
   content: "J's Lady";
 }
 
-.avatar-1BDn8e[src*="263467234817605633"]:hover ~ span::after {
+.avatar-1BDn8e[src*="263467234817605633"]:hover + span::after {
   content: "Illuminous";
 }
 
-.avatar-1BDn8e[src*="264551860784857090"]:hover ~ span::after {
+.avatar-1BDn8e[src*="264551860784857090"]:hover + span::after {
   content: "noob";
 }
 
-.avatar-1BDn8e[src*="264594101570109441"]:hover ~ span::after {
+.avatar-1BDn8e[src*="264594101570109441"]:hover + span::after {
   content: "GV2 Star";
 }
 
-.avatar-1BDn8e[src*="265668084084375552"]:hover ~ span::after {
+.avatar-1BDn8e[src*="265668084084375552"]:hover + span::after {
   content: "ÜLEM";
 }
 
-.avatar-1BDn8e[src*="266406986235510786"]:hover ~ span::after {
+.avatar-1BDn8e[src*="266406986235510786"]:hover + span::after {
   content: "Image64Labs Waifu";
   --main-color: #ff84ee;
 }
 
-.avatar-1BDn8e[src*="266682913653915650"]:hover ~ span::after {
+.avatar-1BDn8e[src*="266682913653915650"]:hover + span::after {
   content: "Faggot";
 }
 
-.avatar-1BDn8e[src*="269441656002969600"]:hover ~ span::after {
+.avatar-1BDn8e[src*="269441656002969600"]:hover + span::after {
   content: "HENTAI";
 }
 
-.avatar-1BDn8e[src*="271578593417625600"]:hover ~ span::after {
+.avatar-1BDn8e[src*="271578593417625600"]:hover + span::after {
   content: "DEVELOPER";
 }
 
-.avatar-1BDn8e[src*="272794408578056192"]:hover ~ span::after {
+.avatar-1BDn8e[src*="272794408578056192"]:hover + span::after {
   content: "1337";
 }
 
-.avatar-1BDn8e[src*="275292869831688195"]:hover ~ span::after {
+.avatar-1BDn8e[src*="275292869831688195"]:hover + span::after {
   content: "SUPREME LEADER";
 }
 
-.avatar-1BDn8e[src*="275442117428641792"]:hover ~ span::after {
+.avatar-1BDn8e[src*="275442117428641792"]:hover + span::after {
   
   content: "BOT";
 }
 
-.avatar-1BDn8e[src*="277540589569048577"]:hover ~ span::after {
+.avatar-1BDn8e[src*="277540589569048577"]:hover + span::after {
   content: "RachelUMIDO";
 }
 
-.avatar-1BDn8e[src*="281323790124711937"]:hover ~ span::after {
+.avatar-1BDn8e[src*="281323790124711937"]:hover + span::after {
   content: "leprosy";
 }
 
-.avatar-1BDn8e[src*="282256234663510026"]:hover ~ span::after {
+.avatar-1BDn8e[src*="282256234663510026"]:hover + span::after {
   content: "DGAF";
 }
 
-.avatar-1BDn8e[src*="283418670867152897"]:hover ~ span::after {
+.avatar-1BDn8e[src*="283418670867152897"]:hover + span::after {
   content: "Ruby";
 }
 
-.avatar-1BDn8e[src*="297463921445699594"]:hover ~ span::after {
+.avatar-1BDn8e[src*="297463921445699594"]:hover + span::after {
   content: "Provolone";
 }
 
-.avatar-1BDn8e[src*="300365386031824897"]:hover ~ span::after {
+.avatar-1BDn8e[src*="300365386031824897"]:hover + span::after {
   content: "DOGGO";
 }
 
-.avatar-1BDn8e[src*="300456407222714381"]:hover ~ span::after {
+.avatar-1BDn8e[src*="300456407222714381"]:hover + span::after {
   content: "I like eyes";
 }
 
-.avatar-1BDn8e[src*="308287952230940672"]:hover ~ span::after {
+.avatar-1BDn8e[src*="308287952230940672"]:hover + span::after {
   content: "Bot";
 }
 
-.avatar-1BDn8e[src*="310719627292573697"]:hover ~ span::after {
+.avatar-1BDn8e[src*="310719627292573697"]:hover + span::after {
   content: "";
 }
 
-.avatar-1BDn8e[src*="314543782785843201"]:hover ~ span::after {
+.avatar-1BDn8e[src*="314543782785843201"]:hover + span::after {
   content: "Unity";
 }
 
-.avatar-1BDn8e[src*="315245920424034304"]:hover ~ span::after {
+.avatar-1BDn8e[src*="315245920424034304"]:hover + span::after {
   content: "Beast";
 }
 
-.avatar-1BDn8e[src*="317382522923122689"]:hover ~ span::after {
+.avatar-1BDn8e[src*="317382522923122689"]:hover + span::after {
   content: "Bananaman";
 }
 
-.avatar-1BDn8e[src*="322311761023860737"]:hover ~ span::after {
+.avatar-1BDn8e[src*="322311761023860737"]:hover + span::after {
   content: "Kat";
 }
 
-.avatar-1BDn8e[src*="348110308931403776"]:hover ~ span::after {
+.avatar-1BDn8e[src*="348110308931403776"]:hover + span::after {
   content: "Beasted";
 }
 
-.avatar-1BDn8e[src*="348134506101997569"]:hover ~ span::after {
+.avatar-1BDn8e[src*="348134506101997569"]:hover + span::after {
   content: "Hatty";
 }
 
-.avatar-1BDn8e[src*="349041709306347520"]:hover ~ span::after {
+.avatar-1BDn8e[src*="349041709306347520"]:hover + span::after {
   content: "Viralsuperstar";
 }
 
-.avatar-1BDn8e[src*="367250478519549962"]:hover ~ span::after {
+.avatar-1BDn8e[src*="367250478519549962"]:hover + span::after {
   content: "CC";
 }
 
-.avatar-1BDn8e[src*="372936143982952449"]:hover ~ span::after {
+.avatar-1BDn8e[src*="372936143982952449"]:hover + span::after {
   content: "The OG";
 }
 
-.avatar-1BDn8e[src*="373823917313490945"]:hover ~ span::after {
+.avatar-1BDn8e[src*="373823917313490945"]:hover + span::after {
   content: "Fallen One";
 }
 
-.avatar-1BDn8e[src*="385243277101891584"]:hover ~ span::after {
+.avatar-1BDn8e[src*="385243277101891584"]:hover + span::after {
   content: "Developer";
 }
 
-.avatar-1BDn8e[src*="388107896682053643"]:hover ~ span::after {
+.avatar-1BDn8e[src*="388107896682053643"]:hover + span::after {
   content: "Stupendous";
 }
 
-.avatar-1BDn8e[src*="396051616920502276"]:hover ~ span::after {
+.avatar-1BDn8e[src*="396051616920502276"]:hover + span::after {
   content: "Good Vibes";
 }
 
-.avatar-1BDn8e[src*="396479572956282888"]:hover ~ span::after {
+.avatar-1BDn8e[src*="396479572956282888"]:hover + span::after {
   content: "Donator";
 }
 
-.avatar-1BDn8e[src*="398846356829241356"]:hover ~ span::after {
+.avatar-1BDn8e[src*="398846356829241356"]:hover + span::after {
   content: "Divine Priest";
 }
 
-.avatar-1BDn8e[src*="401893616211197962"]:hover ~ span::after {
+.avatar-1BDn8e[src*="401893616211197962"]:hover + span::after {
   content: "EXiTthisEarth";
 }
 
-.avatar-1BDn8e[src*="408150576552214529"]:hover ~ span::after {
+.avatar-1BDn8e[src*="408150576552214529"]:hover + span::after {
   content: "superior";
 }
 
-.avatar-1BDn8e[src*="412313063149142030"]:hover ~ span::after {
+.avatar-1BDn8e[src*="412313063149142030"]:hover + span::after {
   content: "HardcoreMemer";
 }
 
-.avatar-1BDn8e[src*="412315574178283520"]:hover ~ span::after {
+.avatar-1BDn8e[src*="412315574178283520"]:hover + span::after {
   content: "Owner";
 }
 
-.avatar-1BDn8e[src*="425126167930994689"]:hover ~ span::after {
+.avatar-1BDn8e[src*="425126167930994689"]:hover + span::after {
   content: "Anbu";
 }
 
-.avatar-1BDn8e[src*="426283874168078339"]:hover ~ span::after {
+.avatar-1BDn8e[src*="426283874168078339"]:hover + span::after {
   content: "YouTuber";
 }
 
-.avatar-1BDn8e[src*="435311437577977857"]:hover ~ span::after {
+.avatar-1BDn8e[src*="435311437577977857"]:hover + span::after {
   content: "VI • XVI";
 }
 
-.avatar-1BDn8e[src*="442377249254277143"]:hover ~ span::after {
+.avatar-1BDn8e[src*="442377249254277143"]:hover + span::after {
   content: "Poopy butt xd";
 }
 
-.avatar-1BDn8e[src*="442450957889175552"]:hover ~ span::after {
+.avatar-1BDn8e[src*="442450957889175552"]:hover + span::after {
   content: "Not ROBLOX";
 }
 
-.avatar-1BDn8e[src*="443765978132643850"]:hover ~ span::after {
+.avatar-1BDn8e[src*="443765978132643850"]:hover + span::after {
   content: "NEET";
   --main-color: #3ecc9c;
 }
 
-.avatar-1BDn8e[src*="444648030986305536"]:hover ~ span::after {
+.avatar-1BDn8e[src*="444648030986305536"]:hover + span::after {
   content: "Reborn!";
 }
 
-.avatar-1BDn8e[src*="449558189449543682"]:hover ~ span::after {
+.avatar-1BDn8e[src*="449558189449543682"]:hover + span::after {
   content: "inert";
 }
 
-.avatar-1BDn8e[src*="73336881655316480"]:hover ~ span::after {
+.avatar-1BDn8e[src*="73336881655316480"]:hover + span::after {
   content: "Ganondorf";
 }
 
-.avatar-1BDn8e[src*="81031640578535424"]:hover ~ span::after {
+.avatar-1BDn8e[src*="81031640578535424"]:hover + span::after {
   content: "Donator";
 }
 
-.avatar-1BDn8e[src*="83800133971476480"]:hover ~ span::after {
+.avatar-1BDn8e[src*="83800133971476480"]:hover + span::after {
   content: "Bsin";
 }
 
-.avatar-1BDn8e[src*="85019957745709056"]:hover ~ span::after {
+.avatar-1BDn8e[src*="85019957745709056"]:hover + span::after {
   content: "SKRRT";
 }
 
-.avatar-1BDn8e[src*="92738910362292224"]:hover ~ span::after {
+.avatar-1BDn8e[src*="92738910362292224"]:hover + span::after {
   content: "Capy Coder";
 }
 
-.avatar-1BDn8e[src*="92847808247263232"]:hover ~ span::after {
+.avatar-1BDn8e[src*="92847808247263232"]:hover + span::after {
   content: "Tinkerer";
 }
 
-.avatar-1BDn8e[src*="94825231792734208"]:hover ~ span::after {
+.avatar-1BDn8e[src*="94825231792734208"]:hover + span::after {
   content: "King of Knights";
 }
 
-.avatar-1BDn8e[src*="97787466110472192"]:hover ~ span::after {
+.avatar-1BDn8e[src*="97787466110472192"]:hover + span::after {
   content: "Those are bold words for someone in stabbing range";
   --main-color: #000;
 }
 
-.avatar-1BDn8e[src*="98241610826911744"]:hover ~ span::after {
+.avatar-1BDn8e[src*="98241610826911744"]:hover + span::after {
   content: "Loading...";
 }
 
-.avatar-1BDn8e[src*="98458069532426240"]:hover ~ span::after {
+.avatar-1BDn8e[src*="98458069532426240"]:hover + span::after {
   content: "ELEVATE";
 }
 
-.avatar-1BDn8e[src*="328357975150297088"]:hover ~ span::after {
+.avatar-1BDn8e[src*="328357975150297088"]:hover + span::after {
   content: 'The Virus';
   --main-color: #3CB968;
   animation: fadeFromTop .2s;
 }
 
-.avatar-1BDn8e[src*="331191382792208385"]:hover ~ span::after {
+.avatar-1BDn8e[src*="331191382792208385"]:hover + span::after {
   content: "MaouSho";
 }
 
-.avatar-1BDn8e[src*="280447836007694338"]:hover ~ span::after {
+.avatar-1BDn8e[src*="280447836007694338"]:hover + span::after {
   content: "Let Go";
   color: black;
   --main-color: white;
   text-shadow: none;
 }
 
-.avatar-1BDn8e[src*="169081145282002946"]:hover ~ span::after {
+.avatar-1BDn8e[src*="169081145282002946"]:hover + span::after {
   content: "Loli Hunter";
   --main-color: #ff386d;
 }
 
-.avatar-1BDn8e[src*="304260051915374603"]:hover ~ span::after {
+.avatar-1BDn8e[src*="304260051915374603"]:hover + span::after {
   content: "I Am Bread";
   --main-color: #FFC319;
 }
 
-.avatar-1BDn8e[src*="95657348390977536"]:hover ~ span::after {
+.avatar-1BDn8e[src*="95657348390977536"]:hover + span::after {
   content: "Justin";
   color: black;
   --main-color: white;
   text-shadow: none;
 }
 
-.avatar-1BDn8e[src*="263631800021155840"]:hover ~ span::after {
+.avatar-1BDn8e[src*="263631800021155840"]:hover + span::after {
   content: "Neptune";
   color: black;
   --main-color: white;
   text-shadow: none;
 }
 
-.avatar-1BDn8e[src*="152430800241950720"]:hover ~ span::after {
+.avatar-1BDn8e[src*="152430800241950720"]:hover + span::after {
   content: "HorrorTroll";
   --main-color: #f4b7c9;
 }
 
-.avatar-1BDn8e[src*="438846426441711616"]:hover ~ span::after {
+.avatar-1BDn8e[src*="438846426441711616"]:hover + span::after {
   content: "Aple";
   --main-color: #4BCEFF;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
 }
 
-.avatar-1BDn8e[src*="197477050569719808"]:hover ~ span::after {
+.avatar-1BDn8e[src*="197477050569719808"]:hover + span::after {
   content: "Crystallize";
   --main-color: #6441A4;
 }
 
-.avatar-1BDn8e[src*="312782599439515650"]:hover ~ span::after {
+.avatar-1BDn8e[src*="312782599439515650"]:hover + span::after {
   content: "Keeper of Lolis";
   --main-color: #b591d4;
 }
 
-.avatar-1BDn8e[src*="368562259225608193"]:hover ~ span::after {
+.avatar-1BDn8e[src*="368562259225608193"]:hover + span::after {
   content: "Lost Soul King";
   --main-color: #ff0000;
 }
 
-.avatar-1BDn8e[src*="257055153272782848"]:hover ~ span::after {
+.avatar-1BDn8e[src*="257055153272782848"]:hover + span::after {
   content: "SRL Official";
   color: #00bbff;
 }
 
-.avatar-1BDn8e[src*="531614184526577675"]:hover ~ span::after {
+.avatar-1BDn8e[src*="531614184526577675"]:hover + span::after {
   content: "Slide into my DMs";
   --main-color: #FF69B4;
 }
 
-.avatar-1BDn8e[src*="527971799770857512"]:hover ~ span::after {
+.avatar-1BDn8e[src*="527971799770857512"]:hover + span::after {
   content: "𝓠𝓊𝑒𝑒𝓃 𝑜𝒻 𝓣𝑜𝓍𝒾𝒸𝓈";
   --main-color: #80ff00;
 }
 
-.avatar-1BDn8e[src*="131414719666847745"]:hover ~ span::after {
+.avatar-1BDn8e[src*="131414719666847745"]:hover + span::after {
   content: "Assassin";
   --main-color: #F9F9F9;
   color: black;
 }
 
-.avatar-1BDn8e[src*="219078125974192128"]:hover ~ span::after {
+.avatar-1BDn8e[src*="219078125974192128"]:hover + span::after {
   content: "Voluptuous";
   --main-color: #6f182a;
 }
 
-.avatar-1BDn8e[src*="433698341008965633"]:hover ~ span::after {
+.avatar-1BDn8e[src*="433698341008965633"]:hover + span::after {
   content: "Skittles";
   color: black;
   --main-color: white;
   text-shadow: none;
 }
 
-.avatar-1BDn8e[src*="336678828233588736"]:hover ~ span::after {
+.avatar-1BDn8e[src*="336678828233588736"]:hover + span::after {
   content: "lushu";
   --main-color: #00fff5;
   text-shadow: -1px 0 black, 
@@ -1239,106 +1239,106 @@
     0 -1px black !important;
 }
 
-.avatar-1BDn8e[src*="422110084039180318"]:hover ~ span::after {
+.avatar-1BDn8e[src*="422110084039180318"]:hover + span::after {
   content: "Лил -5.";
   color: orange;
 }
 
-.avatar-1BDn8e[src*="96563253466898432"]:hover ~ span::after {
+.avatar-1BDn8e[src*="96563253466898432"]:hover + span::after {
   content: "Universal Architect";
 }
 
-.avatar-1BDn8e[src*="172426681800196096"]:hover ~ span::after {
+.avatar-1BDn8e[src*="172426681800196096"]:hover + span::after {
   content: 'Primal Fear';
 }
 
-.avatar-1BDn8e[src*="130875493850284032"]:hover ~ span:before {
+.avatar-1BDn8e[src*="130875493850284032"]:hover + span:before {
   content: "Wassup";
 }
 
-.avatar-1BDn8e[src*="244363360886325248"]:hover ~ span::after {
+.avatar-1BDn8e[src*="244363360886325248"]:hover + span::after {
   content: "gottem";
 }
 
-.avatar-1BDn8e[src*="123916078882488320"]:hover ~ span::after {
+.avatar-1BDn8e[src*="123916078882488320"]:hover + span::after {
   content: "Viduus";
 }
 
-.avatar-1BDn8e[src*="215036395507548161"]:hover ~ span::after {
+.avatar-1BDn8e[src*="215036395507548161"]:hover + span::after {
   content: ' Temporal_Timelord  時」';
 }
 
-.avatar-1BDn8e[src*="519790100956184586"]:hover ~ span::after {
+.avatar-1BDn8e[src*="519790100956184586"]:hover + span::after {
   content: 'SpencerPcGamer';
   --main-color: #00ecff;
 }
 
-.avatar-1BDn8e[src*="144550650842316800"]:hover ~ span::after {
+.avatar-1BDn8e[src*="144550650842316800"]:hover + span::after {
   content: 'Not A Moron!';
   --main-color: #ff0800;
 }
 
-.avatar-1BDn8e[src*="252460828157018112"]:hover ~ span::after {
+.avatar-1BDn8e[src*="252460828157018112"]:hover + span::after {
   content: 'Voyant';
   --main-color: #d8d8d8;
   color: black;
 }
 
-.avatar-1BDn8e[src*="316563263179456513"]:hover ~ span::after {
+.avatar-1BDn8e[src*="316563263179456513"]:hover + span::after {
   content: "Toby";
   --main-color: #FF00FF;
 }
 
-.avatar-1BDn8e[src*="150967530075324416"]:hover ~ span::after {
+.avatar-1BDn8e[src*="150967530075324416"]:hover + span::after {
   content: "Atom";
 }
 
-.avatar-1BDn8e[src*="498444458845536257"]:hover ~ span::after {
+.avatar-1BDn8e[src*="498444458845536257"]:hover + span::after {
   content: "fag";
   --main-color: #593695;
 }
 
-.avatar-1BDn8e[src*="147889058670968844"]:hover ~ span::after {
+.avatar-1BDn8e[src*="147889058670968844"]:hover + span::after {
   content: "Hentai™";
   --main-color: #FB4B25;
 }
 
-.avatar-1BDn8e[src*="251465413995528194"]:hover ~ span::after {
+.avatar-1BDn8e[src*="251465413995528194"]:hover + span::after {
   content: "XXV";
   --main-color: #DEAD25;
 }
 
-.avatar-1BDn8e[src*="120721814837002240"]:hover ~ span::after {
+.avatar-1BDn8e[src*="120721814837002240"]:hover + span::after {
 	content: "Selfmade";
   --main-color: #ff0055;
 }
 
-.avatar-1BDn8e[src*="227648235097817089"]:hover ~ span::after {
+.avatar-1BDn8e[src*="227648235097817089"]:hover + span::after {
   content: "SlimeKing";
   --main-color: #5ae5ed;
 }
 
-.avatar-1BDn8e[src*="210629330135547904"]:hover ~ span::after {
+.avatar-1BDn8e[src*="210629330135547904"]:hover + span::after {
   content: "Loaf";
   --main-color: #8601c9;
 }
 
-.avatar-1BDn8e[src*="211376467114852352"]:hover ~ span::after {
+.avatar-1BDn8e[src*="211376467114852352"]:hover + span::after {
   content: "Euphoria";
   --main-color: #36208D;
 }
 
-.avatar-1BDn8e[src*="143017752775360512"]:hover ~ span::after {
+.avatar-1BDn8e[src*="143017752775360512"]:hover + span::after {
   content: "Masquerade";
   --main-color: #42ffbc;
 }
 
-.avatar-1BDn8e[src*="82987644316815360"]:hover ~ span::after {
+.avatar-1BDn8e[src*="82987644316815360"]:hover + span::after {
   content: 'Tea Time';
   --main-color: #B71C1C;
 }
 
-.avatar-1BDn8e[src*="324680910123302922"]:hover ~ span::after {
+.avatar-1BDn8e[src*="324680910123302922"]:hover + span::after {
   content: 'Peace Walker';
   --main-color: #F1CD1C;
 }
