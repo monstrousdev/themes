@@ -10,7 +10,8 @@
   opacity: 1;
 }
 
-.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG {
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG,
+.container-3FojY8 {
   overflow: visible;
 }
 
@@ -32,7 +33,7 @@
   --main-color: #000;
   background-color: var(--main-color);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  padding: 6px 10px;
+  padding: 3px 10px;
   border-radius: 3px;
   font-size: 13px;
   font-weight: 600;
@@ -299,12 +300,48 @@
 .avatar-1BDn8e[src*="282681883249213440"] + span::after,
 .avatar-1BDn8e[src*="145557095234666496"] + span::after,
 .avatar-1BDn8e[src*="172557961133162496"] + span::after,
-.avatar-1BDn8e[src*="498207315485392906"] + span::after{
+.avatar-1BDn8e[src*="498207315485392906"] + span::after
+.avatar-1BDn8e[src*="138616536502894592"] + span::after,
+.avatar-1BDn8e[src*="542399196204892160"] + span::after,
+.avatar-1BDn8e[src*="597905003717459968"] + span::after,
+.avatar-1BDn8e[src*="220976819128500225"] + span::after,
+.avatar-1BDn8e[src*="240482174686593025"] + span::after,
+.avatar-1BDn8e[src*="234275051782799360"] + span::after{
   content: "}";
 }
 
 
   /* on hover */
+.avatar-1BDn8e[src*="234275051782799360"]:hover + span::after {
+  content: 'Nasty';
+  --main-color: #9700FF;
+}
+
+.avatar-1BDn8e[src*="240482174686593025"]:hover + span::after {
+  content: 'The Booga Master xD';
+  --main-color: #6e29e3;
+}
+
+.avatar-1BDn8e[src*="220976819128500225"]:hover + span::after {
+  content: 'The First';
+  --main-color: #21a37a;
+}
+
+.avatar-1BDn8e[src*="597905003717459968"]:hover + span::after {
+  content: 'Link Worshipper';
+  --main-color: #70af23;
+}
+
+.avatar-1BDn8e[src*="542399196204892160"]:hover + span::after {
+  content: 'Weed God';
+  --main-color: #15541b;
+}
+
+.avatar-1BDn8e[src*="138616536502894592"]:hover + span::after {
+  content: 'human piece of shit';
+  --main-color: #d81105;
+}
+
 .avatar-1BDn8e[src*="498207315485392906"]:hover + span::after{
   content: 'Nintendon\'t';
   --main-color: #8D90EB;

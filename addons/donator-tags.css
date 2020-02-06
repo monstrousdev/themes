@@ -10,7 +10,7 @@
 .avatar-1BDn8e[src*="236006926406778881"] + span::after,
 .avatar-1BDn8e[src*="282138006738042880"] + span::after,
 .avatar-1BDn8e[src*="140012296910012416"] + span::after,
-.avatar-1BDn8e[src*="174868361040232448"] + span::after ,
+.avatar-1BDn8e[src*="174868361040232448"] + span::after,
 .avatar-1BDn8e[src*="273169968202252289"] + span::after,
 .avatar-1BDn8e[src*="234148582523928576"] + span::after,
 .avatar-1BDn8e[src*="664933588835368990"] + span::after,
@@ -22,8 +22,8 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  bottom: -33px;
-  left: 51px;
+  bottom: -29px;
+  left: 48px;
   pointer-events: none;
   filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
 }
