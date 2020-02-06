@@ -1779,6 +1779,10 @@ a,
   background: var(--quaternary-color) !important;
 }
 
+.scroller-3sQKXg:after {
+  height: 15px;
+}
+
   /* 8.c Blocked Messages */
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {
   background: var(--tertiary-color) !important;
