@@ -153,13 +153,13 @@
 }
 
 .avatar-1BDn8e[src*="664933588835368990"] + span::after{
-  background-image: url(https://i.imgur.com/grGQdS8.png);
+  background-image: url(https://i.imgur.com/KVTEJWV.png);
 }
 
 .avatar-1BDn8e[src*="664933588835368990"]:hover + span::after{
-  background-image: url(https://i.imgur.com/ItO6N6a.gif);
-  --main-color: rgb(92, 0, 0);
-  content: "シーディー";
+  background-image: url(https://i.imgur.com/j4IqZnj.gif);
+  --main-color: rgb(216, 63, 178);
+  content: "モンス夕一";
 }
 
 .avatar-1BDn8e[src*="234148582523928576"] + span::after{
@@ -174,7 +174,7 @@
 }
 
 .avatar-1BDn8e[src*="273169968202252289"] + span::after{
-  background-image: url(https://discordemoji.com/assets/emoji/BlobbleWobble.gif);
+  background-image: url(https://i.imgur.com/Yyghhzp.png);
   height: 18px;
   width: 18px;
 }
