@@ -1987,6 +1987,7 @@ pre {
   box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
   left: auto !important;
   animation: slide-up .7s cubic-bezier(.4, 0, 0, 1), opacity .7s ease;
+  padding-bottom: 0px;
 }
 
 .chat-3bRxxu .jumpToPresentBar-9P20AM:before {
@@ -3928,7 +3929,6 @@ foreignObject[mask*="mobile"]::after {
   top: -10px !important;
   width: 230px !important;
   height: auto;
-  margin: -1px;
   -ms-transform: none !important;
   transform: none !important;
   position: absolute;
