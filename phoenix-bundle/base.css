@@ -3004,7 +3004,8 @@ pre {
   transform: translate(-48px, -51px);
 }
 
-#app-mount svg:not(:root) {
+#app-mount svg:not(:root),
+.userInfo-2zN2z8 {
   overflow: visible !important;
 }
 
