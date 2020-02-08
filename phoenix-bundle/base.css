@@ -1879,6 +1879,7 @@ a,
   margin-right: 5px;
   height: 100%;
   width: fit-content !important;
+  padding-left: 0px;
 }
 
 .chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh>.unreadPill-2HyYtt::after {
