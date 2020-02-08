@@ -97,6 +97,11 @@
   animation: fadeFromTop .2s;
 }
 
+/* fade from bottom */
+.avatar-1BDn8e[src*="150852555885379584"]:hover + span::after,
+.avatar-1BDn8e[src*="111476801762537472"]:hover + span::after {
+  animation: fadeFromBottom .2s;
+}
 
 
 /* ---- keyframes ---- */
@@ -150,6 +155,17 @@
   0% {
       opacity: 0;
       transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(50%)
   }
   100% {
       opacity: 0.9;

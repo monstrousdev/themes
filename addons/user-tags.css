@@ -306,12 +306,18 @@
 .avatar-1BDn8e[src*="597905003717459968"] + span::after,
 .avatar-1BDn8e[src*="220976819128500225"] + span::after,
 .avatar-1BDn8e[src*="240482174686593025"] + span::after,
-.avatar-1BDn8e[src*="234275051782799360"] + span::after{
+.avatar-1BDn8e[src*="234275051782799360"] + span::after,
+.avatar-1BDn8e[src*="150852555885379584"] + span::after{
   content: "}";
 }
 
 
   /* on hover */
+.avatar-1BDn8e[src*="150852555885379584"]:hover + span::after {
+  content: 'Best CS:GO Gamer';
+  --main-color: #9CAF19;
+}
+
 .avatar-1BDn8e[src*="234275051782799360"]:hover + span::after {
   content: 'Nasty';
   --main-color: #9700FF;
@@ -454,8 +460,7 @@
 }
 
 .avatar-1BDn8e[src*="111476801762537472"]:hover + span::after {
-  content: "The One and Only";
-  --main-color: #101010;
+  content: "Shiroyasha";
 }
 
 .avatar-1BDn8e[src*="230714365869817857"]:hover + span::after {
