@@ -108,6 +108,8 @@
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/elleCrown.svg);
   transition: filter .2s ease-in-out;
   transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
 }
 
 .avatar-1BDn8e[src*="402272736665272320"]:hover + span::after {
@@ -118,6 +120,8 @@
 .avatar-1BDn8e[src*="134349083568504832"] + span::after {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/kevinCrown.svg);
   transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
 }
 
 /* leon */
