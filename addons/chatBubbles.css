@@ -1,4 +1,4 @@
-.message-2qnXI6 {
+.message-2qnxi6 {
   background: var(--quaternary-color, #111);
   margin-left: 80px;
   margin-right: 30px;
@@ -69,11 +69,24 @@
 }
 
 
-/* tag fix */
+/* ----- tag fix ----- */
+/* normal tags */
+
+.avatar-1BDn8e + span::after {
+  bottom: 7px !important;
+  left: 22px !important; 
+}
+
+.avatar-1BDn8e:hover + span::after {
+  bottom: -3px !important;
+  left: 24px !important;
+}
+
+/* donator tags */
 .container-3FojY8 .avatar-1BDn8e[src*="402272736665272320"] + span::before, 
 .container-3FojY8 .avatar-1BDn8e[src*="134349083568504832"] + span::before {
-  top: -20px;
-  left: -7px;
+  top: -20px !important;
+  left: -7px !important;
 }
 
 .avatar-1BDn8e[src*="166365757561634816"] + span::after, 
@@ -91,13 +104,8 @@
 .avatar-1BDn8e[src*="234148582523928576"] + span::after, 
 .avatar-1BDn8e[src*="664933588835368990"] + span::after, 
 .avatar-1BDn8e[src*="454072114492866560"] + span::after {
-  bottom: 3px;
-  left: 25px;
-}
-
-.avatar-1BDn8e + span::after {
-  bottom: 7px;
-  left: 22px;
+  bottom: 3px !important;
+  left: 25px !important;
 }
 
 .avatar-1BDn8e[src*="166365757561634816"]:hover+span::after,
@@ -116,9 +124,4 @@
 .avatar-1BDn8e[src*="664933588835368990"]:hover+span::after,
 .avatar-1BDn8e[src*="454072114492866560"]:hover+span::after {
   bottom: 0px !important;
-}
-
-.avatar-1BDn8e:hover + span::after {
-  bottom: -3px;
-  left: 17px;
 }
