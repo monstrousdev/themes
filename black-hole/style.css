@@ -33,7 +33,7 @@
 /* *•̩̩͙⊱••••••••••••✩ VARIABLES ✩••••̩̩͙⊰•••••••••** */
 :root {
 	--theme-name: "Black Hole";
-  --theme-version: "0.1";
+  --theme-version: "1.5";
   --blurple: rgb(113, 136, 217);
   --greyple: rgb(151, 168, 180);
   --blurple-sheer: rgba(114, 137, 218, 0.267);
@@ -298,6 +298,14 @@
 }
 
   /* C. User Settings and Voice Connection */
+.info-1VyQPT::before {
+  content: var(--theme-name)" v."var(--theme-version);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--blurple);
+}
+
 .panels-j1Uci_ .container-3baos1 {
   border-top: 1px solid var(--tres);
 }
@@ -2186,8 +2194,6 @@ svg[name="Activity"] {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
-  height: 326px;
-  width: 344px;
 }
 
 .bda-dark .emojiPicker-3m1S-j .category-2U57w6,
