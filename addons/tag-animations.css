@@ -1,33 +1,16 @@
 /* grow in with pulse */
 .avatar-1BDn8e[src*="254362351170617345"]:hover + span:after,
-.avatar-1BDn8e[src*="172426681800196096"]:hover + span:after,
-.avatar-1BDn8e[src*="252460828157018112"]:hover + span::after,
-.avatar-1BDn8e[src*="316563263179456513"]:hover + span::after,
 .avatar-1BDn8e[src*="150967530075324416"]:hover + span::after,
 .avatar-1BDn8e[src*="234148582523928576"]:hover + span::after,
-.avatar-1BDn8e[src*="251465413995528194"]:hover + span::after,
 .avatar-1BDn8e[src*="227648235097817089"]:hover + span::after,
 .avatar-1BDn8e[src*="210629330135547904"]:hover + span::after,
-.avatar-1BDn8e[src*="143017752775360512"]:hover + span::after,
-.avatar-1BDn8e[src*="82987644316815360"]:hover + span::after,
 .avatar-1BDn8e[src*="166365757561634816"]:hover + span::after,
-.avatar-1BDn8e[src*="324680910123302922"]:hover + span::after,
 .avatar-1BDn8e[src*="213220786805145600"]:hover + span:after,
-.avatar-1BDn8e[src*="336678828233588736"]:hover + span::after,
-.avatar-1BDn8e[src*="531614184526577675"]:hover + span::after,
-.avatar-1BDn8e[src*="433698341008965633"]:hover + span::after,
-.avatar-1BDn8e[src*="498444458845536257"]:hover + span::after,
-.avatar-1BDn8e[src*="312782599439515650"]:hover + span::after,
 .avatar-1BDn8e[src*="152430800241950720"]:hover + span::after,
 .avatar-1BDn8e[src*="438846426441711616"]:hover + span::after,
-.avatar-1BDn8e[src*="263631800021155840"]:hover + span::after,
 .avatar-1BDn8e[src*="95657348390977536"]:hover + span::after,
-.avatar-1BDn8e[src*="331191382792208385"]:hover + span::after,
 .avatar-1BDn8e[src*="231827402102276096"]:hover + span::after,
-.avatar-1BDn8e[src*="622724687499362315"]:hover + span::after,
 .avatar-1BDn8e[src*="230714365869817857"]:hover + span::after,
-.avatar-1BDn8e[src*="250353310698176522"]:hover + span::after,
-.avatar-1BDn8e[src*="418089602239168520"]:hover + span::after,
 .avatar-1BDn8e[src*="352189597268049921"]:hover + span::after,
 .avatar-1BDn8e[src*="533814956525748235"]:hover + span::after,
 .avatar-1BDn8e[src*="140012296910012416"]:hover + span::after,
@@ -37,13 +20,11 @@
 .avatar-1BDn8e[src*="664933588835368990"]:hover + span::after,
 .avatar-1BDn8e[src*="454072114492866560"]:hover + span::after,
 .avatar-1BDn8e[src*="145557095234666496"]:hover + span::after,
-.avatar-1BDn8e[src*="172557961133162496"]:hover + span::after,
 .avatar-1BDn8e[src*="498207315485392906"]:hover + span::after,
 .avatar-1BDn8e[src*="138616536502894592"]:hover + span::after,
 .avatar-1BDn8e[src*="542399196204892160"]:hover + span::after,
 .avatar-1BDn8e[src*="220976819128500225"]:hover + span::after,
 .avatar-1BDn8e[src*="240482174686593025"]:hover + span::after,
-.avatar-1BDn8e[src*="234275051782799360"]:hover + span::after,
 .avatar-1BDn8e[src*="354236474050478080"]:hover + span::after,
 .avatar-1BDn8e[src*="191794647381573632"]:hover + span::after,
 .avatar-1BDn8e[src*="179309962164436992"]:hover + span::after,
@@ -56,15 +37,9 @@
 
 
 /* grow in */
-.avatar-1BDn8e[src*="200612445373464576"]:hover + span::after,
 .avatar-1BDn8e[src*="131414719666847745"]:hover + span::after,
 .avatar-1BDn8e[src*="147889058670968844"]:hover + span::after,
-.avatar-1BDn8e[src*="498444458845536257"]:hover + span::after,
 .avatar-1BDn8e[src*="197477050569719808"]:hover + span::after,
-.avatar-1BDn8e[src*="304260051915374603"]:hover + span::after,
-.avatar-1BDn8e[src*="169081145282002946"]:hover + span::after,
-.avatar-1BDn8e[src*="545060776654667777"]:hover + span::after,
-.avatar-1BDn8e[src*="266452571051393033"]:hover + span::after,
 .avatar-1BDn8e[src*="597905003717459968"]:hover + span::after {
   animation: popoutanim .2s;
 }
@@ -78,10 +53,6 @@
 }
 
 /* spin in */
-.avatar-1BDn8e[src*="173177738914562048"]:hover + span:after,
-.avatar-1BDn8e[src*="130875493850284032"]:hover + span:after,
-.avatar-1BDn8e[src*="519790100956184586"]:hover + span::after,
-.avatar-1BDn8e[src*="422110084039180318"]:hover + span::after ,
 .avatar-1BDn8e[src*="282681883249213440"]:hover + span::after,
 .avatar-1BDn8e[src*="395649339134967808"]:hover + span::after{
   animation: scaleSpin .4s;
@@ -89,19 +60,13 @@
 
 /* fade from right */
 .avatar-1BDn8e[src*="244363360886325248"]:hover + span:after,
-.avatar-1BDn8e[src*="296018550009626628"]:hover + span::after,
-.avatar-1BDn8e[src*="96563253466898432"]:hover + span:after,
 .avatar-1BDn8e[src*="142110824507506688"]:hover + span::after,
-.avatar-1BDn8e[src*="111476801762537472"]:hover + span::after,
-.avatar-1BDn8e[src*="90110283724374016"]:hover + span::after,
 .avatar-1BDn8e[src*="267803219080642560"]:hover + span::after,
-.avatar-1BDn8e[src*="535853858992291852"]:hover + span::after ,
 .avatar-1BDn8e[src*="323030822267518977"]:hover + span::after{
   animation: fadeFromRight .2s;
 }
 
 /* fade from top */
-.avatar-1BDn8e[src*="328357975150297088"]:hover + span::after ,
 .avatar-1BDn8e[src*="173557815326015488"]:hover + span::after{
   animation: fadeFromTop .2s;
 }
