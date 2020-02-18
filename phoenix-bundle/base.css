@@ -1791,9 +1791,12 @@ a,
   height: 15px;
 }
 
-.message-2qnXI6.selected-2P5D_Z, 
-.mouse-mode .message-2qnXI6:hover {
+.message-2qnXI6.selected-2P5D_Z {
   background-color: var(--secondary-color);
+}
+
+.mouse-mode .message-2qnXI6:hover {
+  background-color: transparent;
 }
 
   /* 8.c Blocked Messages */
