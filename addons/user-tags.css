@@ -307,12 +307,71 @@
 .avatar-1BDn8e[src*="220976819128500225"] + span::after,
 .avatar-1BDn8e[src*="240482174686593025"] + span::after,
 .avatar-1BDn8e[src*="234275051782799360"] + span::after,
-.avatar-1BDn8e[src*="150852555885379584"] + span::after{
+.avatar-1BDn8e[src*="150852555885379584"] + span::after,
+.avatar-1BDn8e[src*="354236474050478080"] + span::after,
+.avatar-1BDn8e[src*="191794647381573632"] + span::after,
+.avatar-1BDn8e[src*="179309962164436992"] + span::after,
+.avatar-1BDn8e[src*="409485665017790464"] + span::after,
+.avatar-1BDn8e[src*="214088526722105344"] + span::after,
+.avatar-1BDn8e[src*="263673948460417025"] + span::after,
+.avatar-1BDn8e[src*="378819717324079104"] + span::after,
+.avatar-1BDn8e[src*="395649339134967808"] + span::after,
+.avatar-1BDn8e[src*="202893235041992704"] + span::after,
+.avatar-1BDn8e[src*="172045670008487936"] + span::after{
   content: "}";
 }
 
 
   /* on hover */
+.avatar-1BDn8e[src*="172045670008487936"]:hover + span::after {
+  content: 'Loli Guardian';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  --main-color: #E26F8E;
+}
+
+.avatar-1BDn8e[src*="202893235041992704"]:hover + span::after {
+  content: '𝔣𝔢𝔢𝔩 𝔰𝔭𝔢𝔠𝔦𝔞𝔩';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  --main-color: #ec648a;
+}
+
+.avatar-1BDn8e[src*="395649339134967808"]:hover + span::after {
+  content: 'Kognise #2';
+}
+
+.avatar-1BDn8e[src*="378819717324079104"]:hover + span::after {
+  content: '(｡•̀ᴗ-)✧';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  --main-color: #00e7b3;
+}
+
+.avatar-1BDn8e[src*="214088526722105344"]:hover + span::after,
+.avatar-1BDn8e[src*="263673948460417025"] + span::after {
+  content: '♡';
+  --main-color: #ae0d2b;
+}
+
+.avatar-1BDn8e[src*="409485665017790464"]:hover + span::after {
+  content: 'i smell client mods';
+  --main-color: #7289DA;
+}
+
+.avatar-1BDn8e[src*="179309962164436992"]:hover + span::after {
+  content: 'Power Driver of XSW';
+  --main-color: #6417e1;
+}
+
+.avatar-1BDn8e[src*="191794647381573632"]:hover + span::after {
+  content: 'God Himself';
+  --main-color: #38080b;
+}
+
+.avatar-1BDn8e[src*="354236474050478080"]:hover + span::after {
+  content: 'dreamcatcher';
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  --main-color: #45DDC0;
+}
+
 .avatar-1BDn8e[src*="150852555885379584"]:hover + span::after {
   content: 'Best CS:GO Gamer';
   --main-color: #9CAF19;

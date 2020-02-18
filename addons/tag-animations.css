@@ -43,7 +43,14 @@
 .avatar-1BDn8e[src*="542399196204892160"]:hover + span::after,
 .avatar-1BDn8e[src*="220976819128500225"]:hover + span::after,
 .avatar-1BDn8e[src*="240482174686593025"]:hover + span::after,
-.avatar-1BDn8e[src*="234275051782799360"]:hover + span::after{
+.avatar-1BDn8e[src*="234275051782799360"]:hover + span::after,
+.avatar-1BDn8e[src*="354236474050478080"]:hover + span::after,
+.avatar-1BDn8e[src*="191794647381573632"]:hover + span::after,
+.avatar-1BDn8e[src*="179309962164436992"]:hover + span::after,
+.avatar-1BDn8e[src*="214088526722105344"]:hover + span::after,
+.avatar-1BDn8e[src*="263673948460417025"]:hover + span::after,
+.avatar-1BDn8e[src*="202893235041992704"]:hover + span::after,
+.avatar-1BDn8e[src*="172045670008487936"]:hover + span::after{
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -65,7 +72,8 @@
 /* fall and bounce */
 .avatar-1BDn8e[src*="282138006738042880"]:hover + span:after,
 .avatar-1BDn8e[src*="244392852950482944"]:hover + span::after,
-.avatar-1BDn8e[src*="236006926406778881"]:hover + span::after {
+.avatar-1BDn8e[src*="236006926406778881"]:hover + span::after,
+.avatar-1BDn8e[src*="409485665017790464"]:hover + span::after {
   animation: fallBounce 1s;
 }
 
@@ -74,7 +82,8 @@
 .avatar-1BDn8e[src*="130875493850284032"]:hover + span:after,
 .avatar-1BDn8e[src*="519790100956184586"]:hover + span::after,
 .avatar-1BDn8e[src*="422110084039180318"]:hover + span::after ,
-.avatar-1BDn8e[src*="282681883249213440"]:hover + span::after{
+.avatar-1BDn8e[src*="282681883249213440"]:hover + span::after,
+.avatar-1BDn8e[src*="395649339134967808"]:hover + span::after{
   animation: scaleSpin .4s;
 }
 
@@ -99,7 +108,8 @@
 
 /* fade from bottom */
 .avatar-1BDn8e[src*="150852555885379584"]:hover + span::after,
-.avatar-1BDn8e[src*="111476801762537472"]:hover + span::after {
+.avatar-1BDn8e[src*="111476801762537472"]:hover + span::after,
+.avatar-1BDn8e[src*="378819717324079104"]:hover + span::after {
   animation: fadeFromBottom .2s;
 }
 
