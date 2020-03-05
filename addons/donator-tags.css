@@ -232,7 +232,7 @@
 }
 
 .avatar-1BDn8e[src*="213220786805145600"]:hover + h2::after {
-  content: "Ellie";
+  content: "flower girl";
   color: #FFF;
   background-image: url(https://i.imgur.com/bUmWjxM.gif);
   --main-color: pink;
