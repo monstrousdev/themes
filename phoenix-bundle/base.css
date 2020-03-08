@@ -1578,65 +1578,6 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   padding-right:0;
 }
 
-  /* 6.b. Buttons */
-  .theme-dark .container-3baos1 .button-14-BFJ path {
-    display: none;
-  }
-  
-  .theme-dark .container-3baos1 .button-14-BFJ [name="Nova_Microphone"] {
-    background: url(https://monstrousdev.github.io/themes/assets/svgs/mic.svg) center/100% no-repeat !important;
-  }
-  
-  .theme-dark .container-3baos1 .button-14-BFJ [name="Nova_MicrophoneMute"] {
-    background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off.svg) center/100% no-repeat !important;
-  }
-  
-  .theme-dark .container-3baos1 .button-14-BFJ [name="Nova_Headset"] {
-    background: url(https://monstrousdev.github.io/themes/assets/svgs/sound.svg) center/100% no-repeat !important;
-  }
-  
-  .theme-dark .container-3baos1 .button-14-BFJ [name="Nova_HeadsetDeafen"] {
-    background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off.svg) center/100% no-repeat !important;
-  }
-  
-  .theme-dark .container-3baos1 .button-14-BFJ [name="Gear"] {
-    background: url(https://monstrousdev.github.io/themes/assets/svgs/settings.svg) center/100% no-repeat !important;
-  }
-
-  /* 6.c. Light Theme Recolor */
-.theme-light .container-2Thooq {
-  color: #000;
-}
-
-.theme-light .nameTag-3uD-yy .discriminator-3-Lf_x {
-  opacity: .7;
-  font-weight: 600;
-}
-
-.theme-light .container-3baos1 .button-14-BFJ svg path {
-  fill: #000 !important;
-}
-
-.theme-light .container-3baos1 .button-14-BFJ [name="Nova_Microphone"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-dark.svg) center/100% no-repeat !important;
-}
-
-.theme-light .container-3baos1 .button-14-BFJ [name="Nova_MicrophoneMute"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/mic-off-dark.svg) center/100% no-repeat !important;
-}
-
-.theme-light .container-3baos1 .button-14-BFJ [name="Nova_Headset"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-dark.svg) center/100% no-repeat !important;
-}
-
-.theme-light .container-3baos1 .button-14-BFJ [name="Nova_HeadsetDeafen"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/sound-off-dark.svg) center/100% no-repeat !important;
-}
-
-.theme-light .container-3baos1 .button-14-BFJ [name="Gear"] {
-  background: url(https://monstrousdev.github.io/themes/assets/svgs/settings-dark.svg) center/100% no-repeat !important;
-}
-
   /* 6.d. Listening Along */
 .listeningAlong-2UPsxf {
   background-color: var(--quaternary-color) !important;
@@ -3501,7 +3442,13 @@ foreignObject[mask*="mobile"]::after {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
   opacity: .4;
   border: none !important;
-  transition: all 50ms ease
+  transition: all 50ms ease;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq svg {
+  display: none;
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:hover,
@@ -3518,63 +3465,63 @@ foreignObject[mask*="mobile"]::after {
   background: transparent !important;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/frequent.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(2),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(2).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(2):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/custom.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/people.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/nature.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/food.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/activity.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/travel.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/objects.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/symbols.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10),
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10).selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10):hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/flags.svg) !important
 }
 

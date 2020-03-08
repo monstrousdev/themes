@@ -54,12 +54,7 @@
   bottom: -31px;
 }
 
-.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
-.guild-settings-audit-logs .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
-.standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
-.standardSidebarView-3F1I7i .large-3ChYtB:not(.wrapper-2F3Zv8)::before,
-.inner-1JeGVc .large-3ChYtB:not(.wrapper-2F3Zv8)::after,
-.activityFeed-1C0EmJ .large-3ChYtB:not(.wrapper-2F3Zv8)::after{
+#app-mount .messagesPopoutWrap-1MQ1bW .avatar-1BDn8e+ h2::after{
   display: none !important;
 }
 
