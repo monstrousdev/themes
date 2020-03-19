@@ -31,7 +31,8 @@
 .avatar-1BDn8e[src*="214088526722105344"]:hover + h2::after,
 .avatar-1BDn8e[src*="263673948460417025"]:hover + h2::after,
 .avatar-1BDn8e[src*="202893235041992704"]:hover + h2::after,
-.avatar-1BDn8e[src*="172045670008487936"]:hover + h2::after{
+.avatar-1BDn8e[src*="172045670008487936"]:hover + h2::after,
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after{
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 

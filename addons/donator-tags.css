@@ -139,6 +139,17 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.avatar-1BDn8e[src*="278516985640517632"] + h2::after {
+  background-image: url(https://i.imgur.com/BKCaltF.png);
+}
+
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/rU9AMsy.gif);
+  --main-color: rgb(10, 8, 22);
+  color: #DC143C;
+  content: "Daemon of Debauchery";
+}
+
 .avatar-1BDn8e[src*="454072114492866560"] + h2::after{
   background-image: url(https://i.imgur.com/P2UoBoM.png);
 }
