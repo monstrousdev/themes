@@ -354,19 +354,19 @@ svg[name="Nova_CallVideo"] {
   mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
 }
 
-svg[name="PersonWaving"] {
+.channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9 svg {
   color: inherit !important;
   background-color: currentColor;
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/friends.svg) center/100% no-repeat;;
 }
 
-svg[name="NitroWheel"] {
+.channel-2QD9_O[href="/store"] .avatar-3uk_u9 svg {
   color: inherit !important;
   background-color: currentColor;
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/nitro.svg) center/100% no-repeat;;
 }
 
-svg[name="Library"] {
+.channel-2QD9_O[href="/library"] .avatar-3uk_u9 svg {
   color: inherit !important;
   background-color: currentColor;
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/home-tabs/library.svg) center/100% no-repeat;;
@@ -2422,6 +2422,19 @@ pre {
   color: white;
 }
 
+.actionButton-uPB8Fs {
+  transition: background-color .2s ease-in-out;
+}
+
+.actionButton-uPB8Fs.actionAccept-LV-szU:hover {
+  background-color: var(--online);
+  color: white !important;
+}
+
+.actionButton-uPB8Fs.actionDeny-de_uKj:hover {
+  background-color: var(--dnd);
+  color: white !important;
+}
 
 /* 10. Games Activity, Library, Store, and Server Directory */
   /* 10.a Activity*/
