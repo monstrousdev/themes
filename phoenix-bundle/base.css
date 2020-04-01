@@ -1834,7 +1834,7 @@ a,
 }
 
 .chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh>.unreadPill-2HyYtt {
-  margin-top: 14px;
+  margin-top: 7px;
   margin-right: 5px;
   height: 100%;
   width: fit-content !important;
@@ -1849,6 +1849,7 @@ a,
 .chat-3bRxxu .divider-JfaTT5.isUnread-3Ef-o9.hasContent-1cNJDh>.content-1o0f9g {
   text-align: center;
   padding: 0;
+  margin-top: -7px;
   width: fit-content !important;
 }
 
