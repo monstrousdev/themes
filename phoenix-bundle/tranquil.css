@@ -79,7 +79,8 @@
   background: var(--quaternary-color) !important;
 }
 
-.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A:not(.foldercontent) .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4,
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL {
   background-color: var(--quaternary-color) !important;
 }
 

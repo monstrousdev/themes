@@ -430,7 +430,8 @@ svg[name="Activity"] {
   contain: layout style;
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child,
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL {
   margin-top: -58px;
   width: 72px;
   position: sticky;
@@ -443,7 +444,8 @@ svg[name="Activity"] {
   display: none;
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn,
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL {
   background-color: transparent !important;
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
@@ -753,7 +755,8 @@ svg[name="Activity"] {
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
 .authedApp-mj2Hmd,
-.wrapper-3UweLa {
+.wrapper-3UweLa,
+.descriptionBox-1EKQKL {
   background: var(--quaternary-color) !important;
   border: none;
 }
@@ -1209,6 +1212,10 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   /* 4.d. Badges */
 #app-mount .iconBadge-2wi9r4 {
   background-color: var(--main-color);
+}
+
+.badge-_BgAUQ {
+  background-color: var(--dnd);
 }
 
   /* 4.e. Unread Indicator */
