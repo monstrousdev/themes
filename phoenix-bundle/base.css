@@ -438,9 +438,11 @@ svg[name="Activity"] {
   top: -58px;
   z-index: 2;
   height: 46px;
+  margin-bottom: 15px
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe,
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL .pill-2uzAFe {
   display: none;
 }
 
