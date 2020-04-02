@@ -2,7 +2,6 @@
 /* badges */
 .avatar-1BDn8e[src*="166365757561634816"] + h2::after,
 .avatar-1BDn8e[src*="402272736665272320"] + h2::after,
-.avatar-1BDn8e[src*="134349083568504832"] + h2::after,
 .avatar-1BDn8e[src*="244392852950482944"] + h2::after,
 .avatar-1BDn8e[src*="254362351170617345"] + h2::after,
 .avatar-1BDn8e[src*="213220786805145600"] + h2::after,
@@ -32,7 +31,6 @@
 /* on hover */
 .avatar-1BDn8e[src*="166365757561634816"]:hover + h2::after,
 .avatar-1BDn8e[src*="402272736665272320"]:hover + h2::after,
-.avatar-1BDn8e[src*="134349083568504832"]:hover + h2::after,
 .avatar-1BDn8e[src*="244392852950482944"]:hover + h2::after,
 .avatar-1BDn8e[src*="254362351170617345"]:hover + h2::after,
 .avatar-1BDn8e[src*="213220786805145600"]:hover + h2::after,
@@ -69,14 +67,13 @@
 
 
 /* My friends and my borders */
-.contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"] + h2::before,
-.contents-2mQqc9 .avatar-1BDn8e[src*="134349083568504832"] + h2::before{
+.contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"] + h2::before{
   content: 'yeet';
   position: absolute;
   height: 44px;
   width: 44px;
   top: 0px;
-  left: -57px;
+  left: -58px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,8 +82,7 @@
   z-index: -1;
 }
 
-.contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"]:hover + h2::before,
-.contents-2mQqc9 .avatar-1BDn8e[src*="134349083568504832"]:hover + h2::before{
+.contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"]:hover + h2::before{
   border-radius: var(--roundness, --user-roundness, 50px) !important;
 }
 
@@ -94,12 +90,6 @@
   background-image: url(https://i.gifer.com/fyD3.gif);
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
-
-.contents-2mQqc9 .avatar-1BDn8e[src*="134349083568504832"] + h2::before {
-  background-image: url(https://media3.giphy.com/media/l1J9EXOsgzbYLm8EM/giphy.gif);
-  background-size: 150%;
-  }
-
 
 
 /* ===== FRIENDS ===== */
@@ -114,14 +104,6 @@
 
 .avatar-1BDn8e[src*="402272736665272320"]:hover + h2::after {
   filter: drop-shadow(0 0 3px #fddfaa);
-}
-
-/* kevin */
-.avatar-1BDn8e[src*="134349083568504832"] + h2::after {
-  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/kevinCrown.svg);
-  transform: scale(1.1);
-  height: 15px !important;
-  width: 15px !important;
 }
 
 /* leon */
