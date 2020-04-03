@@ -32,7 +32,7 @@ All themes will be hopefully ported to BDv2 soon.
 
 ## Copyright and License
 ### Terms Used
-- Elle ("Author", "Coder", "Ellexide", "EllexideCodes", "Monster", "Monster Dev", "Lil Monster", "I", "She", "Her")
+- Elle ("Author", "Coder", "Ellexide", "EllexideCodes", "Monster", "Monster Dev", "Innate Monster", "I", "She", "Her")
 - Content ("Themes", "product", "items", "codes", "assets")
 - User ("You", "User", "they", "them", "their")
 
@@ -43,7 +43,7 @@ Monster reserves the right to ask any of her work to be taken down should they b
 
 To contact Monster Dev:
 
-+ Discord: Lil Monster#3557 (402272736665272320)
++ Discord: Innate Monster#3557 (402272736665272320)
 + E-Mail: ellexidecodes@gmail.com
 
 ### Allowed
