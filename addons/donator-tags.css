@@ -10,7 +10,6 @@
 .avatar-1BDn8e[src*="282138006738042880"] + h2::after,
 .avatar-1BDn8e[src*="140012296910012416"] + h2::after,
 .avatar-1BDn8e[src*="174868361040232448"] + h2::after,
-.avatar-1BDn8e[src*="273169968202252289"] + h2::after,
 .avatar-1BDn8e[src*="234148582523928576"] + h2::after,
 .avatar-1BDn8e[src*="664933588835368990"] + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"] + h2::after{
@@ -39,7 +38,6 @@
 .avatar-1BDn8e[src*="282138006738042880"]:hover + h2::after,
 .avatar-1BDn8e[src*="140012296910012416"]:hover + h2::after,
 .avatar-1BDn8e[src*="174868361040232448"]:hover + h2::after ,
-.avatar-1BDn8e[src*="273169968202252289"]:hover + h2::after,
 .avatar-1BDn8e[src*="234148582523928576"]:hover + h2::after,
 .avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after{
@@ -161,18 +159,6 @@
   --main-color: rgba(192, 171, 51, 0.507);
   color: #7289DA;
   content: "@everyone";
-}
-
-.avatar-1BDn8e[src*="273169968202252289"] + h2::after{
-  background-image: url(https://i.imgur.com/Yyghhzp.png);
-  height: 18px;
-  width: 18px;
-}
-
-.avatar-1BDn8e[src*="273169968202252289"]:hover + h2::after{
-  background: #7289da;
-  --main-color: #7289da;
-  content: "Korbs";
 }
 
 .avatar-1BDn8e[src*="107511169366888448"]:hover + h2::after {
