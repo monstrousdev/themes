@@ -150,6 +150,7 @@
   17.k. Drag and Drop Modal
   17.l. Generic Modal
   17.m. Gift Nitro Modal & Nitro Boost
+  17.n. Server Templates
 
 18. Login Page
 
@@ -785,12 +786,18 @@ svg[name="Activity"] {
 }
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
-.bda-slist .bda-footer button {
+.bda-slist .bda-footer button,
+.bd-switch-checked {
   background: var(--main-color)
 }
 
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
+.bd-switch {
   background: var(--quaternary-color);
+}
+
+#app-mount .bd-addon-list .bd-addon-card {
+  background: var(--tertiary-color)
 }
 
 #app-mount .bda-slist li,
@@ -5110,6 +5117,18 @@ foreignObject[mask*="mobile"]::after {
 
 #app-mount .carouselLeftGradientEdge-3P4spl {
   background-image: linear-gradient(90deg,var(--quaternary-color),transparent);
+}
+
+  /* 17.n. Server Templates */
+.ctaSection-izWwhs,
+.formSection-1NFAGI {
+  background: transparent;
+}
+
+.usagePill-_nSrnP,
+.channelsWrapper-2HhUER, 
+.rolesWrapper-2yOx9S {
+  background: var(--quaternary-color);
 }
 
 /* 18. Login Page */

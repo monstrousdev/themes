@@ -1197,7 +1197,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-attachment: fixed;
 }
 
-#app-mount .inset-3sAvek {
+#app-mount .inset-3sAvek,
+.descriptionBox-1EKQKL {
   background: var(--blurple-sheer);
 }
 
@@ -2466,7 +2467,8 @@ svg[name="Activity"] {
 #app-mount .addGamePopout-2RY8Ju,
 #app-mount .inner-1JeGVc .container-3qKHyN,
 #app-mount .keyboardShortcutsModal-3piNz7,
-#app-mount .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+#app-mount .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+#app-mount .modalRoot-LW89o7 {
   background: linear-gradient(var(--blurple-sheer), transparent 80%), var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
   border-radius: 10px;
@@ -2483,7 +2485,9 @@ svg[name="Activity"] {
   margin-top: -95px;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.uploadModal-2ifh8j .footer-3mqk7D,
+.ctaSection-izWwhs,
+.formSection-1NFAGI {
   background: transparent;
 }
 
@@ -2491,7 +2495,10 @@ svg[name="Activity"] {
 #app-mount .checked-3_4uQ9,
 .theme-brand .inner-zqa7da,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
-#app-mount .resultFocused-3aIoYe {
+#app-mount .resultFocused-3aIoYe,
+.usagePill-_nSrnP,
+.channelsWrapper-2HhUER, 
+.rolesWrapper-2yOx9S {
   background-color: var(--sheer);
   transition: all .2s ease-in-out;
 }
