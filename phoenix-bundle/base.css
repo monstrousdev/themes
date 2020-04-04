@@ -787,7 +787,7 @@ svg[name="Activity"] {
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
 .bda-slist .bda-footer button,
-.bd-switch-checked {
+.bd-switch.bd-switch-checked {
   background: var(--main-color)
 }
 
