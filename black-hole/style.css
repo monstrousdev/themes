@@ -1192,7 +1192,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .wrapperAudio-1jDe0Q,
 #app-mount .guildGraphicContainer-39I_Pl,
 .wrapper-3D2qGf,
-.peopleListItem-2nzedh:hover {
+.peopleListItem-2nzedh:hover,
+#app-mount .bd-addon-list .bd-addon-card {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -1398,7 +1399,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .interactive-1FxC7B:hover,
 #app-mount .price-NUANu6,
 #app-mount .playerOverflow-2Hf77M,
-#app-mount .barBackground-2EEiLw {
+#app-mount .barBackground-2EEiLw,
+.bd-switch {
   background-color: var(--sheer);
 }
 
@@ -1464,11 +1466,17 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount #bd-settings-sidebar .ui-tab-bar-item:hover,
 #app-mount .boostCount-UFqabz,
 #app-mount .tag-2gHSR7,
-#app-mount .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+#app-mount .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh,
+.bd-pfbtn:hover,
+.bd-button:hover {
   background-color: var(--blurple-sheer);
 }
 
-#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+.bd-switch.bd-switch-checked,
+.bd-addon-list .bd-card-footer button,
+.bd-button,
+.bd-pfbtn {
   background-color: var(--blurple)
 }
 
