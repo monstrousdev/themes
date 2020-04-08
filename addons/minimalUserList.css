@@ -86,7 +86,7 @@
 .header-toolbar button.active{display:none;}
 
 
-.chat-3bRxxu .chatContent-a9vAAp {
+.chat-3bRxxu .chatContent-a9vAAp:not([aria-label=" (channel)"]) {
   margin-right:-145px !important;
   z-index:1
 }
