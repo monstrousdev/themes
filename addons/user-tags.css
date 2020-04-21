@@ -96,7 +96,6 @@
 .avatar-1BDn8e[src*="460174770957189155"] + h2::after,
 .avatar-1BDn8e[src*="605514546249072679"] + h2::after,
 .avatar-1BDn8e[src*="323030822267518977"] + h2::after,
-.avatar-1BDn8e[src*="173557815326015488"] + h2::after,
 .avatar-1BDn8e[src*="282681883249213440"] + h2::after,
 .avatar-1BDn8e[src*="145557095234666496"] + h2::after,
 .avatar-1BDn8e[src*="498207315485392906"] + h2::after,
@@ -200,12 +199,6 @@
 .avatar-1BDn8e[src*="282681883249213440"]:hover + h2::after{
   content: 'Nozumo';
   --main-color: #4d0000;
-}
-
-.avatar-1BDn8e[src*="173557815326015488"]:hover + h2::after{
-  content: 'Gravity';
-  color: darkblue;
-  --main-color: lightblue;
 }
 
 .avatar-1BDn8e[src*="323030822267518977"]:hover + h2::after{
