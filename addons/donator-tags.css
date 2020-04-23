@@ -66,7 +66,7 @@
 
 /* My friends and my borders */
 .contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"] + h2::before{
-  content: 'yeet';
+  content: '';
   position: absolute;
   height: 44px;
   width: 44px;
@@ -78,6 +78,24 @@
   pointer-events: none;
   border-radius: var(--roundness, var(var(--user-roundness, 50px))) !important;
   z-index: -1;
+  opacity: 0;
+}
+
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"] {
+  animation: eve-glow 1s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 5px rgb(222, 114, 255));
+  transition: filter 200ms ease-in-out;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"]:hover {
+  animation-play-state: paused;
+}
+
+@keyframes eve-glow {
+  to {
+    filter: drop-shadow(0 0 8px rgb(222, 114, 255))
+  }
 }
 
 .contents-2mQqc9 .avatar-1BDn8e[src*="402272736665272320"]:hover + h2::before{
