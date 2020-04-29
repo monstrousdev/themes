@@ -32,7 +32,8 @@
 .avatar-1BDn8e[src*="263673948460417025"]:hover + h2::after,
 .avatar-1BDn8e[src*="202893235041992704"]:hover + h2::after,
 .avatar-1BDn8e[src*="172045670008487936"]:hover + h2::after,
-.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after{
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after,
+.avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after{
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
@@ -68,8 +69,7 @@
 }
 
 /* fade from top */
-.avatar-1BDn8e[src*="173557815326015488"]:hover + h2::after,
-.avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after{
+.avatar-1BDn8e[src*="173557815326015488"]:hover + h2::after{
   animation: fadeFromTop .2s;
 }
 

@@ -112,18 +112,12 @@
 .avatar-1BDn8e[src*="263673948460417025"] + h2::after,
 .avatar-1BDn8e[src*="395649339134967808"] + h2::after,
 .avatar-1BDn8e[src*="202893235041992704"] + h2::after,
-.avatar-1BDn8e[src*="172045670008487936"] + h2::after,
-.avatar-1BDn8e[src*="336557423626027021"] + h2::after{
+.avatar-1BDn8e[src*="172045670008487936"] + h2::after{
   content: "}";
 }
 
 
   /* on hover */
-.avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after {
-  content: 'Ministry';
-  --main-color: #101010;
-}
-
 .avatar-1BDn8e[src*="172045670008487936"]:hover + h2::after {
   content: 'Loli Guardian';
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
