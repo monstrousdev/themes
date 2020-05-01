@@ -423,3 +423,13 @@
 .lookGhost-2Fn_0-.colorBrand-3pXr91::before {
   opacity: .9;
 }
+
+/* custom background fix */
+
+.userPopout-3XzG_A .wrapper-3t9DeA * {
+  z-index: 1;
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+  z-index: unset;
+}

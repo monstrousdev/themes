@@ -405,3 +405,21 @@
 #ghostping-panel {
   background-color: var(--primary-color) !important;
 }
+
+
+/* custom background fix */
+.userPopout-3XzG_A .wrapper-3t9DeA * {
+  z-index: 1;
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+  z-index: unset;
+}
+
+.userPopout-3XzG_A .body-3iLsc4 {
+  background-color: transparent !important;
+}
+
+.userPopout-3XzG_A {
+  background-color: var(--primary-color) !important;
+}
