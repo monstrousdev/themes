@@ -79,7 +79,7 @@
   background-position: center;
   background-repeat: no-repeat;
   pointer-events: none;
-  border-radius: var(--roundness, var(var(--user-roundness, 50px))) !important;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
   z-index: -1;
 }
 
