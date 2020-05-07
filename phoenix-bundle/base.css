@@ -1882,6 +1882,19 @@ a,
   border-radius: 0px;
 }
 
+.channelHeader-3Gd2xq {
+  padding: 12px 16px;
+  background: var(--quaternary-color);
+  border-radius: 5px 5px 0 0;
+  margin-top: 10px;
+}
+
+.messageContainer-gbhlwo {
+  border-radius: 0 0 5px 5px;
+  background: var(--secondary-color);
+  box-shadow: 0 4px 10px var(--shadow)
+}
+
 .mention {
   padding: 1px 3px 1.4px 2px !important;
 }
@@ -3446,7 +3459,10 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .infoBar-U6oBFk,
-.emojiPicker-3m1S-j .categories-1feg4n {
+.emojiPicker-3m1S-j .categories-1feg4n,
+.wrapper-2N7X54,
+.categoryWrapper-UZ5YNj,
+.inspector-sdLnLS {
   background-color: var(--quaternary-color)
 }
 
@@ -3459,6 +3475,33 @@ foreignObject[mask*="mobile"]::after {
   opacity: 0.8
 }
 
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV,
+.guildIcon-3h-1IH {
+  background: transparent;
+}
+
+#app-mount .emojiItemImageLoading-1yEIxx {
+  opacity: 0;
+}
+
+.contentWrapper-2txmjs,
+.categoryItemDefaultCategorySelected-_HCKoz, 
+.categoryItemDefaultCategorySelected-_HCKoz:hover {
+  background-color: var(--primary-color)
+}
+
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+  box-sizing: border-box;
+  border: 2px solid var(--main-color);
+}
+
 .emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA {
   background-size: contain !important;
   background-position: 50% !important;
@@ -3469,7 +3512,8 @@ foreignObject[mask*="mobile"]::after {
   cursor: not-allowed;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq,
+.categoryItemDefaultCategory-aBZ6nJ {
   opacity: .4;
   border: none !important;
   transition: all 50ms ease;
@@ -3477,13 +3521,20 @@ foreignObject[mask*="mobile"]::after {
   background-repeat: no-repeat;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq svg {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq svg,
+.categoryItemDefaultCategory-aBZ6nJ svg {
   display: none;
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:hover,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S,
+.categoryItemDefaultCategory-aBZ6nJ:hover,
+.categoryItemDefaultCategory-aBZ6nJ.categoryItemDefaultCategorySelected-_HCKoz {
   opacity: 1
+}
+
+.navButtonActive-3RPAJy {
+  background-color: var(--main-color)
 }
 
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
@@ -3497,7 +3548,10 @@ foreignObject[mask*="mobile"]::after {
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='recent'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='recent'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='recent']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/frequent.svg) !important
 }
 
@@ -3509,49 +3563,73 @@ foreignObject[mask*="mobile"]::after {
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='people'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='people'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='people']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/people.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='nature'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='nature'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='nature']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/nature.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='food'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='food'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='food']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/food.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='activity'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='activity'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='activity']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/activity.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='travel'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='travel'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='travel']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/travel.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='objects'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='objects'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='objects']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/objects.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='symbols'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='symbols'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='symbols']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/symbols.svg) !important
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10),
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10):hover {
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10):hover,
+.categoryItemDefaultCategory-aBZ6nJ[id*='flags'],
+.categoryItemDefaultCategory-aBZ6nJ[id*='flags'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[id*='flags']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/flags.svg) !important
 }
 
@@ -4656,8 +4734,17 @@ foreignObject[mask*="mobile"]::after {
 .theme-light .action-1lSjCi,
 .theme-dark .create-3jownz .actionHeader-2CT5c7, 
 .theme-light .create-3jownz .actionHeader-2CT5c7
-.action-1lSjCi:hover .actionHeader-2CT5c7 {
+.action-1lSjCi:hover .actionHeader-2CT5c7,
+.create-3jownz .colorStandard-2KCXvj,
+.heading-bH--BU,
+.title-1NPKvY,
+.modal-yWgWj- .colorStandard-2KCXvj,
+.title-1EYJBg {
   color: var(--main-color) !important;
+}
+
+.join-33Tr-7 .colorStandard-2KCXvj {
+  color: var(--online);
 }
 
 .theme-light .slide-2pHaq5, 
@@ -4692,8 +4779,25 @@ foreignObject[mask*="mobile"]::after {
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/add-btn-two.svg) center/112px 78px no-repeat;
 }
 
-.theme-dark .join-33Tr-7 .actionIcon-2IISM_, .theme-light .join-33Tr-7 .actionIcon-2IISM_ {
+.theme-dark .join-33Tr-7 .actionIcon-2IISM_, 
+.theme-light .join-33Tr-7 .actionIcon-2IISM_ {
   background-image: url(https://monstrousdev.github.io/themes/assets/images/join-btn.png);
+}
+
+.theme-dark .channelListContainer-1VKoaZ {
+  background-color: var(--secondary-color);
+}
+
+.unreadIndicator-2zrk6b {
+  background-color: var(--main-color)
+}
+
+.channelNameUnread-1J_UP0 {
+  color: #fff;
+}
+
+#app-mount .modal-yWgWj- .footer-3rDWdC {
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.6)
 }
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
@@ -4732,17 +4836,6 @@ foreignObject[mask*="mobile"]::after {
 .theme-dark .create-3jownz:hover .actionButton-2PeQbJ, 
 .theme-light .create-3jownz:hover .actionButton-2PeQbJ {
   background-color: var(--hover-color);
-}
-
-#app-mount .theme-dark .or-3THJsp, 
-#app-mount .theme-light .or-3THJsp {
-  background-image: none;
-  -webkit-mask: url('https://monstrousdev.github.io/themes/assets/svgs/or.svg');
-  -webkit-mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: 52px 52px;
-  background-color: var(--primary-color);
-  color: var(--main-color);
 }
 
 .avatar-uploader-inner {
