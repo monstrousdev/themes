@@ -3452,10 +3452,11 @@ foreignObject[mask*="mobile"]::after {
   /* 15.b. Emoji Picker and Reactions */
 .emojiPicker-3m1S-j,
 .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
-.diversitySelector-tmmMv0 .popout-2nUePc {
+.diversitySelector-tmmMv0 .popout-2nUePc,
+.emojiPicker-3PwZFl {
   background: var(--primary-color) !important;
   border: 1px solid var(--primary-color);
-  border-radius: 3px !important;
+  border-radius: 10px !important;
 }
 
 .infoBar-U6oBFk,
