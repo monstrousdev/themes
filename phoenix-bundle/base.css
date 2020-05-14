@@ -2750,6 +2750,10 @@ pre {
 }
 
   /* 10.c. Store */
+#app-mount .defaultIndicator-3WqGFB {
+  background-color: var(--main-color)
+}
+
 #app-mount .scroller-9moviB,
 #app-moung .scroller-1JpcIc {
   background: transparent;

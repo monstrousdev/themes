@@ -235,9 +235,11 @@
 }
 
 #app-mount .card-3DjzTQ, 
-#app-mount .iconMask-3b8GzQ {
+#app-mount .iconMask-3b8GzQ,
+.discoverHeader-1TWTqG {
   background-color: var(--quaternary-color);
 }
+
 
 
 /* 11. Popouts */
