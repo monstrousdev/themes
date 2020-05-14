@@ -201,6 +201,12 @@
   background-color: var(--quaternary-color) !important;
 }
 
+#app-mount .scroller-1IIF0A, 
+#app-mount .scroller-5bBood,
+.scroller-2XE8rp {
+  background-color: var(--primary-color)
+}
+
 
 /* 9. Friends List */
 .container-3gCOGc {
@@ -209,7 +215,7 @@
 
 
 
-/* 10. Games Tab */
+/* 10. Games Tab & Discover */
 .activityFeed-28jde9,
 .root-26DmKJ,
 .activityFeed-1C0EmJ {
@@ -222,6 +228,15 @@
 
 #app-mount .container-1r6BKw {
   background: var(--quaternary-color);
+}
+
+.sidebar-2K8pFh {
+  background-color: var(--primary-color);
+}
+
+#app-mount .card-3DjzTQ, 
+#app-mount .iconMask-3b8GzQ {
+  background-color: var(--quaternary-color);
 }
 
 

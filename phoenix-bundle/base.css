@@ -2660,7 +2660,8 @@ pre {
   /* 10.b. Library */
 
 #app-mount .scroller-1IIF0A,
-#app-mount .scroller-5bBood {
+#app-mount .scroller-5bBood,
+.scroller-2XE8rp  {
   background: transparent;
 }
 
@@ -2902,9 +2903,12 @@ pre {
 }
 
 #app-mount .wrapper-39oAo3,
-#app-mount .css-1wqqa50-container,
-#app-mount .css-1rckt42-menu,
-#app-mount .pageButton-MknE-_:hover {
+#app-mount .css-1b86x2o-control,
+#app-mount .css-9wh895-control,
+#app-mount .css-1o55ng5-control,
+#app-mount .css-123uooi-menu,
+#app-mount .pageButton-MknE-_:hover,
+.emojiContainer-1u-_sQ {
   background-color: var(--quaternary-color);
 }
 
@@ -2920,6 +2924,31 @@ pre {
  
 #app-mount .activeButton-1BJAiN:hover {
   background-color: var(--hover-color);
+}
+
+.placeholder-2erB-x {
+  background-color: var(--tertiary-color);
+}
+
+.discoverHeader-1TWTqG {
+  position: fixed;
+  margin: 0;
+  padding: 16px 16px 0 16px;
+  width: 208px;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 20px var(--shadow) !important;
+}
+
+.discoverHeader-1TWTqG + .categoryItem-3zFJns {
+  margin-top: 50px;
+}
+
+#app-mount .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+  background-color: var(--main-color);
+}
+
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+  color: white;
 }
 
 /* 11. Avatars */

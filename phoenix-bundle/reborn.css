@@ -172,6 +172,10 @@
   
   
   /* 3. Chat */
+  #app-mount .iconMask-3b8GzQ {
+    background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
+  }
+  
   .searchResultsWrap-2DKFzt,
   .searchPopout-1vUlP3,
   #app-mount .container-16j22k,
