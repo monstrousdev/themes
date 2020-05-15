@@ -244,7 +244,8 @@
   .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ, 
   .diversitySelector-tmmMv0 .popout-2nUePc,
   #app-mount .uploadModal-2ifh8j,
-  #app-mount .modalRoot-LW89o7 {
+  #app-mount .modalRoot-LW89o7,
+  .styleFixed-sX-yHV {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
