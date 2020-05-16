@@ -4035,7 +4035,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
   /* 15.g. Server Settings */
-.layer-v9HyYc[style*="; top: "][id*="popout_"] .menu-3sdvDG {
+.layer-v9HyYc[style*="; top: 5"][id*="popout_"] .menu-3sdvDG {
   left: -25px !important;
   top: -10px !important;
   width: 230px !important;
@@ -4050,7 +4050,7 @@ foreignObject[mask*="mobile"]::after {
   box-shadow: none;
 }
 
-.layer-v9HyYc[style*="; top: "][id*="popout_"] .itemBase-1Qj4z6 {
+.layer-v9HyYc[style*="; top: 5"][id*="popout_"] .itemBase-1Qj4z6 {
   margin: 0;
   padding: 10px 25px;
 }
