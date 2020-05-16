@@ -4055,7 +4055,7 @@ foreignObject[mask*="mobile"]::after {
   padding: 10px 25px;
 }
 
-.menu-3sdvDG {
+.layer-v9HyYc[style*="; top: 5"][id*="popout_"] .menu-3sdvDG {
   padding: 0;
   border-radius: 0px;
   width: 100%;
@@ -5565,6 +5565,10 @@ foreignObject[mask*="mobile"]::after {
 
 .elevationHigh-1PneE4,
 .styleFixed-sX-yHV {
+  background-color: var(--primary-color) !important;
+}
+
+.styleFlexible-wGDiIL {
   background-color: var(--primary-color) !important;
 }
 
