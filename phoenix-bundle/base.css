@@ -5564,10 +5564,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .elevationHigh-1PneE4,
-.styleFixed-sX-yHV {
-  background-color: var(--primary-color) !important;
-}
-
+.styleFixed-sX-yHV,
 .styleFlexible-wGDiIL {
   background-color: var(--primary-color) !important;
 }

@@ -245,7 +245,8 @@
   .diversitySelector-tmmMv0 .popout-2nUePc,
   #app-mount .uploadModal-2ifh8j,
   #app-mount .modalRoot-LW89o7,
-  .styleFixed-sX-yHV {
+  .styleFixed-sX-yHV,
+  .styleFlexible-wGDiIL {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 
