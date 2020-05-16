@@ -4,6 +4,7 @@
   transform: translateY(-100%);
   transition: all 1s cubic-bezier(.4, 0, 0, 1);
   overflow: visible;
+  height: fit-content;
 }
 
 .wrapper-1Rf91z.foldercontent {
@@ -22,6 +23,7 @@
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv { 
   margin-top: 48px !important;
+  height: fit-content;
 }
 
 .guildsWrapper-5TJh6A,
@@ -31,21 +33,23 @@
 
 #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN {
   padding: 10px 0 20px 0 !important;
+  overflow: visible;
+  height: fit-content;
 }
 
 .guildsWrapper-5TJh6A .scrollerWrap-1IAIlv,
 .wrapper-1Rf91z .scrollerWrap-1IAIlv { 
   margin-top: 48px !important;
+  overflow: visible;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
-  height: 47px;
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL {
   position: absolute;
-  margin-top: -58px;
+  margin-top: -51.5px;
   margin-left: 2px;
-  top: 101.5%;
-  left: -1px;
-  width: 71px;
+  top: 100%;
+  left: -2px;
+  width: 72px;
   transform: translateY(104.5%);
   z-index: 99999;
   background-color: var(--quaternary-color);
@@ -54,8 +58,9 @@
   padding-bottom: .5px;
 }
 
-.wrapper-1Rf91z:not(.foldercontent):hover .scroller-2TZvBN>.listItem-2P_4kh:first-child {
-  top: 1.5%;
+.wrapper-1Rf91z:not(.foldercontent):hover .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL {
+  margin-top: -49px;
+  top: 0;
   transform: translateY(0);
 }
 
