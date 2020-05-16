@@ -4552,6 +4552,7 @@ foreignObject[mask*="mobile"]::after {
   .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .status-1fhblQ,
   .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .customText-tY5LJn {
     margin-left: 10px;
+    max-width: 75%;
   }
   
   .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover .icon-1IxfJ2 {
