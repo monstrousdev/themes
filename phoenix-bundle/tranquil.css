@@ -244,7 +244,8 @@
 
 /* 11. Popouts */
 .themedPopout-25DgLi,
-#permissions-modal-wrapper #permissions-modal {
+#permissions-modal-wrapper #permissions-modal,
+.submenu-2-ysNh {
   background-color: var(--primary-color) !important;
 }
 

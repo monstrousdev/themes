@@ -814,14 +814,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .applicationStore-1pNvnv .scrollerWrap-2lJEkd,
 .activityFeed-1C0EmJ .scrollerWrap-2lJEkd,
 .root-1BQpZw .scrollerWrap-2lJEkd,
-#app-mount .noChannel-Z1DQK7 {
+#app-mount .noChannel-Z1DQK7,
+.submenu-2-ysNh {
   background: var(--quatro)  var(--stars) top left !important;
   background-attachment: fixed;
-}
-
-.scrollerWrap-2lJEkd,
-.scroller-2TZvBN {
-  contain: layout style;
 }
 
 .codeRedemption-2CtsK6,
