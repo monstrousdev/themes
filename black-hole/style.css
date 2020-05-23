@@ -1986,7 +1986,9 @@ svg[name="Activity"] {
 }
 
   /* C. Search Popout & Results */
-#app-mount .container-3ayLPN {
+#app-mount .container-3ayLPN,
+.searchResultsWrap-3-pOjs,
+.searchResult-2N9RV4.expanded-ovgtuV {
   background: var(--quatro) var(--stars) top left fixed;
 }
 
@@ -2000,23 +2002,23 @@ svg[name="Activity"] {
   background-color: var(--veil);
 }
 
-#app-mount .channelSeparator-1X1FuH .channelName-1QajIf {
+#app-mount .channelSeparator-dTqJ4K .channelName-wvgELL {
   background-color: var(--sheer);
   padding-left: 8px;
   border-radius: 5px 5px 0 0;
 }
 
-#app-mount .searchResult-3pzFAB:before {
+#app-mount .searchResult-2N9RV4:before {
   background-image: linear-gradient(0deg,transparent,var(--sheer));
 }
 
-#app-mount .searchResult-3pzFAB .hit-NLlWXA {
+#app-mount .searchResult-2N9RV4 .searchResultMessage-30QnSN.hit-1CXhXT {
   background: var(--sheer);
   box-shadow: 0 0 10px 6px var(--sheer);
   border-color: rgb(0, 0, 0);
 }
 
-#app-mount .jumpButton-Ia2hRJ {
+#app-mount .jumpButton-1ol35X {
   background-color: var(--blurple);
   color: rgb(255, 255, 255);
   transition: all .2s ease-in-out;
@@ -2047,7 +2049,7 @@ svg[name="Activity"] {
   color: rgb(255, 255, 255);
 }
 
-#app-mount .searchResult-3pzFAB:after {
+#app-mount .searchResult-2N9RV4:after {
   background: linear-gradient(180deg,transparent,var(--sheer));
 }
 
