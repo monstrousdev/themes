@@ -5535,6 +5535,14 @@ foreignObject[mask*="mobile"]::after {
   background-color: var(--tertiary-color) !important;
 }
 
+.tile-2gi3tr {
+  background-color: transparent;
+}
+
+.button-3WOKuZ {
+  background-color: var(--main-color);
+}
+
 .botTagRegular-2HEhHi,
 .aka-1mqp34,
 #app-mount .akaBadge-1M-1Gw,
