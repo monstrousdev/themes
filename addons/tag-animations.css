@@ -70,7 +70,8 @@
 }
 
 /* fade from top */
-.avatar-1BDn8e[src*="173557815326015488"]:hover + h2::after{
+.avatar-1BDn8e[src*="173557815326015488"]:hover + h2::after,
+.avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after{
   animation: fadeFromTop .2s;
 }
 
