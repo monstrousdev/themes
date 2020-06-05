@@ -941,6 +941,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: var(--blurple);
   bottom: 15px;
   border-radius: 20px;
+  padding: 3px 0;
   right: 50px !important;
   width: auto !important;
   box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
