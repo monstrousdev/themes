@@ -29,6 +29,7 @@ Registered: Black Box Theme
  --background-image: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg); /* change background */
   --background-blur: 0px; /* Main Background Blur */
 --popup-background: url(https://s-media-cache-ak0.pinimg.com/originals/60/c4/bb/60c4bb55215c989b15b0fe144c73cf82.jpg);  /* Background for popups and modals */
+  --background-darkness: 0.75; /* change the darkness of your background. 1 makes it completely black, 0 makes it like the original image */
 }
 
 

@@ -12,11 +12,15 @@
   --bright: #ccc;
   --background-blur: 0px;
   --popup-blur: 0px;
+  --background-darkness: 0.75
 }
 
   /* Dark Mode */
-  .theme-dark,
   .appMount-3lHmkl {
+    --primary-color: rgba(0,0,0,var(--background-darkness));
+  }
+
+  .theme-dark {
     --primary-color: rgba(0,0,0,0.75);
     --secondary-color: rgba(0,0,0,0.6);
     --tertiary-color: rgba(0,0,0,0.4);
