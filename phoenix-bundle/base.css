@@ -1886,7 +1886,8 @@ a,
   margin-top: 10px;
 }
 
-.messageContainer-gbhlwo {
+.messageContainer-gbhlwo,
+.messages-3G3erD {
   border-radius: 0 0 5px 5px;
   background: var(--secondary-color);
   box-shadow: 0 4px 10px var(--shadow)
