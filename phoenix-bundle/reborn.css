@@ -230,7 +230,8 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
 
-  #app-mount .messagesPopoutWrap-1MQ1bW {
+  #app-mount .messagesPopoutWrap-1MQ1bW,
+  #app-mount .recentMentionsPopout-3rCiI6 {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat !important;
   }
 
@@ -410,7 +411,7 @@
     left: -220px;
   }
 
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-Sp6bN1 .itemBase-1Qj4z6:nth-child(7) {
+  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
   

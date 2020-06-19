@@ -941,12 +941,12 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: var(--blurple);
   bottom: 15px;
   border-radius: 20px;
-  padding: 3px 0;
   right: 50px !important;
   width: auto !important;
   box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
   left: auto !important;
   animation: slide-up .7s cubic-bezier(.4, 0, 0, 1), opacity .7s ease;
+  padding: 3px 0;
 }
 
 #app-mount .chat-3bRxxu .jumpToPresentBar-9P20AM:before {
@@ -1190,14 +1190,17 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .guildGraphicContainer-39I_Pl,
 .wrapper-3D2qGf,
 .peopleListItem-2nzedh:hover,
-#app-mount .bd-addon-list .bd-addon-card {
+#app-mount .bd-addon-list .bd-addon-card,
+.emptyContainer-1_gwCl {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }
 
 #app-mount .inset-3sAvek,
 .descriptionBox-1EKQKL,
-.attachment-33OFj0 {
+.attachment-33OFj0,
+.emojiContainer-1u-_sQ,
+#app-mount .wrapperAudio-1jDe0Q {
   background: var(--blurple-sheer);
 }
 
@@ -1694,7 +1697,7 @@ svg[name="Activity"] {
 
 .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .scroller-3BxosC {
   padding: 0;
-  overflow: visible;
+  overflow: visible !important;
 }
 
 .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) > div {

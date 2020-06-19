@@ -1718,7 +1718,8 @@ a,
   -webkit-mask-size: 77%;
 }
 
-#app-mount .attachment-33OFj0 {
+#app-mount .attachment-33OFj0,
+#app-mount .wrapperAudio-1jDe0Q {
   background-color: var(--quaternary-color);
   border-color: var(--quaternary-color);
 }
@@ -2435,7 +2436,8 @@ pre {
 
 .peopleListItem-2nzedh:hover,
 .wrapper-3D2qGf,
-.emptyCard-1RJw8n {
+.emptyCard-1RJw8n,
+.emptyContainer-1_gwCl {
   background: var(--tertiary-color);
 }
 
@@ -3216,7 +3218,6 @@ foreignObject[mask*="mobile"]::after {
 .chat-3bRxxu form .channel-text-area-default,
 .searchResultsWrap-2DKFzt,
 .embed-IeVjo6,
-.emojiPicker-3m1S-j,
 .channels-Ie2l6A,
 .wrapper-35wsBm,
 .cardPrimary-1Hv-to,
@@ -3325,11 +3326,9 @@ foreignObject[mask*="mobile"]::after {
 
 
 /* 14. Scrollbars */
-.emojiPicker-3m1S-j .premiumPromo-yVfLiA,
 #autocomplete-popout .scroller::-webkit-scrollbar,
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar,
-#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar,
-.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar {
   display: none;
 }
 
@@ -3343,8 +3342,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
 #bda-qem-favourite-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
-#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
-.emojiPicker-3m1S-j .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb {
   border: none !important;
   background-color: rgba(225, 225, 225, 0.2) !important;
   display: initial;
@@ -3430,22 +3428,38 @@ foreignObject[mask*="mobile"]::after {
   background: transparent;
 }
 
-#app-mount .messagesPopoutWrap-1MQ1bW {
+.layer-v9HyYc[id*="popout"] {
+  transform-origin: 50% -10%;
+  animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+}
+
+#app-mount .messagesPopoutWrap-1MQ1bW,
+#app-mount .recentMentionsPopout-3rCiI6 {
   border-radius: 0 !important;
   border-left: 2px solid var(--main-color);
   border-right: 2px solid var(--main-color);
   border-bottom: 2px solid var(--main-color);
   border-top: 0;
-  animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
-  transform-origin: 50% -10%;
   box-shadow: 0 2px 20px rgba(0,0,0,.4) !important;
   margin-top: 3px;
   background-color: var(--primary-color);
 }
 
 #app-mount .header-ykumBX,
-#app-mount .footer-1kmXd4 {
+#app-mount .footer-1kmXd4,
+#app-mount .footer-2gL1pp {
   background-color: var(--tertiary-color);
+}
+
+.content-1o0f9g {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.secondary-dIudih,
+.tertiary-aMXF0g {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
@@ -3473,7 +3487,8 @@ foreignObject[mask*="mobile"]::after {
   color: #fff !important;
 }
 
-.jumpButton-3DTcS_ {
+.jumpButton-3DTcS_,
+.jumpButton-2dvRSC {
   background-color: var(--main-color) !important;
 }
 
@@ -3484,8 +3499,6 @@ foreignObject[mask*="mobile"]::after {
 }
 
   /* 15.b. Emoji Picker and Reactions */
-.emojiPicker-3m1S-j,
-.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
 .diversitySelector-tmmMv0 .popout-2nUePc,
 .emojiPicker-3PwZFl {
   background: var(--primary-color) !important;
@@ -3494,20 +3507,12 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .infoBar-U6oBFk,
-.emojiPicker-3m1S-j .categories-1feg4n,
 .wrapper-2N7X54,
 .categoryWrapper-UZ5YNj,
+.categoryList-2Kzf65,
+.header-ywPcAE,
 .inspector-sdLnLS {
   background-color: var(--quaternary-color)
-}
-
-.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
-  opacity: 0.7;
-}
-
-.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
-  background: transparent !important;
-  opacity: 0.8
 }
 
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
@@ -3519,7 +3524,7 @@ foreignObject[mask*="mobile"]::after {
   opacity: 0;
 }
 
-.contentWrapper-2txmjs,
+.contentWrapper-SvZHNd,
 .categoryItemDefaultCategorySelected-_HCKoz, 
 .categoryItemDefaultCategorySelected-_HCKoz:hover {
   background-color: var(--primary-color)
@@ -3537,17 +3542,6 @@ foreignObject[mask*="mobile"]::after {
   border: 2px solid var(--main-color);
 }
 
-.emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA {
-  background-size: contain !important;
-  background-position: 50% !important;
-  background-repeat: no-repeat !important;
-}
-
-.emojiPicker-3m1S-j .scroller-2FKFPG .emojiItem-109bjA.disabled-1H1CfW {
-  cursor: not-allowed;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq,
 .categoryItemDefaultCategory-aBZ6nJ {
   opacity: .4;
   border: none !important;
@@ -3556,137 +3550,71 @@ foreignObject[mask*="mobile"]::after {
   background-repeat: no-repeat;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq svg,
 .categoryItemDefaultCategory-aBZ6nJ svg {
   display: none;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:hover,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S,
 .categoryItemDefaultCategory-aBZ6nJ:hover,
 .categoryItemDefaultCategory-aBZ6nJ.categoryItemDefaultCategorySelected-_HCKoz {
   opacity: 1
 }
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
   background-color: var(--main-color)
 }
 
-.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
-  background-color: var(--hover-color) !important;
-}
-
-.emojiPicker-3m1S-j .category-2U57w6 {
-  color: rgba(2555, 255, 255, 0.5);
-  background: transparent !important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(1):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='recent'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='recent'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='recent']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/frequent.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(2),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(2).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(2):hover {
-  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/custom.svg) !important
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(3):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='people'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='people'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='people']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/people.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(4):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='nature'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='nature'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='nature']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/nature.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(5):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='food'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='food'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='food']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/food.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(6):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='activity'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='activity'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='activity']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/activity.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(7):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='travel'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='travel'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='travel']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/travel.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(8):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='objects'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='objects'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='objects']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/objects.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(9):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='symbols'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='symbols'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='symbols']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/symbols.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10),
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10).selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:nth-child(10):hover,
 .categoryItemDefaultCategory-aBZ6nJ[id*='flags'],
 .categoryItemDefaultCategory-aBZ6nJ[id*='flags'].categoryItemDefaultCategorySelected-_HCKoz,
 .categoryItemDefaultCategory-aBZ6nJ[id*='flags']:hover {
   background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/flags.svg) !important
-}
-
-.emojiPicker-3m1S-j .no-search-results .sad-discord {
-  background-image: url(../assets/svgs/sadDiscord.svg);
-}
-
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-  width: 98% !important;
-  background: var(--primary-color) !important;
-}
-
-.emojiPicker-3m1S-j .search-bar input {
-  color: #fff !important;
-  border-bottom: 2px solid rgba(255, 255, 255, .1);
-  padding-bottom: 3px;
-  padding-right: 25px;
-  height: 30px
-}
-
-.emojiPicker-3m1S-j .search-bar input:focus {
-  border-bottom: 2px solid var(--hover-color);
 }
 
 .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
@@ -4444,7 +4372,7 @@ foreignObject[mask*="mobile"]::after {
   
   .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .scroller-3BxosC {
     padding: 0;
-    overflow: visible;
+    overflow: visible !important;
   }
   
   .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-3sdvDG {
