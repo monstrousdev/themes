@@ -66,174 +66,32 @@
 .avatar-1BDn8e[src*="107511169366888448"] + h2::after,
 .avatar-1BDn8e[src*="118580050458181632"] + h2::after,
 .avatar-1BDn8e[src*="128948605263413248"] + h2::after,
-.avatar-1BDn8e[src*="133611040373080064"] + h2::after,
 .avatar-1BDn8e[src*="135824276535115776"] + h2::after,
 .avatar-1BDn8e[src*="179608420809310208"] + h2::after,
-.avatar-1BDn8e[src*="181246593708589057"] + h2::after,
-.avatar-1BDn8e[src*="227018516497170433"] + h2::after,
-.avatar-1BDn8e[src*="282256234663510026"] + h2::after,
-.avatar-1BDn8e[src*="308287952230940672"] + h2::after,
 .avatar-1BDn8e[src*="443765978132643850"] + h2::after,
 .avatar-1BDn8e[src*="96563253466898432"] + h2::after,
-.avatar-1BDn8e[src*="244363360886325248"] + h2::after,
 .avatar-1BDn8e[src*="150967530075324416"] + h2::after,
-.avatar-1BDn8e[src*="147889058670968844"] + h2::after,
 .avatar-1BDn8e[src*="120721814837002240"] + h2::after,
 .avatar-1BDn8e[src*="227648235097817089"] + h2::after,
-.avatar-1BDn8e[src*="210629330135547904"] + h2::after,
 .avatar-1BDn8e[src*="219078125974192128"] + h2::after,
-.avatar-1BDn8e[src*="131414719666847745"] + h2::after,
-.avatar-1BDn8e[src*="197477050569719808"] + h2::after,
 .avatar-1BDn8e[src*="438846426441711616"] + h2::after,
-.avatar-1BDn8e[src*="152430800241950720"] + h2::after,
-.avatar-1BDn8e[src*="95657348390977536"] + h2::after,
 .avatar-1BDn8e[src*="142110824507506688"] + h2::after,
 .avatar-1BDn8e[src*="230714365869817857"] + h2::after,
-.avatar-1BDn8e[src*="352189597268049921"] + h2::after,
 .avatar-1BDn8e[src*="267803219080642560"] + h2::after,
-.avatar-1BDn8e[src*="533814956525748235"] + h2::after,
-.avatar-1BDn8e[src*="264062457448759296"] + h2::after,
-.avatar-1BDn8e[src*="460174770957189155"] + h2::after,
-.avatar-1BDn8e[src*="605514546249072679"] + h2::after,
-.avatar-1BDn8e[src*="282681883249213440"] + h2::after,
-.avatar-1BDn8e[src*="145557095234666496"] + h2::after,
-.avatar-1BDn8e[src*="498207315485392906"] + h2::after,
-.avatar-1BDn8e[src*="138616536502894592"] + h2::after,
-.avatar-1BDn8e[src*="597905003717459968"] + h2::after,
-.avatar-1BDn8e[src*="220976819128500225"] + h2::after,
-.avatar-1BDn8e[src*="240482174686593025"] + h2::after,
-.avatar-1BDn8e[src*="150852555885379584"] + h2::after,
-.avatar-1BDn8e[src*="354236474050478080"] + h2::after,
-.avatar-1BDn8e[src*="191794647381573632"] + h2::after,
-.avatar-1BDn8e[src*="179309962164436992"] + h2::after,
-.avatar-1BDn8e[src*="409485665017790464"] + h2::after,
-.avatar-1BDn8e[src*="214088526722105344"] + h2::after,
-.avatar-1BDn8e[src*="263673948460417025"] + h2::after,
-.avatar-1BDn8e[src*="395649339134967808"] + h2::after,
-.avatar-1BDn8e[src*="202893235041992704"] + h2::after,
-.avatar-1BDn8e[src*="172045670008487936"] + h2::after,
-.avatar-1BDn8e[src*="194830015353847817"] + h2::after{
+.avatar-1BDn8e[src*="460174770957189155"] + h2::after{
   content: "}";
 }
 
 
   /* on hover */
-.avatar-1BDn8e[src*="194830015353847817"]:hover + h2::after {
-  content: 'Cheesus';
-  --main-color: #51007a;
-}
-
-.avatar-1BDn8e[src*="172045670008487936"]:hover + h2::after {
-  content: 'Loli Guardian';
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  --main-color: #E26F8E;
-}
-
-.avatar-1BDn8e[src*="202893235041992704"]:hover + h2::after {
-  content: '𝔣𝔢𝔢𝔩 𝔰𝔭𝔢𝔠𝔦𝔞𝔩';
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  --main-color: #ec648a;
-}
-
-.avatar-1BDn8e[src*="395649339134967808"]:hover + h2::after {
-  content: 'Kognise #2';
-}
-
-.avatar-1BDn8e[src*="214088526722105344"]:hover + h2::after,
-.avatar-1BDn8e[src*="263673948460417025"] + h2::after {
-  content: '♡';
-  --main-color: #ae0d2b;
-}
-
-.avatar-1BDn8e[src*="409485665017790464"]:hover + h2::after {
-  content: 'i smell client mods';
-  --main-color: #7289DA;
-}
-
-.avatar-1BDn8e[src*="179309962164436992"]:hover + h2::after {
-  content: 'Power Driver of XSW';
-  --main-color: #6417e1;
-}
-
-.avatar-1BDn8e[src*="191794647381573632"]:hover + h2::after {
-  content: 'God Himself';
-  --main-color: #38080b;
-}
-
-.avatar-1BDn8e[src*="354236474050478080"]:hover + h2::after {
-  content: 'dreamcatcher';
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  --main-color: #45DDC0;
-}
-
-.avatar-1BDn8e[src*="150852555885379584"]:hover + h2::after {
-  content: 'Best CS:GO Gamer';
-  --main-color: #9CAF19;
-}
-
-.avatar-1BDn8e[src*="240482174686593025"]:hover + h2::after {
-  content: 'The Booga Master xD';
-  --main-color: #6e29e3;
-}
-
-.avatar-1BDn8e[src*="220976819128500225"]:hover + h2::after {
-  content: 'The First';
-  --main-color: #21a37a;
-}
-
-.avatar-1BDn8e[src*="597905003717459968"]:hover + h2::after {
-  content: 'Link Worshipper';
-  --main-color: #70af23;
-}
-
-.avatar-1BDn8e[src*="138616536502894592"]:hover + h2::after {
-  content: 'human piece of shit';
-  --main-color: #d81105;
-}
-
-.avatar-1BDn8e[src*="498207315485392906"]:hover + h2::after{
-  content: 'Nintendon\'t';
-  --main-color: #8D90EB;
-}
-
-.avatar-1BDn8e[src*="145557095234666496"]:hover + h2::after{
-  content: 'Trans Mess';
-  --main-color: #880088;
-}
-
-.avatar-1BDn8e[src*="282681883249213440"]:hover + h2::after{
-  content: 'Nozumo';
-  --main-color: #4d0000;
-}
-
-.avatar-1BDn8e[src*="605514546249072679"]:hover + h2::after{
-  content: 'Luci';
-  --main-color: #800080;
-}
-
 .avatar-1BDn8e[src*="460174770957189155"]:hover + h2::after {
   content: 'Currently dying rn';
   --main-color: #008080;
 }
 
-.avatar-1BDn8e[src*="264062457448759296"]:hover + h2::after {
-  content: '(^ 3^)';
-  --main-color: #BB0667;
-}
-
-.avatar-1BDn8e[src*="533814956525748235"]:hover + h2::after {
-  content: "#1 Procrastinator";
-  --main-color: #577fda;
-}
-
 .avatar-1BDn8e[src*="267803219080642560"]:hover + h2::after {
   content: "CEO of Red";
   --main-color: #cc2c24;
-}
-
-.avatar-1BDn8e[src*="352189597268049921"]:hover + h2::after {
-  content: "Fry";
-  --main-color: #e49868;
 }
 
 .avatar-1BDn8e[src*="111476801762537472"]:hover + h2::after {
@@ -260,10 +118,6 @@
   content: "Dongus";
 }
 
-.avatar-1BDn8e[src*="133611040373080064"]:hover + h2::after {
-  content: "Pure Baguette";
-}
-
 .avatar-1BDn8e[src*="135824276535115776"]:hover + h2::after {
   content: "Village Idiot";
 }
@@ -274,54 +128,15 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.avatar-1BDn8e[src*="181246593708589057"]:hover + h2::after {
-  content: "big doge";
-}
-
-.avatar-1BDn8e[src*="227018516497170433"]:hover + h2::after {
-  content: "Maniac";
-}
-
-.avatar-1BDn8e[src*="282256234663510026"]:hover + h2::after {
-  content: "DGAF";
-}
-
-.avatar-1BDn8e[src*="308287952230940672"]:hover + h2::after {
-  content: "Bot";
-}
-
 .avatar-1BDn8e[src*="443765978132643850"]:hover + h2::after {
   content: "NEET";
   --main-color: #3ecc9c;
-}
-
-.avatar-1BDn8e[src*="95657348390977536"]:hover + h2::after {
-  content: "Justin";
-  color: black;
-  --main-color: white;
-  text-shadow: none;
-}
-
-.avatar-1BDn8e[src*="152430800241950720"]:hover + h2::after {
-  content: "HorrorTroll";
-  --main-color: #f4b7c9;
 }
 
 .avatar-1BDn8e[src*="438846426441711616"]:hover + h2::after {
   content: "Aple";
   --main-color: #4BCEFF;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
-}
-
-.avatar-1BDn8e[src*="197477050569719808"]:hover + h2::after {
-  content: "Crystallize";
-  --main-color: #6441A4;
-}
-
-.avatar-1BDn8e[src*="131414719666847745"]:hover + h2::after {
-  content: "Assassin";
-  --main-color: #F9F9F9;
-  color: black;
 }
 
 .avatar-1BDn8e[src*="219078125974192128"]:hover + h2::after {
@@ -333,17 +148,8 @@
   content: "Universal Architect";
 }
 
-.avatar-1BDn8e[src*="244363360886325248"]:hover + h2::after {
-  content: "gottem";
-}
-
 .avatar-1BDn8e[src*="150967530075324416"]:hover + h2::after {
   content: "Atom";
-}
-
-.avatar-1BDn8e[src*="147889058670968844"]:hover + h2::after {
-  content: "Hentai™";
-  --main-color: #FB4B25;
 }
 
 .avatar-1BDn8e[src*="120721814837002240"]:hover + h2::after {
@@ -354,11 +160,6 @@
 .avatar-1BDn8e[src*="227648235097817089"]:hover + h2::after {
   content: "SlimeKing";
   --main-color: #5ae5ed;
-}
-
-.avatar-1BDn8e[src*="210629330135547904"]:hover + h2::after {
-  content: "Loaf";
-  --main-color: #8601c9;
 }
 
 @keyframes hue-rotate {
