@@ -14,7 +14,8 @@
 .avatar-1BDn8e[src*="664933588835368990"] + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"] + h2::after,
 .avatar-1BDn8e[src*="336557423626027021"] + h2::after,
-.avatar-1BDn8e[src*="670550004091322368"] + h2::after{
+.avatar-1BDn8e[src*="670550004091322368"] + h2::after,
+.avatar-1BDn8e[src*="250353310698176522"] + h2::after{
   content: '';
   color: transparent;
   height: 15px;
@@ -44,7 +45,8 @@
 .avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after,
 .avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after,
-.avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after{
+.avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
+.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after{
   color: white;
   transform: none;
   background-size: cover;
@@ -141,6 +143,17 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.avatar-1BDn8e[src*="250353310698176522"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
+  transform: scale(.75);
+}
+
+.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after {
+  background: var(--main-color);
+  --main-color: #fbc86f;
+  content: "Enchanted Symphony";
+}
+
 .avatar-1BDn8e[src*="670550004091322368"] + h2::after {
   background-image: url(https://i.imgur.com/GEkArjR.png);
   transform: scale(1.3);
