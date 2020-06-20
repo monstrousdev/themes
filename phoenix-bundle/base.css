@@ -3808,21 +3808,28 @@ foreignObject[mask*="mobile"]::after {
   z-index: unset !important;
 }
 
-.roleCircleButton-377y0l {
+.roleCircle-3xAZ1j {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 0px;
+  margin: 0;
+  left: 0;
+}
+
+.roleCircle-3xAZ1j {
   padding: 0;
   position: absolute;
   z-index: 2;
   height: 22px;
   top: -1px;
-  left: -1px;
+  left: -2px;
   border-radius: 2px 0 0 2px;
   width: 0px;
   display: flex !important;
   transition: width 0.2s;
-}
-
-.roleCircle-3xAZ1j {
-  display: none;
+  background-color: transparent !important;
+  overflow: hidden;
 }
 
 .addButton-pcyyf6 {
@@ -3836,15 +3843,30 @@ foreignObject[mask*="mobile"]::after {
   display: block;
   opacity: 0;
   transition: opacity 200ms ease-in-out;
+  background-color: inherit;
+  height: 20px;
+  width: 22px;
+  left: -22px;
 }
 
-.role-2irmRk:hover .roleCircleButton-377y0l {
+.roleRemoveIcon-2-TeGW path:first-child {
+  fill: rgba(0,0,0,.8) !important;
+}
+
+.roleRemoveIcon-2-TeGW path:last-child {
+  transform: scale(0.6);
+  transform-origin: center center;
+  fill: white;
+}
+
+.role-2irmRk:hover .roleCircle-3xAZ1j {
   transition: width 0.2s;
   width: 22px;
 }
 
 .role-2irmRk:hover .roleRemoveIcon-2-TeGW {
   opacity: 1;
+  transition: opacity 0.2s;
 }
 
 .addButtonIcon-1NMJ8u {
