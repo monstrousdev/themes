@@ -3987,7 +3987,7 @@ foreignObject[mask*="mobile"]::after {
 }
 
   /* 15.g. Server Settings */
-.layer-v9HyYc[style*="; top: 5"][id*="popout_"] .menu-3sdvDG {
+#guild-header-popout {
   left: -25px !important;
   top: -10px !important;
   width: 230px !important;
@@ -4007,7 +4007,7 @@ foreignObject[mask*="mobile"]::after {
   padding: 10px 25px;
 }
 
-.layer-v9HyYc[style*="; top: 5"][id*="popout_"] .menu-3sdvDG {
+#guild-header-popout {
   padding: 0;
   border-radius: 0px;
   width: 100%;
@@ -4385,7 +4385,7 @@ foreignObject[mask*="mobile"]::after {
     margin-left: -10px;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG {
+  #status-picker {
     animation: show-status 300ms linear;
     border: none;
     width: 240px;
@@ -4393,12 +4393,12 @@ foreignObject[mask*="mobile"]::after {
     padding: 0;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .scroller-3BxosC {
+  #status-picker .scroller-3BxosC {
     padding: 0;
     overflow: visible !important;
   }
   
-  .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-3sdvDG {
+  #status-picker {
     position: fixed;
     left: -10px !important;
     bottom: -5px !important;
@@ -4408,16 +4408,16 @@ foreignObject[mask*="mobile"]::after {
     height: 100px !important;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:not(:nth-child(7)) .status-1fhblQ {
+  #status-picker .item-1tOPte:not(:nth-child(7)) .status-1fhblQ {
     color: transparent;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte .description-2L932D,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .separator-2I32lJ {
+  #status-picker .item-1tOPte .description-2L932D,
+  #status-picker .separator-2I32lJ {
     display: none;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte {
+  #status-picker .item-1tOPte {
     position: relative;
     display: inline-block;
     width: 58px;
@@ -4430,30 +4430,30 @@ foreignObject[mask*="mobile"]::after {
     margin: 0;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte .statusItem-33LqPf {
+  #status-picker .item-1tOPte .statusItem-33LqPf {
     display: block;
     position: relative;
     height: 100%;
     width: 100%;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(3) {
+  #status-picker .item-1tOPte:nth-child(3) {
     animation-delay: 100ms !important;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(4) {
+  #status-picker .item-1tOPte:nth-child(4) {
     animation-delay: 200ms !important;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(5) {
+  #status-picker .item-1tOPte:nth-child(5) {
     animation-delay: 300ms !important;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover {
+  #status-picker .item-1tOPte:hover {
     background: transparent !important;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) {
+  #status-picker .item-1tOPte:nth-child(7) {
     background-color: var(--primary-color);
     width: 100%;
     transition: color 200ms ease-in, background-color 200ms ease-in;
@@ -4483,36 +4483,36 @@ foreignObject[mask*="mobile"]::after {
     justify-content: center;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7):hover {
+  #status-picker .item-1tOPte:nth-child(7):hover {
     background-color: var(--quaternary-color) !important;
     color: var(--main-color);
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) > div {
+  #status-picker .item-1tOPte:nth-child(7) > div {
     position: relative;
     width: 100%;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .customStatusWithEmoji-8-XZ8I,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .statusItem-33LqPf {
+  #status-picker .item-1tOPte:nth-child(7) .customStatusWithEmoji-8-XZ8I,
+  #status-picker .item-1tOPte:nth-child(7) .statusItem-33LqPf {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     padding: 0 15px;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .status-1fhblQ,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .customText-tY5LJn {
+  #status-picker .item-1tOPte:nth-child(7) .status-1fhblQ,
+  #status-picker .item-1tOPte:nth-child(7) .customText-tY5LJn {
     margin-left: 10px;
     max-width: 75%;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover .icon-1IxfJ2 {
+  #status-picker .item-1tOPte:hover .icon-1IxfJ2 {
     transform: scale(1.9);
     transition: all 200ms ease-in-out;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte .icon-1IxfJ2 {
+  #status-picker .item-1tOPte .icon-1IxfJ2 {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -4526,42 +4526,42 @@ foreignObject[mask*="mobile"]::after {
     transition: all 200ms ease-in-out;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(1) .icon-1IxfJ2,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(1):hover .icon-1IxfJ2 {
+  #status-picker .item-1tOPte:nth-child(1) .icon-1IxfJ2,
+  #status-picker .item-1tOPte:nth-child(1):hover .icon-1IxfJ2 {
     color: var(--online);
     border-radius: 0;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(3) .icon-1IxfJ2,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(3):hover .icon-1IxfJ2 {
+  #status-picker .item-1tOPte:nth-child(3) .icon-1IxfJ2,
+  #status-picker .item-1tOPte:nth-child(3):hover .icon-1IxfJ2 {
     color: var(--idle);
     border-radius: 0;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(4) .icon-1IxfJ2,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(4):hover .icon-1IxfJ2 {
+  #status-picker .item-1tOPte:nth-child(4) .icon-1IxfJ2,
+  #status-picker .item-1tOPte:nth-child(4):hover .icon-1IxfJ2 {
     color: var(--dnd);
     border-radius: 0;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(5) .icon-1IxfJ2,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(5):hover .icon-1IxfJ2 {
+  #status-picker .item-1tOPte:nth-child(5) .icon-1IxfJ2,
+  #status-picker .item-1tOPte:nth-child(5):hover .icon-1IxfJ2 {
     color: var(--invisible);
     border-radius: 0;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover [class*="status"].online-2S838R:after,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover [class*="status"].idle-3DEnRT:after,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover [class*="status"].dnd-1_xrcq:after,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover [class*="status"].invisible-1kp8Z0:after {
+  #status-picker .item-1tOPte:hover [class*="status"].online-2S838R:after,
+  #status-picker .item-1tOPte:hover [class*="status"].idle-3DEnRT:after,
+  #status-picker .item-1tOPte:hover [class*="status"].dnd-1_xrcq:after,
+  #status-picker .item-1tOPte:hover [class*="status"].invisible-1kp8Z0:after {
     opacity: 1;
     visibility: visible;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte [class*="status"].online-2S838R:after,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte [class*="status"].idle-3DEnRT:after,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte [class*="status"].dnd-1_xrcq:after,
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte [class*="status"].invisible-1kp8Z0:after {
+  #status-picker .item-1tOPte [class*="status"].online-2S838R:after,
+  #status-picker .item-1tOPte [class*="status"].idle-3DEnRT:after,
+  #status-picker .item-1tOPte [class*="status"].dnd-1_xrcq:after,
+  #status-picker .item-1tOPte [class*="status"].invisible-1kp8Z0:after {
     content: " ";
     display: block;
     position: absolute;
@@ -4580,7 +4580,7 @@ foreignObject[mask*="mobile"]::after {
     transition: all 200ms ease-in-out;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:not(:nth-child(7)) .status-1fhblQ {
+  #status-picker .item-1tOPte:not(:nth-child(7)) .status-1fhblQ {
     content: "";
     position: absolute;
     top: 0;
@@ -4594,27 +4594,27 @@ foreignObject[mask*="mobile"]::after {
     transition: all 200ms ease-in-out;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:hover:not(:nth-child(7)) .status-1fhblQ {
+  #status-picker .item-1tOPte:hover:not(:nth-child(7)) .status-1fhblQ {
     opacity: 1;
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(1) .status-1fhblQ {
+  #status-picker .item-1tOPte:nth-child(1) .status-1fhblQ {
     background-image: url(https://monstrousdev.github.io/themes/assets/status/online.svg);
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(3) .status-1fhblQ {
+  #status-picker .item-1tOPte:nth-child(3) .status-1fhblQ {
     background-image: url(https://monstrousdev.github.io/themes/assets/status/idle.svg);
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(4) .status-1fhblQ {
+  #status-picker .item-1tOPte:nth-child(4) .status-1fhblQ {
     background-image: url(https://monstrousdev.github.io/themes/assets/status/dnd.svg);
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(5) .status-1fhblQ {
+  #status-picker .item-1tOPte:nth-child(5) .status-1fhblQ {
     background-image: url(https://monstrousdev.github.io/themes/assets/status/invisi.svg);
   }
   
-  .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte .icon-1IxfJ2 .status-oxiHuE {
+  #status-picker .item-1tOPte .icon-1IxfJ2 .status-oxiHuE {
     position: absolute !important;
     top: 0;
     left: 0;
