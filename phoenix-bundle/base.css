@@ -3429,7 +3429,7 @@ foreignObject[mask*="mobile"]::after {
   background: transparent;
 }
 
-.layer-v9HyYc[id*="popout"] {
+.layer-v9HyYc[id*="popout"][style*="absolute; right:"] {
   transform-origin: 50% -10%;
   animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
 }
