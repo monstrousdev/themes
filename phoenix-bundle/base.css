@@ -4000,6 +4000,7 @@ foreignObject[mask*="mobile"]::after {
   z-index: 99;
   overflow: visible !important;
   box-shadow: none;
+  margin-left: -92px;
 }
 
 .layer-v9HyYc[style*="; top: 5"][id*="popout_"] .itemBase-1Qj4z6 {
