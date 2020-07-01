@@ -1173,6 +1173,11 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background: var(--sheer);
 }
 
+.emptyChannelIcon-3IXV5M,
+.card-1yV8cG {
+  background-color: var(--sheer);
+}
+
 #app-mount .splashArt-3I5Qmp {
   -webkit-mask: linear-gradient(to right, transparent, rgb(0, 0, 0) 70%);
   transition: filter .2s ease-in-out;
