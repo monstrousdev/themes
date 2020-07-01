@@ -2382,6 +2382,15 @@ pre {
 }
 
   /* 8.q. Streaming */
+.colorable-1bkp8v.primary-3NQg8g {
+  background-color: var(--main-color);
+}
+
+.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, 
+.colorable-1bkp8v.primary-3NQg8g:hover {
+  background-color: var(--hover-color);
+}
+
 #app-mount .videoControls-3glNbo {
   padding: 0px;
 }
