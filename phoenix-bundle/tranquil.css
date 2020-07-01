@@ -134,10 +134,9 @@
 #app-mount .guildsWrapper-5TJh6A,
 #app-mount .wrapper-1Rf91z,
 #app-mount .scroller-2TZvBN,
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+.tutorialContainer-1v44GL>.listItem-2P_4kh {
   background-color: var(--quaternary-color);
 }
-
 
 
 /* 5. Channels */

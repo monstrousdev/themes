@@ -124,6 +124,8 @@
 *     I. Game Preview
 *     J. Add Roles Popout & Roles Overflow
 *     K. RTC Connection
+*     L. Stream Popout
+*     M. Follow Channel
 *     
 *  X. Modals
 *     A. User Modal
@@ -490,11 +492,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
   /* B. Guild Styles */
-#app-mount .circleIconButton-jET_ig,
 #app-mount .wrapper-2lTRaf {
-  background: transparent;
-}
-
+    background: transparent;
+  }
+  
 #app-mount .dragPlaceholder-D9-haY,
 #app-mount .acronym-2mOFsV,
 #app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
@@ -507,10 +508,6 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 
 #app-mount .acronym-2mOFsV:hover {
   background-color: var(--blurple);
-}
-
-#app-mount .circleIconButton-jET_ig:hover {
-  opacity: 1
 }
 
 #app-mount .iconBadge-2wi9r4 {
@@ -1069,6 +1066,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   margin-bottom: 55px;
 }
 
+.members-1998pB>div {
+  background-color: transparent;
+}
+
 #app-mount .membersWrap-2h-GB4::after {
   content: '';
   position: absolute;
@@ -1450,13 +1451,12 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
 #app-mount .circleIconButton-jET_ig {
-  border-color: var(--blurple-sheer);
-  color: var(--blurple-sheer);
+  background: transparent;
+  color: var(--blurple-sheer)
 }
 
 #app-mount .circleIconButton-jET_ig:hover {
-  border-color: var(--blurple);
-  color: var(--blurple);
+  color: var(--blurple)
 }
 
 #app-mount .moreUsers-1s5Her,
@@ -1814,8 +1814,7 @@ svg[name="Activity"] {
 #app-mount .select-2TCrqx .Select-menu-outer,
 #app-mount .popout-2sKjHu,
 #app-mount .popoutList-T9CKZQ,
-#app-mount .css-181m2lf-menu,
-#app-mount .css-1rckt42-menu {
+#app-mount .css-n57xjs-menu {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
@@ -1846,13 +1845,12 @@ svg[name="Activity"] {
   /* A. User Popout */
 #app-mount .headerNormal-T_seeN,
 #app-mount .body-3iLsc4, 
-#app-mount .footer-1fjuF6, 
+#app-mount .footer-1fjuF6,
 #app-mount .headerPlaying-j0WQBV,
 #app-mount .headerXbox-3G-4PF,
 #app-mount .headerSpotify-zpWxgT,
 #app-mount .headerStreaming-2FjmGz,
-#app-mount .bodyInner-245q0L, 
-#app-mount .footer-1fjuF6{
+#app-mount .bodyInner-245q0L {
   background: transparent;
 }
 
@@ -2249,11 +2247,9 @@ svg[name="Activity"] {
 }
 
   /* H. Emoji Picker */
-#app-mount .emojiPicker-3m1S-j,
-.contentWrapper-2txmjs,
+.contentWrapper-SvZHNd,
 .emojiPicker-3PwZFl,
 .diversitySelectorPopout-3FiGaM,
-#app-mount .diversitySelector-tmmMv0 .popout-2nUePc,
 .premiumPromo-yVfLiA,
 #app-mount #bda-qem-twitch-container, 
 #app-mount #bda-qem-favourite-container {
@@ -2262,9 +2258,9 @@ svg[name="Activity"] {
   border: 1px solid rgb(0, 0, 0);
 }
 
-.wrapper-2N7X54,
-.categoryWrapper-UZ5YNj,
-.inspector-sdLnLS {
+.wrapper-2Gsate,
+.inspector-sdLnLS 
+{
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -2336,11 +2332,13 @@ svg[name="Activity"] {
 }
 
 #app-mount .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
-#app-mount .quickSelectPopout-X1hvgV {
+#app-mount .quickSelectPopout-X1hvgV,
+.wrapper-1-Fsb8 {
   background: var(--uno) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
+.navButtonActive-1MkytQ,
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .emote-container:hover {
   background-color: var(--blurple-sheer);
@@ -2351,64 +2349,62 @@ svg[name="Activity"] {
   margin-top: 4px;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/frequent.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ svg {
+  display: none;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/custom.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='recent'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='recent'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='recent']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/frequent.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/people.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='people'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='people'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='people']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/people.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/nature.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='nature'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='nature'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='nature']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/nature.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/food.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='food'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='food'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='food']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/food.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/activity.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='activity'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='activity'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='activity']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/activity.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/travel.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='travel'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='travel'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='travel']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/travel.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/objects.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='objects'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='objects'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='objects']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/objects.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/symbols.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='symbols'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='symbols'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='symbols']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/symbols.svg) !important
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9.selected-39BZ4S,
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/flags.svg) !important
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='flags'],
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='flags'].categoryItemDefaultCategorySelected-_HCKoz,
+.categoryItemDefaultCategory-aBZ6nJ[aria-label*='flags']:hover {
+  background-image: url(https://monstrousdev.github.io/themes/assets/emojiCategory/flags.svg) !important
 }
 
 #app-mount .sadImage-2ph8SI {
@@ -2505,6 +2501,17 @@ svg[name="Activity"] {
 #app-mount .root-25RxKh {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
+}
+
+  /* M. Follow Channel */
+#app-mount .header-1pGpFt,
+#app-mount .channelContainer-1x3D6I,
+#app-mount .footer-2gL1pp {
+  background: transparent;
+}
+
+.channel-2PJTLY {
+  background-color: var(--blurple-sheer)
 }
 
 

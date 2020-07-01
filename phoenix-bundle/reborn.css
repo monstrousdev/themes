@@ -183,8 +183,7 @@
   .searchResultsWrap-3-pOjs,
   .searchPopout-1vUlP3,
   #app-mount .container-16j22k,
-  #app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .listItemWrapper-3X98Pc,
-  .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.tutorialContainer-1v44GL {
+  .tutorialContainer-1v44GL>.listItem-2P_4kh {
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
 
@@ -202,17 +201,12 @@
     border-color: var(--quaternary-color) !important;
   }
   
-  .select-2TCrqx .Select-menu-outer,
   #app-mount .popout-3G62UL {
     background-color: transparent !important;
     background-attachment: fixed !important;
     background-image: var(--background-image) !important;
     background-position: center !important;
     background-size: cover !important;
-  }
-  
-  .Select .Select-menu {
-    background-color: var(--primary-color);
   }
   
   .botTagInvert-18-95s {
@@ -235,7 +229,7 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat !important;
   }
 
-  #app-mount .css-1rckt42-menu {
+  #app-mount .css-n57xjs-menu {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), var(--background-image) center/cover no-repeat;
     background-attachment: fixed !important;
   }
