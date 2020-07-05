@@ -78,12 +78,18 @@
 .avatar-1BDn8e[src*="142110824507506688"] + h2::after,
 .avatar-1BDn8e[src*="230714365869817857"] + h2::after,
 .avatar-1BDn8e[src*="267803219080642560"] + h2::after,
+.avatar-1BDn8e[src*="194830015353847817"] + h2::after,
 .avatar-1BDn8e[src*="460174770957189155"] + h2::after{
   content: "}";
 }
 
 
   /* on hover */
+.avatar-1BDn8e[src*="194830015353847817"]:hover + h2::after {
+  content: 'Cheesus';
+  --main-color: #51007a;
+}
+
 .avatar-1BDn8e[src*="460174770957189155"]:hover + h2::after {
   content: 'Currently dying rn';
   --main-color: #008080;
