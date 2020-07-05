@@ -15,7 +15,8 @@
 .avatar-1BDn8e[src*="454072114492866560"] + h2::after,
 .avatar-1BDn8e[src*="336557423626027021"] + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"] + h2::after,
-.avatar-1BDn8e[src*="250353310698176522"] + h2::after{
+.avatar-1BDn8e[src*="250353310698176522"] + h2::after,
+.avatar-1BDn8e[src*="278516985640517632"] + h2::after{
   content: '';
   color: transparent;
   height: 15px;
@@ -46,7 +47,8 @@
 .avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after,
 .avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
-.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after{
+.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after{
   color: white;
   transform: none;
   background-size: cover;
@@ -180,11 +182,11 @@
 }
 
 .avatar-1BDn8e[src*="278516985640517632"] + h2::after {
-  background-image: url(https://i.imgur.com/BKCaltF.png);
+  background-image: url(https://i.imgur.com/lfcy3Kd.png);
 }
 
 .avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after {
-  background-image: url(https://i.imgur.com/rU9AMsy.gif);
+  background-image: url(https://i.imgur.com/kVV3niY.gif);
   --main-color: rgb(10, 8, 22);
   color: #DC143C;
   content: "Daemon of Debauchery";
