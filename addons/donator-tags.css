@@ -183,6 +183,9 @@
 
 .avatar-1BDn8e[src*="278516985640517632"] + h2::after {
   background-image: url(https://i.imgur.com/lfcy3Kd.png);
+  bottom: -22px;
+  left: -26px;
+  transform: scale(1.3);
 }
 
 .avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after {
