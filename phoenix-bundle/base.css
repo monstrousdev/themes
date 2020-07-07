@@ -2183,7 +2183,6 @@ pre {
   width: 100%;
   transition: all .2s linear;
   background-color: transparent !important;
-  z-index: 999999999 !important;
   box-shadow: none !important;
 }
 
