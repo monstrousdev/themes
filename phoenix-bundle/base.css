@@ -2187,6 +2187,34 @@ pre {
   box-shadow: none !important;
 }
 
+#app-mount .notice-2FJMB4 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.notice-2FJMB4 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 200ms ease-in-out;
+  background-color: var(--hover-color);
+}
+
+.notice-2FJMB4 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  position: absolute;
+  right: 200px;
+  top: 7px;
+}
+
+.notice-2FJMB4 .header-1g25vm {
+  font-size: 0px;
+  transition: all 200ms ease-in-out;
+}
+
+.notice-2FJMB4:hover .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.notice-2FJMB4:hover .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  transform: scaleY(1)
+}
+
+.notice-2FJMB4:hover .header-1g25vm {
+  font-size: 14px;
+}
+
 .notice-2FJMB4,
 .notice-2FJMB4.BDFDB-notice,
 #pluginNotice {
@@ -2492,12 +2520,12 @@ pre {
   background-color: var(--hover-color) !important;
 }
 
-.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-  background-color: var(--primary-color) !important;
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: var(--primary-color);
 }
 
-.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
-  background-color: var(--tertiary-color) !important;
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+  background-color: var(--tertiary-color);
 }
 
 .header-1RC2Wb {
@@ -5482,7 +5510,8 @@ foreignObject[mask*="mobile"]::after {
   border-color: var(--main-color);
 }
 
-.message-2qRu38 {
+.message-2qRu38,
+.optionContainer-15srkc {
   background-color: var(--tertiary-color) !important;
 }
 
