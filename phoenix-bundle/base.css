@@ -2330,14 +2330,13 @@ pre {
   background-image: linear-gradient(180deg, rgba(47, 49, 54, 0), var(--primary-color)) !important;
 }
 
-.searchResultsWrap-3-pOjs .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1CXhXT {
+.searchResultsWrap-3-pOjs .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e  {
   border: 2px solid var(--quaternary-color) !important;
 }
 
 .searchResult-9tQ1uo .hit-1fVM9e {
   background-color: var(--quaternary-color) !important;
   box-shadow: 0 0 10px 6px var(--primary-color) !important;
-  border: 2px solid transparent;
   padding: 5px 0;
 }
 
