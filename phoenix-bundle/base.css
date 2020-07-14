@@ -2314,7 +2314,7 @@ pre {
   background: var(--primary-color);
 }
 
-.searchResult-2N9RV4.expanded-ovgtuV {
+.searchResult-9tQ1uo.expanded-w_LCGl {
   background: var(--primary-color);
 }
 
@@ -2322,39 +2322,42 @@ pre {
   background-color: var(--quaternary-color) !important;
 }
 
-.searchResultsWrap-3-pOjs .searchResult-2N9RV4:before {
+.searchResultsWrap-3-pOjs .searchResult-9tQ1uo:before {
   background-image: linear-gradient(0deg, rgba(47, 49, 54, 0), var(--primary-color)) !important;
 }
 
-.searchResultsWrap-3-pOjs .searchResult-2N9RV4:after {
+.searchResultsWrap-3-pOjs .searchResult-9tQ1uo:after {
   background-image: linear-gradient(180deg, rgba(47, 49, 54, 0), var(--primary-color)) !important;
 }
 
-.searchResultsWrap-3-pOjs .searchResult-2N9RV4 .searchResultMessage-30QnSN.hit-1CXhXT {
+.searchResultsWrap-3-pOjs .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1CXhXT {
   border: 2px solid var(--quaternary-color) !important;
 }
 
-.searchResultsWrap-3-pOjs .searchResult-2N9RV4 .hit-1CXhXT {
+.searchResult-9tQ1uo .hit-1fVM9e {
   background-color: var(--quaternary-color) !important;
   box-shadow: 0 0 10px 6px var(--primary-color) !important;
+  border: 2px solid transparent;
+  padding: 5px 0;
 }
 
-.searchResultsWrap-3-pOjs .searchResult-2N9RV4 .hit-1CXhXT:hover {
+.searchResult-9tQ1uo .hit-1fVM9e:hover,
+.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
   border: 2px solid var(--main-color) !important;
 }
 
-.searchResultsWrap-3-pOjs .channelSeparator-dTqJ4K:before {
+.searchResultsWrap-3-pOjs .channelSeparator-1DOiGt:before {
   display: none;
 }
 
-.searchResultsWrap-3-pOjs .channelSeparator-dTqJ4K .channelName-wvgELL {
+.searchResultsWrap-3-pOjs .channelSeparator-1DOiGt .channelName-1JRO3C {
   background-color: var(--main-color) !important;
   color: #fff;
   margin-left: -10px;
   padding: 8px 8px 8px 6px;
 }
 
-.searchResultsWrap-3-pOjs .actionButtons-14P9IC .jumpButton-Ia2hRJ {
+.searchResultsWrap-3-pOjs .jumpButton-JkYoYK {
   background-color: var(--main-color) !important;
   color: #fff;
   padding: 1px 7px 3px 6px;
