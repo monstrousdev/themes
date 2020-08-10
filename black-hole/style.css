@@ -1206,7 +1206,11 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .descriptionBox-1EKQKL,
 .attachment-33OFj0,
 .emojiContainer-1u-_sQ,
-#app-mount .wrapperAudio-1jDe0Q {
+#app-mount .wrapperAudio-1jDe0Q,
+#app-mount .card-3_CqkU,
+#app-mount .iconMask-30Tvqs,
+.welcomeChannel-1rFrIO,
+.optionContainer-15srkc {
   background: var(--blurple-sheer);
 }
 
@@ -1230,7 +1234,15 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .wrapper-3UweLa,
 #app-mount .multipleIconWrapper-1PjkRO, 
 #app-mount .section-2VKIPC,
-#app-mount .card-3DjzTQ {
+#app-mount .card-3DjzTQ,
+.upsellContainer-L9xv7w,
+.upsellFooter-ZYsio_,
+.analyticsCard-qckucw,
+.developerPortalCtaWrapper-2XNafh,
+.container-2w0lh0,
+.header-2Y0-A-,
+.previewContainer-1SS3uO,
+.enableContainer-6E-puu {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -1260,7 +1272,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .tierNoneContainer-3hhK3h,
 #app-mount .tierBody-16Chc9,
 .detailsBlock-FoDTGA,
-.premiumSubscriptionAccountCredit-25i0tQ {
+.premiumSubscriptionAccountCredit-25i0tQ,
+.descriptionInput-3b30C8 {
   background: var(--sheer);
 }
 
