@@ -4194,9 +4194,10 @@ foreignObject[mask*="mobile"]::after {
 } 
 
   /* 15.i. Tooltips */
-#app-mount  .tooltip-2QfLtc {
+#app-mount .tooltip-2QfLtc {
   border-radius: 0px !important;
   background: var(--main-color);
+  color: white;
 }
 
 #app-mount .tooltipRed-8-9NeP {
