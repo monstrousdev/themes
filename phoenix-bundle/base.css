@@ -5800,6 +5800,22 @@ color: var(--main-color) !important;
     color: #eee;
 }
 
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
+  background-color: transparent;
+}
+
+.attachment-2p5mHK, .avatar-2daVqv, .blob-2w7iIK {
+  background-color: var(--main-color);
+}
+
+.mulitplePlaceholderUsername-pogq9I, 
+.placeholderAvatar-damqh6, 
+.placeholderUsername-2B_OA9 {
+  background-color: var(--main-color);
+  opacity: .3;
+}
+
   /* 20.a. Plugin Optimization */
     /* 20.a.1. BetterFormatting */
 .bf-toolbar:before {
