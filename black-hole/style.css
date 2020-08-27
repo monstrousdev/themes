@@ -859,6 +859,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   border-radius: 0;
 }
 
+.sansAttachButton-td2irx {
+  padding-left: 0px
+}
+
 .form-2fGMdU:before {
   display: none;
 }
@@ -1155,8 +1159,23 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .header-Qk7iwL,
 #app-mount .tierHeaderLocked-1a2opw,
 #app-mount .tierBody-x9kBBp,
-#app-mount .guildHeader-3nh5RK {
+#app-mount .guildHeader-3nh5RK,
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
   background-color: transparent;
+}
+
+
+.attachment-2p5mHK, 
+.avatar-2daVqv, 
+.blob-2w7iIK {
+  background-color: var(--blurple);
+}
+
+.mulitplePlaceholderUsername-pogq9I, 
+.placeholderAvatar-damqh6, 
+.placeholderUsername-2B_OA9 {
+  background-color: var(--blurple-sheet);
 }
 
 .disableColor-MwOAZf, 
@@ -1619,7 +1638,9 @@ svg[name="Activity"] {
 .scroller-2FKFPG::-webkit-scrollbar-track,
 .scroller-2FKFPG::-webkit-scrollbar-track-piece,
 .rolesList-22qj2L::-webkit-scrollbar-track-piece,
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.scroller-2LSbBU::-webkit-scrollbar-track,
+.scroller-2LSbBU::-webkit-scrollbar-track-piece {
   background: transparent !important;
   border: none !important;
   border-radius: 10px;
