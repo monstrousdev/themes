@@ -2073,6 +2073,14 @@ pre {
   padding: 5px;
 }
 
+.sansAttachButton-td2irx:not(.innerDisabled-1YTFPN) {
+  padding-left: 0px
+}
+
+.sansAttachButton-td2irx > .textArea-12jD-V {
+  margin-left: 16px;
+}
+
 .attachWrapper-1_D-pj,
 .form-2fGMdU,
 .attachWrapper-2TRKBi {
@@ -3406,7 +3414,9 @@ foreignObject[mask*="mobile"]::after {
 .scrollerWrap-2su1QI::-webkit-scrollbar-track-piece,
 .scrollerWrap-2su1QI::-webkit-scrollbar-track,
 .scroller-2FKFPG::-webkit-scrollbar-track,
-.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.scroller-2FKFPG::-webkit-scrollbar-track-piece,
+.scroller-2LSbBU::-webkit-scrollbar-track,
+.scroller-2LSbBU::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border-color: transparent !important;
 }
