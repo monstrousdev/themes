@@ -859,8 +859,12 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   border-radius: 0;
 }
 
-.sansAttachButton-td2irx {
+.sansAttachButton-td2irx:not(.innerDisabled-1YTFPN) {
   padding-left: 0px
+}
+
+.sansAttachButton-td2irx > .textArea-12jD-V {
+  margin-left: 16px;
 }
 
 .form-2fGMdU:before {
@@ -2009,13 +2013,38 @@ svg[name="Activity"] {
 }
 
   /* B. Message Popout */
-#app-mount .messagesPopoutWrap-1MQ1bW {
+.layer-v9HyYc[id*="popout"][style*="absolute; right:"] {
+  transform-origin: 50% -10%;
+  animation: popoutanim 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
+}
+
+#app-mount .messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
 }
 
 #app-mount .messagesPopout-24nkyi {
   background: transparent;
+}
+
+.channelHeader-3Gd2xq {
+  background: linear-gradient(var(--sheer), var(--sheer)), var(--stars) top left, linear-gradient(var(--quatro), var(--quatro)) !important;
+  background-attachment: fixed;
+  padding: 12px 20px !important;
+  margin-top: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.messages-3G3erD,
+.messageContainer-gbhlwo {
+  background: linear-gradient(var(--veil), var(--veil)), var(--stars) top left, linear-gradient(var(--quatro), var(--quatro)) !important;
+  background-attachment: fixed;
+  border-radius: 0 0 5px 5px;
+}
+
+.collapseButton-2ZsEjz {
+  left: 0px;
 }
 
 #app-mount .header-ykumBX,
