@@ -661,6 +661,13 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-attachment: fixed;
 }
 
+.wrapper-2qzCYF.minimum-28Z35l,
+.wrapper-2qzCYF,
+.wrapper-2qzCYF {
+  background: var(--sheer) var(--stars) top left !important;
+  background-attachment: fixed;
+}
+
 .scrollableContainer-2NUZem .inner-MADQqc{
   margin-bottom: 0px;
 }
@@ -1518,7 +1525,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .bd-switch.bd-switch-checked,
 .bd-addon-list .bd-card-footer button,
 .bd-button,
-.bd-pfbtn {
+.bd-pfbtn,
+.colorable-1bkp8v.primaryDark-3mSFDl {
   background-color: var(--blurple)
 }
 
@@ -1734,27 +1742,27 @@ svg[name="Activity"] {
   left: -5.5px !important;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG {
+#status-picker {
   width: fit-content;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .scroller-3BxosC {
+#status-picker .scroller-3BxosC {
   padding: 0;
   overflow: visible !important;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) > div {
+#status-picker .item-1tOPte:nth-child(7) > div {
   position: relative;
   width: 100%;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .status-1fhblQ,
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .customText-tY5LJn {
+#status-picker .item-1tOPte:nth-child(7) .status-1fhblQ,
+#status-picker .item-1tOPte:nth-child(7) .customText-tY5LJn {
   margin-left: 10px;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .customStatusWithEmoji-8-XZ8I,
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) .statusItem-33LqPf {
+#status-picker .item-1tOPte:nth-child(7) .customStatusWithEmoji-8-XZ8I,
+#status-picker .item-1tOPte:nth-child(7) .statusItem-33LqPf {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -1767,11 +1775,11 @@ svg[name="Activity"] {
 }
 
 .menu-3sdvDG .separator-2I32lJ,
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:not(:nth-child(7)) * {
+#status-picker .item-1tOPte:not(:nth-child(7)) * {
   display: none;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte {
+#status-picker .item-1tOPte {
   display: inline-block;
   height: 41px;
   width: 41px;
@@ -1779,27 +1787,27 @@ svg[name="Activity"] {
   transition: all .2s ease-in-out;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(1) {
+#status-picker .item-1tOPte:nth-child(1) {
   background: var(--online) !important;
   -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bS0yIDE1bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+PC9zdmc+) center/90% no-repeat;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(3) {
+#status-picker .item-1tOPte:nth-child(3) {
   background: var(--idle) !important;
   -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE1IDFIOXYyaDZWMXptLTQgMTNoMlY4aC0ydjZ6bTguMDMtNi42MWwxLjQyLTEuNDJjLS40My0uNTEtLjktLjk5LTEuNDEtMS40MWwtMS40MiAxLjQyQzE2LjA3IDQuNzQgMTQuMTIgNCAxMiA0Yy00Ljk3IDAtOSA0LjAzLTkgOXM0LjAyIDkgOSA5IDktNC4wMyA5LTljMC0yLjEyLS43NC00LjA3LTEuOTctNS42MXpNMTIgMjBjLTMuODcgMC03LTMuMTMtNy03czMuMTMtNyA3LTcgNyAzLjEzIDcgNy0zLjEzIDctNyA3eiIvPjwvc3ZnPg==) center/90% no-repeat;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(4) {
+#status-picker .item-1tOPte:nth-child(4) {
   background: var(--dnd) !important;
   -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTkuMzEgMTdsMi40NC0yLjQ0TDE0LjE5IDE3bDEuMDYtMS4wNi0yLjQ0LTIuNDQgMi40NC0yLjQ0TDE0LjE5IDEwbC0yLjQ0IDIuNDRMOS4zMSAxMGwtMS4wNiAxLjA2IDIuNDQgMi40NC0yLjQ0IDIuNDRMOS4zMSAxN3pNMTkgM2gtMVYxaC0ydjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTZINVY4aDE0djExeiIvPjwvc3ZnPg==) center/90% no-repeat;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(5) {
+#status-picker .item-1tOPte:nth-child(5) {
   background: var(--invisi) !important;
   -webkit-mask: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTEyIDQuNUM3IDQuNSAyLjczIDcuNjEgMSAxMmMxLjczIDQuMzkgNiA3LjUgMTEgNy41czkuMjctMy4xMSAxMS03LjVjLTEuNzMtNC4zOS02LTcuNS0xMS03LjV6TTEyIDE3Yy0yLjc2IDAtNS0yLjI0LTUtNXMyLjI0LTUgNS01IDUgMi4yNCA1IDUtMi4yNCA1LTUgNXptMC04Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzIDMtMS4zNCAzLTMtMS4zNC0zLTMtM3oiLz48L3N2Zz4=) center/90% no-repeat;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:nth-child(7) {
+#status-picker .item-1tOPte:nth-child(7) {
   display: block;
   width: 100%;
   top: 0;
@@ -1815,7 +1823,7 @@ svg[name="Activity"] {
   z-index: -1;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1GzJrl:nth-child(7) .customStatusContentIcon-2sionu {
+#status-picker .item-1GzJrl:nth-child(7) .customStatusContentIcon-2sionu {
   height: 100%;
   width: 100%;
   display: flex;
@@ -1823,7 +1831,7 @@ svg[name="Activity"] {
   justify-content: center;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:last-child:nth-child(7) {
+#status-picker .item-1tOPte:last-child:nth-child(7) {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   display: flex;
@@ -1831,7 +1839,7 @@ svg[name="Activity"] {
   justify-content: space-between;
 }
 
-.layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] .menu-3sdvDG .item-1tOPte:not(:nth-child(7)):hover {
+#status-picker .item-1tOPte:not(:nth-child(7)):hover {
   transform: scale(1.3);
 }
 

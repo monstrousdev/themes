@@ -2419,6 +2419,30 @@ pre {
   z-index:10;
 }
 
+.colorable-1bkp8v.primaryDark-3mSFDl,
+.colorable-1bkp8v.primaryLight-1_NQ7Q {
+  background-color: var(--main-color);
+}
+
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK, .theme-light .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
+  border-top-color: var(--main-color);
+}
+
+.colorable-1bkp8v.primaryDark-3mSFDl:hover,
+.colorable-1bkp8v.primaryLight-1_NQ7Q:hover {
+  background-color: var(--hover-color);
+}
+
+.wrapper-2qzCYF.minimum-28Z35l,
+.wrapper-2qzCYF.normal-1oavYI,
+.wrapper-2qzCYF {
+  background-color: var(--quaternary-color);
+}
+
+.contextMenuNub-3yOOYo {
+  box-shadow: 4px 0 20px black;
+}
+
   /* 8.q. Streaming */
 .colorable-1bkp8v.primary-3NQg8g {
   background-color: var(--main-color);
@@ -3416,7 +3440,9 @@ foreignObject[mask*="mobile"]::after {
 .scroller-2FKFPG::-webkit-scrollbar-track,
 .scroller-2FKFPG::-webkit-scrollbar-track-piece,
 .scroller-2LSbBU::-webkit-scrollbar-track,
-.scroller-2LSbBU::-webkit-scrollbar-track-piece {
+.scroller-2LSbBU::-webkit-scrollbar-track-piece,
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track,
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -3431,7 +3457,9 @@ foreignObject[mask*="mobile"]::after {
 .scroller::-webkit-scrollbar-thumb,
 .scrollerWrap-2lJEkd .scroller-2CvAgC::-webkit-scrollbar-thumb,
 .chat-3bRxxu .textArea-2Spzkt::-webkit-scrollbar-thumb,
-.sb-menu-scroller::-webkit-scrollbar-thumb {
+.sb-menu-scroller::-webkit-scrollbar-thumb,
+.scroller-2LSbBU::-webkit-scrollbar-thumb,
+.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
   border-color: transparent !important;
   border-radius: 40px;
