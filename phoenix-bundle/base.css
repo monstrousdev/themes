@@ -2343,6 +2343,10 @@ pre {
   border: 2px solid var(--quaternary-color) !important;
 }
 
+.searchResultMessage-1fxgXh.hit-1fVM9e .avatar-1BDn8e {
+  top: 14px;
+}
+
 .searchResult-9tQ1uo .hit-1fVM9e {
   background-color: var(--quaternary-color) !important;
   box-shadow: 0 0 10px 6px var(--primary-color) !important;

@@ -2157,6 +2157,15 @@ svg[name="Activity"] {
   border-color: rgb(0, 0, 0);
 }
 
+.searchResultMessage-1fxgXh.hit-1fVM9e .avatar-1BDn8e {
+  top: 14px;
+}
+
+.searchResult-9tQ1uo.expanded-w_LCGl {
+  border: 1px solid var(--sheer);
+  background-color: var(--veil);
+}
+
 #app-mount .jumpButton-1ol35X {
   background-color: var(--blurple);
   color: rgb(255, 255, 255);
