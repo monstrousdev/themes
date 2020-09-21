@@ -101,7 +101,7 @@
   /* ellie */
 .contents-2mQqc9 .avatar-1BDn8e[src*="213220786805145600"] {
   animation: eve-glow 1s ease-in-out infinite alternate;
-  filter: drop-shadow(0 0 5px #feb3de);
+  filter: drop-shadow(0 0 5px #b71cff);
   transition: filter 200ms ease-in-out;
 }
 
@@ -111,7 +111,7 @@
 
 @keyframes eve-glow {
   to {
-    filter: drop-shadow(0 0 8px #feb3de)
+    filter: drop-shadow(0 0 8px #b71cff)
   }
 }
 
@@ -279,7 +279,7 @@
   content: "flower girl";
   color: #FFF;
   background-image: url(https://i.imgur.com/bUmWjxM.gif);
-  --main-color: pink;
+  --main-color: #b71cff;
 }
 
 .avatar-1BDn8e[src*="254362351170617345"] + h2::after {
