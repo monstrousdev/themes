@@ -1,3 +1,41 @@
+/**
+ * @name         Black Hole
+ * @description  Jump into space with this theme. It's just a bedazzled base Discord theme
+ * @author       MonsterDev
+ * @version      1.0
+ * @source       https://github.com/monstrousdev/themes/theme-files/Black-Hole.theme.css
+ * @invite       TeRQEPb
+ * @authorId     402272736665272320
+ */
+
+/* @import "https://monstrousdev.github.io/themes/black-hole/style.css"; */
+
+/*
+                                                                                                     
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+ /$$$$$$$  /$$                     /$$             /$$   /$$           /$$          
+| $$__  $$| $$                    | $$            | $$  | $$          | $$           
+| $$  \ $$| $$  /$$$$$$   /$$$$$$$| $$   /$$      | $$  | $$  /$$$$$$ | $$  /$$$$$$ 
+| $$$$$$$ | $$ |____  $$ /$$_____/| $$  /$$/      | $$$$$$$$ /$$__  $$| $$ /$$__  $$
+| $$__  $$| $$  /$$$$$$$| $$      | $$$$$$/       | $$__  $$| $$  \ $$| $$| $$$$$$$$
+| $$  \ $$| $$ /$$__  $$| $$      | $$_  $$       | $$  | $$| $$  | $$| $$| $$_____/
+| $$$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$ \  $$      | $$  | $$|  $$$$$$/| $$|  $$$$$$$
+|_______/ |__/ \_______/ \_______/|__/  \__/      |__/  |__/ \______/ |__/ \_______/
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧       ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧                      
+✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     (c) Lil Monster#3557      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:*
+
+Registered: Black Box Theme
+
+*/
+
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
@@ -662,7 +700,6 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
 .wrapper-2qzCYF.minimum-28Z35l,
-.wrapper-2qzCYF,
 .wrapper-2qzCYF {
   background: var(--sheer) var(--stars) top left !important;
   background-attachment: fixed;
@@ -2689,74 +2726,25 @@ background-attachment: fixed;
 }
 
   /* C. Join Guild Modal */
-#app-mount .action-1lSjCi{
-  background: var(--veil) var(--stars) top left !important;
-  background-attachment: fixed;
+.theme-light .root-1gCeng {
+  --header-primary: var(--blurple);
+  --header-secondary: #888;
+  --background-modifier-accent: var(--sheer);
+  --background-modifier-hover: var(--blurple-sheer);
+  --background-primary: var(--sheer);
+  --text-normal: #888;
+  --uno: var(--blurple);
+  --background-tertiary: transparent;
+  --deprecated-text-input-bg: var(--sheer);
+  background: linear-gradient(transparent, var(--blurple-sheer)), var(--quatro) var(--stars) top left fixed !important;
 }
 
-#app-mount .slide-2pHaq5 .footer-3rDWdC {
-  background: transparent;
-  box-shadow: inset 0 1px 0 var(--blurple-sheer);
+.theme-light .footer-2gL1pp {
+  box-shadow: none;
 }
 
-#app-mount .create-3jownz .actionIcon-2IISM_ {
-  position: relative;
-  background-image: none;
-  background-color: var(--blurple);
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn.svg) center/112px 78px no-repeat;
-}
-
-.create-3jownz .actionIcon-2IISM_::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgb(255, 255, 255);
-  opacity: .4;
-  -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/add-btn-two.svg) center/112px 78px no-repeat;
-}
-
-#app-mount .join-33Tr-7 .actionIcon-2IISM_ {
-  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/join-btn.png);
-}
-
-#app-mount  .or-3THJsp {
-  -webkit-mask: url('https://ellexidecodes.github.io/Discord-Themes/assets/or.svg');
-  -webkit-mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: 52px 52px;
-  background: var(--quatro) var(--stars) top left !important;
-  background-attachment: fixed;
-  color: var(--blurple);
-}
-
-#app-mount .theme-light .wrapper-2ZbzR9 {
-  background: transparent;
-}
-
-.avatar-21196O {
-  border-color: var(--greyple)
-}
-
-.avatarUploaderInner-3UNxY3 {
-  background-color: var(--blurple-sheer);
-}
-
-.regionSelectModal-12e-57 {
-  background: var(--quatro) var(--stars) top left !important;
-  background-attachment: fixed;
-}
-
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-  background: var(--sheer);
-  border-color: var(--sheer);
-  transition: all .2s ease-in-out;
-}
-
-#app-mount .input-1mgnkM {
-  color: rgb(187, 187, 187);
+.theme-light .root-1gCeng .lookBlank-3eh9lL{
+  color: var(--text-normal)
 }
 
   /* D. Messages Modal, Games Download Modal, Screenshare */

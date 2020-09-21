@@ -4866,79 +4866,55 @@ foreignObject[mask*="mobile"]::after {
 }
 
   /* 17.d. Join or Create New Guild */
-.sampleLink-KPFu3I,
-.title-2Dc-Cb,
-.theme-dark .header-3ZP1MY, 
-.theme-light .header-3ZP1MY,
-.theme-dark .action-1lSjCi, 
-.theme-light .action-1lSjCi,
-.theme-dark .create-3jownz .actionHeader-2CT5c7, 
-.theme-light .create-3jownz .actionHeader-2CT5c7
-.action-1lSjCi:hover .actionHeader-2CT5c7,
-.create-3jownz .colorStandard-2KCXvj,
-.heading-bH--BU,
-.title-1NPKvY,
-.sidebarContainer-1ZTKHt .protip-2rGG0r .colorStandard-2KCXvj,
-.title-1EYJBg {
-  color: var(--main-color) !important;
+.theme-light .root-1gCeng {
+  --header-primary: var(--main-color);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.3), 0 2px 10px 0 rgba(0,0,0,.1);
 }
 
-.join-33Tr-7 .colorStandard-2KCXvj {
-  color: var(--online);
+.theme-light .footer-2gL1pp {
+  box-shadow: inset 0 1px 0 rgba(0,0,0,.3);
 }
 
-.theme-light .slide-2pHaq5, 
-.theme-dark .slide-2pHaq5,
-.theme-dark .theme-light .slide-2pHaq5 {
-   background-color: var(--primary-color);
-  }
-
-.theme-dark .theme-dark .actionIcon-2IISM_, 
-.theme-dark .theme-light .actionIcon-2IISM_ {
-  filter: none;
+.theme-light .root-1gCeng  .colorHeaderSecondary-3Sp3Ft {
+  color: #888;
 }
 
-.theme-dark .create-3jownz .actionIcon-2IISM_, 
-.theme-light .create-3jownz .actionIcon-2IISM_ {
-  position: relative;
-  background-image: none;
-  background-color: var(--main-color);
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/add-btn.svg) center/112px 78px no-repeat;
+.theme-light .root-1gCeng .itemContainer-1LSFks {
+  background-color: var(--tertiary-color);
+  transition: 200ms;
 }
 
-.theme-dark .create-3jownz .actionIcon-2IISM_::after, 
-.theme-light .create-3jownz .actionIcon-2IISM_::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: white;
-  opacity: .4;
-  -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/add-btn-two.svg) center/112px 78px no-repeat;
+.theme-light .root-1gCeng .itemContainer-1LSFks:hover {
+  background-color: var(--quaternary-color);
 }
 
-.theme-dark .join-33Tr-7 .actionIcon-2IISM_, 
-.theme-light .join-33Tr-7 .actionIcon-2IISM_ {
-  background-image: url(https://monstrousdev.github.io/themes/assets/images/join-btn.png);
+.theme-light .root-1gCeng .input--jS-j2 {
+  background: transparent;
 }
 
-.theme-dark .channelListContainer-1VKoaZ {
-  background-color: var(--secondary-color);
+.theme-light .root-1gCeng .colorStandard-2KCXvj,
+.uploadIcon-2IFzZU .iconContainer-2B0ixr,
+.theme-light .root-1gCeng .input-cIJ7To,
+.theme-light .root-1gCeng .lookBlank-3eh9lL,
+.theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+  color: #888;
 }
 
-.unreadIndicator-2zrk6b {
-  background-color: var(--main-color)
+.theme-light .root-1gCeng .lookBlank-3eh9lL,
+.theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+  transition: 200ms;
 }
 
-.channelNameUnread-1J_UP0 {
-  color: #fff;
+.theme-light .root-1gCeng .lookBlank-3eh9lL:hover,
+.theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6:hover {
+  color: #ccc;
+  text-decoration: underline;
 }
 
-#app-mount .modal-yWgWj- .footer-3rDWdC {
-  box-shadow: inset 0 1px 0 rgba(0,0,0,0.6)
+.uploadIcon-2IFzZU .iconContainer-2B0ixr svg circle {
+  fill: var(--main-color) !important;
 }
+
 
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
   background-color: var(--primary-color) !important;
@@ -4956,33 +4932,6 @@ foreignObject[mask*="mobile"]::after {
   background-color: var(--main-color);
 }
 
-.theme-dark .action-1lSjCi, 
-.theme-light .action-1lSjCi,
-.theme-dark .theme-dark .action-1lSjCi, 
-.theme-dark .theme-light .action-1lSjCi {
-  background: var(--tertiary-color);
-  border-color: var(--secondary-color);
-}
-
-.form-deprecated .btn-primary, 
-.form.deprecated .btn-primary,
-.theme-dark .actionButton-2PeQbJ, 
-.theme-light .actionButton-2PeQbJ {
-  background-color: var(--main-color);
-}
-
-.form-deprecated .btn-primary:hover, 
-.form.deprecated .btn-primary:hover,
-.theme-dark .create-3jownz:hover .actionButton-2PeQbJ, 
-.theme-light .create-3jownz:hover .actionButton-2PeQbJ {
-  background-color: var(--hover-color);
-}
-
-.avatar-uploader-inner {
-  background-color: var(--main-color);
-  border-color: var(--quaternary-color);
-}
-
 .regionSelect-3lf4eE .regionSelectInner-24f4Ce,
 .regionSelect-3lf4eE button {
   border-color: var(--quaternary-color);
@@ -4997,7 +4946,6 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .regionSelect-3lf4eE button,
-.create-guild-container-new.deprecated h5,
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
   color: var(--main-color);
 }
@@ -5007,43 +4955,9 @@ foreignObject[mask*="mobile"]::after {
   color: white;
 }
 
-.form-deprecated .form-actions, 
-.form.deprecated .form-actions,
 #app-mount .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
   background-color: var(--quaternary-color);
   border-color: var(--tertiary-color);
-}
-
-.form-deprecated .btn-default, 
-.form.deprecated .btn-default {
-  background-color: transparent;
-  border-color: var(--tertiary-color);
-}
-
-#guild-name { text-align: center }
-
-.bottomLayer-XCk80b.hover-3nZwuJ {
-	fill: var(--hover-color) !important;
-	fill-opacity: 0.8;
-}
-
-.topLayer-1eMqbv.hover-3nZwuJ,
-.secondaryAccent-24W-RJ.hover-3nZwuJ {
-	fill: var(--main-color) !important;
-}
-
-.topLayer-1eMqbv.hover-3nZwuJ.green-1kY_LT,
-.bottomLayer-XCk80b.hover-3nZwuJ.green-1kY_LT,
-.secondaryAccent-24W-RJ.hover-3nZwuJ.green-1kY_LT {
-	fill: var(--online) !important;
-}
-
-.lookFilled-1Gx00P.colorGreen-29iAKY {
-	background-color: var(--online);
-}
-
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-	filter: brightness(80%);
 }
 
   /* 17.e. Upload Modal */
