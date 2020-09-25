@@ -1,41 +1,3 @@
-/**
- * @name         Black Hole
- * @description  Jump into space with this theme. It's just a bedazzled base Discord theme
- * @author       MonsterDev
- * @version      1.0
- * @source       https://github.com/monstrousdev/themes/theme-files/Black-Hole.theme.css
- * @invite       TeRQEPb
- * @authorId     402272736665272320
- */
-
-/* @import "https://monstrousdev.github.io/themes/black-hole/style.css"; */
-
-/*
-                                                                                                     
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
- /$$$$$$$  /$$                     /$$             /$$   /$$           /$$          
-| $$__  $$| $$                    | $$            | $$  | $$          | $$           
-| $$  \ $$| $$  /$$$$$$   /$$$$$$$| $$   /$$      | $$  | $$  /$$$$$$ | $$  /$$$$$$ 
-| $$$$$$$ | $$ |____  $$ /$$_____/| $$  /$$/      | $$$$$$$$ /$$__  $$| $$ /$$__  $$
-| $$__  $$| $$  /$$$$$$$| $$      | $$$$$$/       | $$__  $$| $$  \ $$| $$| $$$$$$$$
-| $$  \ $$| $$ /$$__  $$| $$      | $$_  $$       | $$  | $$| $$  | $$| $$| $$_____/
-| $$$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$ \  $$      | $$  | $$|  $$$$$$/| $$|  $$$$$$$
-|_______/ |__/ \_______/ \_______/|__/  \__/      |__/  |__/ \______/ |__/ \_______/
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧       ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧                      
-✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     (c) Lil Monster#3557      ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧     ✧･ﾟ: *✧･ﾟ:*
-
-Registered: Black Box Theme
-
-*/
-
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
@@ -2292,6 +2254,21 @@ svg[name="Activity"] {
 #app-mount .notice-2FJMB4 {
   border-radius: 5px !important;
   background-image: var(--stars), linear-gradient(to right, var(--sheer), var(--sheer));
+}
+
+#app-mount .notice-2X5hT5 {
+  position: absolute;
+  bottom: 11px;
+  left: 241px;
+  right: 240px;
+  z-index: 100;
+  background:  linear-gradient(var(--veil), var(--veil)), var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+  padding: 15.5px;
+}
+
+#app-mount .notice-2X5hT5 .colorStandard-2KCXvj {
+  margin-left: 80px;
+  margin-right: 25px;
 }
     
 #app-mount .button-1MICoQ:hover {
