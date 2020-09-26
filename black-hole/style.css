@@ -2251,6 +2251,32 @@ svg[name="Activity"] {
   border-top-color: var(--blurple) !important;
 }
 
+.notice-1tZwqv {
+  position: absolute;
+  top: 46px;
+  left: 240px;
+  right: 0px;
+  border-radius: 0px;
+  background: linear-gradient(var(--blurple-sheer), var(--blurple-sheer)), var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+}
+
+.button-3Ijpww:hover {
+  background: white;
+  color: var(--quatro)
+}
+
+.viewAsRolesWarning-11eD70 {
+  background: linear-gradient(var(--blurple-sheer), var(--blurple-sheer)), var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+}
+
+.container-3LUQwT {
+  background: linear-gradient(var(--sheer), var(--sheer)), var(--stars) top left fixed, linear-gradient(var(--quatro), var(--quatro));
+}
+
+.role-3ulsK-:hover {
+  background-color: var(--blurple-sheer)
+}
+
 #app-mount .notice-2FJMB4 {
   border-radius: 5px !important;
   background-image: var(--stars), linear-gradient(to right, var(--sheer), var(--sheer));

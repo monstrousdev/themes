@@ -2182,6 +2182,27 @@ pre {
 }
 
   /* 8.n. Notification Bar */
+.notice-1tZwqv {
+  position: absolute;
+  top: 46px;
+  left: 240px;
+  right: 0px;
+  border-radius: 0px;
+  background: var(--main-color);
+}
+
+#app-mount .button-3Ijpww:hover {
+  color: white !important;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color) !important;
+}
+
+.role-3ulsK-:hover {
+  border-left: 2px solid var(--main-color);
+  background-color: var(--primary-color);
+  border-radius: 0px;
+}
+
 #app-mount .notice-2X5hT5 {
   position: absolute;
   bottom: 0;

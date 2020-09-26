@@ -229,6 +229,11 @@
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat !important;
   }
 
+  .viewAsRolesWarning-11eD70,
+  .container-3LUQwT {
+    background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--quaternary-color), var(--quaternary-color)), var(--background-image) center/cover no-repeat fixed;
+  }
+
   #app-mount .css-n57xjs-menu {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), var(--background-image) center/cover no-repeat;
     background-attachment: fixed !important;
