@@ -13,7 +13,7 @@
 .avatar-1BDn8e[src*="234148582523928576"] + h2::after,
 .avatar-1BDn8e[src*="664933588835368990"] + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"] + h2::after,
-.avatar-1BDn8e[src*="336557423626027021"] + h2::after,
+.avatar-1BDn8e[src*="751726950875136031"] + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"] + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"] + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"] + h2::after{
@@ -45,7 +45,7 @@
 .avatar-1BDn8e[src*="234148582523928576"]:hover + h2::after,
 .avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after,
-.avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after,
+.avatar-1BDn8e[src*="751726950875136031"]:hover + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after{
@@ -170,11 +170,11 @@
   content: "サフ/Saph";
 }
 
-.avatar-1BDn8e[src*="336557423626027021"] + h2::after {
+.avatar-1BDn8e[src*="751726950875136031"] + h2::after {
   background-image: url(https://i.imgur.com/BdoCevq.png);
 }
 
-.avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after {
+.avatar-1BDn8e[src*="751726950875136031"]:hover + h2::after {
   background-image: url(https://i.imgur.com/dBNeTGm.gif);
   --main-color: rgb(58, 77, 109);
   color: pink;
