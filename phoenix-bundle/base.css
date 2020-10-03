@@ -2319,7 +2319,7 @@ pre {
 
 .notice-2FJMB4:hover,
 .BDFD-notice.notice-2FJMB4:hover,
-.notice-3bPHh-:hover
+.notice-3bPHh-:hover,
 #pluginNotice {
   font-size: 14px !important;
   line-height: 38px;
@@ -2332,7 +2332,7 @@ pre {
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
 .BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
-#pluginNotice .dismiss-SCAH9H {
+#pluginNotice .closeButton-3cJIM4 {
   opacity: 1;
   height: 36px;
   margin-right: 100px;
