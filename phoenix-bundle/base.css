@@ -2291,7 +2291,8 @@ pre {
 }
 
 .notice-2FJMB4::before,
-.notice-3bPHh-::before {
+.notice-3bPHh-::before,
+#pluginNotice::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2312,14 +2313,14 @@ pre {
 .notice-2FJMB4:hover::before,
 .BDFD-notice.notice-2FJMB4:hover::before,
 .notice-3bPHh-:hover::before,
-#pluginNotice:hover::before {
+#pluginNotice::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
 .BDFD-notice.notice-2FJMB4:hover,
 .notice-3bPHh-:hover
-#pluginNotice:hover {
+#pluginNotice {
   font-size: 14px !important;
   line-height: 38px;
   width: 100%;
@@ -2331,7 +2332,7 @@ pre {
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
 .BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
-#pluginNotice:hover .dismiss-SCAH9H {
+#pluginNotice .dismiss-SCAH9H {
   opacity: 1;
   height: 36px;
   margin-right: 100px;
