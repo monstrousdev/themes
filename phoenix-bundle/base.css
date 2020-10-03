@@ -2220,6 +2220,7 @@ pre {
 
 .notice-2FJMB4,
 .BDFD-notice,
+.notice-3bPHh-,
 #pluginNotice {
   font-size: 0px !important;
   line-height: 18px;
@@ -2260,6 +2261,7 @@ pre {
 }
 
 .notice-2FJMB4,
+.notice-3bPHh-,
 .notice-2FJMB4.BDFDB-notice,
 #pluginNotice {
   top: 46px;
@@ -2288,7 +2290,8 @@ pre {
   transform: scale(1);
 }
 
-.notice-2FJMB4::before {
+.notice-2FJMB4::before,
+.notice-3bPHh-::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2308,13 +2311,15 @@ pre {
 
 .notice-2FJMB4:hover::before,
 .BDFD-notice.notice-2FJMB4:hover::before,
-#pluginNotice::before {
+.notice-3bPHh-:hover::before,
+#pluginNotice:hover::before {
   height: 38px !important;
 }
 
 .notice-2FJMB4:hover,
 .BDFD-notice.notice-2FJMB4:hover,
-#pluginNotice {
+.notice-3bPHh-:hover
+#pluginNotice:hover {
   font-size: 14px !important;
   line-height: 38px;
   width: 100%;
@@ -2326,7 +2331,7 @@ pre {
 
 .notice-2FJMB4:hover .dismiss-SCAH9H,
 .BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
-#pluginNotice .dismiss-SCAH9H {
+#pluginNotice:hover .dismiss-SCAH9H {
   opacity: 1;
   height: 36px;
   margin-right: 100px;
