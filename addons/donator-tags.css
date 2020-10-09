@@ -16,7 +16,8 @@
 .avatar-1BDn8e[src*="751726950875136031"] + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"] + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"] + h2::after,
-.avatar-1BDn8e[src*="278516985640517632"] + h2::after{
+.avatar-1BDn8e[src*="278516985640517632"] + h2::after,
+.avatar-1BDn8e[src*="371581535801049089"] + h2::after{
   content: '';
   color: transparent;
   height: 15px;
@@ -48,7 +49,8 @@
 .avatar-1BDn8e[src*="751726950875136031"]:hover + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
-.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after{
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after,
+.avatar-1BDn8e[src*="371581535801049089"]:hover + h2::after{
   color: white;
   transform: none;
   background-size: cover;
@@ -145,6 +147,18 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.avatar-1BDn8e[src*="371581535801049089"] + h2::after {
+  background-image: url(https://i.imgur.com/KNcz4Hk.png);
+}
+
+.avatar-1BDn8e[src*="371581535801049089"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/pQJsmHA.gif);
+  color: var(--main-color);
+  --main-color: #007FFF;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  content: "Trent";
+}
+
 .avatar-1BDn8e[src*="250353310698176522"] + h2::after {
   background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
   transform: scale(.75);
