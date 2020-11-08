@@ -679,6 +679,14 @@ svg[name="Activity"] {
   transform: translateX(25%) !important;
 }
 
+.background-1QDuV2 {
+  background-color: var(--secondary-color);
+}
+
+.fieldList-21DyL8 {
+  background-color: var(--tertiary-color);
+}
+
 .premium-settings .premium-header,
 .premium-settings .features-vNGwn7 {
   max-width: 98%;
@@ -3901,6 +3909,15 @@ foreignObject[mask*="mobile"]::after {
   z-index: 1;
 }
 
+.autocompleteRow-2OthDa .selected-1Tbx07 {
+  border: 1px solid transparent;
+}
+
+#app-mount .selected-1Tbx07 {
+  background-color: transparent;
+  border-color: var(--main-color);
+}
+
   /* 15.d. User Popout */
 .headerNormal-T_seeN {
   background-color: var(--quaternary-color) !important;
@@ -3990,7 +4007,6 @@ foreignObject[mask*="mobile"]::after {
   width: 0px;
   display: flex !important;
   transition: width 0.2s;
-  background-color: transparent !important;
   overflow: hidden;
 }
 
@@ -4057,6 +4073,10 @@ foreignObject[mask*="mobile"]::after {
 .autocompleteHeaderBackground-30T70q,
 .row-rrHHJU.selected-1pIgLL {
   background: var(--quaternary-color) !important;
+}
+
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
+  background-color: transparent;
 }
 
 .container-VSDcQc .headerText-3i6A8K,
@@ -4936,6 +4956,14 @@ foreignObject[mask*="mobile"]::after {
 
 .theme-light .root-1gCeng .input--jS-j2 {
   background: transparent;
+}
+
+.container-UC8Ug1 {
+  background-color: var(--secondary-color);
+}
+
+.container-UC8Ug1:hover {
+  background-color: var(--tertiary-color);
 }
 
 .theme-light .root-1gCeng .colorStandard-2KCXvj,
