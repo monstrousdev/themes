@@ -1175,6 +1175,13 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: transparent;
 }
 
+.background-1QDuV2 {
+  background-color: var(--blurple-sheer);
+}
+
+.fieldList-21DyL8 {
+  background-color: var(--sheer);
+}
 
 .attachment-2p5mHK, 
 .avatar-2daVqv, 
