@@ -1175,11 +1175,14 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: transparent;
 }
 
-.background-1QDuV2 {
+.background-1QDuV2,
+.accountList-33MS45,
+.connection-1fbD7X {
   background-color: var(--blurple-sheer);
 }
 
-.fieldList-21DyL8 {
+.fieldList-21DyL8,
+.connectionHeader-2MDqhu {
   background-color: var(--sheer);
 }
 
@@ -2634,6 +2637,16 @@ svg[name="Activity"] {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
 }
+
+.card-2Mz_4z,
+#app-mount .item-3T2z1R {
+  background: var(--blurple-sheer);
+}
+
+#app-mount .item-3T2z1R.selectorButtonSelected-t5V9On {
+  background: var(--blurple);
+}
+
 
   /* M. Follow Channel */
 #app-mount .header-1pGpFt,

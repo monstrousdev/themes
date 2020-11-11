@@ -755,6 +755,15 @@ svg[name="Activity"] {
   transform: scale(1.2);
 }
 
+.accountList-33MS45,
+.connection-1fbD7X {
+  background-color: var(--tertiary-color);
+}
+
+.connectionHeader-2MDqhu {
+  background-color: var(--secondary-color);
+}
+
 .cardPrimary-1Hv-to,
 .cardPrimaryEditable-3KtE4g,
 .authedApp-mj2Hmd,
@@ -782,7 +791,7 @@ svg[name="Activity"] {
 
 #app-mount .card-FDVird:before {
   background-color: var(--quaternary-color);
-  border-color: var(--ssecondary-color);
+  border-color: var(--secondary-color);
 }
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
@@ -2498,6 +2507,17 @@ pre {
 }
 
   /* 8.q. Streaming */
+.card-2Mz_4z,
+#app-mount .item-3T2z1R {
+  background: var(--quaternary-color);
+  border-color: var(--quaternary-color);
+}
+
+#app-mount .item-3T2z1R.selectorButtonSelected-t5V9On {
+  background: var(--main-color);
+}
+
+
 .colorable-1bkp8v.primary-3NQg8g {
   background-color: var(--main-color);
 }
