@@ -1337,19 +1337,24 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
   /* 5.d. Channels */
-#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
-#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
-#app-mount .wrapper-1ucjTd:hover .content-3at_AU {
+.modeSelected-346R90 .content-1x5b-n, 
+.modeSelected-346R90:hover .content-1x5b-n,
+.containerDefault--pIXnN:hover .content-1x5b-n {
   background-color: transparent;
 }
 
-.wrapper-1ucjTd {
+.containerDefault--pIXnN {
   border-left: 2px solid transparent;
 }
 
-.wrapper-1ucjTd.modeSelected-1zApJ_ {
+.containerDefault--pIXnN.selected-3LIHYU {
   background-color: var(--quaternary-color);
   border-left-color: var(--main-color);
+}
+
+.containerDefault--pIXnN:hover {
+  background-color: var(--secondary-color);
+  border-left-color: var(--hover-color);
 }
 
 #app-mount .wrapper-pZmgj4 {

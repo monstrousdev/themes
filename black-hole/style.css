@@ -240,11 +240,15 @@
 .contentSelectedVoice-1WDIBM,
 .contentConnectedVoice-qL-YrL,
 .wrapper-2NJDcI,
-#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, 
-#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+.containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n, 
+.containerDefault--pIXnN.selected-3LIHYU:hover .content-1x5b-n {
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
   color: var(--blurple)
+}
+
+.containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n .name-23GUGE {
+  color: var(--blurple);
 }
 
 .contentConnectedVoice-qL-YrL:active, 
@@ -252,7 +256,7 @@
 .contentHoveredVoice-3p_NEO:active, 
 .contentSelectedVoice-1WDIBM:active,
 #app-mount .listeningAlong-2UPsxf,
-#app-mount .wrapper-1ucjTd:hover .content-3at_AU {
+#app-mount .wrapper-1ucjTd:hover .content-1x5b-n {
   background-color: transparent;
 }
 
