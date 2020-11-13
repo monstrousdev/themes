@@ -388,9 +388,15 @@ svg[name="Activity"] {
 
 .title-3qD0b-,
 .header-2o-2hj,
-.headerBar-UHpsPw {
+.headerBar-UHpsPw,
+.container-1taM1r {
   box-shadow: none;
   border-bottom: 2px solid var(--main-color) !important;
+}
+
+.container-1taM1r {
+  height: 46px;
+  background-color: var(--quaternary-color);
 }
 
 #app-mount .title-3qD0b-.transparent-2ZlE3R {
@@ -1246,6 +1252,10 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 
 .platform-win #app-mount .sidebar-2K8pFh {
   border-radius: 0px;
+}
+
+.container-3w7J-x {
+  background-color: transparent;
 }
 
   /* 5.b. Light Theme Recolor*/
