@@ -1178,8 +1178,13 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 
 .background-1QDuV2,
 .accountList-33MS45,
-.connection-1fbD7X {
+.connection-1fbD7X,
+.bumpBox-1r5p3c {
   background-color: var(--blurple-sheer);
+}
+
+.closeIcon-tEzaUY {
+  color: var(--uno);
 }
 
 .fieldList-21DyL8,

@@ -774,9 +774,14 @@ svg[name="Activity"] {
 .cardPrimaryEditable-3KtE4g,
 .authedApp-mj2Hmd,
 .wrapper-3UweLa,
-.descriptionBox-1EKQKL {
+.descriptionBox-1EKQKL,
+.bumpBox-1r5p3c {
   background: var(--quaternary-color) !important;
   border: none;
+}
+
+.closeIcon-tEzaUY {
+  color: var(--main-color);
 }
 
 .theme-dark .card-FDVird:before,
