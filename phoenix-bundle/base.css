@@ -5659,9 +5659,11 @@ foreignObject[mask*="mobile"]::after {
 
 .emptyChannelIcon-3IXV5M,
 .card-1yV8cG,
-.icon-1Itzco {
+.icon-1Itzco,
+#app-mount .header-2bNvm4 {
   background-color: var(--quaternary-color);
 }
+
 
 .tile-2gi3tr {
   background-color: transparent;
