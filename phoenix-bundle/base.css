@@ -2537,6 +2537,21 @@ pre {
   border-color: var(--quaternary-color);
 }
 
+#app-mount .item-3T2z1R.allowSelected-25S_i5 {
+  background-color: var(--online);
+  border-color: var(--online);
+}
+
+#app-mount .item-3T2z1R.denySelected-1mh2mZ {
+  background-color: var(--dnd);
+  border-color: var(--dnd);
+}
+
+#app-mount .item-3T2z1R.passthroughSelected-1Eq0Kl {
+  background-color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+}
+
 #app-mount .item-3T2z1R.selectorButtonSelected-t5V9On {
   background: var(--main-color);
 }
