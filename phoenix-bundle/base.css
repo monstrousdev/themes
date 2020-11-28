@@ -5324,17 +5324,21 @@ foreignObject[mask*="mobile"]::after {
   box-shadow: inset 0 1px 0 var(--tertiary-color) !important;
 }
 
-.select-2TCrqx .Select-menu-outer {
+.select-2TCrqx .Select-menu-outer,
+.lookFilled-22uAsw.select-2fjwPw {
   background: var(--primary-color) !important;
   border-color: var(--quaternary-color) !important;
 }
 
 .select-2TCrqx .Select-option.is-focused, 
-.select-2TCrqx .Select-option:hover {
+.select-2TCrqx .Select-option:hover,
+.option-3KoAJB[aria-selected=true],
+.option-3KoAJB:hover {
   background: var(--secondary-color) !important;
 }
 
-.select-2TCrqx .Select-control {
+.select-2TCrqx .Select-control,
+.popout-VcNcHB {
   background-color: var(--quaternary-color) !important;
   border-color: var(--tertiary-color) !important;
 }
@@ -5739,7 +5743,8 @@ foreignObject[mask*="mobile"]::after {
 
 .verifiedIcon-3oz8wo,
 .verified-1eC5dy,
-.lookInverted-2D7oAl.colorBrand-3pXr91 {
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+.selectedIcon-3uS11H {
 color: var(--main-color) !important;
 }
 

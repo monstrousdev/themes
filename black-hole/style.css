@@ -1884,7 +1884,9 @@ svg[name="Activity"] {
 #app-mount .select-2TCrqx .Select-menu-outer,
 #app-mount .popout-2sKjHu,
 #app-mount .popoutList-T9CKZQ,
-#app-mount .css-n57xjs-menu {
+#app-mount .css-n57xjs-menu,
+.lookFilled-22uAsw.select-2fjwPw,
+.popout-VcNcHB {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
@@ -1906,7 +1908,9 @@ svg[name="Activity"] {
 #app-mount .select-2TCrqx .Select-option:hover,
 #app-mount .optionActive-KkAdqq,
 #app-mount .selectableItem-1MP3MQ:hover,
-#app-mount .css-1gnr91b-option {
+#app-mount .css-1gnr91b-option,
+.option-3KoAJB[aria-selected=true],
+.option-3KoAJB:hover {
   background: var(--sheer);
 }
  
