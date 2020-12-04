@@ -1222,7 +1222,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background: var(--sheer);
 }
 
-.emptyChannelIcon-3IXV5M,
+.emptyChannelIcon-cc932w,
 .card-1yV8cG {
   background-color: var(--sheer);
 }
@@ -2595,7 +2595,8 @@ svg[name="Activity"] {
 
   /* J. Add Roles Popout & Roles Overflow */
 #app-mount .autocompleteArrow-Zxoy9H, 
-#app-mount .autocompleteHeaderBackground-30T70q {
+#app-mount .autocompleteHeaderBackground-30T70q,
+.container-3XJ8ns {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
 }

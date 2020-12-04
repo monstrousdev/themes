@@ -144,7 +144,8 @@
   .scrollableContainer-2NUZem,
   .appMount-3lHmkl, body,
   .channelTextArea-rNsIhG,
-  #app-mount .container-1D34oG {
+  #app-mount .container-1D34oG,
+  .container-1taM1r {
   background: transparent !important;
   }
   
@@ -252,8 +253,14 @@
   .styleFixed-sX-yHV,
   .styleFlexible-wGDiIL,
   .submenu-2-ysNh,
-  .previewContainer-1SS3uO {
+  .previewContainer-1SS3uO,
+  .container-3XJ8ns {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
+  }
+
+  .container-3XJ8ns .inner-2P4tQO {
+    background-color: var(--quaternary-color) !important;
+    border-color: var(--quaternary-color) !important;
   }
 
   .emojiPicker-3m1S-j .categories-1feg4n,

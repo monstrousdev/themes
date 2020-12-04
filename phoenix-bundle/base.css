@@ -1014,7 +1014,8 @@ color: var(--dnd) !important;
   margin-top: 15px !important;
 }
 
-.codeRedemptionRedirect-1wVR4b {
+.codeRedemptionRedirect-1wVR4b,
+.container-3XJ8ns {
   background-color: var(--quaternary-color) !important;
   border-color: var(--quaternary-color) !important;
 }
@@ -5661,7 +5662,7 @@ foreignObject[mask*="mobile"]::after {
   -webkit-mask: url(https://discordapp.com/assets/2da087637693ad611a1ac582115eea91.svg)
 }
 
-.emptyChannelIcon-3IXV5M,
+.emptyChannelIcon-cc932w,
 .card-1yV8cG,
 .icon-1Itzco,
 #app-mount .header-2bNvm4 {
