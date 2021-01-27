@@ -1246,7 +1246,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .wrapper-3D2qGf,
 .peopleListItem-2nzedh:hover,
 #app-mount .bd-addon-list .bd-addon-card,
-.emptyContainer-1_gwCl {
+.emptyContainer-1_gwCl,
+.item-26Dhrx{
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -1259,7 +1260,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .card-3_CqkU,
 #app-mount .iconMask-30Tvqs,
 .welcomeChannel-1rFrIO,
-.optionContainer-15srkc {
+.optionContainer-15srkc,
+.item-26Dhrx[aria-checked=true]  {
   background: var(--blurple-sheer);
 }
 
@@ -1886,7 +1888,8 @@ svg[name="Activity"] {
 #app-mount .popoutList-T9CKZQ,
 #app-mount .css-n57xjs-menu,
 .lookFilled-22uAsw.select-2fjwPw,
-.popout-VcNcHB {
+.popout-VcNcHB,
+.css-3vaxre-menu {
   background: var(--quatro)  var(--stars) top left;
   background-attachment: fixed;
   border: 1px solid rgb(0, 0, 0);
@@ -1896,7 +1899,8 @@ svg[name="Activity"] {
   background-color: var(--veil);
 }
 
-#app-mount .css-12o7ek3-option {
+#app-mount .css-12o7ek3-option,
+.css-rzbxvl-option {
   background-color: var(--blurple-sheer);
 }
 
@@ -1910,6 +1914,9 @@ svg[name="Activity"] {
 #app-mount .selectableItem-1MP3MQ:hover,
 #app-mount .css-1gnr91b-option,
 .option-3KoAJB[aria-selected=true],
+.option-3KoAJB:hover,
+.option-3KoAJB.focused-1T6PE5, 
+.option-3KoAJB:focus, 
 .option-3KoAJB:hover {
   background: var(--sheer);
 }

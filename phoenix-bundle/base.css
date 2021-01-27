@@ -3088,7 +3088,8 @@ pre {
 #app-mount .css-1o55ng5-control,
 #app-mount .css-123uooi-menu,
 #app-mount .pageButton-MknE-_:hover,
-.emojiContainer-1u-_sQ {
+.emojiContainer-1u-_sQ,
+#app-mount .css-3vaxre-menu {
   background-color: var(--quaternary-color);
 }
 
@@ -3123,7 +3124,8 @@ pre {
   margin-top: 50px;
 }
 
-#app-mount .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+#app-mount .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
+#app-mount .css-rzbxvl-option {
   background-color: var(--main-color);
 }
 
@@ -4498,12 +4500,16 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .optionLabel-2CkCZx,
-#app-mount .css-n57xjs-menu .css-1ye7vu0 [class*="-option"] {
+#app-mount .css-n57xjs-menu .css-1ye7vu0 [class*="-option"],
+#app-mount .option-3KoAJB {
   border: 1px solid transparent;
 }
 
 .optionNormal-12VR9V:hover,
-#app-mount .css-1gnr91b-option {
+#app-mount .css-1gnr91b-option,
+#app-mount .option-3KoAJB.focused-1T6PE5, 
+#app-mount .option-3KoAJB:focus, 
+#app-mount .option-3KoAJB:hover {
   background: transparent !important;
   border-color: var(--hover-color) !important
 }
@@ -5653,7 +5659,8 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .message-2qRu38,
-.optionContainer-15srkc {
+.optionContainer-15srkc,
+.item-26Dhrx {
   background-color: var(--tertiary-color) !important;
 }
 
@@ -5665,7 +5672,8 @@ foreignObject[mask*="mobile"]::after {
 .emptyChannelIcon-cc932w,
 .card-1yV8cG,
 .icon-1Itzco,
-#app-mount .header-2bNvm4 {
+#app-mount .header-2bNvm4,
+.item-26Dhrx[aria-checked=true] {
   background-color: var(--quaternary-color);
 }
 
