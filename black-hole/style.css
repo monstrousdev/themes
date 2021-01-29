@@ -1176,15 +1176,22 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .tierBody-x9kBBp,
 #app-mount .guildHeader-3nh5RK,
 .wrapper-3vR61M,
-.wrapper-1F5TKx {
+.wrapper-1F5TKx,
+.cardFolder-28dwxo,
+.item-1yAxl1 {
   background-color: transparent;
 }
 
 .background-1QDuV2,
 .accountList-33MS45,
 .connection-1fbD7X,
-.bumpBox-1r5p3c {
+.bumpBox-1r5p3c,
+.group-1WdBVp {
   background-color: var(--blurple-sheer);
+}
+
+.group-1WdBVp {
+  border-color: var(--blurple-sheer);
 }
 
 .closeIcon-tEzaUY {
@@ -1192,20 +1199,24 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
 .fieldList-21DyL8,
-.connectionHeader-2MDqhu {
+.connectionHeader-2MDqhu,
+.addMemberRow-3-w-9X.selectedRow-1QP7qb {
   background-color: var(--sheer);
 }
 
 .attachment-2p5mHK, 
 .avatar-2daVqv, 
-.blob-2w7iIK {
+.blob-2w7iIK,
+.role-3UN8jj:hover  {
   background-color: var(--blurple);
 }
 
 .mulitplePlaceholderUsername-pogq9I, 
 .placeholderAvatar-damqh6, 
-.placeholderUsername-2B_OA9 {
-  background-color: var(--blurple-sheet);
+.placeholderUsername-2B_OA9,
+.role-1P70N6,
+.passthrough-1c2ewQ.selected-2YhbGh {
+  background-color: var(--blurple-sheer);
 }
 
 .disableColor-MwOAZf, 
@@ -1247,7 +1258,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .peopleListItem-2nzedh:hover,
 #app-mount .bd-addon-list .bd-addon-card,
 .emptyContainer-1_gwCl,
-.item-26Dhrx{
+.item-26Dhrx,
+.settingCard-3w2mVL.active-1ytUzX{
   background: var(--veil) var(--stars) top left;
   background-attachment: fixed;
 }

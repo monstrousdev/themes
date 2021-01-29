@@ -1575,6 +1575,38 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   transform: translateY(-50%);
 }
 
+  /* 5.j. Channel Permissions */
+.button-18p_f6 {
+  color: var(--main-color);
+}
+
+.item-1yAxl1 {
+  background-color: transparent;
+}
+
+.role-1P70N6,
+.addMemberRow-3-w-9X.selectedRow-1QP7qb,
+.settingCard-3w2mVL.active-1ytUzX,
+.group-1WdBVp {
+  background-color: var(--quaternary-color);
+}
+
+.group-1WdBVp {
+  border-color: var(--quaternary-color);
+}
+
+.settingCard-3w2mVL.active-1ytUzX {
+  box-shadow: 0 0 20px var(--shadow);
+}
+
+.cardFolder-28dwxo {
+  background-color: var(--secondary-color);
+}
+
+.role-3UN8jj:hover,
+.passthrough-1c2ewQ.selected-2YhbGh {
+  background-color: var(--tertiary-color);
+}
 /* 6. Account Area */
   /* 6.a. Main Container */
 
