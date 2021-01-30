@@ -348,7 +348,8 @@
 }
 
 .authedApp-mj2Hmd,
-.paginator-166-09 {
+.paginator-166-09,
+.container-2fRDfG {
   background: var(--sheer) !important;
 }
 
@@ -2132,7 +2133,8 @@ svg[name="Activity"] {
   /* C. Search Popout & Results */
 #app-mount .container-3ayLPN,
 .searchResultsWrap-3-pOjs,
-.searchResult-9tQ1uo.expanded-ovgtuV {
+.searchResult-9tQ1uo.expanded-ovgtuV,
+.searchHeader-2XoQg7 {
   background: var(--quatro) var(--stars) top left fixed;
 }
 
@@ -2146,7 +2148,19 @@ svg[name="Activity"] {
   background-color: var(--veil);
 }
 
-#app-mount .channelSeparator-1DOiGt .channelName-1JRO3C {
+.searchResultGroup-1DphGG {
+  background: var(--veil);
+  border-radius: 5px 5px 0 0;
+}
+
+.searchResult-9tQ1uo {
+  border-radius: 0;
+  margin: 0px;
+  border-bottom: 5px solid var(--sheer);
+  background: transparent;
+}
+
+.channelName-1JRO3C {
   background-color: var(--sheer);
   padding-left: 8px;
   border-radius: 5px 5px 0 0;
@@ -2154,6 +2168,10 @@ svg[name="Activity"] {
 
 #app-mount .searchResult-9tQ1uo:before {
   background-image: linear-gradient(0deg,transparent,var(--sheer));
+}
+
+.pageButton-2ruNwd:hover {
+  background-color: var(--veil);
 }
 
 #app-mount .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e {
@@ -2164,11 +2182,6 @@ svg[name="Activity"] {
 
 .searchResultMessage-1fxgXh.hit-1fVM9e .avatar-1BDn8e {
   top: 14px;
-}
-
-.searchResult-9tQ1uo.expanded-w_LCGl {
-  border: 1px solid var(--sheer);
-  background-color: var(--veil);
 }
 
 #app-mount .jumpButton-1ol35X {
@@ -2218,7 +2231,8 @@ svg[name="Activity"] {
   background-attachment: fixed;
 }
 
-#app-mount .calendarPicker-2yf6Ci .react-datepicker {
+#app-mount .calendarPicker-2yf6Ci .react-datepicker,
+#app-mount .tab-2j5AEF.selected-2LAck8 {
   background: var(--blurple-sheer);
 }
 
