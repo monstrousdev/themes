@@ -331,7 +331,9 @@
 }
 
 .hoverablePayment-Yc6mK7:hover,
-.button-14-BFJ.enabled-2cQ-u7:hover {
+.button-14-BFJ.enabled-2cQ-u7:hover,
+.titleContainer-2CXtJo,
+.header-2mZ9Ov {
   background: var(--quatro)  var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -1187,7 +1189,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .accountList-33MS45,
 .connection-1fbD7X,
 .bumpBox-1r5p3c,
-.group-1WdBVp {
+.group-1WdBVp,
+.container-_phMUq {
   background-color: var(--blurple-sheer);
 }
 
@@ -1205,10 +1208,16 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: var(--sheer);
 }
 
+.addMemberRow-3-w-9X .checkboxWrapper-SkhIWG.checked-3_4uQ9 {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
 .attachment-2p5mHK, 
 .avatar-2daVqv, 
 .blob-2w7iIK,
-.role-3UN8jj:hover  {
+.role-3UN8jj:hover,
+.container-_phMUq:hover {
   background-color: var(--blurple);
 }
 
