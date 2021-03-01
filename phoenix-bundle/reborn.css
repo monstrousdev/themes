@@ -222,7 +222,8 @@
   #app-mount .addGamePopout-2RY8Ju,
   #app-mount .colorPickerCustom-2CWBn,
   #app-mount .perksModal-fSYqOq,
-  .css-3vaxre-menu {
+  .css-3vaxre-menu,
+  .header-2mZ9Ov {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
 
