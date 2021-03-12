@@ -4687,8 +4687,8 @@ foreignObject[mask*="mobile"]::after {
   }
   
   #status-picker {
-    position: fixed;
-    left: -10px !important;
+    /* position: fixed; */
+    left: -8px !important;
     bottom: -5px !important;
   }
   
