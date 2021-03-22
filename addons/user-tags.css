@@ -62,20 +62,11 @@
 /* ========= START OF USER TAGS ============== */
 
   /* before hover */
-.avatar-1BDn8e[src*="111476801762537472"] + h2::after,
 .avatar-1BDn8e[src*="107511169366888448"] + h2::after,
-.avatar-1BDn8e[src*="118580050458181632"] + h2::after,
 .avatar-1BDn8e[src*="128948605263413248"] + h2::after,
 .avatar-1BDn8e[src*="135824276535115776"] + h2::after,
-.avatar-1BDn8e[src*="179608420809310208"] + h2::after,
 .avatar-1BDn8e[src*="443765978132643850"] + h2::after,
 .avatar-1BDn8e[src*="96563253466898432"] + h2::after,
-.avatar-1BDn8e[src*="150967530075324416"] + h2::after,
-.avatar-1BDn8e[src*="120721814837002240"] + h2::after,
-.avatar-1BDn8e[src*="227648235097817089"] + h2::after,
-.avatar-1BDn8e[src*="219078125974192128"] + h2::after,
-.avatar-1BDn8e[src*="438846426441711616"] + h2::after,
-.avatar-1BDn8e[src*="142110824507506688"] + h2::after,
 .avatar-1BDn8e[src*="267803219080642560"] + h2::after,
 .avatar-1BDn8e[src*="194830015353847817"] + h2::after,
 .avatar-1BDn8e[src*="460174770957189155"] + h2::after{
@@ -99,20 +90,6 @@
   --main-color: #cc2c24;
 }
 
-.avatar-1BDn8e[src*="111476801762537472"]:hover + h2::after {
-  content: "Shiroyasha";
-}
-
-.avatar-1BDn8e[src*="142110824507506688"]:hover + h2::after {
-  content: "Piixel";
-  --main-color: #b8efd0;
-  color: black;
-}
-
-.avatar-1BDn8e[src*="118580050458181632"]:hover + h2::after {
-  content: "말보다는 행동이지";
-}
-
 .avatar-1BDn8e[src*="128948605263413248"]:hover + h2::after {
   content: "Dongus";
 }
@@ -121,44 +98,13 @@
   content: "Village Idiot";
 }
 
-.avatar-1BDn8e[src*="179608420809310208"]:hover + h2::after {
-  content: "dragon";
-  --main-color: #efb8cc;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 .avatar-1BDn8e[src*="443765978132643850"]:hover + h2::after {
   content: "NEET";
   --main-color: #3ecc9c;
 }
 
-.avatar-1BDn8e[src*="438846426441711616"]:hover + h2::after {
-  content: "Aple";
-  --main-color: #4BCEFF;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
-}
-
-.avatar-1BDn8e[src*="219078125974192128"]:hover + h2::after {
-  content: "Voluptuous";
-  --main-color: #6f182a;
-}
-
 .avatar-1BDn8e[src*="96563253466898432"]:hover + h2::after {
   content: "Universal Architect";
-}
-
-.avatar-1BDn8e[src*="150967530075324416"]:hover + h2::after {
-  content: "Atom";
-}
-
-.avatar-1BDn8e[src*="120721814837002240"]:hover + h2::after {
-	content: "Selfmade";
-  --main-color: #ff0055;
-}
-
-.avatar-1BDn8e[src*="227648235097817089"]:hover + h2::after {
-  content: "SlimeKing";
-  --main-color: #5ae5ed;
 }
 
 @keyframes hue-rotate {
