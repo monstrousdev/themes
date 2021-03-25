@@ -3592,10 +3592,11 @@ foreignObject[mask*="mobile"]::after {
 .clickableAvatar-1wQpeh, 
 .emptyUser-7txhlW,
 #app-mount .acronym-2mOFsV,
-#app-mount .wrapper-1BJsBx,
+#app-mount .wrapper-    ,
 #app-mount .wrapper-3t9DeA foreignObject .avatar-VxgULZ,
 #app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E,
-#app-mount .circleIconButton-jET_ig {
+#app-mount .circleIconButton-jET_ig,
+#app-mount .circleIconButton-1QV--U {
   border-radius: var(--roundness) !important;
 }
 
