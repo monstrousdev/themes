@@ -438,7 +438,7 @@ svg[name="Activity"] {
   left: 2%;
 }
 
-.tutorialContainer-1v44GL {
+.tutorialContainer-2sGCg9 {
   margin-top: -6px;
   width: 72px;
   position: fixed;
@@ -447,23 +447,23 @@ svg[name="Activity"] {
   margin-bottom: 15px
 }
 
-.tutorialContainer-1v44GL .pill-2uzAFe {
+.tutorialContainer-2sGCg9 .pill-2uzAFe {
   display: none;
 }
 
-.tutorialContainer-1v44GL>.listItem-2P_4kh {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH {
   border-bottom: 2px solid var(--main-color);
   border-radius: 0px !important;
   width: 100%;
   transition: all 1s ease-in-out;
 }
 
-#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .listItemWrapper-3X98Pc {
+#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child .listItemWrapper-3X98Pc {
   height: 100%;
   width: 100%;
 }
 
-#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
+#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child .wrapper-25eVIn .svg-1X37T1 {
   height: 100% !important;
   width: 100% !important;
 }
@@ -478,12 +478,12 @@ svg[name="Activity"] {
   background-color: transparent;
 }
 
-.homeIcon-tEMBK1 {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg {
   -webkit-mask-position: center;
   margin-left: -6px;
 }
 
-#app-mount .homeIcon-tEMBK1 path {
+#app-mount .tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg path {
   display: none;
 }
 
@@ -583,7 +583,7 @@ svg[name="Activity"] {
 
   /* 2.c. Change Icons */
 
-.homeIcon-tEMBK1 {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg {
   background-color: var(--home-color);
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/home.svg);
   -webkit-mask-size: var(--home-size);
@@ -591,8 +591,8 @@ svg[name="Activity"] {
   -webkit-mask-position: center;
 }
 
-.homeIcon-tEMBK1 defs,
-.homeIcon-tEMBK1 g {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg defs,
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg g {
   display: none;
 }
 
@@ -604,7 +604,7 @@ svg[name="Activity"] {
   margin-top: 32px;
 }
 
-.wrapper-1Rf91z {
+.guilds-1SWlCJ {
   border-radius: 0;
 }
 
@@ -1066,33 +1066,32 @@ color: var(--dnd) !important;
 
 /* 4. Guilds Wrapper */
  /* 4.a. Main Guilds Wrapper */
- #app-mount .wrapper-1Rf91z .scroller-2TZvBN {
+ #app-mount .guilds-1SWlCJ .scroller-1Bvpku {
   contain: initial;
 }
 
-#app-mount .wrapper-1Rf91z .scroller-2TZvBN .tutorialContainer-1v44GL+div {
+#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9+div {
   margin-top: 58px;
 }
 
-.wrapper-1Rf91z {
+.guilds-1SWlCJ {
   z-index: 6;
 }
 
-#app-mount .wrapper-1Rf91z {
+#app-mount .guilds-1SWlCJ {
   overflow: visible;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
+.guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku .friendsOnline-2JkivW {
   margin-top: 10px;
 }
 
 .theme-light .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
-.theme-light .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .friendsOnline-2JkivW {
+.theme-light .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku .friendsOnline-2JkivW {
   color: #000;
 }
 
-.guildSeparator-1X4GQ1:after,
-.guildSeparator-3s64Iy::after {
+.guildSeparator-33mFX6::after {
   background-color: transparent !important;
 }
 
@@ -1173,7 +1172,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   background: var(--dnd) !important;
 }
 
-#app-mount .folder-21wGz3,
+#app-mount .folder-1hbNCn,
   #app-mount .expandedFolderBackground-2sPsd- {
     background-color: transparent;
   }
@@ -1198,7 +1197,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   border-radius: calc(var(--roundness)/5);
 }
 
-#app-mount .folder-21wGz3 [style*="background-color: rgba(114, 137, 218, 0.2)"]::before {
+#app-mount .folder-1hbNCn [style*="background-color: rgba(114, 137, 218, 0.2)"]::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1209,7 +1208,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   opacity: .2;
 }
 
-#app-mount .folder-21wGz3 [style*="background-color: rgba(114, 137, 218, 0.2)"] {
+#app-mount .folder-1hbNCn [style*="background-color: rgba(114, 137, 218, 0.2)"] {
   background-color: transparent !important;
 }
 
@@ -1218,12 +1217,12 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
   /* 4.c. Guilds Add */
-#app-mount .circleIconButton-jET_ig {
+#app-mount .circleIconButton-1QV--U {
   background-color: var(--main-color);
   color: white;
 }
 
-#app-mount .circleIconButton-jET_ig svg {
+#app-mount .circleIconButton-1QV--U svg {
   height: 24px;
   width: 24px;
   position: unset;
@@ -1232,12 +1231,12 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
 
-.circleIconButton-jET_ig {
+.circleIconButton-1QV--U {
   box-shadow: 0 10px 15px rgba(0, 0, 0, .4), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px rgba(255, 255, 255, 0.2) inset;
   background-color: var(--main-color);
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>div.container-1ETFDs:first-child .badge-14ZoDd{
+.guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku>div.container-1ETFDs:first-child .badge-14ZoDd{
   border-radius: 40px;
   background-color: var(--main-color);
   margin-bottom: 0px;
@@ -3469,7 +3468,7 @@ foreignObject[mask*="mobile"]::after {
 
 .channel-members-wrap,
 .guildsWrapper-5TJh6A:not(.foldercontent),
-.wrapper-1Rf91z,
+.guilds-1SWlCJ,
 .channels-wrap .flexChild-faoVW3,
 #friends .friends-header,
 .chat-3bRxxu .title-wrap,
@@ -3512,7 +3511,7 @@ foreignObject[mask*="mobile"]::after {
 .guild-1EfMGQ .guildIcon-CT-ZDq,
 .guilds-1q_RqH .guildPlaceholder-1ioaid,
 .dragPlaceholder-D9-haY,
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .container-2td-dC,
+.guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku .container-2td-dC,
 .guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after,
 .container-2td-dC.audio-2KA0-x::after,
 .container-2td-dC.video-2jNDI4::after,
@@ -3561,7 +3560,7 @@ foreignObject[mask*="mobile"]::after {
 .voiceSectionIconWrapper-3YFjHm,
 .voiceSectionGuildImage-2r1uIp, 
 .voiceSectionNoGuildImageWrapper-40qwqb,
-.circleIconButton-jET_ig,
+.circleIconButton-1QV--U,
 .guildsError-b7zR5H,
 .base-PmTxvP,
 #app-mount .avatar-3elDyV,
@@ -3572,7 +3571,7 @@ foreignObject[mask*="mobile"]::after {
 #app-mount .wrapper-1BJsBx,
 #app-mount .wrapper-3t9DeA foreignObject .avatar-VxgULZ,
 #app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E,
-#app-mount .circleIconButton-jET_ig {
+#app-mount .circleIconButton-1QV--U {
   border-radius: var(--roundness) !important;
 }
 
@@ -6027,15 +6026,15 @@ div.reply-item {
 
   /* 20.a.5. Server Folders */
 
-.wrapper-1Rf91z.foldercontentclosed {
+.guilds-1SWlCJ.foldercontentclosed {
   width: 0;
 }
 
-.wrapper-1Rf91z.foldercontent {
+.guilds-1SWlCJ.foldercontent {
   transition: all .2s ease-in-out;
 }
 
-.wrapper-1Rf91z.foldercontent .scrollerWrap-1IAIlv .scroller-2TZvBN {
+.guilds-1SWlCJ.foldercontent .scrollerWrap-1IAIlv .scroller-1Bvpku {
   border-top: 2px solid var(--main-color);
   box-sizing: border-box;
   margin-top: -2px;
@@ -6087,7 +6086,7 @@ div.reply-item {
   }
 
   /* 20.a.11. Display Servers to Channels */
-  .DSAC-styled .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+  .DSAC-styled .guilds-1SWlCJ:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child {
     margin-top: -42px !important;
   }
 
