@@ -480,7 +480,6 @@ svg[name="Activity"] {
 
 .tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg {
   -webkit-mask-position: center;
-  margin-left: -6px;
 }
 
 #app-mount .tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg path {
@@ -1089,6 +1088,10 @@ color: var(--dnd) !important;
 .theme-light .guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM,
 .theme-light .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku .friendsOnline-2JkivW {
   color: #000;
+}
+
+.guildSeparator-33mFX6 {
+  display: none;
 }
 
 .guildSeparator-33mFX6::after {
