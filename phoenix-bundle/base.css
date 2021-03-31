@@ -1067,6 +1067,7 @@ color: var(--dnd) !important;
  /* 4.a. Main Guilds Wrapper */
  #app-mount .guilds-1SWlCJ .scroller-1Bvpku {
   contain: initial;
+  background: transparent;
 }
 
 #app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9+div {
