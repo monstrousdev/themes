@@ -406,51 +406,35 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 
 /* IV. Guilds Area */
   /* A. Guilds Header */
-#app-mount .wrapper-1Rf91z {
+#app-mount .guilds-1SWlCJ {
   background-color: transparent;
   overflow: visible;
 }
 
-#app-mount .platform-osx .wrapper-1Rf91z {
+#app-mount .platform-osx .guilds-1SWlCJ {
   margin-top: 60px;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+.guilds-1SWlCJ .scroller-1Bvpku::-webkit-scrollbar {
   display: none;
 }
 
 .container-2td-dC .wrapper-2lTRaf,
-.scroller-2TZvBN {
+.scroller-1Bvpku {
   background-color: transparent !important;
 }
 
-.scrollerWrap-1IAIlv {
-  height: 90%;
-}
-
-#app-mount .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn .svg-1X37T1 {
+#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 .listItem-GuPuDH .svg-1X37T1 {
   height: 100% !important;
   width: 100% !important;
 }
 
-.scrollerWrap-1IAIlv .scroller-2TZvBN {
+.scroller-1Bvpku {
   padding: 0px;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
-  position: sticky;
-  top: 0px;
-  left: 0px;
-  height: 44px;
-  width: 70px;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(var(--sheer), var(--sheer)),var(--black-hole) center/30% fixed;
-  z-index: 1;
-}
-
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe,
-.homeIcon-tEMBK1 path {
+.guilds-1SWlCJ .scroller-1Bvpku>.listItem-GuPuDH:first-child .pill-2uzAFe,
+.homeIcon-FuNwkv path {
   display: none;
 }
 
@@ -462,11 +446,11 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: transparent;
 }
 
-.wrapper-1BJsBx[aria-label="Home"] .childWrapper-anI2G9 {
+#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
   background-color: transparent;
 }
 
-.homeIcon-tEMBK1 {
+.homeIcon-FuNwkv {
   background-color: white;
   -webkit-mask: url(https://ellexidecodes.github.io/Discord-Themes/assets/home.svg);
   -webkit-mask-size: 45px;
@@ -480,7 +464,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   width: 100% !important;
 }
 
-.wrapper-1BJsBx[aria-label="Home"].selected-bZ3Lue .homeIcon-tEMBK1 {
+#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv {
   background-color: var(--blurple) !important;
 }
 
