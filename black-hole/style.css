@@ -884,14 +884,24 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
     /* 1. Embeds, Code Blocks, and Invites */
-#app-mount  .markup-2BOw-j pre,
+#app-mount .markup-2BOw-j pre,
 #app-mount .wrapper-35wsBm,
 #app-mount .embedInner-1-fpTo,
 #app-mount .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
-.embedFull-2tM8-- {
+.embedFull-2tM8--,
+.textContainer-C0szpm {
   background: var(--uno) var(--stars) top left;
   background-attachment: fixed;
   border-color: var(--tres)
+}
+
+.modalTextContainer-ITvzbi {
+  background: var(--uno) var(--stars) top left fixed;
+}
+
+.footer-2yA7Ep {
+  background-color: var(--blurple-sheer);
+  border-color: var(--tres);
 }
 
 #app-mount .messageGroupBlocked-3wrQQX.revealed-1_RKsf {
@@ -2763,7 +2773,7 @@ svg[name="Activity"] {
 }
 
 .lookInverted-2D7oAl.colorBrand-3pXr91,
-#app-mount .checked-3_4uQ9,
+/* #app-mount .checked-3_4uQ9, */
 .theme-brand .inner-zqa7da,
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j,
 #app-mount .resultFocused-3aIoYe,
