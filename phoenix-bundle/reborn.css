@@ -146,10 +146,15 @@
   .appMount-3lHmkl, body,
   .channelTextArea-rNsIhG,
   #app-mount .container-1D34oG,
-  .container-1taM1r {
+  .container-1taM1r,
+  .textContainer-C0szpm {
   background: transparent !important;
   }
   
+  .textContainer-C0szpm {
+    border: none;
+  }
+
   #app-mount .footer-3rDWdC {
     box-shadow: none;
   }

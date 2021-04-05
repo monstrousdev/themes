@@ -911,8 +911,7 @@ svg[name="Activity"] {
   background-color: var(--hover-color) !important;
 }
 
-.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
-.checked-3_4uQ9 {
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
   background-color: var(--main-color) !important;
   border-color: var(--hover-color) !important;
 }
@@ -1152,7 +1151,7 @@ color: var(--dnd) !important;
 }
 
 #app-mount .dragPlaceholder-D9-haY,
-#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
+#app-mount .placeholderMask-3v3K7P .dragInner-Oq_toX {
   background-color: transparent;
   border: 2px dashed var(--primary-color);
   height: 100%;
@@ -1160,7 +1159,7 @@ color: var(--dnd) !important;
   box-sizing: border-box;
 }
 
-#app-mount .placeholderMask-3K9THS .dragInner-_SHftW {
+#app-mount .placeholderMask-3v3K7P .dragInner-Oq_toX {
 border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
@@ -2023,6 +2022,16 @@ code.inline,
 
 code:not(.inline) {
   background: repeating-linear-gradient(0deg, var(--secondary-color) 5px, var(--secondary-color) 25px, var(--tertiary-color) 0, var(--tertiary-color) 45px) !important;
+}
+
+.footer-2yA7Ep {
+  background: var(--secondary-color);
+  border-color: var(--tertiary-color);
+}
+
+.modalTextContainer-ITvzbi {
+  background: transparent;
+  border-color: var(-tertiary-color);
 }
 
 pre {
