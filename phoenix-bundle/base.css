@@ -1176,11 +1176,11 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 }
 
 #app-mount .folder-1hbNCn,
-  #app-mount .expandedFolderBackground-2sPsd- {
+  #app-mount .expandedFolderBackground-1cujaW {
     background-color: transparent;
   }
 
-#app-mount .expandedFolderBackground-2sPsd-::before {
+#app-mount .expandedFolderBackground-1cujaW::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1192,7 +1192,7 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   transition: all 200ms ease-in-out;
 }
 
-#app-mount .expandedFolderBackground-2sPsd-.collapsed-1GMuSb::before {
+#app-mount .expandedFolderBackground-1cujaW.collapsed-1GMuSb::before {
   background-color: transparent;
 }
 

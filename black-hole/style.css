@@ -528,12 +528,12 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
   /* C. Guild Folders */
-#app-mount .expandedFolderBackground-2sPsd-, 
-#app-mount .folder-21wGz3 {
+#app-mount .expandedFolderBackground-1cujaW, 
+#app-mount .folder-1hbNCn {
   background-color: transparent;
 }
 
-#app-mount .expandedFolderBackground-2sPsd-::before {
+#app-mount .expandedFolderBackground-1cujaW::before {
   content: "";
   position: absolute;
   top: 0;
@@ -545,7 +545,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   border-radius: calc(var(--roundness)/5);
 }
 
-#app-mount .folder-21wGz3 [style*="rgba(114, 137, 218, 0.4)"] {
+#app-mount .folder-1hbNCn [style*="rgba(114, 137, 218, 0.4)"] {
   background-color: transparent !important;
 }
 
