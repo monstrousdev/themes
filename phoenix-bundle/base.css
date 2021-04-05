@@ -3222,8 +3222,8 @@ pre {
 }
 .wrapper-3t9DeA foreignObject+rect[mask*="svg-mask-status"],
 .wrapper-3t9DeA[class*="avatar"] foreignObject+rect[y="22"] {
-  x: 1 !important;
-  y: 1 !important;
+  x: -.5 !important;
+  y: -.5 !important;
   rx: var(--roundness) !important;
   mask: none !important;
   -webkit-mask: none !important;
