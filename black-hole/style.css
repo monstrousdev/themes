@@ -362,7 +362,7 @@
   background-color: var(--sheer) !important;
 }
 
-.lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
   background-color: var(--uno) !important;
 }
 
@@ -1474,6 +1474,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   background-color: var(--blurple-sheer);
 }
 
+.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] {
+  background-color: var(--blurple-sheer) !important;
+}
+
 .active-2HPddW .icon-KgGMGo, .hover-28QbSq:hover .icon-KgGMGo {
   color: var(--blurple);
 }
@@ -1487,7 +1491,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .price-NUANu6,
 #app-mount .playerOverflow-2Hf77M,
 #app-mount .barBackground-2EEiLw,
-.bd-switch {
+.bd-switch,
+.primary-2McadE:hover:not(.disabled-3Njyym), 
+.secondary-dIudih,
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
   background-color: var(--sheer);
 }
 
@@ -2276,7 +2283,7 @@ svg[name="Activity"] {
   background: var(--veil);
 }
 
-.lookFilled-1Gx00P.colorGrey-2DXtkV {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV {
   background: var(--uno);
 }
 

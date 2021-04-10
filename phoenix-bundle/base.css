@@ -38,13 +38,14 @@
   2.b. Search Bars
   2.c. Change Icons
 
- 3. User Settings
+ 3. User & Server Settings
   3.a. General Sidebar
   3.b. General Content Area
   3.c. Cards and Items
   3.d. Buttons, Switches, and Bars
   3.e. Overlay Notifications
   3.f. Nitro and Hypesquad Section
+  3.g. Server Roles
 
  4. Guilds Wrapper
   4.a. Mains Guilds Wrapper
@@ -613,7 +614,7 @@ svg[name="Activity"] {
 
 
 
-/* 3. User Settings */
+/* 3. User & Server Settings */
   /* 3.a. General Sidebar */
 
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, 
@@ -722,8 +723,7 @@ svg[name="Activity"] {
   background-color: var(--tertiary-color);
 }
 
-#app-mount .paymentRow-2e7VM6,
-.header-2mZ9Ov {
+#app-mount .paymentRow-2e7VM6 {
   border-color: var(--quaternary-color);
 }
 
@@ -1060,6 +1060,28 @@ color: var(--dnd) !important;
 
 .tier1Banner-1B_WXY {
   width: unset;
+}
+
+  /* 3.g. Server Roles */
+.icon-3_8HGa,
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
+  background: var(--primary-color);
+}
+
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
+  background: var(--quaternary-color);
+}
+
+.header-2mZ9Ov {
+  background-color: var(--quaternary-color);
+}
+
+.theme-dark>.messageContainer-1DiFnQ {
+  background: var(--primary-color);
+}
+
+.container-3auIfb[style*="background-color: rgb(114, 118, 125);"] {
+  background-color: var(--tertiary-color) !important;
 }
 
 /* 4. Guilds Wrapper */
@@ -3252,7 +3274,7 @@ pre {
 }
 
 #app-mount .wrapper-3t9DeA[style*="height: 24px"] rect[mask*="svg-mask-status"] {
-  height: 22px !important;
+  height: 24px !important;
   width: 24px !important;
 }
 
@@ -3264,13 +3286,13 @@ pre {
 
 #app-mount .wrapper-3t9DeA[style*="height: 40px"] rect[mask*="svg-mask-status"],
 #app-mount .wrapper-3t9DeA[style*="height: 40px"] rect[y="28"] {
-  height: 38px !important;
+  height: 40px !important;
   width: 40px !important;
 }
 
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] rect[mask*="svg-mask-status"],
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect {
-  height: 78px !important;
+  height: 80px !important;
   width: 80px !important;
 }
 
@@ -5849,11 +5871,11 @@ color: var(--main-color) !important;
   stroke: var(--main-color) !important;
 }
 
-.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
   background: var(--primary-color);
 }
 
-.lookFilled-1Gx00P.colorGrey-2DXtkV {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV {
   background: var(--secondary-color);
 }
 
