@@ -141,7 +141,6 @@
 *     A. Ghost Ping
 *     B. Permissions Viewer
 *  XIV. Addon Optimization
-*     A. Custom Background Popouts
 */
 
 
@@ -3222,31 +3221,3 @@ background-attachment: fixed;
 }
 
 /* XIV. Addon Optimization */
-  /* A. Custom Background Popouts */
-
-.header-QKLPzZ .wrapper-3t9DeA.avatar-3EQepX::before {
-  content:'';
-  position:absolute;
-  top:-34px; /*Distance from the avatar container to the edge of the modal (y)*/
-  left:-20px; /*Distance from the avatar container to the edge of the modal (x)*/
-  width:601px; /*Width of modal header*/
-  height: 300px; /*Height of modal header*/
-  opacity:.5;
-  pointer-events:none;
-  background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent);
-  display: block !important;
-}
-
-.header-QKLPzZ *:not(:first-child),
-.tabBarItem-1b8RUP {
-  z-index:1;
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA * {
-  z-index: 1;
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-  z-index: unset;
-}
