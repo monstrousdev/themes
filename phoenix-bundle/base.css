@@ -170,6 +170,8 @@
     20.a.8. Personal Pins
     20.a.9. Detailed Tooltip
     20.a.10 Ghost Ping
+    20.a.11 Display Servers to Channels
+    20.a.12 Permissions Viewer
   
   20.b. Addon Optimization
     20.b.1. Custom Popouts
@@ -6123,6 +6125,11 @@ div.reply-item {
   /* 20.a.11. Display Servers to Channels */
   .DSAC-styled .guilds-1SWlCJ:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child {
     margin-top: -42px !important;
+  }
+
+  /* 20.a.12 Permissions Viewer */
+  #permissions-modal-wrapper .callout-backdrop {
+    z-index: 999;
   }
 
 /* 20.b. Addon Optimization */
