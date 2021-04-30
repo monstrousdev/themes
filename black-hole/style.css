@@ -2,7 +2,7 @@
 @import "https://fontlibrary.org/face/horta"; /* 'HortaRegular' */
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 /* @import "https://monstrousdev.github.io/themes/addons/filter.css"; */
-@import "https://www.themonster.xyz/styles/google-fonts.css";
+@import "https://themonstrousdev.github.io/styles/google-fonts.css";
 
 /*
                                                                                                      
@@ -1575,6 +1575,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 
 #app-mount .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
   background-color: var(--online-sheer);
+}
+
+#bd-pub-li {
+  display: none;
 }
 
   /* F. Change SVGs */

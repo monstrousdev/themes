@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Satisfy|Montserrat:300";
 @import "https://monstrousdev.github.io/themes/addons/user-tags.css";
 /* @import "https://monstrousdev.github.io/themes/addons/filter.css"; */
-@import "https://www.themonster.xyz/styles/google-fonts.css";
+@import "https://themonstrousdev.github.io/styles/google-fonts.css";
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 
 /* Variables */
@@ -6014,6 +6014,10 @@ color: var(--main-color) !important;
 .placeholderUsername-2B_OA9 {
   background-color: var(--main-color);
   opacity: .3;
+}
+
+#bd-pub-li {
+  display: none;
 }
 
   /* 20.a. Plugin Optimization */
