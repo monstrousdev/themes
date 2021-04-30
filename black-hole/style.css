@@ -1490,11 +1490,18 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .price-NUANu6,
 #app-mount .playerOverflow-2Hf77M,
 #app-mount .barBackground-2EEiLw,
-.bd-switch,
 .primary-2McadE:hover:not(.disabled-3Njyym), 
 .secondary-dIudih,
 .roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) .circleButton-3RB01i {
   background-color: var(--sheer);
+}
+
+.bd-switch input:checked+.bd-switch-body {
+  --switch-color: var(--blurple);
+}
+
+.bd-switch-body {
+  --switch-color: var(--sheer;
 }
 
 #app-mount .tierMarkerBackground-3q29am {
@@ -1565,7 +1572,6 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-.bd-switch.bd-switch-checked,
 .bd-addon-list .bd-card-footer button,
 .bd-button,
 .bd-pfbtn,
