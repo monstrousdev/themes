@@ -2466,12 +2466,15 @@ pre {
   width: 100%;
 }
 
-.notice-2FJMB4 .dismiss-SCAH9H {
+.notice-2FJMB4 .closeButton-3cJIM4,
+.notice-3bPHh- .closeButton-3cJIM4 {
   opacity: 0;
 }
 
-.notice-2FJMB4:hover .dismiss-SCAH9H,
-.BDFD-notice.notice-2FJMB4:hover .dismiss-SCAH9H,
+.notice-2FJMB4:hover .closeButton-3cJIM4,
+.BDFD-notice.notice-2FJMB4:hover .closeButton-3cJIM4,
+.notice-3bPHh-:hover .closeButton-3cJIM4,
+.BDFD-notice.notice-3bPHh-:hover .closeButton-3cJIM4,
 #pluginNotice .closeButton-3cJIM4 {
   opacity: 1;
   height: 36px;
