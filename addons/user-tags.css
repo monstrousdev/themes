@@ -107,6 +107,12 @@
   content: "Universal Architect";
 }
 
+.avatar-1BDn8e[src*="773960830034378763"] + h2::after {
+  content: "Birdlinux";
+  --main-color: white;
+  color: black;
+}
+
 @keyframes hue-rotate {
   from {
     -webkit-filter: hue-rotate();

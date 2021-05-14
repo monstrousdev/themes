@@ -1,38 +1,14 @@
 /* grow in with pulse */
 .avatar-1BDn8e[src*="254362351170617345"]:hover + h2:after,
-.avatar-1BDn8e[src*="150967530075324416"]:hover + h2::after,
 .avatar-1BDn8e[src*="234148582523928576"]:hover + h2::after,
-.avatar-1BDn8e[src*="227648235097817089"]:hover + h2::after,
-.avatar-1BDn8e[src*="210629330135547904"]:hover + h2::after,
 .avatar-1BDn8e[src*="166365757561634816"]:hover + h2::after,
 .avatar-1BDn8e[src*="213220786805145600"]:hover + h2:after,
-.avatar-1BDn8e[src*="152430800241950720"]:hover + h2::after,
-.avatar-1BDn8e[src*="438846426441711616"]:hover + h2::after,
-.avatar-1BDn8e[src*="95657348390977536"]:hover + h2::after,
 .avatar-1BDn8e[src*="231827402102276096"]:hover + h2::after,
-.avatar-1BDn8e[src*="352189597268049921"]:hover + h2::after,
-.avatar-1BDn8e[src*="533814956525748235"]:hover + h2::after,
 .avatar-1BDn8e[src*="140012296910012416"]:hover + h2::after,
 .avatar-1BDn8e[src*="460174770957189155"]:hover + h2::after,
-.avatar-1BDn8e[src*="264062457448759296"]:hover + h2::after,
-.avatar-1BDn8e[src*="273169968202252289"]:hover + h2::after,
 .avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after,
 .avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after,
-.avatar-1BDn8e[src*="145557095234666496"]:hover + h2::after,
-.avatar-1BDn8e[src*="498207315485392906"]:hover + h2::after,
-.avatar-1BDn8e[src*="138616536502894592"]:hover + h2::after,
-.avatar-1BDn8e[src*="542399196204892160"]:hover + h2::after,
-.avatar-1BDn8e[src*="220976819128500225"]:hover + h2::after,
-.avatar-1BDn8e[src*="240482174686593025"]:hover + h2::after,
-.avatar-1BDn8e[src*="354236474050478080"]:hover + h2::after,
-.avatar-1BDn8e[src*="191794647381573632"]:hover + h2::after,
-.avatar-1BDn8e[src*="179309962164436992"]:hover + h2::after,
-.avatar-1BDn8e[src*="214088526722105344"]:hover + h2::after,
-.avatar-1BDn8e[src*="263673948460417025"]:hover + h2::after,
-.avatar-1BDn8e[src*="202893235041992704"]:hover + h2::after,
-.avatar-1BDn8e[src*="172045670008487936"]:hover + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after,
-.avatar-1BDn8e[src*="336557423626027021"]:hover + h2::after,
 .avatar-1BDn8e[src*="194830015353847817"]:hover + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
 .avatar-1BDn8e[src*="371581535801049089"]:hover + h2::after{
@@ -41,45 +17,35 @@
 
 
 /* grow in */
-.avatar-1BDn8e[src*="131414719666847745"]:hover + h2::after,
-.avatar-1BDn8e[src*="147889058670968844"]:hover + h2::after,
-.avatar-1BDn8e[src*="197477050569719808"]:hover + h2::after,
-.avatar-1BDn8e[src*="597905003717459968"]:hover + h2::after {
+.avatar-1BDn8e[src*="773960830034378763"]:hover + h2::after {
   animation: popoutanim .2s;
 }
 
 /* fall and bounce */
 .avatar-1BDn8e[src*="282138006738042880"]:hover + h2:after,
 .avatar-1BDn8e[src*="244392852950482944"]:hover + h2::after,
-.avatar-1BDn8e[src*="236006926406778881"]:hover + h2::after,
-.avatar-1BDn8e[src*="409485665017790464"]:hover + h2::after {
+.avatar-1BDn8e[src*="236006926406778881"]:hover + h2::after {
   animation: fallBounce 1s;
 }
 
 /* spin in */
-.avatar-1BDn8e[src*="282681883249213440"]:hover + h2::after,
-.avatar-1BDn8e[src*="395649339134967808"]:hover + h2::after{
+.monstrum {
   animation: scaleSpin .4s;
 }
 
 /* fade from right */
-.avatar-1BDn8e[src*="244363360886325248"]:hover + h2:after,
-.avatar-1BDn8e[src*="142110824507506688"]:hover + h2::after,
-.avatar-1BDn8e[src*="267803219080642560"]:hover + h2::after,
-.avatar-1BDn8e[src*="323030822267518977"]:hover + h2::after{
+.avatar-1BDn8e[src*="267803219080642560"]:hover + h2::after{
   animation: fadeFromRight .2s;
 }
 
 /* fade from top */
-.avatar-1BDn8e[src*="173557815326015488"]:hover + h2::after,
 .avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after{
   animation: fadeFromTop .2s;
 }
 
 /* fade from bottom */
 .avatar-1BDn8e[src*="150852555885379584"]:hover + h2::after,
-.avatar-1BDn8e[src*="111476801762537472"]:hover + h2::after,
-.avatar-1BDn8e[src*="378819717324079104"]:hover + h2::after {
+.avatar-1BDn8e[src*="111476801762537472"]:hover + h2::after {
   animation: fadeFromBottom .2s;
 }
 
