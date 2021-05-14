@@ -69,7 +69,8 @@
 .avatar-1BDn8e[src*="96563253466898432"] + h2::after,
 .avatar-1BDn8e[src*="267803219080642560"] + h2::after,
 .avatar-1BDn8e[src*="194830015353847817"] + h2::after,
-.avatar-1BDn8e[src*="460174770957189155"] + h2::after{
+.avatar-1BDn8e[src*="460174770957189155"] + h2::after,
+.avatar-1BDn8e[src*="773960830034378763"] + h2::after{
   content: "}";
 }
 
@@ -107,7 +108,7 @@
   content: "Universal Architect";
 }
 
-.avatar-1BDn8e[src*="773960830034378763"] + h2::after {
+.avatar-1BDn8e[src*="773960830034378763"]:hover + h2::after {
   content: "Birdlinux";
   --main-color: white;
   color: black;
