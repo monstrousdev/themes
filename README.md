@@ -43,7 +43,7 @@ Monster reserves the right to ask any of her work to be taken down should they b
 
 To contact Monster Dev:
 
-+ Discord: Innate Monster#3557 (402272736665272320)
++ Discord: Monstrum#3557 (402272736665272320)
 + E-Mail: ellexidecodes@gmail.com
 
 ### Allowed
