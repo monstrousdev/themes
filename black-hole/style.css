@@ -607,7 +607,9 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 [class*="scroller-"],
 .scrollableContainer-2NUZem,
 .nowPlayingColumn-2sl4cE,
-.container-3w7J-x {
+.container-3w7J-x,
+.container-lRFx4q,
+.section-2gLsgF {
   background-color: transparent;
 }
 
@@ -653,7 +655,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 }
 
 .wrapper-2qzCYF.minimum-28Z35l,
-.wrapper-2qzCYF {
+.wrapper-2qzCYF,
+#app-mount .outer-1AjyKL.interactive-3B9GmY:hover {
   background: var(--sheer) var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -1183,7 +1186,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .connection-1fbD7X,
 .bumpBox-1r5p3c,
 .group-1WdBVp,
-.container-_phMUq {
+.container-_phMUq,
+#app-mount .feature-2w65J5 {
   background-color: var(--blurple-sheer);
 }
 
@@ -1197,7 +1201,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 
 .fieldList-21DyL8,
 .connectionHeader-2MDqhu,
-.addMemberRow-3-w-9X.selectedRow-1QP7qb {
+.addMemberRow-3-w-9X.selectedRow-1QP7qb,
+.reaction-1hd86g {
   background-color: var(--sheer);
 }
 
@@ -1206,11 +1211,17 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   border-color: transparent !important;
 }
 
+.wrapper-2tAnRe {
+  color: white;
+}
+
 .attachment-2p5mHK, 
 .avatar-2daVqv, 
 .blob-2w7iIK,
 .role-3UN8jj:hover,
-.container-_phMUq:hover {
+.container-_phMUq:hover,
+.total-i6us2n,
+.iconBadge-3qSJIw {
   background-color: var(--blurple);
 }
 
@@ -1218,8 +1229,13 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .placeholderAvatar-damqh6, 
 .placeholderUsername-2B_OA9,
 .role-1P70N6,
-.passthrough-1c2ewQ.selected-2YhbGh {
+.passthrough-1c2ewQ.selected-2YhbGh,
+.users-3kndPl {
   background-color: var(--blurple-sheer);
+}
+
+.total-i6us2n:after {
+  border-right-color: var(--blurple);
 }
 
 .disableColor-MwOAZf, 
@@ -1260,6 +1276,7 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .wrapper-3D2qGf,
 .peopleListItem-2nzedh:hover,
 #app-mount .bd-addon-list .bd-addon-card,
+#app-mount .bd-addon-list .bd-addon-header,
 .emptyContainer-1_gwCl,
 .item-26Dhrx,
 .settingCard-3w2mVL.active-1ytUzX{
@@ -1696,7 +1713,9 @@ svg[name="Activity"] {
 
 .scroller-2FKFPG::-webkit-scrollbar,
 .rolesList-22qj2L::-webkit-scrollbar,
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar {
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar,
+.contentRegionScroller-26nc1e::-webkit-scrollbar,
+.scrollerBase-289Jih::-webkit-scrollbar {
   width: 5px !important;
 }
 
@@ -1705,7 +1724,9 @@ svg[name="Activity"] {
 .rolesList-22qj2L::-webkit-scrollbar-track-piece,
 #bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
 .scroller-2LSbBU::-webkit-scrollbar-track,
-.scroller-2LSbBU::-webkit-scrollbar-track-piece {
+.scroller-2LSbBU::-webkit-scrollbar-track-piece,
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track,
+.scrollerBase-289Jih::-webkit-scrollbar-track {
   background: transparent !important;
   border: none !important;
   border-radius: 10px;
@@ -1713,7 +1734,9 @@ svg[name="Activity"] {
 
 .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .rolesList-22qj2L::-webkit-scrollbar-thumb,
-#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
+.scrollerBase-289Jih::-webkit-scrollbar-thumb {
   border: none;
   background-color: var(--blurple) !important;
   border-radius: 10px;

@@ -262,7 +262,8 @@
   .styleFlexible-wGDiIL,
   .submenu-2-ysNh,
   .previewContainer-1SS3uO,
-  .container-3XJ8ns {
+  .container-3XJ8ns,
+  #app-mount .streamPreview-2-WUWT {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
   }
 

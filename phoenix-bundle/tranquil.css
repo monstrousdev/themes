@@ -182,7 +182,8 @@
 
 .private-channel-call,
 .video-1FfuMD,
-.privateChannels-1nO12o .scrollerWrap-2lJEkd::after {
+.privateChannels-1nO12o .scrollerWrap-2lJEkd::after,
+#app-mount .streamPreview-2-WUWT {
   background-color: var(--quaternary-color) !important;
 }
 

@@ -764,6 +764,10 @@ svg[name="Activity"] {
 
   /* 3.c. Cards and Items */
 
+#app-mount .feature-2w65J5 {
+  background-color: var(--tertiary-color);
+}
+
 .side-8zPYf6 .itemSelected-1qLhcL,
 #bd-settings-sidebar .ui-tab-bar-item.selected,
 .questionMark-CWEQZn {
@@ -848,6 +852,10 @@ svg[name="Activity"] {
 
 #app-mount .bd-addon-list .bd-addon-card {
   background: var(--tertiary-color)
+}
+
+#app-mount .bd-addon-list .bd-addon-header {
+  background: var(--quaternary-color);
 }
 
 #app-mount .bda-slist li,
@@ -1317,6 +1325,23 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
 
 .container-3w7J-x {
   background-color: transparent;
+}
+
+.users-3kndPl {
+  background: transparent !important;
+}
+  
+.total-i6us2n {
+  background: var(--main-color);
+  color: white;
+}
+
+.total-i6us2n:after {
+  border-right-color: var(--main-color);
+}
+
+.wrapper-2tAnRe {
+  background: var(--quaternary-color);
 }
 
   /* 5.b. Light Theme Recolor*/
@@ -2677,7 +2702,10 @@ pre {
   /* 9.a. Main Friends List */
 
 .peopleList-3c4jOR,
-.nowPlayingColumn-2sl4cE {
+.nowPlayingColumn-2sl4cE,
+.container-lRFx4q,
+.scroller-2ZPeAD,
+.section-2gLsgF {
   background: transparent;
 }
 
@@ -2694,6 +2722,14 @@ pre {
 
 #app-mount .inset-3sAvek {
   background: var(--secondary-color);
+}
+
+.scroller-2ZPeAD {
+  border-color: var(--quaternary-color);
+}
+
+.wrapper-3D2qGf {
+  border: none;
 }
 
 /* 9.b. Action Buttons */
@@ -2805,19 +2841,22 @@ pre {
 }
 
 #app-mount .partyMember-923s4S,
-#app-mount .partyMemberOverflow-Nei5T6 {
+#app-mount .partyMemberOverflow-Nei5T6,
+#app-mount .partyMemberOverflow-lXnzvu {
   mask: none;
   -webkit-mask: none;
   margin: 0 2px;
 }
 
 #app-mount .partyMemberOverflow-Nei5T6,
+#app-mount .partyMemberOverflow-lXnzvu,
 .guildIconEmptyBackground-14tfYf {
   background-color: var(--main-color) !important;
 }
 
 .guildIconEmptyIcon-rSyLPf,
-#app-mount .partyMemberOverflow-Nei5T6 {
+#app-mount .partyMemberOverflow-Nei5T6,
+#app-mount .partyMemberOverflow-lXnzvu {
   color: white !important;
 }
 
@@ -3664,7 +3703,9 @@ foreignObject[mask*="mobile"]::after {
 .scroller-2LSbBU::-webkit-scrollbar-track-piece,
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track,
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece,
-.scroller-Utb7tO::-webkit-scrollbar-track {
+.scroller-Utb7tO::-webkit-scrollbar-track,
+.scroller-9moviB::-webkit-scrollbar-track,
+.peopleList-3c4jOR::-webkit-scrollbar-track {
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -3683,7 +3724,9 @@ foreignObject[mask*="mobile"]::after {
 .scroller-2LSbBU::-webkit-scrollbar-thumb,
 .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
 .titleContainer-2CXtJo + .side-8zPYf6::-webkit-scrollbar-thumb,
-.scroller-Utb7tO::-webkit-scrollbar-thumb {
+.scroller-Utb7tO::-webkit-scrollbar-thumb,
+.scroller-9moviB::-webkit-scrollbar-thumb,
+.peopleList-3c4jOR::-webkit-scrollbar-thumb  {
   background-color: var(--main-color) !important;
   border-color: transparent !important;
   border-radius: 40px;
@@ -3951,6 +3994,15 @@ foreignObject[mask*="mobile"]::after {
 
 .reactionSelected-1pqISm {
   background-color: transparent !important;
+  border-color: var(--main-color);
+}
+
+.reaction-1hd86g {
+  background: var(--quaternary-color);
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  background: transparent;
   border-color: var(--main-color);
 }
 
