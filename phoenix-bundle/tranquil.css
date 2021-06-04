@@ -223,7 +223,8 @@
 /* 10. Games Tab & Discover */
 .activityFeed-28jde9,
 .root-26DmKJ,
-.activityFeed-1C0EmJ {
+.activityFeed-1C0EmJ,
+.stageSection-3mAD8V {
   background: var(--primary-color) !important;
 }
 
@@ -244,7 +245,6 @@
 .discoverHeader-1TWTqG {
   background-color: var(--quaternary-color);
 }
-
 
 
 /* 11. Popouts */

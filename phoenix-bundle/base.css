@@ -24,6 +24,12 @@
   --alert-display: block;
   --accent: var(--main-color);
 }
+
+#app-mount {
+  --control-brand-foreground: var(--main-color);
+}
+
+
 /* Table of Contents
     ======== STATIC ==========
  1. Title Bar
@@ -102,6 +108,7 @@
   10.c. Store
   10.d. Server Directory
   10.e. Community Settings
+  10.f. Stage Discovery
 
 11. Avatars
   11.a. Remove Mask
@@ -357,6 +364,10 @@ svg[name="Nova_CallVideo"] {
   background-color: currentColor;
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
   mask: url(https://monstrousdev.github.io/themes/assets/svgs/video-call.svg) center/100% no-repeat;
+}
+
+.channel-2QD9_O[href="/discovery"] .avatar-3uk_u9 svg path{
+  display: block;
 }
 
 .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9 svg {
@@ -1055,7 +1066,8 @@ color: var(--dnd) !important;
 
 .premiumContainer-2Iux5m,
 .banner-3Kac2g,
-.tier1Banner-1BTgv0 {
+.tier1Banner-1BTgv0,
+.hero-EvfTTA {
   max-width: unset;
 }
 
@@ -1865,6 +1877,10 @@ a,
 #app-mount .wrapperAudio-1jDe0Q {
   background-color: var(--quaternary-color);
   border-color: var(--quaternary-color);
+}
+
+.replyBar-1YLQ2F {
+  background-color: var(--quaternary-color);
 }
 
   /* 8.b Messages */
@@ -3275,6 +3291,24 @@ pre {
   background-color: var(--quaternary-color);
 }
 
+  /* 10.f. Stage Discovery */
+#app-mount .container-S9SaVf {
+  background: var(--quaternary-color);
+}
+
+#app-mount .container-S9SaVf:hover {
+  background: var(--tertiary-color);
+}
+
+.container-7Unqij {
+  background: var(--quaternary-color);
+  border: 1px solid var(--main-color);
+}
+
+.featuredTag-3pT1Rf {
+  background: var(--main-color);
+}
+
 /* 11. Avatars */
   /* 11.a. Remove Mask */
 .mask-3OgeRz,
@@ -3705,7 +3739,8 @@ foreignObject[mask*="mobile"]::after {
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece,
 .scroller-Utb7tO::-webkit-scrollbar-track,
 .scroller-9moviB::-webkit-scrollbar-track,
-.peopleList-3c4jOR::-webkit-scrollbar-track {
+.peopleList-3c4jOR::-webkit-scrollbar-track,
+.stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar-track {
   background-color: transparent !important;
   border-color: transparent !important;
 }
@@ -3726,7 +3761,8 @@ foreignObject[mask*="mobile"]::after {
 .titleContainer-2CXtJo + .side-8zPYf6::-webkit-scrollbar-thumb,
 .scroller-Utb7tO::-webkit-scrollbar-thumb,
 .scroller-9moviB::-webkit-scrollbar-thumb,
-.peopleList-3c4jOR::-webkit-scrollbar-thumb  {
+.peopleList-3c4jOR::-webkit-scrollbar-thumb,
+.stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
   border-color: transparent !important;
   border-radius: 40px;
@@ -3737,7 +3773,8 @@ foreignObject[mask*="mobile"]::after {
   border-radius: 0px;
 }
 
-.scroller-wrap .scroller::-webkit-scrollbar {
+.scroller-wrap .scroller::-webkit-scrollbar,
+.stageSection-3mAD8V .container-24CyRY::-webkit-scrollbar {
   width: 11px;
 }
 
@@ -3866,7 +3903,7 @@ foreignObject[mask*="mobile"]::after {
 .categoryWrapper-UZ5YNj,
 .categoryList-2Kzf65,
 .header-ywPcAE,
-.inspector-sdLnLS {
+.inspector-S2gM3e {
   background-color: var(--quaternary-color)
 }
 
@@ -5881,7 +5918,8 @@ foreignObject[mask*="mobile"]::after {
 #app-mount .iconTierNone-3xOaeG,
 .verified-1eC5dy path[fill="#4f545c"],
 .verifiedIcon-3oz8wo path[fill="#7289da"]
-.gameVerifiedIcon-2dGGa5 path[fill="#7289da"] {
+.gameVerifiedIcon-2dGGa5 path[fill="#7289da"],
+.gameVerifiedIcon-2dGGa5 .flowerStar-1GeTsn path {
   fill: var(--main-color) !important;
 }
 

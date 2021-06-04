@@ -147,7 +147,8 @@
   .channelTextArea-rNsIhG,
   #app-mount .container-1D34oG,
   .container-1taM1r,
-  .textContainer-C0szpm {
+  .textContainer-C0szpm,
+  .stageSection-3mAD8V {
   background: transparent !important;
   }
   
@@ -183,7 +184,8 @@
   
   
   /* 3. Chat */
-  #app-mount .iconMask-3b8GzQ {
+  #app-mount .iconMask-3b8GzQ,
+  .preview-2nSL_2 {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
   

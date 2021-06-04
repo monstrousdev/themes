@@ -609,7 +609,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .nowPlayingColumn-2sl4cE,
 .container-3w7J-x,
 .container-lRFx4q,
-.section-2gLsgF {
+.section-2gLsgF,
+.stageSection-3mAD8V {
   background-color: transparent;
 }
 
@@ -1187,7 +1188,9 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .bumpBox-1r5p3c,
 .group-1WdBVp,
 .container-_phMUq,
-#app-mount .feature-2w65J5 {
+#app-mount .feature-2w65J5,
+#app-mount .container-S9SaVf,
+.replyBar-1YLQ2F {
   background-color: var(--blurple-sheer);
 }
 
@@ -1202,7 +1205,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .fieldList-21DyL8,
 .connectionHeader-2MDqhu,
 .addMemberRow-3-w-9X.selectedRow-1QP7qb,
-.reaction-1hd86g {
+.reaction-1hd86g,
+.container-7Unqij {
   background-color: var(--sheer);
 }
 
@@ -1223,6 +1227,23 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .total-i6us2n,
 .iconBadge-3qSJIw {
   background-color: var(--blurple);
+}
+
+.premiumTabItem-1QTfBr[aria-selected=true] {
+  color: var(--blurple) !important;
+  background-color: var(--blurple-sheer) !important;
+}
+
+.premiumTabItem-1QTfBr[aria-selected=true] .icon-Zc-uZZ {
+  fill: var(--blurple) !important;
+}
+
+.premiumTabItem-1QTfBr .icon-Zc-uZZ {
+  margin-left: 5px;
+}
+
+.premiumTabItem-1QTfBr .flex-1xMQg5 {
+  justify-content: center;
 }
 
 .mulitplePlaceholderUsername-pogq9I, 
@@ -2483,7 +2504,7 @@ svg[name="Activity"] {
 }
 
 .wrapper-2Gsate,
-.inspector-sdLnLS 
+.inspector-S2gM3e
 {
   background: var(--quatro) var(--stars) top left !important;
   background-attachment: fixed;
