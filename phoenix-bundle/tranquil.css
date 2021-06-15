@@ -431,10 +431,6 @@
 
 
 /* custom background fix */
-.userPopout-xaxa6l .wrapper-3t9DeA * {
-  z-index: 1;
-}
-
 .userPopout-xaxa6l .wrapper-3t9DeA::after {
   z-index: unset;
 }
@@ -443,6 +439,7 @@
   background-color: transparent !important;
 }
 
-.userPopout-xaxa6l {
-  background-color: var(--primary-color) !important;
+.userPopout-xaxa6l,
+.userPopout-xaxa6l .footer-1N3bR3 {
+  background-color: var(--quaternary-color) !important;
 }

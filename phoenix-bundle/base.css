@@ -3380,6 +3380,12 @@ pre {
   width: 80px !important;
 }
 
+#app-mount .wrapper-3t9DeA[style*="height: 1200px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[style*="height: 1200px"] foreignObject+svg rect {
+  height: 120px !important;
+  width: 1200px !important;
+}
+
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect:not([x*="60"]) {
   transform: translate(-48px, -51px);
 }
@@ -4166,8 +4172,14 @@ foreignObject[mask*="mobile"]::after {
   border-bottom-color: #d1d1d3 !important
 }
 
-#app-mount .bodyInnerWrapper-1NH0NQ {
+#app-mount .bodyInnerWrapper-1NH0NQ,
+.headerTop-2cWpdB {
   background: transparent;
+}
+
+.avatar-37jOim {
+  border-color: var(--quaternary-color) !important;
+  background-color: var(--quaternary-color);
 }
 
 .body-3HBlXn, 
