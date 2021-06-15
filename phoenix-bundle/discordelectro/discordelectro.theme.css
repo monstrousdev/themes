@@ -986,19 +986,19 @@
   border-color: rgba(0, 0, 0, .6)
 }
 
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
   box-shadow: 0 0 5px rgba(0, 0, 0, 1);
   border-radius: 0;
   border: 1px solid rgba(0, 0, 0, .75)
 }
 
-.topSectionNormal-2-vo2m {
+.topSection-y3p-_D {
   background-color: var(--dark) !important;
   border-bottom: 4px solid var(--primary);
   position: relative
 }
 
-.topSectionNormal-2-vo2m::after {
+.topSection-y3p-_D::after {
   content: "";
   background-color: #998500 !important;
   height: 4px;
@@ -1116,8 +1116,8 @@
   background-color: var(--primary) !important
 }
 
-.body-3ND3kc,
-.body-3iLsc4,
+.body-r6_QPy,
+.body-3HBlXn,
 .footer-1fjuF6 {
   background-color: var(--medium) !important
 }

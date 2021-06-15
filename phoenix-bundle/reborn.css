@@ -279,7 +279,7 @@
     background: var(--tertiary-color);
   }
   
-  .userPopout-3XzG_A,
+  .userPopout-xaxa6l,
   .create-guild-container.deprecated,
   .inner-1JeGVc .root-SR8cQa,
   .container-2x5lvQ,
@@ -289,7 +289,7 @@
   .create-guild-container-new.deprecated .form.deprecated,
   .toast,
   .inner-2VEzy9 .root-SR8cQa,
-  #app-mount .modal-3c3bKg .inner-1ilYF7 .root-SR8cQa {
+  #app-mount .modal-3c3bKg .focusLock-Ns3yie .root-3QyAh1 {
     background-image: var(--popup-background) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -331,7 +331,7 @@
     border-radius: 4px;
   }
   
-  .userPopout-3XzG_A .header-2BwW8b,
+  .userPopout-xaxa6l .header-2BwW8b,
   [class*="topSection"],
   .tiles-2aXG_k,
   .container-2x5lvQ header,
@@ -459,10 +459,10 @@
 
 /* custom background fix */
 
-.userPopout-3XzG_A .wrapper-3t9DeA * {
+.userPopout-xaxa6l .wrapper-3t9DeA * {
   z-index: 1;
 }
 
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
+.userPopout-xaxa6l .wrapper-3t9DeA::after {
   z-index: unset;
 }

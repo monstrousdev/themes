@@ -297,7 +297,7 @@
 
 
 /* 12. Modals */
-.topSectionNormal-2-vo2m,
+.topSection-y3p-_D,
 #permissions-modal-wrapper .header,
 #app-mount .tierMarkerBackground-3q29am {
   background-color: var(--quaternary-color) !important;
@@ -431,18 +431,18 @@
 
 
 /* custom background fix */
-.userPopout-3XzG_A .wrapper-3t9DeA * {
+.userPopout-xaxa6l .wrapper-3t9DeA * {
   z-index: 1;
 }
 
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
+.userPopout-xaxa6l .wrapper-3t9DeA::after {
   z-index: unset;
 }
 
-.userPopout-3XzG_A .body-3iLsc4 {
+.userPopout-xaxa6l .body-3HBlXn {
   background-color: transparent !important;
 }
 
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
   background-color: var(--primary-color) !important;
 }

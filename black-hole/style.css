@@ -2000,14 +2000,15 @@ svg[name="Activity"] {
 /* IX. Popouts */
 
   /* A. User Popout */
-#app-mount .headerNormal-T_seeN,
-#app-mount .body-3iLsc4, 
+#app-mount .headerNormal-1mX3KY,
+#app-mount .body-3HBlXn, 
 #app-mount .footer-1fjuF6,
+#app-mount .headerTop-2cWpdB,
 #app-mount .headerPlaying-j0WQBV,
 #app-mount .headerXbox-3G-4PF,
 #app-mount .headerSpotify-zpWxgT,
 #app-mount .headerStreaming-2FjmGz,
-#app-mount .bodyInner-245q0L {
+#app-mount .bodyInnerWrapper-1NH0NQ {
   background: transparent;
 }
 
@@ -2109,7 +2110,7 @@ svg[name="Activity"] {
   width: 7px;
 }
 
-#app-mount .userPopout-3XzG_A {
+#app-mount .userPopout-xaxa6l {
   background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
 }
 
@@ -2774,19 +2775,15 @@ svg[name="Activity"] {
 
 /* X. Modals */
   /* A. User Modal */
-#app-mount .inner-1ilYF7 .root-SR8cQa,
+#app-mount .focusLock-Ns3yie .root-3QyAh1,
 #app-mount .slide-2pHaq5,
 #app-mount .root-1gCeng {
   background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
   border-radius: 10px;
 }
 
-#app-mount .topSectionNormal-2-vo2m,
-#app-mount .body-3ND3kc,
-#app-mount .topSectionPlaying-1J5E4n,
-#app-mount .topSectionXbox-3fWLjS,
-#app-mount .topSectionSpotify-1lI0-P,
-#app-mount .topSectionStreaming-1Tpf5X{
+#app-mount .body-r6_QPy,
+#app-mount .topSection-y3p-_D {
   background: transparent;
 }
 
