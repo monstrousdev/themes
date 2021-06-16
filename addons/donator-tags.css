@@ -17,7 +17,8 @@
 .avatar-1BDn8e[src*="670550004091322368"] + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"] + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"] + h2::after,
-.avatar-1BDn8e[src*="371581535801049089"] + h2::after{
+.avatar-1BDn8e[src*="371581535801049089"] + h2::after,
+.avatar-1BDn8e[src*="102543272018194432"] + h2::after{
   content: '';
   color: transparent;
   height: 15px;
@@ -50,7 +51,8 @@
 .avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
 .avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
 .avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after,
-.avatar-1BDn8e[src*="371581535801049089"]:hover + h2::after{
+.avatar-1BDn8e[src*="371581535801049089"]:hover + h2::after,
+.avatar-1BDn8e[src*="102543272018194432"]:hover + h2::after{
   color: white;
   transform: none;
   background-size: cover;
@@ -147,6 +149,18 @@
 
 
 /* ============== DONATOR/DEV TAGS ============== */
+.avatar-1BDn8e[src*="102543272018194432"] + h2::after {
+  background-image: url(https://i.imgur.com/RT6EPy2.png);
+}
+
+.avatar-1BDn8e[src*="102543272018194432"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/wiPNfHL.gif);
+  color: var(--main-color);
+  --main-color: white;
+  text-shadow: none;
+  content: "가버렸어.ggt";
+}
+
 .avatar-1BDn8e[src*="371581535801049089"] + h2::after {
   background-image: url(https://i.imgur.com/KNcz4Hk.png);
 }

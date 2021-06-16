@@ -17,7 +17,8 @@
 
 
 /* grow in */
-.avatar-1BDn8e[src*="773960830034378763"]:hover + h2::after {
+.avatar-1BDn8e[src*="773960830034378763"]:hover + h2::after,
+.avatar-1BDn8e[src*="102543272018194432"]:hover + h2::after {
   animation: popoutanim .2s;
 }
 
