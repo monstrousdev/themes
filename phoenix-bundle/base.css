@@ -3380,10 +3380,10 @@ pre {
   width: 80px !important;
 }
 
-#app-mount .wrapper-3t9DeA[style*="height: 1200px"] rect[mask*="svg-mask-status"],
-#app-mount .wrapper-3t9DeA[style*="height: 1200px"] foreignObject+svg rect {
+#app-mount .wrapper-3t9DeA[style*="height: 120px"] rect[mask*="svg-mask-status"],
+#app-mount .wrapper-3t9DeA[style*="height: 120px"] foreignObject+svg rect {
   height: 120px !important;
-  width: 1200px !important;
+  width: 120px !important;
 }
 
 #app-mount .wrapper-3t9DeA[style*="height: 80px"] foreignObject+svg rect:not([x*="60"]) {
