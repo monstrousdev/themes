@@ -3402,7 +3402,8 @@ rect[fill="#43b581"] + .dots-3Bkt3k {
 .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#43b581"],
 .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="online"],
 .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(67, 181, 129, 1)"],
-.wrapper-3t9DeA foreignObject+svg rect[fill="#43b581"] {
+.wrapper-3t9DeA foreignObject+svg rect[fill="#43b581"],
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="hsl(139"] {
   -webkit-text-stroke-color: var(--online);
   stroke: var(--online);
 }
@@ -3414,7 +3415,8 @@ rect[fill="#f04747"] + .dots-3Bkt3k {
 .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#f04747"],
 .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="dnd"],
 .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(240, 71, 71, 1)"],
-.wrapper-3t9DeA foreignObject+svg rect[fill="#f04747"] {
+.wrapper-3t9DeA foreignObject+svg rect[fill="#f04747"],
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="hsl(359"] {
   -webkit-text-stroke-color: var(--dnd);
   stroke: var(--dnd);
 }
@@ -3426,7 +3428,8 @@ rect[fill="#faa61a"] + .dots-3Bkt3k {
 .wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="#faa61a"],
 .wrapper-3t9DeA rect[mask*="svg-mask-status"][mask*="idle"],
 .wrapper-3t9DeA foreignObject+svg rect[fill="rgba(250, 166, 26, 1)"],
-.wrapper-3t9DeA foreignObject+svg rect[fill="#faa61a"] {
+.wrapper-3t9DeA foreignObject+svg rect[fill="#faa61a"],
+.wrapper-3t9DeA rect[mask*="svg-mask-status"][fill*="hsl(38"] {
   -webkit-text-stroke-color: var(--idle);
   stroke: var(--idle);
 }
