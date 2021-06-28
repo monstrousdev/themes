@@ -1178,7 +1178,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .wrapper-3vR61M,
 .wrapper-1F5TKx,
 .cardFolder-28dwxo,
-.item-1yAxl1 {
+.item-1yAxl1,
+.fieldList-21DyL8 {
   background-color: transparent;
 }
 
@@ -1202,11 +1203,11 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
   color: var(--uno);
 }
 
-.fieldList-21DyL8,
 .connectionHeader-2MDqhu,
 .addMemberRow-3-w-9X.selectedRow-1QP7qb,
 .reaction-1hd86g,
-.container-7Unqij {
+.container-7Unqij,
+.accountProfileCard-1XCH88 {
   background-color: var(--sheer);
 }
 
@@ -1276,6 +1277,10 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .emptyChannelIcon-cc932w,
 .card-1yV8cG {
   background-color: var(--sheer);
+}
+
+.profileBannerPreview-3_l0Wd {
+  background: linear-gradient(transparent, var(--uno) 90%), var(--quatro) var(--stars) top left fixed;
 }
 
 #app-mount .splashArt-3I5Qmp {

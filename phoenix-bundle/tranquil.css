@@ -336,6 +336,10 @@
   background-color: var(--primary-color);
 }
 
+.avatarUploaderInner-Oiob_P {
+  border-color: var(--quaternary-color);
+}
+
 
 /* 13. Games Tab, Library, and Store */
 .gameLibrary-TTDw4Y,

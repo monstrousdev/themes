@@ -265,8 +265,17 @@
   .submenu-2-ysNh,
   .previewContainer-1SS3uO,
   .container-3XJ8ns,
-  #app-mount .streamPreview-2-WUWT {
+  #app-mount .streamPreview-2-WUWT,
+  .profileBannerPreview-3_l0Wd {
   background: linear-gradient(var(--primary-color), var(--primary-color)), var(--popup-background) center/cover no-repeat !important;
+  }
+
+  .avatarUploaderInner-Oiob_P {
+    border-color: var(--main-color);
+  }
+  
+  .profileBannerPreview-3_l0Wd .headerTop-3vNv-a {
+    background: transparent;
   }
 
   .container-3XJ8ns .inner-2P4tQO {

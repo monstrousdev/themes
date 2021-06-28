@@ -705,7 +705,8 @@ svg[name="Activity"] {
   width: 24%;
 }
 
-.scroller-305q3I {
+.scroller-305q3I,
+.fieldList-21DyL8 {
   background: transparent;
 }
 
@@ -719,11 +720,15 @@ svg[name="Activity"] {
 }
 
 .background-1QDuV2 {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
-.fieldList-21DyL8 {
-  background-color: var(--tertiary-color);
+.accountProfileCard-1XCH88 {
+  background: var(--tertiary-color);
+}
+
+.avatar-1uQSZT {
+  border-color: transparent;
 }
 
 .premium-settings .premium-header,
@@ -3395,6 +3400,10 @@ pre {
   overflow: visible !important;
 }
 
+.userInfo-2zN2z8 {
+  max-width: 85%;
+}
+
 rect[fill="#43b581"] + .dots-3Bkt3k {
   color: var(--online);
 }
@@ -3633,6 +3642,10 @@ foreignObject[mask*="mobile"]::after {
 .guild-1EfMGQ .guildInner-3DSoA4,
 #app-mount foreignObject {
   border-radius: 0 !important;
+}
+
+.bannerUploader-3AZuN1 .bannerUploaderInnerSquare-1ddxpx {
+  border-radius: 0px !important;
 }
 
 #app-mount .acronym-2mOFsV,
@@ -4162,7 +4175,8 @@ foreignObject[mask*="mobile"]::after {
 }
 
   /* 15.d. User Popout */
-.headerNormal-1mX3KY {
+.headerNormal-1mX3KY,
+.footer-3UKYOU {
   background-color: var(--quaternary-color) !important;
 }
 
@@ -4175,8 +4189,8 @@ foreignObject[mask*="mobile"]::after {
   border-bottom-color: #d1d1d3 !important
 }
 
-#app-mount .bodyInnerWrapper-1NH0NQ,
-.headerTop-2cWpdB {
+.bodyInnerWrapper-26fQXj,
+.headerTop-3vNv-a {
   background: transparent;
 }
 
