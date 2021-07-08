@@ -3931,7 +3931,8 @@ foreignObject[mask*="mobile"]::after {
 }
 
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV,
-.guildIcon-3h-1IH {
+.guildIcon-3h-1IH,
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
   background: transparent;
 }
 
@@ -3945,7 +3946,8 @@ foreignObject[mask*="mobile"]::after {
   background-color: var(--primary-color)
 }
 
-.emojiItem-14v6tW.emojiItemSelected-1aLkfV::before {
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV::before,
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8::before {
   content: '';
   position: absolute;
   top: 0;
@@ -3955,6 +3957,11 @@ foreignObject[mask*="mobile"]::after {
   opacity: .5;
   box-sizing: border-box;
   border: 2px solid var(--main-color);
+}
+
+.inspectedIndicator-59EII8 {
+  mask: none;
+  -webkit-mask: none;
 }
 
 .categoryItemDefaultCategory-aBZ6nJ {
