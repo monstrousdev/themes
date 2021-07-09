@@ -278,6 +278,10 @@
     background: transparent;
   }
 
+  .headerTop-3vNv-a {
+    background: var(--primary-color);
+  }
+
   .container-3XJ8ns .inner-2P4tQO {
     background-color: var(--quaternary-color) !important;
     border-color: var(--quaternary-color) !important;
