@@ -562,11 +562,16 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .applicationStore-1pNvnv,
 #app-mount .pageWrapper-1PgVDX,
 #app-mount .root-1BQpZw,
-#app-mount .container-1D34oG {
+#app-mount .container-1D34oG,
+.threadSidebar-1o3BTy {
   background-color: transparent !important;
   margin-bottom: 10px;
   margin-right: 10px;
   border-radius: 10px;
+}
+
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  margin-right: 0px;
 }
 
 .tabBody-3YRQ8W {
@@ -813,7 +818,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .activityFeed-1C0EmJ .scrollerWrap-2lJEkd,
 .root-1BQpZw .scrollerWrap-2lJEkd,
 #app-mount .noChannel-Z1DQK7,
-.submenu-2-ysNh {
+.submenu-2-ysNh,
+.threadSidebar-1o3BTy .chat-1cCjJ5 {
   background: var(--quatro)  var(--stars) top left !important;
   background-attachment: fixed;
 }
@@ -1351,7 +1357,8 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 .container-2w0lh0,
 .header-2Y0-A-,
 .previewContainer-1SS3uO,
-.enableContainer-6E-puu {
+.enableContainer-6E-puu,
+.iconWrapper-L3hQuc {
   background: var(--sheer) var(--stars) top left;
   background-attachment: fixed;
 }
@@ -1455,8 +1462,15 @@ a.selected-aXhQR6 .layout-2DM8Md, a.channel-2QD9_O:hover,
 #app-mount .subscriptionDuration-UvxLGw,
 #app-mount .tierPill-1yRO48,
 #app-mount .emptyApplications-3GTmw-,
-#app-mount .emptyUsers--hiToV {
+#app-mount .emptyUsers--hiToV,
+.input-cIJ7To.focused-1mmYsC, 
+.input-cIJ7To:focus {
   background-color: var(--sheer);
+}
+
+.input-cIJ7To.focused-1mmYsC, 
+.input-cIJ7To:focus {
+  border-color: var(--blurple);
 }
 
 #app-mount .mediaFade-1SdEfL {

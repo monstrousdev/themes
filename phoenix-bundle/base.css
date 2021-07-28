@@ -81,6 +81,7 @@
 
  8. Chat
   8.a. Main Chat Area
+    8.a.i. THreads
   8.b. Messages
   8.c. Blocked Messages
   8.d. Spoiler Messages
@@ -1886,6 +1887,21 @@ a,
 
 .replyBar-1YLQ2F {
   background-color: var(--quaternary-color);
+}
+
+    /* 8.a.i. Threads */
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  border-radius: 0px;
+}
+
+.threadSidebar-1o3BTy {
+  margin-left: 0;
+  border-radius: 0pc;
+  box-shadow: 0 -2px 20px var(--shadow) !important;
+}
+
+.iconWrapper-L3hQuc {
+  background: var(--main-color);
 }
 
   /* 8.b Messages */
