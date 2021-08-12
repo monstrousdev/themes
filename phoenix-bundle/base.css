@@ -1442,16 +1442,20 @@ border-color: 2px dashed rgba(255, 255, 255, .1);
   background-color: transparent;
 }
 
-.containerDefault--pIXnN {
+.containerDefault--pIXnN, 
+.content-1x5b-n {
   border-left: 2px solid transparent;
+  border-radius: 0;
 }
 
-.containerDefault--pIXnN.selected-3LIHYU {
+.content-3YMskv > .containerDefault--pIXnN.selected-3LIHYU, 
+.container-3JKcAb .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n {
   background-color: var(--quaternary-color);
   border-left-color: var(--main-color);
 }
 
-.containerDefault--pIXnN:hover {
+.content-3YMskv > .containerDefault--pIXnN:hover,
+.container-3JKcAb .containerDefault--pIXnN .content-1x5b-n:hover {
   background-color: var(--secondary-color);
   border-left-color: var(--hover-color);
 }
