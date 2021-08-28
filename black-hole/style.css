@@ -195,6 +195,11 @@
   background-color: var(--blurple-sheer);
 }
 
+.container-3O_wAf,
+.icon-1SdhiF {
+  background: var(--black-hole) center/30% fixed;
+}
+
 .attachButton-1UjEWA {
   height: 100%;
 }

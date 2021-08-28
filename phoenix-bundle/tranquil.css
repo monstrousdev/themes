@@ -181,6 +181,11 @@
   background-color: var(--primary-color) !important;
 }
 
+.container-3O_wAf,
+.icon-1SdhiF {
+  background: var(--secondary-color);
+}
+
 .private-channel-call,
 .video-1FfuMD,
 .privateChannels-1nO12o .scrollerWrap-2lJEkd::after,

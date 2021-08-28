@@ -189,6 +189,11 @@
   .preview-2nSL_2 {
     background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
+
+  .container-3O_wAf,
+  .icon-1SdhiF {
+    background: linear-gradient(var(--quaternary-color), var(--quaternary-color)), var(--background-image) center/cover no-repeat fixed!important;
+  }
   
   .searchResultsWrap-3-pOjs,
   .searchPopout-1vUlP3,
