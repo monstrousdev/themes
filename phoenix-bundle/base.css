@@ -2077,10 +2077,6 @@ a,
   box-shadow: 0 4px 10px var(--shadow)
 }
 
-.mention {
-  padding: 1px 3px 1.4px 2px !important;
-}
-
 .isMentioned-N-h9aa .mention {
   transition: all .2s linear;
   background: var(--tertiary-color) !important;
