@@ -1908,6 +1908,18 @@ a,
   background: var(--main-color);
 }
 
+.container-3hZ-gs {
+  background-color: var(--tertiary-color);
+}
+
+.cozy-3raOZG.hasThread-2k82W0:after {
+  --background-accent: var(--main-color);
+}
+
+.container-3-pyIM {
+  color: var(--main-color);
+}
+
   /* 8.b Messages */
 .containerCozy-jafyvG:not(:last-child) {
   padding: 15px 0px !important;
