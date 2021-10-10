@@ -478,7 +478,7 @@ svg[name="Activity"] {
   width: 100%;
 }
 
-#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child .wrapper-1BJsBx .svg-1X37T1 {
+#app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv .scroller-1Bvpku>.listItem-GuPuDH:first-child .wrapper-25eVIn .svg-1X37T1 {
   height: 100% !important;
   width: 100% !important;
 }
@@ -493,11 +493,11 @@ svg[name="Activity"] {
   background-color: transparent;
 }
 
-.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-1BJsBx svg {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg {
   -webkit-mask-position: center;
 }
 
-#app-mount .tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-1BJsBx svg path {
+#app-mount .tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg path {
   display: none;
 }
 
@@ -597,7 +597,7 @@ svg[name="Activity"] {
 
   /* 2.c. Change Icons */
 
-.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-1BJsBx svg {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg {
   background-color: var(--home-color);
   -webkit-mask: url(https://monstrousdev.github.io/themes/assets/svgs/home.svg);
   -webkit-mask-size: var(--home-size);
@@ -605,8 +605,8 @@ svg[name="Activity"] {
   -webkit-mask-position: center;
 }
 
-.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-1BJsBx svg defs,
-.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-1BJsBx svg g {
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg defs,
+.tutorialContainer-2sGCg9>.listItem-GuPuDH .wrapper-25eVIn svg g {
   display: none;
 }
 
@@ -622,7 +622,7 @@ svg[name="Activity"] {
   border-radius: 0;
 }
 
-#app-mount .wrapper-1BJsBx .childWrapper-anI2G9 {
+#app-mount .wrapper-25eVIn .childWrapper-anI2G9 {
   background-color: transparent;
 }
 
@@ -3738,14 +3738,14 @@ foreignObject[mask*="mobile"]::after {
 .clickableAvatar-1wQpeh, 
 .emptyUser-7txhlW,
 #app-mount .acronym-2mOFsV,
-#app-mount .wrapper-1BJsBx,
+#app-mount .wrapper-25eVIn,
 #app-mount .wrapper-3t9DeA foreignObject .avatar-VxgULZ,
 #app-mount .avatarHint-1qgaV3 foreignObject .avatarHintInner-Dco91E,
 #app-mount .circleIconButton-1QV--U {
   border-radius: var(--roundness) !important;
 }
 
-#app-mount .wrapper-1BJsBx {
+#app-mount .wrapper-25eVIn {
   overflow: hidden;
 }
 
