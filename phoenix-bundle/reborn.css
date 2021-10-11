@@ -198,7 +198,7 @@
   .searchResultsWrap-3-pOjs,
   .searchPopout-1vUlP3,
   #app-mount .container-16j22k,
-  .tutorialContainer-2sGCg9>.listItem-GuPuDH {
+  .guilds-1SWlCJ:not(.foldercontent) .scroller-1Bvpku>.tutorialContainer-2sGCg9 .listItem-1hlISG {
     background: linear-gradient(var(--primary-color), var(--primary-color)), var(--background-image) center/cover no-repeat fixed!important;
   }
 
