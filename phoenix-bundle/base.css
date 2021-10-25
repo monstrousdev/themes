@@ -110,6 +110,7 @@
   10.d. Server Directory
   10.e. Community Settings
   10.f. Stage Discovery
+  10.g. University Hub
 
 11. Avatars
   11.a. Remove Mask
@@ -3340,6 +3341,20 @@ pre {
 
 .featuredTag-3pT1Rf {
   background: var(--main-color);
+}
+
+  /* 10.g. Unversity Hub */
+.pageContainer-1x6lGh {
+  background-color: transparent;
+}
+
+.card-Rhm0MB,
+.iconMask-IeE9AR {
+  background-color: var(--secondary-color);
+}
+
+.splash-1FJLsm {
+  background-color: var(--quaternary-color);
 }
 
 /* 11. Avatars */
