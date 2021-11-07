@@ -1126,7 +1126,8 @@ color: var(--dnd) !important;
   background: transparent;
 }
 
-#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-11ICd5+.listItem-2Ig28I+div {
+#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-11ICd5+.listItem-2Ig28I+div,
+#app-mount .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-11ICd5+div:not(.listItem-2Ig28I) {
   margin-top: 58px;
 }
 
