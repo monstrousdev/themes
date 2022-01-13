@@ -58,7 +58,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
   display: none;
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-25eVIn {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-28eC3z {
   border-bottom: none;
   height: 70px;
   border-right: 2px solid var(--main-color);
@@ -95,7 +95,7 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
   display: none;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .item-2hkk8m {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .item-2LIpTv {
   background-color: var(--main-color);
   z-index:9000;
   box-shadow: none;
@@ -108,13 +108,13 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
   transition: background-color 200ms ease-in-out, height 200ms ease-in-out, width 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh:hover .item-2hkk8m:not([style*="height: 40px"]) {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh:hover .item-2LIpTv:not([style*="height: 40px"]) {
   background-color: #ccc !important;
   box-shadow: 0 0 20px #ccc !important;
   opacity: 1 !important;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh .item-2hkk8m[style*="height: 40px"] {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN .listItem-2P_4kh .item-2LIpTv[style*="height: 40px"] {
   height: 46px !important;
   width: 50px;
   border-radius: var(--roundness) !important;
@@ -128,36 +128,36 @@ div[style*="transform: scale(1)"] .pill-1m5BUr {
   margin: 3.5px;
 }
 
-#app-mount .base-3dtUhz {
+#app-mount .base-2jDfDU {
   margin-top: 70px;
   left: 0px;
 }
 
-.messagesPopout-24nkyi {
+.messagesPopout-eVzQcI {
   max-height: 525px;
 }
 
 .searchPopout-1vUlP3, 
-.container-3ayLPN {
+.container-2McqkF {
   max-height: 600px;
   overflow: auto;
 }
 
 .searchPopout-1vUlP3::-webkit-scrollbar-track-piece, 
-.container-3ayLPN::-webkit-scrollbar-track-piece {
+.container-2McqkF::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border-color: transparent !important;
 }
 
 .searchPopout-1vUlP3::-webkit-scrollbar-thumb,
-.container-3ayLPN::-webkit-scrollbar-thumb {
+.container-2McqkF::-webkit-scrollbar-thumb {
   background-color: var(--main-color) !important;
   border-color: transparent !important;
   border-radius: 40px;
 }
 
 .searchPopout-1vUlP3::-webkit-scrollbar,
-.container-3ayLPN::-webkit-scrollbar {
+.container-2McqkF::-webkit-scrollbar {
   width: 2px;
 }
 

@@ -1,31 +1,31 @@
 /* grow in with pulse */
-.avatar-1BDn8e[src*="254362351170617345"]:hover + h2:after,
-.avatar-1BDn8e[src*="234148582523928576"]:hover + h2::after,
-.avatar-1BDn8e[src*="166365757561634816"]:hover + h2::after,
-.avatar-1BDn8e[src*="213220786805145600"]:hover + h2:after,
-.avatar-1BDn8e[src*="231827402102276096"]:hover + h2::after,
-.avatar-1BDn8e[src*="140012296910012416"]:hover + h2::after,
-.avatar-1BDn8e[src*="460174770957189155"]:hover + h2::after,
-.avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after,
-.avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after,
-.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after,
-.avatar-1BDn8e[src*="194830015353847817"]:hover + h2::after,
-.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
-.avatar-1BDn8e[src*="371581535801049089"]:hover + h2::after{
+.avatar-2e8lTP[src*="254362351170617345"]:hover + h2:after,
+.avatar-2e8lTP[src*="234148582523928576"]:hover + h2::after,
+.avatar-2e8lTP[src*="166365757561634816"]:hover + h2::after,
+.avatar-2e8lTP[src*="213220786805145600"]:hover + h2:after,
+.avatar-2e8lTP[src*="231827402102276096"]:hover + h2::after,
+.avatar-2e8lTP[src*="140012296910012416"]:hover + h2::after,
+.avatar-2e8lTP[src*="460174770957189155"]:hover + h2::after,
+.avatar-2e8lTP[src*="664933588835368990"]:hover + h2::after,
+.avatar-2e8lTP[src*="454072114492866560"]:hover + h2::after,
+.avatar-2e8lTP[src*="278516985640517632"]:hover + h2::after,
+.avatar-2e8lTP[src*="194830015353847817"]:hover + h2::after,
+.avatar-2e8lTP[src*="250353310698176522"]:hover + h2::after,
+.avatar-2e8lTP[src*="371581535801049089"]:hover + h2::after{
   animation: mentionpulse 1.5s infinite, popoutanim .2s;
 }
 
 
 /* grow in */
-.avatar-1BDn8e[src*="773960830034378763"]:hover + h2::after,
-.avatar-1BDn8e[src*="102543272018194432"]:hover + h2::after {
+.avatar-2e8lTP[src*="773960830034378763"]:hover + h2::after,
+.avatar-2e8lTP[src*="102543272018194432"]:hover + h2::after {
   animation: popoutanim .2s;
 }
 
 /* fall and bounce */
-.avatar-1BDn8e[src*="282138006738042880"]:hover + h2:after,
-.avatar-1BDn8e[src*="244392852950482944"]:hover + h2::after,
-.avatar-1BDn8e[src*="236006926406778881"]:hover + h2::after {
+.avatar-2e8lTP[src*="282138006738042880"]:hover + h2:after,
+.avatar-2e8lTP[src*="244392852950482944"]:hover + h2::after,
+.avatar-2e8lTP[src*="236006926406778881"]:hover + h2::after {
   animation: fallBounce 1s;
 }
 
@@ -35,18 +35,18 @@
 }
 
 /* fade from right */
-.avatar-1BDn8e[src*="267803219080642560"]:hover + h2::after{
+.avatar-2e8lTP[src*="267803219080642560"]:hover + h2::after{
   animation: fadeFromRight .2s;
 }
 
 /* fade from top */
-.avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after{
+.avatar-2e8lTP[src*="670550004091322368"]:hover + h2::after{
   animation: fadeFromTop .2s;
 }
 
 /* fade from bottom */
-.avatar-1BDn8e[src*="150852555885379584"]:hover + h2::after,
-.avatar-1BDn8e[src*="111476801762537472"]:hover + h2::after {
+.avatar-2e8lTP[src*="150852555885379584"]:hover + h2::after,
+.avatar-2e8lTP[src*="111476801762537472"]:hover + h2::after {
   animation: fadeFromBottom .2s;
 }
 
