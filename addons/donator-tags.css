@@ -119,6 +119,26 @@
   }
 }
 
+ /* izy for helping me out */
+.contents-2MsGLg .avatar-2e8lTP[src*="107511169366888448"] + h2::before {
+  background-image: url(https://i.imgur.com/sxvFvSq.gif);
+  box-shadow: 0 0 5px rgb(246 255 192 / 66%);
+}
+
+.contents-2MsGLg .avatar-2e8lTP[src*="107511169366888448"] + h2::before {
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+
 
 /* ===== FRIENDS ===== */
 /* mine */
