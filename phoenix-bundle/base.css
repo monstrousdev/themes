@@ -4933,7 +4933,7 @@ foreignObject[mask*="mobile"]::after {
     display: none;
   }
   
-  #status-picker .item-1OdjEX {
+  #status-picker div:not(#status-picker-switch-account) .item-1OdjEX {
     position: relative;
     display: inline-block;
     width: 58px;
@@ -4946,7 +4946,7 @@ foreignObject[mask*="mobile"]::after {
     margin: 0;
   }
   
-  #status-picker .item-1OdjEX .statusItem-2hiCNB {
+  #status-picker div:not(#status-picker-switch-account) .item-1OdjEX .statusItem-2hiCNB {
     display: block;
     position: relative;
     height: 100%;
