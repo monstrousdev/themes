@@ -448,7 +448,9 @@
     left: -220px;
   }
 
-  .layer-2aCOJ3[style*="; bottom: 5"][id*="popout_"] .menu-1QACrS .item-1OdjEX:nth-child(7) {
+  .layer-2aCOJ3[style*="; bottom: 5"][id*="popout_"] .menu-1QACrS .item-1OdjEX:nth-child(7),
+  #status-picker .layer-2aCOJ3 .submenuPaddingContainer-_k62dJ,
+  #status-picker #status-picker-switch-account {
     background: linear-gradient(var(--primary-color), var(--primary-color)),var(--background-image) center/cover no-repeat fixed !important;
   }
   

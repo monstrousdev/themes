@@ -4917,9 +4917,61 @@ foreignObject[mask*="mobile"]::after {
   #status-picker {
     /* position: fixed; */
     left: -8px !important;
-    bottom: -5px !important;
+    bottom: 40px !important;
   }
   
+  #status-picker #status-picker-switch-account {
+    width: 100%;
+    height: 40px;
+    background-color: var(--primary-color);
+    animation: all 200ms ease-in-out !important;
+    padding: 10px 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+  }
+  
+  #status-picker #status-picker-switch-account:hover {
+    background-color: var(--quaternary-color) !important;
+  }
+  
+  #status-picker #status-picker-switch-account .statusItem-2hiCNB {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+  }
+  
+  #status-picker #status-picker-switch-account .status-3TYC5W {
+    margin-left: 10px;
+  }
+  
+  #status-picker .layer-2aCOJ3 {
+    margin-top: -5px;
+    margin-left: -8px;
+    border-radius: 0px;
+    background: transparent;
+  }
+  
+  #status-picker .layer-2aCOJ3 .submenuPaddingContainer-_k62dJ {
+    background-color: var(--primary-color);
+    box-shadow: 0px 0px 20px var(--shadow) !important;
+  }
+  
+  #status-picker .layer-2aCOJ3 .submenu-1apzyU {
+    background: transparent !important;
+  }
+  
+  #status-picker .layer-2aCOJ3 .item-1OdjEX {
+    position: initial;
+    display: flex;
+    width: 188px;
+    height: 36px;
+    vertical-align: baseline;
+    transform: none;
+    animation: none;
+    margin: 2px 0px;
+  }
+
   .popoutTopLeft-3B0mFf.noArrow-2foL9g[style*="height: 80px;"] {
     height: 100px !important;
   }

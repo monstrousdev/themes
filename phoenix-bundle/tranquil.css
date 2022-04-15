@@ -256,7 +256,9 @@
 /* 11. Popouts */
 .themedPopout-25DgLi,
 #permissions-modal-wrapper #permissions-modal,
-.submenu-1apzyU {
+.submenu-1apzyU,
+#status-picker #status-picker-switch-account,
+#status-picker .layer-2aCOJ3 .submenuPaddingContainer-_k62dJ {
   background-color: var(--primary-color) !important;
 }
 
