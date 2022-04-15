@@ -4924,7 +4924,7 @@ foreignObject[mask*="mobile"]::after {
     height: 100px !important;
   }
   
-  #status-picker .item-1OdjEX:not(:nth-child(7)) .status-3TYC5W {
+  #status-picker .item-1OdjEX:not(:nth-child(7)):not(#status-picker-switch-account) .status-3TYC5W {
     color: transparent;
   }
   
@@ -5096,7 +5096,7 @@ foreignObject[mask*="mobile"]::after {
     transition: all 200ms ease-in-out;
   }
   
-  #status-picker .item-1OdjEX:not(:nth-child(7)) .status-3TYC5W {
+  #status-picker .item-1OdjEX:not(:nth-child(7)):not(#status-picker-switch-account) .status-3TYC5W {
     content: "";
     position: absolute;
     top: 0;
@@ -5110,7 +5110,7 @@ foreignObject[mask*="mobile"]::after {
     transition: all 200ms ease-in-out;
   }
   
-  #status-picker .item-1OdjEX:hover:not(:nth-child(7)) .status-3TYC5W {
+  #status-picker .item-1OdjEX:hover:not(:nth-child(7)):not(#status-picker-switch-account) .status-3TYC5W {
     opacity: 1;
   }
   
