@@ -4315,22 +4315,13 @@ foreignObject[mask*="mobile"]::after {
   z-index: unset !important;
 }
 
-.roleCircle-1EgnFN {
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  border-radius: 0px;
-  margin: 0;
-  left: 0;
-}
-
-.roleCircle-1EgnFN {
+.roleCircle-3K9O3d {
   padding: 0;
   position: absolute;
   z-index: 2;
   height: 22px;
-  top: -1px;
-  left: -2px;
+  top: -11px;
+  left: -6px;
   border-radius: 2px 0 0 2px;
   width: 0px;
   display: flex !important;
@@ -4352,7 +4343,9 @@ foreignObject[mask*="mobile"]::after {
   background-color: inherit;
   height: 20px;
   width: 22px;
-  left: -22px;
+  left: 2px;
+  top: -5px;
+  z-index: 10;
 }
 
 .roleRemoveIcon-387wKV path:first-child {
@@ -4365,7 +4358,7 @@ foreignObject[mask*="mobile"]::after {
   fill: white;
 }
 
-.role-2TIOKu:hover .roleCircle-1EgnFN {
+.role-2TIOKu:hover .roleCircle-3K9O3d {
   transition: width 0.2s;
   width: 22px;
 }
