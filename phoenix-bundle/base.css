@@ -3439,6 +3439,15 @@ pre {
   width: 80px !important;
 }
 
+/* fix premium no banner */
+#app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-1VLyxH[style*="height: 80px"] rect[mask*="svg-mask-status"],
+#app-mount div.avatarPositionPremiumBanner-2nq2Fy .wrapper-1VLyxH[style*="height: 80px"] foreignobject + svg rect
+#app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-1VLyxH[style*="height: 80px"] rect[mask*="svg-mask-status"],
+#app-mount div.avatarPositionPremiumNoBanner-nWzERs .wrapper-1VLyxH[style*="height: 80px"] foreignobject + svg rect {
+    height: 16px !important;
+    width: 16px !important;
+}
+
 #app-mount .wrapper-1VLyxH[style*="height: 120px"] rect[mask*="svg-mask-status"],
 #app-mount .wrapper-1VLyxH[style*="height: 120px"] foreignObject+svg rect {
   height: 120px !important;
