@@ -26,7 +26,12 @@ Registered: Black Box Theme
  --hover-color: #6f182a; /* the secondary color for your theme, mainly used as hover color */
  --home-color: #eee; /* the color of your home icon */
  --shadow: rgba(0,0,0,.4); /* the color of the shadows in your theme */
+
+  /* Apply border-radius to the server list icons (using the provided XPath) */
+ #app-mount div[aria-label="Server List"] div[aria-label="Servers"] div[aria-label="Server Name"] img {
+   border-radius: 20px; /* Adjust the radius value as needed */
  }
+}
 
 /*
 ---------------------------------------------------------------------------------------------------------------------------------------------
